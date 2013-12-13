@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 22:25 ( Tony ).
  * 
- * Last Update: 2013.12.09 22:26 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.13 16:23 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -73,30 +73,6 @@
 			return parent;
 			
 		};
-		
-		_mod = (function (hawaii) {
-			
-			tlns.init = function () {
-				
-				if (!mute) {
-					
-					/* Test script: console.info('Master page (../www/master@1.html) plus logic loaded.'); */
-					
-				}
-				
-			};
-			
-			// Add method(logic) here ...
-			
-			hawaii.init = function () {
-				
-				this.init();
-				
-			}.call(tlns);
-			
-			return hawaii;
-			
-		} (_mod || {})).init;
 		
 		// Add module here ...
 		
