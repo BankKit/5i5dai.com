@@ -6,7 +6,7 @@
 				
 				姓名（ Name ）：王斌华（ Schuman ）
 				
-				手机（ Cell Phone ）：(+86)(021)18616672657
+				手机（ Cell Phone ）：(+86)18616672657
 				
 				电子邮箱（ Email ）：schumanbin@163.com
 				
@@ -16,7 +16,7 @@
 				
 				姓名（ Name ）：洪路（ Lucian ）
 				
-				手机（ Cell Phone ）：(+86)(021)15618310325
+				手机（ Cell Phone ）：(+86)15618310325
 				
 				个人全球统一标识（ Gravatar ）：http://en.gravatar.com/lucainhong
 				
@@ -27,20 +27,20 @@
 				腾讯微博（ Tencent MicroBlog ）：23169451
 				
 				来自（ From ）：江苏省镇江市 ( ZhengJiang City,JiangSu Province )
-                                
-                                
-                                
-                Web设计师（ Web Designer ）：
-                                
-                                姓名（ Name ）：余倩（ Yuki ）
-                                
-                                手机（ Cell Phone ）：(+86)(021)13788937596
-                                
-                                电子邮箱（ Email ）：334518782@qq.com
-                                
-                                QQ：334518782
-                                
-                                来自（ From ）：上海市（Shanghai City）
+				
+				
+				
+		Web设计师（ Web Designer ）：
+				
+				姓名（ Name ）：余倩（ Yuki ）
+				
+				手机（ Cell Phone ）：(+86)13788937596
+				
+				电子邮箱（ Email ）：334518782@qq.com
+				
+				QQ：334518782
+				
+				来自（ From ）：上海市（Shanghai City）
 				
 				
 				
@@ -48,7 +48,7 @@
 				
 				姓名（ Name ）：
 				
-				手机（ Cell Phone ）：(+86)(021)
+				手机（ Cell Phone ）：(+86)
 				
 				电子邮箱（ Email ）：
 				
@@ -80,7 +80,7 @@
 				
 				姓名（ Name ）：
 				
-				手机（ Cell Phone ）：(+86)(021)
+				手机（ Cell Phone ）：(+86)
 				
 				个人全球统一标识（ Gravatar ）：
 				
@@ -112,7 +112,7 @@
 				
 				姓名（ Name ）：
 				
-				手机（ Cell Phone ）：(+86)(021)
+				手机（ Cell Phone ）：(+86)
 				
 				个人全球统一标识（ Gravatar ）：
 				
@@ -144,7 +144,7 @@
 				
 				姓名（ Name ）：沈维忠（ Tony Stark ）
 				
-				手机（ Cell Phone ）：(+86)(021)15921299022
+				手机（ Cell Phone ）：(+86)15921299022
 				
 				个人全球统一标识（ Gravatar ）：http://en.gravatar.com/swzcowboy
 				
@@ -176,7 +176,7 @@
 				
 				姓名（ Name ）：张琦（ Peter ）
 				
-				手机（ Cell Phone ）：(+86)(021)13761114352
+				手机（ Cell Phone ）：(+86)13761114352
 				
 				电子邮箱（ Email ）：123548889@qq.com
 				
@@ -196,7 +196,7 @@
 				
 				姓名（ Name ）：彭晓飞（ Laughing ）
 				
-				手机（ Cell Phone ）：(+86)(021)15221105071
+				手机（ Cell Phone ）：(+86)15221105071
 				
 				电子邮箱（ Email ）：tx04228118@163.com
 				
@@ -216,7 +216,7 @@
 				
 				姓名（ Name ）：牛才平（ Andy ）
 				
-				手机（ Cell Phone ）：(+86)(021)13671520201
+				手机（ Cell Phone ）：(+86)13671520201
 				
 				电子邮箱（ Email ）：skyncp@163.com
 				
@@ -234,7 +234,7 @@
 				
 				姓名（ Name ）：陈跃文（ Irwin ）
 				
-				手机（ Cell Phone ）：(+86)(021)13564767187
+				手机（ Cell Phone ）：(+86)13564767187
 				
 				电子邮箱（ Email ）：irwin.chen.cn@gmail.com
 				
@@ -250,23 +250,41 @@
 				
 				
 				
+		测试人员（ Testing Personnel ）：
+				
+				姓名（ Name ）：吴云（ Heaven ）
+				
+				手机（ Cell Phone ）：(+86)15221670345
+				
+				电子邮箱（ Email ）：shaniuyunbao@sina.com
+				
+				QQ：505373938
+				
+				腾讯微博（ Tencent MicroBlog ）：505373938 （yunnyshaniu）
+				
+				新浪微博（ Sina MicroBlog ）：http://weibo.com/yunrk
+				
+				来自（ From ）：上海市（Shanghai City）
+				
+				
+				
 		标准监督人（ Standard Man ）：
-                                
-                                姓名（ Name ）：陈跃文（ Irwin ）
-                                
-                                手机（ Cell Phone ）：(+86)(021)13564767187
-                                
-                                电子邮箱（ Email ）：irwin.chen.cn@gmail.com
-                                
-                                Github：https://github.com/sailor2001
-                                
-                                QQ：58571106
-                                
-                                腾讯微博（ Tencent MicroBlog ）：58571106
-                                
-                                新浪微博（ Sina MicroBlog ）：
-                                
-                                来自（ From ）：四川省樟树市 ( Zhang'shu City, Si'chuan Province )
+				
+				姓名（ Name ）：陈跃文（ Irwin ）
+				
+				手机（ Cell Phone ）：(+86)13564767187
+				
+				电子邮箱（ Email ）：irwin.chen.cn@gmail.com
+				
+				Github：https://github.com/sailor2001
+				
+				QQ：58571106
+				
+				腾讯微博（ Tencent MicroBlog ）：58571106
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				来自（ From ）：四川省樟树市 ( Zhang'shu City, Si'chuan Province )
 				
 				
 				
@@ -280,7 +298,7 @@
 				
 /* 网站（ SITE ） */
 				
-				最近更新（ Last update ）：2013年12月10日13时58分（ 16:44 10.12.2013 ）
+				最近更新（ Last update ）：2013年12月13日13时12分（ 16:12 13.12.2013 ）
 				
 				语言（ Language ）：中文（ Chinese ）
 				
