@@ -18,12 +18,12 @@
 
 ####我爱我贷网前端团队接下来要做什么?####
 
-* 查看我们的动态（[Github]( '点击查看'), [Trello](http://goo.gl/ukmQjL '点击查看')）。
+* 查看我们的动态（[Github](http://goo.gl/IlJTW1 '点击查看'), [Trello](http://goo.gl/ukmQjL '点击查看')）。
 
 ####发现BUG!!!####
 
-如果你发现一些总是出现的问题，无论是在访问网站时发现，亦或是在查看我们的代码时发现，可以在[Trello](http://goo.gl/ukmQjL '点击查看')、[Github Issues]( '点击查看')上查看、提出问题，并与我们展开讨论。
-后期我们的测试人员会尽快把相关BUG定义、指定流程等发布至[Github Wiki](http://goo.gl/RtjM4n '点击查看')之下。
+如果你发现一些总是出现的问题，无论是在访问网站时发现，亦或是在查看我们的代码时发现，可以在[Trello](http://goo.gl/ukmQjL '点击查看')、[Github Issues](http://goo.gl/fgQhYD '点击查看')上查看、提出问题，并与我们展开讨论。
+后期我们的测试人员会尽快把相关BUG定义、指定流程等发布至[Github Wiki](http://goo.gl/Xr2yxk '点击查看')之下。
 
 ####我想帮忙一起写代码!!!####
 
