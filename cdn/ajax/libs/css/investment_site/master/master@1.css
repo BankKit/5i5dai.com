@@ -250,6 +250,8 @@ nav > div {
 }
 
 .drogue {
+
+	display: none;
 	
 	width: 100px;
 	
@@ -260,24 +262,32 @@ nav > div {
 /* Different drogue position for different navigation menu. */
 
 .home .drogue {
+
+	display: block;
 	
 	margin-left: 0;
 	
 }
 
 .investProject .drogue {
+
+	display: block;
 	
 	margin-left: 140px;
 	
 }
 
 .investProgress .drogue {
+
+	display: block;
 	
 	margin-left: 280px;
 	
 }
 
 .aboutUs .drogue {
+
+	display: block;
 	
 	margin-left: 420px;
 	
