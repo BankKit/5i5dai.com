@@ -1,0 +1,293 @@
+/* 团队（ TEAM ） */
+				
+				
+				
+		中文编辑（ CH Translator ）：
+				
+				姓名（ Name ）：王斌华（ Schuman ）
+				
+				手机（ Cell Phone ）：(+86)(021)18616672657
+				
+				电子邮箱（ Email ）：schumanbin@163.com
+				
+				
+				
+		Web设计师（ Web Designer ）：
+				
+				姓名（ Name ）：洪路（ Lucian ）
+				
+				手机（ Cell Phone ）：(+86)(021)15618310325
+				
+				个人全球统一标识（ Gravatar ）：http://en.gravatar.com/lucainhong
+				
+				电子邮箱（ Email ）：23169451@qq.com
+				
+				QQ：23169451
+				
+				腾讯微博（ Tencent MicroBlog ）：23169451
+				
+				来自（ From ）：江苏省镇江市 ( ZhengJiang City,JiangSu Province )
+                                
+                                
+                                
+                Web设计师（ Web Designer ）：
+                                
+                                姓名（ Name ）：余倩（ Yuki ）
+                                
+                                手机（ Cell Phone ）：(+86)(021)13788937596
+                                
+                                电子邮箱（ Email ）：334518782@qq.com
+                                
+                                QQ：334518782
+                                
+                                来自（ From ）：上海市（Shanghai City）
+				
+				
+				
+		用户体验设计师（ UX Designer ）：
+				
+				姓名（ Name ）：
+				
+				手机（ Cell Phone ）：(+86)(021)
+				
+				电子邮箱（ Email ）：
+				
+				个人全球统一标识（ Gravatar ）：
+				
+				个人主页（ Personal Homepage ）：
+				
+				Github：
+				
+				QQ：
+				
+				Facebook：
+				
+				Google+：
+				
+				腾讯微博（ Tencent MicroBlog ）：
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				搜狐微博（ Souhu MicroBlog ）：
+				
+				Twitter：
+				
+				来自（ From ）：
+				
+				
+				
+		UI设计师（ UI Designer ）：
+				
+				姓名（ Name ）：
+				
+				手机（ Cell Phone ）：(+86)(021)
+				
+				个人全球统一标识（ Gravatar ）：
+				
+				电子邮箱（ Email ）：
+				
+				个人主页（ Personal Homepage ）：
+				
+				Github：
+				
+				QQ：
+				
+				Facebook：
+				
+				Google+：
+				
+				腾讯微博（ Tencent MicroBlog ）：
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				搜狐微博（ Souhu MicroBlog ）：
+				
+				Twitter：
+				
+				来自（ From ）：
+				
+				
+				
+		插画师（ Illustrator ）：
+				
+				姓名（ Name ）：
+				
+				手机（ Cell Phone ）：(+86)(021)
+				
+				个人全球统一标识（ Gravatar ）：
+				
+				电子邮箱（ Email ）：
+				
+				个人主页（ Personal Homepage ）：
+				
+				Github：
+				
+				QQ：
+				
+				Facebook：
+				
+				Google+：
+				
+				腾讯微博（ Tencent MicroBlog ）：
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				搜狐微博（ Souhu MicroBlog ）：
+				
+				Twitter：
+				
+				来自（ From ）：
+				
+				
+				
+		前端开发人员（ Front-end Browser-side Developer ）：
+				
+				姓名（ Name ）：沈维忠（ Tony Stark ）
+				
+				手机（ Cell Phone ）：(+86)(021)15921299022
+				
+				个人全球统一标识（ Gravatar ）：http://en.gravatar.com/swzcowboy
+				
+				电子邮箱（ Email ）：swzyocowboy@icloud.com, swzyocowboy@hotmail.com, iTonyYo@gmail.com, itonyyo@vip.qq.com, shenweizhong@facebook.com
+				
+				个人主页（ Personal Homepage ）：
+				
+				Github：https://github.com/Tony-Stark/
+				
+				QQ：563214029, http://user.qzone.qq.com/563214029/
+				
+				Facebook：https://www.facebook.com/shenweizhong
+				
+				Google+：https://plus.google.com/114960355664861539339
+				
+				腾讯微博（ Tencent MicroBlog ）：563214029
+				
+				新浪微博（ Sina MicroBlog ）：weibo.com/itonyyo
+				
+				搜狐微博（ Souhu MicroBlog ）：SWZYO.t.sohu.com
+				
+				Twitter：@iTonyYo, https://twitter.com/iTonyYo
+				
+				来自（ From ）：江苏省淮安市 ( Huai'an City, Jiang'su Province )
+				
+				
+				
+		服务器端开发人员（ Back-end Server-side Developer ）：
+				
+				姓名（ Name ）：张琦（ Peter ）
+				
+				手机（ Cell Phone ）：(+86)(021)13761114352
+				
+				电子邮箱（ Email ）：123548889@qq.com
+				
+				Github：https://github.com/peter-qi
+				
+				QQ：123548889
+				
+				腾讯微博（ Tencent MicroBlog ）：123548889
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				来自（ From ）：四川省成都市 ( Cheng'du City, Si'chuan Province )
+				
+				
+				
+		服务器端开发人员（ Back-end Server-side Developer ）：
+				
+				姓名（ Name ）：彭晓飞（ Laughing ）
+				
+				手机（ Cell Phone ）：(+86)(021)15221105071
+				
+				电子邮箱（ Email ）：tx04228118@163.com
+				
+				Github：https://github.com/sailor2001
+				
+				QQ：453992394
+				
+				腾讯微博（ Tencent MicroBlog ）：453992394
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				来自（ From ）：四川省成都市 ( Cheng'du City, Si'chuan Province )
+				
+				
+				
+		服务器端开发人员（ Back-end Server-side Developer ）：
+				
+				姓名（ Name ）：牛才平（ Andy ）
+				
+				手机（ Cell Phone ）：(+86)(021)13671520201
+				
+				电子邮箱（ Email ）：skyncp@163.com
+				
+				QQ：375338654
+				
+				腾讯微博（ Tencent MicroBlog ）：375338654
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				来自（ From ）：四川省成都市 ( Cheng'du City, Si'chuan Province )
+				
+				
+				
+		服务器端开发人员（ Back-end Server-side Developer ）：
+				
+				姓名（ Name ）：陈跃文（ Irwin ）
+				
+				手机（ Cell Phone ）：(+86)(021)13564767187
+				
+				电子邮箱（ Email ）：irwin.chen.cn@gmail.com
+				
+				Github：https://github.com/sailor2001
+				
+				QQ：58571106
+				
+				腾讯微博（ Tencent MicroBlog ）：58571106
+				
+				新浪微博（ Sina MicroBlog ）：
+				
+				来自（ From ）：四川省樟树市 ( Zhang'shu City, Si'chuan Province )
+				
+				
+				
+		标准监督人（ Standard Man ）：
+                                
+                                姓名（ Name ）：陈跃文（ Irwin ）
+                                
+                                手机（ Cell Phone ）：(+86)(021)13564767187
+                                
+                                电子邮箱（ Email ）：irwin.chen.cn@gmail.com
+                                
+                                Github：https://github.com/sailor2001
+                                
+                                QQ：58571106
+                                
+                                腾讯微博（ Tencent MicroBlog ）：58571106
+                                
+                                新浪微博（ Sina MicroBlog ）：
+                                
+                                来自（ From ）：四川省樟树市 ( Zhang'shu City, Si'chuan Province )
+				
+				
+				
+/* 感谢（ THANKS ） */
+				
+				
+				
+				......
+				
+				
+				
+/* 网站（ SITE ） */
+				
+				最近更新（ Last update ）：2013年12月10日13时58分（ 16:44 10.12.2013 ）
+				
+				语言（ Language ）：中文（ Chinese ）
+				
+				文档类型（ Doctype ）：HTML5
+				
+				标准（ Standards ）：HTML5, CSS2.1/3.0/4.0, ECMASCRIPT 3/5, AMD, Java EE 7, etc.
+				
+				组件（ Components ）：Reset CSS 2.0+, Normalize 1.1.3+/2.1.3+, CSS3 Pie 1.0.0+, ES5-Shim 2.1.0+, Html5shiv 3.7.0+, Modernizr 2.7.0+, jQuery 1.10.2+/2.0.3+, RequireJS 2.1.9+, Tapestry 5+, Hibernate 4+, Spring 3+, EhCache 2+, Maven 3+, etc.
+				
+				开发工具（ Development Tool ）：Fiddler 4+, Brackets Sprint 34.1+, Sublime Text 2/3+, Grunt 0.4.2+, Bower 1.2.7+, Node 0.11.9+, NPM 1.3.15+, Git 1.8.4.msysgit.0+, RubyInstaller 2.0.0+, Sass 3.2.12+, Nginx 1.4.4+/Tomcat Server 7.0.42+, Closure Compiler, Rhino, Adobe Photoshop CS6/CC, Adobe Fireworks CS6, Adobe Illustrator CS6/CC, Eclipse, My SQL, etc.
