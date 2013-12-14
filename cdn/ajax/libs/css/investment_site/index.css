@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.12 00:11 ( Tony ).
  * 
- * Last Update: 2013.12.13 17:39 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.14 15:43 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -952,6 +952,8 @@ NNNNNNNN         NNNNNNNLLLLLLLLLLLLLLLLLLLLLLLLiiiiiiii  sssssssssss           
 }
 
 .newsList > a {
+
+	width: 254px;
 	
 	color: #000;
 	

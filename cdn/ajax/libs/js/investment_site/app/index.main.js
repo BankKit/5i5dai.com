@@ -38,11 +38,13 @@
 	
 	fn = function (require) {
 		
-		var modernizr, SJ, indexBasicLogic, plusLogic, modifyTitle;
+		var modernizr, SJ, txtOver, indexBasicLogic, plusLogic, modifyTitle;
 		
 		modernizr = require('modernizr');
 		
 		SJ = require('jquery');
+
+		txtOver = require('txtOver');
 		
 		indexBasicLogic = require('logic/index.logic.min');
 		
@@ -59,6 +61,8 @@
 			// TODO: Import basic business logic script here.
 			
 			$('html').studioScroll();
+
+			$('.newsList').children('a').txtOver({size: 16});
 			
 			modifyTitle();
 			

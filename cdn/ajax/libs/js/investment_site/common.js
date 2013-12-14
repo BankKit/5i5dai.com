@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 09:16 ( Tony ).
  * 
- * Last Update: 2013.12.12 14:03 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.14 15:46 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -118,7 +118,9 @@
 					
 					logic: 'investment_site/app/logic',
 					
-					deepLink: 'jquery_deeplink/0.1.0/jquery.deep.link'
+					deepLink: 'jquery_deeplink/0.1.0/jquery.deep.link',
+
+					txtOver: 'jquery_text_overflow/0.1.0/jquery.text.overflow.min'
 					
 				},
 				
