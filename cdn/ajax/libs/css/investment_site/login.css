@@ -1,0 +1,457 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for login page (../../../../../../www/login.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ *     
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2013.12.13 15:08 ( Tony ).
+ * 
+ * Last Update: 2013.12.15 18:58 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+body {
+	
+	background: url(../../img/investment-site/login.bg.jpg) center -120px no-repeat;
+	
+}
+
+.login {
+	
+	z-index: 100;
+	
+	top: 50%;
+	
+	left: 50%;
+	
+	margin-top: -300px; /* Use animation and move to '-250px' position. */
+	
+}
+
+.login > a, .login > a > img {
+	
+	display: block;
+	
+	width: 218px;
+	
+	height: 73px;
+	
+}
+
+.frmLogin {
+	
+	width: 470px;
+	
+	height: 390px;
+	
+	margin-top: 55px;
+	
+	border-top: 5px solid #ca4347;
+	
+	-webkit-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+			
+			box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+.ie7 .frmLogin,
+.ie8 .frmLogin {
+	
+	height: 385px;
+	
+}
+
+.frmLogin > h4 {
+	
+	color: #333;
+	
+	font-weight: bold;
+	
+	font-size: 16px;
+	
+	margin-top: 27px;
+	
+	margin-left: 50px;
+	
+}
+
+.frmLogin > .vipTip {
+	
+	color: #7d7d7d;
+	
+	font-size: 12px;
+	
+	margin: 31px 0 1px 15px;
+	
+}
+
+.frmLogin > .registerTip {
+	
+	color: #fb565c;
+	
+	font-size: 12px;
+	
+	text-decoration: none;
+	
+	margin: 31px 210px 1px 3px;
+	
+}
+
+.borderRaiuds_3 {
+	
+	-webkit-border-radius: 3px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 3px;
+		
+		border-radius: 3px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
+	
+}
+
+/*
+		 (__)
+		 (oo)
+  /-------\/
+ / |     ||----> Label.
+*  ||----||
+  ___/  ___/
+*/
+
+.frmLogin > label {
+	
+	color: #7d7d7d;
+	
+	margin-left: 50px;
+	
+}
+
+.frmLogin > label,
+.frmLogin > .err {
+	
+	margin-bottom: 3px;
+	
+}
+
+.ie7 .frmLogin > label,
+.ie7 .frmLogin > .err,
+.ie8 .frmLogin > label,
+.ie8 .frmLogin > .err {
+	
+	margin-bottom: 5px;
+	
+}
+
+.frmLogin > .err {
+
+	display: block;
+	
+	color: #fb565c;
+	
+	font-size: 12px;
+	
+	width: 360px;
+
+	height: 15px;
+	
+}
+
+/* User Name */
+
+.frmLogin > .lblUserName {
+	
+	margin-top: 27px;
+	
+}
+
+.frmLogin > .errUser {
+	
+	margin-top: 29px;
+	
+	margin-bottom: 5px;
+	
+	margin-left: 10px;
+	
+}
+
+/* User Pass */
+
+.frmLogin > .lblUserPass {
+	
+	margin-top: 10px;
+	
+}
+
+.frmLogin > .errPass {
+	
+	margin-top: 12px;
+	
+	margin-bottom: 5px;
+	
+	margin-left: 10px;
+	
+}
+
+/* User Code */
+
+.frmLogin > .lblUserCode {
+	
+	margin-top: 10px;
+	
+}
+
+.frmLogin > .errVali {
+	
+	margin-top: 12px;
+	
+	margin-bottom: 5px;
+	
+	margin-left: 10px;
+	
+}
+
+/*
+		 (__)
+		 (oo)
+  /-------\/
+ / |     ||----> Input.
+*  ||----||
+  ___/  ___/
+*/
+
+.loginField {
+	
+	width: 296px;
+	
+	height: 37px;
+	
+	margin-left: 50px;
+	
+	border: 1px solid #ccc;
+	
+}
+
+.ie7 .loginField,
+.ie8 .loginField {
+	
+	width: 294px;
+	
+	height: 35px;
+	
+}
+
+.frmLogin > .iptUserNameArea {
+	
+	margin-right: 100px;
+	
+}
+
+.frmLogin > .iptUserCodeArea {
+	
+	width: 207px;
+	
+	height: 37px;
+	
+}
+
+.loginField > input {
+	
+	color: #333;
+	
+	font-size: 12px;
+	
+	font-family: "新宋体";
+	
+	margin-top: 10px;
+	
+	margin-left: 5px;
+	
+}
+
+.ie7 .loginField > input {
+	
+	margin-left: -45px;
+	
+}
+
+.iptUserNameArea > input,
+.iptUserPassArea > input {
+	
+	width: 284px;
+	
+}
+
+.iptUserCodeArea > input {
+	
+	width: 195px;
+	
+}
+
+.valiCode {
+	
+	width: 77px;
+	
+	height: 37px;
+	
+	margin-left: 11px;
+	
+	border: 0;
+	
+	-webkit-box-shadow: 0 0 3px 0 #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+			
+			box-shadow: 0 0 3px 0 #CCC; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+}
+
+.ie7 .valiCode {
+	
+	margin-top: 2px;
+	
+}
+
+/* Short Tips */
+
+.passForget, .changeOne, .returnHome {
+	
+	color: #41cbcb;
+	
+	font-size: 12px;
+	
+	text-decoration: none;
+	
+	margin: 12px 50px 13px 10px;
+	
+}
+
+.ie7 .passForget, .ie7 .changeOne, .ie7 .returnHome,
+.ie8 .passForget, .ie8 .changeOne, .ie8 .returnHome {
+	
+	margin-top: 13px;
+	
+}
+
+.underline:hover {
+	
+	text-decoration: underline;
+	
+}
+
+/* Line */
+
+.frmLogin > i {
+	
+	width: 470px;
+	
+	height: 1px;
+	
+	margin-top: 30px;
+	
+	margin-bottom: 25px;
+	
+	background-color: #eee;
+	
+}
+
+.frmLogin > button {
+	
+	color: #FFF;
+	
+	font: 14px/37px "微软雅黑";
+	
+	width: 296px;
+	
+	height: 37px;
+	
+	margin-left: 50px;
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNDNlNDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #f43e44 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#f43e44)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#f43e44 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#f43e44',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.frmLogin > button:hover {
+	
+	background: #fc696e; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjNjk2ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjU2NWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fc696e 0%, #fb565c 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc696e), color-stop(100%,#fb565c)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fc696e 0%,#fb565c 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc696e', endColorstr='#fb565c',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.frmLogin > button:active {
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYzY4NmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #fc686e 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#fc686e)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#fc686e 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#fc686e',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie9 .frmLogin > button {filter: none;}

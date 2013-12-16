@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 09:16 ( Tony ).
  * 
- * Last Update: 2013.12.14 15:46 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.16 12:46 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -120,7 +120,9 @@
 					
 					deepLink: 'jquery_deeplink/0.1.0/jquery.deep.link',
 
-					txtOver: 'jquery_text_overflow/0.1.0/jquery.text.overflow.min'
+					txtOver: 'jquery_text_overflow/0.1.0/jquery.text.overflow.min',
+
+					validator: 'jquery_validator/0.1.0/jquery.validator.min'
 					
 				},
 				
