@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.13 14:48 ( Tony ).
  * 
- * Last Update: 2013.12.16 11:28 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.17 16:32 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -43,8 +43,6 @@
 	fn= function (require) {
 		
 		var SJ = require('jquery'),
-			
-			_validator = require('validator'),
 			
 			easing = require('easing');
 		
@@ -164,135 +162,7 @@
 			
 			return {
 				
-				_setDefaults: function () {
-					
-					SJ.validator.setDefaults({
-						
-						debug: true,
-						
-						onfocusout: function(element) {
-							
-							SJ(element).valid();
-							
-						},
-						
-						onkeyup: function(element) {
-							
-							SJ(element).valid();
-							
-						},
-						
-						success: function(error) {
-							
-							SJ(error).remove();
-							
-						},
-						
-						errorElement: 'span'
-						
-					});
-					
-				},
-				
-				_setMethods: function () {
-					
-					SJ.validator.addMethod("nowhitespace", function(value, element) {
-						
-						return this.optional(element) || /^\S+$/i.test(value);
-						
-					}, "不允许有空格。");
-					
-				},
-				
-				_setEles: function () {
-					
-					SJ.validator.addClassRules({
-						
-						iptUserName: {
-							
-							required: true,
-							
-							nowhitespace: true,
-							
-							rangelength: [6, 25]
-							
-						},
-						
-						iptUserPass: {
-							
-							required: true,
-							
-							nowhitespace: true,
-							
-							rangelength: [6, 25]
-							
-						},
-						
-						iptUserCode: {
-							
-							required: true,
-							
-							nowhitespace: true,
-							
-							number: true,
-							
-							maxlength: 4
-							
-						}
-						
-					});
-					
-				},
-				
-				_todoIt: function () {
-					
-					var validator = SJ('#frmLogin').validate({
-						
-						errorPlacement: function (error, element) {
-							
-							error.appendTo(element.parent().prev());
-							
-						},
-						
-						submitHandler: function (form, event) {
-							
-							if (SJ('html').hasClass('ie8')) {
-								
-								SJ('#frmLogin').valid();
-								
-								validator.focusInvalid();
-								
-								if (validator.numberOfInvalids() === 0) {
-									
-									form.submit();
-									
-								} else {
-									
-									return false;
-									
-								}
-								
-							} else {
-								
-								form.submit();
-								
-							}
-							
-						}
-						
-					});
-					
-				},
-				
 				init: function () {
-					
-					this._setDefaults();
-					
-					this._setMethods();
-					
-					this._setEles();
-					
-					this._todoIt();
 					
 					var field = SJ('.loginField');
 					

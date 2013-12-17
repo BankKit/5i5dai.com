@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.13 15:08 ( Tony ).
  * 
- * Last Update: 2013.12.15 18:58 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.17 16:35 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -58,7 +58,7 @@ body {
 	
 	width: 470px;
 	
-	height: 390px;
+	/* height: 420px; */
 	
 	margin-top: 55px;
 	
@@ -131,6 +131,26 @@ body {
 	
 }
 
+.totalError {
+	
+	color: #fb565c;
+	
+	font-size: 12px;
+	
+	line-height: 37px;
+	
+	width: 296px;
+	
+	height: 37px;
+	
+	margin-top: 10px;
+	
+	margin-right: 100px;
+	
+	margin-left: 50px;
+	
+}
+
 /*
 		 (__)
 		 (oo)
@@ -182,13 +202,13 @@ body {
 
 .frmLogin > .lblUserName {
 	
-	margin-top: 27px;
+	margin-top: 10px;
 	
 }
 
 .frmLogin > .errUser {
 	
-	margin-top: 29px;
+	margin-top: 12px;
 	
 	margin-bottom: 5px;
 	
@@ -385,6 +405,8 @@ body {
 	height: 37px;
 	
 	margin-left: 50px;
+
+	margin-bottom: 25px;
 	
 	background: #fb565c; /* Old browsers */
 	

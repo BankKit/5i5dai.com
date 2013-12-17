@@ -195,6 +195,7 @@
 						return valid;
 					}
 				},
+
 				// attributes: space seperated list of attributes to retrieve and remove
 				removeAttrs: function( attributes ) {
 					var result = {},
@@ -205,6 +206,7 @@
 					});
 					return result;
 				},
+
 				// http://docs.jquery.com/Plugins/Validation/rules
 				rules: function( command, argument ) {
 
@@ -256,6 +258,7 @@
 
 					return data;
 				}
+				
 			});
 
 			// Custom selectors
