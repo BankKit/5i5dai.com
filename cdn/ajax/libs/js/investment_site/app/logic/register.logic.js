@@ -60,7 +60,7 @@
 
 		var evtName;
 
-		modernizr.touch ? evtName = 'touchstart' : evtName = 'click'
+		modernizr.touch ? evtName = 'touchstart' : evtName = 'click';
 		
 		
 		
