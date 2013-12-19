@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.19 18:59 ( Tony ).
  * 
- * Last Update: 2013.12.19 19:18 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.19 19:35 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -177,7 +177,7 @@ C:::::C              o::::o     o::::o r:::::r            e::::::eeeeeeeeeee
 	
 	z-index: 0;
 	
-	height: 355px;
+	height: 385px;
 	
 	-webkit-box-shadow: 0 0 1px #cdcdcd,
 						0 3px 1px #cdcdcd; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
@@ -291,12 +291,12 @@ C:::::C              o::::o     o::::o r:::::r            e::::::eeeeeeeeeee
 	
 	z-index: -1;
 	
-	width: 453px;
+	width: 222px;
 	
-	height: 289px;
+	height: 381px;
 	
-	bottom: 15px;
+	bottom: 0;
 	
-	right: 0;
+	right: 185px;
 	
 }
