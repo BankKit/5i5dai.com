@@ -1,0 +1,302 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for the util page (../../../../../../www/helper@1.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ *     
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2013.12.19 19:48 ( Tony ).
+ * 
+ * Last Update: 2013.12.19 19:49 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+
+
+/*
+                                                 dddddddd
+BBBBBBBBBBBBBBBBB                                d::::::d
+B::::::::::::::::B                               d::::::d
+B::::::BBBBBB:::::B                              d::::::d
+BB:::::B     B:::::B                             d:::::d
+  B::::B     B:::::B   ooooooooooo       ddddddddd:::::dyyyyyyy           yyyyyyy
+  B::::B     B:::::B oo:::::::::::oo   dd::::::::::::::d y:::::y         y:::::y
+  B::::BBBBBB:::::B o:::::::::::::::o d::::::::::::::::d  y:::::y       y:::::y
+  B:::::::::::::BB  o:::::ooooo:::::od:::::::ddddd:::::d   y:::::y     y:::::y
+  B::::BBBBBB:::::B o::::o     o::::od::::::d    d:::::d    y:::::y   y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d     y:::::y y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d      y:::::y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d       y:::::::::y
+BB:::::BBBBBB::::::Bo:::::ooooo:::::od::::::ddddd::::::dd       y:::::::y
+B:::::::::::::::::B o:::::::::::::::o d:::::::::::::::::d        y:::::y
+B::::::::::::::::B   oo:::::::::::oo   d:::::::::ddd::::d       y:::::y
+BBBBBBBBBBBBBBBBB      ooooooooooo      ddddddddd   ddddd      y:::::y
+                                                              y:::::y
+                                                             y:::::y
+                                                            y:::::y
+                                                           y:::::y
+                                                          yyyyyyy
+*/
+
+body {
+	
+	background-color: #f1f1f1;
+	
+}
+
+
+
+/*
+																	  dddddddd
+HHHHHHHHH     HHHHHHHHH                                               d::::::d
+H:::::::H     H:::::::H                                               d::::::d
+H:::::::H     H:::::::H                                               d::::::d
+HH::::::H     H::::::HH                                               d:::::d
+  H:::::H     H:::::H      eeeeeeeeeeee    aaaaaaaaaaaaa      ddddddddd:::::d     eeeeeeeeeeee    rrrrr   rrrrrrrrr
+  H:::::H     H:::::H    ee::::::::::::ee  a::::::::::::a   dd::::::::::::::d   ee::::::::::::ee  r::::rrr:::::::::r
+  H::::::HHHHH::::::H   e::::::eeeee:::::eeaaaaaaaaa:::::a d::::::::::::::::d  e::::::eeeee:::::eer:::::::::::::::::r
+  H:::::::::::::::::H  e::::::e     e:::::e         a::::ad:::::::ddddd:::::d e::::::e     e:::::err::::::rrrrr::::::r
+  H:::::::::::::::::H  e:::::::eeeee::::::e  aaaaaaa:::::ad::::::d    d:::::d e:::::::eeeee::::::e r:::::r     r:::::r
+  H::::::HHHHH::::::H  e:::::::::::::::::e aa::::::::::::ad:::::d     d:::::d e:::::::::::::::::e  r:::::r     rrrrrrr
+  H:::::H     H:::::H  e::::::eeeeeeeeeee a::::aaaa::::::ad:::::d     d:::::d e::::::eeeeeeeeeee   r:::::r
+  H:::::H     H:::::H  e:::::::e         a::::a    a:::::ad:::::d     d:::::d e:::::::e            r:::::r
+HH::::::H     H::::::HHe::::::::e        a::::a    a:::::ad::::::ddddd::::::dde::::::::e           r:::::r
+H:::::::H     H:::::::H e::::::::eeeeeeeea:::::aaaa::::::a d:::::::::::::::::d e::::::::eeeeeeee   r:::::r
+H:::::::H     H:::::::H  ee:::::::::::::e a::::::::::aa:::a d:::::::::ddd::::d  ee:::::::::::::e   r:::::r
+HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd    eeeeeeeeeeeeee   rrrrrrr
+*/
+
+.structureHeader {
+	
+	-webkit-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+		 -o-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Opera */
+	
+	   -moz-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Firefox 3.5 */
+			
+			box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+
+
+/*
+BBBBBBBBBBBBBBBBB
+B::::::::::::::::B
+B::::::BBBBBB:::::B
+BB:::::B     B:::::B
+  B::::B     B:::::B   ooooooooooo xxxxxxx      xxxxxxx
+  B::::B     B:::::B oo:::::::::::oox:::::x    x:::::x
+  B::::BBBBBB:::::B o:::::::::::::::ox:::::x  x:::::x  
+  B:::::::::::::BB  o:::::ooooo:::::o x:::::xx:::::x
+  B::::BBBBBB:::::B o::::o     o::::o  x::::::::::x
+  B::::B     B:::::Bo::::o     o::::o   x::::::::x
+  B::::B     B:::::Bo::::o     o::::o   x::::::::x
+  B::::B     B:::::Bo::::o     o::::o  x::::::::::x
+BB:::::BBBBBB::::::Bo:::::ooooo:::::o x:::::xx:::::x
+B:::::::::::::::::B o:::::::::::::::ox:::::x  x:::::x
+B::::::::::::::::B   oo:::::::::::oox:::::x    x:::::x
+BBBBBBBBBBBBBBBBB      ooooooooooo xxxxxxx      xxxxxxx
+*/
+
+.mainContainer {
+	
+	margin-top: 90px;
+	
+	margin-bottom: 90px;
+	
+}
+
+.mainContainer > div > i {
+	
+	display: block;
+	
+	height: 5px;
+	
+	background-color: #fb565c;
+	
+}
+
+
+
+/*
+        CCCCCCCCCCCCC
+     CCC::::::::::::C
+   CC:::::::::::::::C
+  C:::::CCCCCCCC::::C
+ C:::::C       CCCCCC   ooooooooooo   rrrrr   rrrrrrrrr       eeeeeeeeeeee
+C:::::C               oo:::::::::::oo r::::rrr:::::::::r    ee::::::::::::ee
+C:::::C              o:::::::::::::::or:::::::::::::::::r  e::::::eeeee:::::ee
+C:::::C              o:::::ooooo:::::orr::::::rrrrr::::::re::::::e     e:::::e
+C:::::C              o::::o     o::::o r:::::r     r:::::re:::::::eeeee::::::e
+C:::::C              o::::o     o::::o r:::::r     rrrrrrre:::::::::::::::::e
+C:::::C              o::::o     o::::o r:::::r            e::::::eeeeeeeeeee
+ C:::::C       CCCCCCo::::o     o::::o r:::::r            e:::::::e
+  C:::::CCCCCCCC::::Co:::::ooooo:::::o r:::::r            e::::::::e
+   CC:::::::::::::::Co:::::::::::::::o r:::::r             e::::::::eeeeeeee
+     CCC::::::::::::C oo:::::::::::oo  r:::::r              ee:::::::::::::e
+        CCCCCCCCCCCCC   ooooooooooo    rrrrrrr                eeeeeeeeeeeeee
+*/
+
+.borderRaiuds_3 {
+	
+	-webkit-border-radius: 3px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 3px;
+		
+		border-radius: 3px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
+	
+}
+
+.coreArea {
+	
+	z-index: 0;
+	
+	height: 385px;
+	
+	-webkit-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+		 -o-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Opera */
+	
+	   -moz-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Firefox 3.5 */
+			
+			box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+.coreArea > .i_1 {
+
+	display: block;
+
+	width: 24px;
+
+	height: 18px;
+
+	margin-top: 125px;
+
+	margin-left: 142px;
+
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAE4klEQVQ4T31Va2iWZRi+nvf4HTdnm/MwxRxY+iMTUgsliJl0mJjZCluRBJVpSeUYlIcfzqishLIfJf5QyE6Ebk3rh0sR0SISRjAioUY6R3P7vn37ju/56Xre7W898H7b93zPc9/Xdd3Xfb9C+lJCLW36UV/CIIKBCBBAjf+ZenwiXjKcOcvfAJ/nTVihA+gGbqGKQwMv4vrEILo3ncDK5BqIIKxIXbPg+hFM0+SF6XyS0UUkIJnUDxxYhoTOZDIyVd54Hwgg/BKk2YAJXjv8fScuD38BU6vH/NRC7O48DiFlTlZdDbY9KyZRcyqwExavmnwAm49AhcEVdFIJ09NUeDgIPRi6h5zM4NCFp3Hujy9hWYxRBOq0JG5fvFQlqDJ3Eg5ZKlUSCRUxgC8MeDMJDEoB9S1QEJLxOeaH5LkCyni/7zVcyZ/Gdb+IDO/fplvwJjysWdbBBI6UCqmCaqi/LpFqRMq0AdEozQ1qIpRy6pkJ7gqf9Sng4KWduPjLt0TWBMyKUHAmUE8861u24tX2I7znSulaEXIYITaBBjQSLFGqxX0v0sA8M9WfRl4VLkai39F7/iQ+vfYB5tXNxuRYHtnUXEo2hRVz2rC/vR9zDdZo0vVl0bqGnq93YcmCVuxctx9pfwF0kqgGEzCtxphZzEARJPK/oyH0/noUpy4cg7UoifFSEQ3JBtRGJ/Hwnc/hzU3HkVF36C4x7I/IPcc7MVS7iAQ5PH5HF3ZtOKCAsqxFckoygYitqxsapjCJowOHcOrqR0Czj3CcEjYnkXNqaFv0CPatP4b5ehYhv4fJJogNfU1y6h8fnlsBUj64j47Vz6Nr9bvI+k2oGBHSIYvLOkzqJew99zIu3TgJkzrPdk3ksj70vIH25S9hW9vraLEW0WsExIJFyuxdZ56VP/3Vi2KiROcADSKNbDmDB1o3Y0d7D+rCxnh/SruJTwZ248c/e1EWHkzDRuRSgoqFh1Y9hY77dmCptRK2tKf7hB/K2GLMvyEPnt6OK6WzdDuIVqDeS0P3sli77jHsveswKnYJR67sww9Dn6FIO9uGiUi3UQnL2Lp4Jza3PYNWawVSlFPWJDSL0UnaYwYhI1+OiZs40L8LP49+B4c2TBqqZ5MouWV0392DEfkbzg71Ih/6SNspmJGHWi7Ahvu34JVV76HZaqHLiZzygh0PjfKQghRqGgShdCI2lplD11cdGCxdRpW+DFyWhE6yaylU3CrSs4E8KWbS9Efew8blHdi2vhsLzWWMxxHjELmym0aKWsAErISW4iiJpDRkhEp5HE6dj7dO7cDVQj8CArF8AwV6OUM5DIIIyNnm/tqWTnQ/+iHmRM3sC7apZGTVgOpDIwqh1LdZYrJifHY84WrU1PGRT4zgnW+2Y3D8PFwGN1MmipUAOhuhQU/gXjbRGxs/xlxtiZp1CGknjaZWfRKFSp4aNE2V2UQY0eAycqQf2DE9XTWTiDDqDaOnfzsuFwaQLSRQqXfgs2irGrfgINu/BfPieeVpPh2jTGmBBAliesooJhEngJpcHBUUg0WFFnPkbNYQsMtGMYS3T7yAi94g6lm9e2Y9iJ4n+pANknw/sAmoe7zisf3fS7isTkCtVGIllaWptw5HNTfGo1vYc6YNGWce9j35Oe07h+O4TF341hDsVh6NB+T/rH8Bcmsc0PNAxk8AAAAASUVORK5CYII=) center center no-repeat;
+
+}
+
+/* Row 1 */
+
+.coreArea > .p_1 {
+
+	color: #666666;
+
+	font: bold 14px/normal "新宋体";
+
+	margin: 127px 550px 2px 15px;
+
+}
+
+.coreArea > .p_1 > .span_1 {
+
+	color: #329900;
+
+}
+
+.coreArea > .p_1 > .span_2 {
+
+	color: #7d7d7d;
+
+	font-weight: normal;
+
+}
+
+.coreArea > .p_1 > .span_2 > a {
+
+	color: #f66;
+
+}
+
+/* Row 2 */
+
+.coreArea > .p_2 {
+
+	color: #333;
+
+	font-weight: bold;
+
+	font-size: 16px;
+
+	margin-top: 21px;
+
+	margin-right: 680px;
+
+	margin-left: 180px;
+
+}
+
+.coreArea > .i_2 {
+	
+	width: 16px;
+	
+	height: 16px;
+	
+	margin-top: 21px;
+	
+	margin-left: 148px;
+	
+	background: url(../../img/investment-site/icons/icon.009.jpg) center center no-repeat;
+
+}
+
+.coreArea > .p_3 {
+
+	color: #8c8c8c;
+
+	margin-top: 21px;
+
+	margin-left: 15px;
+
+}
+
+/* Form Background */
+
+.coreArea > img {
+	
+	z-index: -1;
+	
+	width: 222px;
+	
+	height: 381px;
+	
+	bottom: 0;
+	
+	right: 185px;
+	
+}
