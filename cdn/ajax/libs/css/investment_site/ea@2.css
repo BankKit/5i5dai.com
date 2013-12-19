@@ -1,0 +1,421 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for the email authentication page (../../../../../../www/email.authentication@2.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ *     
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2013.12.19 15:49 ( Tony ).
+ * 
+ * Last Update: 2013.12.19 17:39 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+
+
+/*
+                                                 dddddddd
+BBBBBBBBBBBBBBBBB                                d::::::d
+B::::::::::::::::B                               d::::::d
+B::::::BBBBBB:::::B                              d::::::d
+BB:::::B     B:::::B                             d:::::d
+  B::::B     B:::::B   ooooooooooo       ddddddddd:::::dyyyyyyy           yyyyyyy
+  B::::B     B:::::B oo:::::::::::oo   dd::::::::::::::d y:::::y         y:::::y
+  B::::BBBBBB:::::B o:::::::::::::::o d::::::::::::::::d  y:::::y       y:::::y
+  B:::::::::::::BB  o:::::ooooo:::::od:::::::ddddd:::::d   y:::::y     y:::::y
+  B::::BBBBBB:::::B o::::o     o::::od::::::d    d:::::d    y:::::y   y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d     y:::::y y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d      y:::::y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d       y:::::::::y
+BB:::::BBBBBB::::::Bo:::::ooooo:::::od::::::ddddd::::::dd       y:::::::y
+B:::::::::::::::::B o:::::::::::::::o d:::::::::::::::::d        y:::::y
+B::::::::::::::::B   oo:::::::::::oo   d:::::::::ddd::::d       y:::::y
+BBBBBBBBBBBBBBBBB      ooooooooooo      ddddddddd   ddddd      y:::::y
+                                                              y:::::y
+                                                             y:::::y
+                                                            y:::::y
+                                                           y:::::y
+                                                          yyyyyyy
+*/
+
+body {
+	
+	background-color: #f1f1f1;
+	
+}
+
+
+
+/*
+																	  dddddddd
+HHHHHHHHH     HHHHHHHHH                                               d::::::d
+H:::::::H     H:::::::H                                               d::::::d
+H:::::::H     H:::::::H                                               d::::::d
+HH::::::H     H::::::HH                                               d:::::d
+  H:::::H     H:::::H      eeeeeeeeeeee    aaaaaaaaaaaaa      ddddddddd:::::d     eeeeeeeeeeee    rrrrr   rrrrrrrrr
+  H:::::H     H:::::H    ee::::::::::::ee  a::::::::::::a   dd::::::::::::::d   ee::::::::::::ee  r::::rrr:::::::::r
+  H::::::HHHHH::::::H   e::::::eeeee:::::eeaaaaaaaaa:::::a d::::::::::::::::d  e::::::eeeee:::::eer:::::::::::::::::r
+  H:::::::::::::::::H  e::::::e     e:::::e         a::::ad:::::::ddddd:::::d e::::::e     e:::::err::::::rrrrr::::::r
+  H:::::::::::::::::H  e:::::::eeeee::::::e  aaaaaaa:::::ad::::::d    d:::::d e:::::::eeeee::::::e r:::::r     r:::::r
+  H::::::HHHHH::::::H  e:::::::::::::::::e aa::::::::::::ad:::::d     d:::::d e:::::::::::::::::e  r:::::r     rrrrrrr
+  H:::::H     H:::::H  e::::::eeeeeeeeeee a::::aaaa::::::ad:::::d     d:::::d e::::::eeeeeeeeeee   r:::::r
+  H:::::H     H:::::H  e:::::::e         a::::a    a:::::ad:::::d     d:::::d e:::::::e            r:::::r
+HH::::::H     H::::::HHe::::::::e        a::::a    a:::::ad::::::ddddd::::::dde::::::::e           r:::::r
+H:::::::H     H:::::::H e::::::::eeeeeeeea:::::aaaa::::::a d:::::::::::::::::d e::::::::eeeeeeee   r:::::r
+H:::::::H     H:::::::H  ee:::::::::::::e a::::::::::aa:::a d:::::::::ddd::::d  ee:::::::::::::e   r:::::r
+HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd    eeeeeeeeeeeeee   rrrrrrr
+*/
+
+.structureHeader {
+	
+	-webkit-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+		 -o-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Opera */
+	
+	   -moz-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Firefox 3.5 */
+			
+			box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+
+
+/*
+BBBBBBBBBBBBBBBBB
+B::::::::::::::::B
+B::::::BBBBBB:::::B
+BB:::::B     B:::::B
+  B::::B     B:::::B   ooooooooooo xxxxxxx      xxxxxxx
+  B::::B     B:::::B oo:::::::::::oox:::::x    x:::::x
+  B::::BBBBBB:::::B o:::::::::::::::ox:::::x  x:::::x  
+  B:::::::::::::BB  o:::::ooooo:::::o x:::::xx:::::x
+  B::::BBBBBB:::::B o::::o     o::::o  x::::::::::x
+  B::::B     B:::::Bo::::o     o::::o   x::::::::x
+  B::::B     B:::::Bo::::o     o::::o   x::::::::x
+  B::::B     B:::::Bo::::o     o::::o  x::::::::::x
+BB:::::BBBBBB::::::Bo:::::ooooo:::::o x:::::xx:::::x
+B:::::::::::::::::B o:::::::::::::::ox:::::x  x:::::x
+B::::::::::::::::B   oo:::::::::::oox:::::x    x:::::x
+BBBBBBBBBBBBBBBBB      ooooooooooo xxxxxxx      xxxxxxx
+*/
+
+.mainContainer {
+	
+	margin-top: 90px;
+	
+	margin-bottom: 90px;
+	
+}
+
+.mainContainer > div > i {
+	
+	display: block;
+	
+	height: 5px;
+	
+	background-color: #fb565c;
+	
+}
+
+
+
+/*
+        CCCCCCCCCCCCC
+     CCC::::::::::::C
+   CC:::::::::::::::C
+  C:::::CCCCCCCC::::C
+ C:::::C       CCCCCC   ooooooooooo   rrrrr   rrrrrrrrr       eeeeeeeeeeee
+C:::::C               oo:::::::::::oo r::::rrr:::::::::r    ee::::::::::::ee
+C:::::C              o:::::::::::::::or:::::::::::::::::r  e::::::eeeee:::::ee
+C:::::C              o:::::ooooo:::::orr::::::rrrrr::::::re::::::e     e:::::e
+C:::::C              o::::o     o::::o r:::::r     r:::::re:::::::eeeee::::::e
+C:::::C              o::::o     o::::o r:::::r     rrrrrrre:::::::::::::::::e
+C:::::C              o::::o     o::::o r:::::r            e::::::eeeeeeeeeee
+ C:::::C       CCCCCCo::::o     o::::o r:::::r            e:::::::e
+  C:::::CCCCCCCC::::Co:::::ooooo:::::o r:::::r            e::::::::e
+   CC:::::::::::::::Co:::::::::::::::o r:::::r             e::::::::eeeeeeee
+     CCC::::::::::::C oo:::::::::::oo  r:::::r              ee:::::::::::::e
+        CCCCCCCCCCCCC   ooooooooooo    rrrrrrr                eeeeeeeeeeeeee
+*/
+
+.borderRaiuds_3 {
+	
+	-webkit-border-radius: 3px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 3px;
+		
+		border-radius: 3px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
+	
+}
+
+.mainContainer > div > .coreArea {
+	
+	z-index: 0;
+	
+	height: 355px;
+	
+	-webkit-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+		 -o-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Opera */
+	
+	   -moz-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Firefox 3.5 */
+			
+			box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+/* Core Title */
+
+.coreArea > h1 {
+	
+	font-weight: bold;
+	
+	font-size: 16px;
+	
+	margin-top: 26px;
+	
+	margin-left: 30px;
+	
+}
+
+.coreArea > .i_1 {
+	
+	width: 16px;
+	
+	height: 16px;
+	
+	margin-top: 28px;
+	
+	margin-left: 15px;
+	
+	background: url(../../img/investment-site/icons/icon.009.jpg) center center no-repeat;
+	
+}
+
+.coreArea > .p_1 {
+	
+	color: #666;
+	
+	font-size: 12px;
+	
+	margin: 28px 650px 77px 4px;
+	
+}
+
+.coreArea > .p_1 > a {
+	
+	color: #ff6666;
+	
+	text-decoration: none;
+	
+}
+
+.coreArea > .p_1 > a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+/* Label */
+
+.coreArea > label {
+	
+	color: #7d7d7d;
+	
+	margin-right: 5px;
+	
+}
+
+.coreArea > .lblUserEmail {
+	
+	margin-left: 73px;
+	
+	margin-top: 10px;
+	
+}
+
+/* Input */
+
+.coreArea > .fieldArea {
+	
+	width: 295px;
+	
+	height: 37px;
+	
+	border: 1px solid #ccc;
+	
+	background-color: #f1f1f1;
+	
+}
+
+.ie7 .coreArea > .fieldArea {
+	
+	height: 35px;
+	
+	width: 293px;
+	
+}
+
+.coreArea > .fieldArea > input {
+	
+	color: #333;
+	
+	font: normal 12px/normal "新宋体";
+	
+	width: 283px;
+	
+	margin-top: 9px;
+	
+	margin-left: 5px;
+	
+	background-color: #f1f1f1;
+	
+}
+
+.ie7 .coreArea > .fieldArea > input {
+	
+	width: 281px;
+	
+}
+
+/* Info */
+
+.coreArea > .info {
+	
+	width: 735px;
+	
+	height: 37px;
+	
+}
+
+.coreArea > .info > a {
+	
+	color: #f66;
+	
+	font: 12px "新宋体";
+	
+	margin-top: 11px;
+	
+}
+
+/*  */
+
+.coreArea > .i_2 {
+	
+	width: 16px;
+	
+	height: 16px;
+	
+	margin-top: 15px;
+	
+	margin-left: 113px;
+	
+	margin-right: 5px;
+	
+	background: url(../../img/investment-site/icons/icon.009.jpg) center center no-repeat;
+	
+}
+
+.coreArea > .p_2 {
+	
+	color: #666;
+	
+	font-size: 12px;
+	
+	margin-top: 16px;
+	
+}
+
+.coreArea > .p_2 > span {
+	
+	color: #fb565c;
+	
+}
+
+.coreArea > a {
+	
+	display: block;
+	
+	color: #666;
+	
+	font: normal 12px/22px "微软雅黑";
+	
+	text-decoration: none;
+	
+	text-align: center;
+	
+	width: 77px;
+	
+	height: 22px;
+	
+	margin-top: 12px;
+	
+	margin-left: 5px;
+	
+	background: #f1f1f1; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxZjFmMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNmQ2ZDYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #f1f1f1 0%, #d6d6d6 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f1f1f1), color-stop(100%,#d6d6d6)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #f1f1f1 0%,#d6d6d6 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #f1f1f1 0%,#d6d6d6 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #f1f1f1 0%,#d6d6d6 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #f1f1f1 0%,#d6d6d6 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#d6d6d6',GradientType=0 ); /* IE6-8 */
+	
+}
+
+/* Form Background */
+
+.coreArea > img {
+	
+	z-index: -1;
+	
+	width: 453px;
+	
+	height: 289px;
+	
+	bottom: 15px;
+	
+	right: 0;
+	
+}
