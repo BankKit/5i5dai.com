@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 09:16 ( Tony ).
  * 
- * Last Update: 2013.12.18 15:03 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.20 01:33 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -124,7 +124,9 @@
 
 					validator: 'jquery_validator/0.1.0/jquery.validator.min',
 
-					scheck: 'jquery_check/0.1.0/jquery.check.min'
+					scheck: 'jquery_check/0.1.0/jquery.check.min',
+
+					cont: 'jquery_context/0.1.0/jquery.context.min'
 					
 				},
 				

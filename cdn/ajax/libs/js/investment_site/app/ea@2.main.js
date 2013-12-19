@@ -23,7 +23,7 @@
  * 
  * Creation Date: 2013.12.19 15:58 ( Tony ).
  * 
- * Last Update: 2013.12.19 17:33 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.20 01:19 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -38,7 +38,7 @@
 	
 	fn = function (require) {
 		
-		var modernizr, SJ, basicLogic, plusLogic, modifyTitle, deepLink, srl;
+		var modernizr, SJ, basicLogic, plusLogic, modifyTitle, deepLink, srl, cont;
 		
 		modernizr = require('modernizr');
 		
@@ -53,6 +53,8 @@
 		deepLink = require('deepLink');
 
 		srl = require('srl');
+
+		cont = require('cont');
 		
 		SJ(function ($) {
 			
