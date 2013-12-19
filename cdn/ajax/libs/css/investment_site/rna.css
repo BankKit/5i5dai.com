@@ -1,0 +1,464 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for the real name authentication page (../../../../../../www/real.name.authentication.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ *     
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2013.12.18 18:35 ( Tony ).
+ * 
+ * Last Update: 2013.12.19 13:00 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+
+
+/*
+                                                 dddddddd
+BBBBBBBBBBBBBBBBB                                d::::::d
+B::::::::::::::::B                               d::::::d
+B::::::BBBBBB:::::B                              d::::::d
+BB:::::B     B:::::B                             d:::::d
+  B::::B     B:::::B   ooooooooooo       ddddddddd:::::dyyyyyyy           yyyyyyy
+  B::::B     B:::::B oo:::::::::::oo   dd::::::::::::::d y:::::y         y:::::y
+  B::::BBBBBB:::::B o:::::::::::::::o d::::::::::::::::d  y:::::y       y:::::y
+  B:::::::::::::BB  o:::::ooooo:::::od:::::::ddddd:::::d   y:::::y     y:::::y
+  B::::BBBBBB:::::B o::::o     o::::od::::::d    d:::::d    y:::::y   y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d     y:::::y y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d      y:::::y:::::y
+  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d       y:::::::::y
+BB:::::BBBBBB::::::Bo:::::ooooo:::::od::::::ddddd::::::dd       y:::::::y
+B:::::::::::::::::B o:::::::::::::::o d:::::::::::::::::d        y:::::y
+B::::::::::::::::B   oo:::::::::::oo   d:::::::::ddd::::d       y:::::y
+BBBBBBBBBBBBBBBBB      ooooooooooo      ddddddddd   ddddd      y:::::y
+                                                              y:::::y
+                                                             y:::::y
+                                                            y:::::y
+                                                           y:::::y
+                                                          yyyyyyy
+*/
+
+body {
+	
+	background-color: #f1f1f1;
+	
+}
+
+
+
+/*
+																	  dddddddd
+HHHHHHHHH     HHHHHHHHH                                               d::::::d
+H:::::::H     H:::::::H                                               d::::::d
+H:::::::H     H:::::::H                                               d::::::d
+HH::::::H     H::::::HH                                               d:::::d
+  H:::::H     H:::::H      eeeeeeeeeeee    aaaaaaaaaaaaa      ddddddddd:::::d     eeeeeeeeeeee    rrrrr   rrrrrrrrr
+  H:::::H     H:::::H    ee::::::::::::ee  a::::::::::::a   dd::::::::::::::d   ee::::::::::::ee  r::::rrr:::::::::r
+  H::::::HHHHH::::::H   e::::::eeeee:::::eeaaaaaaaaa:::::a d::::::::::::::::d  e::::::eeeee:::::eer:::::::::::::::::r
+  H:::::::::::::::::H  e::::::e     e:::::e         a::::ad:::::::ddddd:::::d e::::::e     e:::::err::::::rrrrr::::::r
+  H:::::::::::::::::H  e:::::::eeeee::::::e  aaaaaaa:::::ad::::::d    d:::::d e:::::::eeeee::::::e r:::::r     r:::::r
+  H::::::HHHHH::::::H  e:::::::::::::::::e aa::::::::::::ad:::::d     d:::::d e:::::::::::::::::e  r:::::r     rrrrrrr
+  H:::::H     H:::::H  e::::::eeeeeeeeeee a::::aaaa::::::ad:::::d     d:::::d e::::::eeeeeeeeeee   r:::::r
+  H:::::H     H:::::H  e:::::::e         a::::a    a:::::ad:::::d     d:::::d e:::::::e            r:::::r
+HH::::::H     H::::::HHe::::::::e        a::::a    a:::::ad::::::ddddd::::::dde::::::::e           r:::::r
+H:::::::H     H:::::::H e::::::::eeeeeeeea:::::aaaa::::::a d:::::::::::::::::d e::::::::eeeeeeee   r:::::r
+H:::::::H     H:::::::H  ee:::::::::::::e a::::::::::aa:::a d:::::::::ddd::::d  ee:::::::::::::e   r:::::r
+HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd    eeeeeeeeeeeeee   rrrrrrr
+*/
+
+.structureHeader {
+	
+	-webkit-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+		 -o-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Opera */
+	
+	   -moz-box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Firefox 3.5 */
+			
+			box-shadow: 0 0 1px #CCC,
+						0 3px 3px #CCC; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+
+
+/*
+BBBBBBBBBBBBBBBBB
+B::::::::::::::::B
+B::::::BBBBBB:::::B
+BB:::::B     B:::::B
+  B::::B     B:::::B   ooooooooooo xxxxxxx      xxxxxxx
+  B::::B     B:::::B oo:::::::::::oox:::::x    x:::::x
+  B::::BBBBBB:::::B o:::::::::::::::ox:::::x  x:::::x  
+  B:::::::::::::BB  o:::::ooooo:::::o x:::::xx:::::x
+  B::::BBBBBB:::::B o::::o     o::::o  x::::::::::x
+  B::::B     B:::::Bo::::o     o::::o   x::::::::x
+  B::::B     B:::::Bo::::o     o::::o   x::::::::x
+  B::::B     B:::::Bo::::o     o::::o  x::::::::::x
+BB:::::BBBBBB::::::Bo:::::ooooo:::::o x:::::xx:::::x
+B:::::::::::::::::B o:::::::::::::::ox:::::x  x:::::x
+B::::::::::::::::B   oo:::::::::::oox:::::x    x:::::x
+BBBBBBBBBBBBBBBBB      ooooooooooo xxxxxxx      xxxxxxx
+*/
+
+.mainContainer {
+	
+	margin-top: 90px;
+
+	margin-bottom: 90px;
+	
+}
+
+.mainContainer > div > i {
+	
+	display: block;
+	
+	height: 5px;
+	
+	background-color: #fb565c;
+	
+}
+
+
+
+/*
+FFFFFFFFFFFFFFFFFFFFFF
+F::::::::::::::::::::F
+F::::::::::::::::::::F
+FF::::::FFFFFFFFF::::F
+  F:::::F       FFFFFFooooooooooo   rrrrr   rrrrrrrrr      mmmmmmm    mmmmmmm
+  F:::::F           oo:::::::::::oo r::::rrr:::::::::r   mm:::::::m  m:::::::mm 
+  F::::::FFFFFFFFFFo:::::::::::::::or:::::::::::::::::r m::::::::::mm::::::::::m
+  F:::::::::::::::Fo:::::ooooo:::::orr::::::rrrrr::::::rm::::::::::::::::::::::m
+  F:::::::::::::::Fo::::o     o::::o r:::::r     r:::::rm:::::mmm::::::mmm:::::m
+  F::::::FFFFFFFFFFo::::o     o::::o r:::::r     rrrrrrrm::::m   m::::m   m::::m
+  F:::::F          o::::o     o::::o r:::::r            m::::m   m::::m   m::::m
+  F:::::F          o::::o     o::::o r:::::r            m::::m   m::::m   m::::m
+FF:::::::FF        o:::::ooooo:::::o r:::::r            m::::m   m::::m   m::::m
+F::::::::FF        o:::::::::::::::o r:::::r            m::::m   m::::m   m::::m
+F::::::::FF         oo:::::::::::oo  r:::::r            m::::m   m::::m   m::::m
+FFFFFFFFFFF           ooooooooooo    rrrrrrr            mmmmmm   mmmmmm   mmmmmm
+*/
+
+.borderRaiuds_3 {
+	
+	-webkit-border-radius: 3px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 3px;
+		
+		border-radius: 3px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
+	
+}
+
+.frmRNA {
+
+	z-index: 0;
+	
+	height: 355px;
+	
+	-webkit-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+		 -o-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Opera */
+	
+	   -moz-box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Firefox 3.5 */
+			
+			box-shadow: 0 0 1px #cdcdcd,
+						0 3px 1px #cdcdcd; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+/* Form Title */
+
+.frmRNA > h1 {
+	
+	font-weight: bold;
+	
+	font-size: 16px;
+	
+	margin-top: 26px;
+	
+	margin-left: 30px;
+	
+}
+
+.frmRNA > i {
+
+	width: 16px;
+
+	height: 16px;
+
+	margin-top: 28px;
+
+	margin-left: 15px;
+
+	background: url(../../img/investment-site/icons/icon.009.jpg) center center no-repeat;
+
+}
+
+.frmRNA > .p_1 {
+
+	color: #333;
+
+	font-size: 12px;
+
+	margin: 30px 780px 75px 4px;
+
+}
+
+.frmRNA > .p_2 {
+
+	z-index: 1;
+
+	color: #999;
+
+	font-size: 12px;
+
+	margin-right: 300px;
+
+	top: 50px;
+
+	left: 133px;
+
+}
+
+/* Label */
+
+.frmRNA > label {
+
+	color: #7d7d7d;
+
+	margin-right: 5px;
+
+}
+
+.frmRNA > .lblUserName {
+
+	margin-left: 73px;
+
+	margin-top: 10px;
+
+}
+
+.frmRNA > .lblIdentity {
+
+	margin-left: 59px;
+
+	margin-top: 40px;
+
+}
+
+/* Input */
+
+.frmRNA > .fieldArea {
+
+	width: 295px;
+
+	height: 37px;
+
+	border: 1px solid #ccc;
+
+}
+
+.ie7 .frmRNA > .fieldArea {
+
+	height: 35px;
+
+	width: 293px;
+
+}
+
+.frmRNA > .fieldArea > input {
+
+	color: #333;
+
+	font: normal 12px/normal "新宋体";
+
+	width: 283px;
+
+	margin-top: 9px;
+
+	margin-left: 5px;
+
+}
+
+.ie7 .frmRNA > .fieldArea > input {
+
+	width: 281px;
+
+}
+
+/* Info */
+
+.frmRNA > .info {
+
+	width: 735px;
+
+	height: 37px;
+
+}
+
+.info > span {
+	
+	font: 12px "新宋体";
+	
+	margin-top: 11px;
+	
+}
+
+.info > .normal {
+	
+	color: #999;
+	
+}
+
+.info > .wrong,
+
+.info > .correct {
+	
+	padding-left: 19px;
+	
+	background-position: left center;
+	
+	background-repeat: no-repeat;
+	
+}
+
+.info > .wrong {
+	
+	color: #fb565c;
+	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAACLklEQVQoUyWSPWgUQRiGn5nd2/tLcrnEmIAhhiBYiQELIZhCsLGSgIWCURQimOAPikUghWARCwlIjIIQDAj+9paWiiBYaCMEQdREz7vEy93u7e7tzvgddjPfx8zzfO+Malpr85GPVhE8e83Olzfknn7ErW6SjKUkk1MUjk5gT54hxiVbB5WGTavjIlu3blK8f5fOWrmaJAnIkmLRaNcjnbtKeuU6dmw3ykY1uzW/yM7DVUZNAGlElEBWu+AlBKGm4CgClUXfWCB3+5wcWntio4vTZKXYCD9jug5TCCNqymdIQWxyeH6F6kAP5bAHZ2UWVZ8/b/OLL8m4PvVsH6VKjbCoyJVHCLY3KbRCTL+DCXplbtAXjqGiveNW/VjHpE20UyRNfVxrcISs7E9iNUzFixlOyzJfi/b+IQmiOGhjv0pOrvmlE4a6R7BCUJWYeGgE13xHCUHlXPyWDNtfEtKBXTbzqSpFJAQI2hkKHYJzSOhviQrjdLdqnRaORK73jaL82Rmbe7AqYEPGkaGbPnE+L+2YRr6fYvANR3dh7f809anLov3qseX0JbBt8LcxfT1siMUe2VorWqLWMpZGwaEsOO/Fc5SxbWuuLRCtLBPkA3obvbjyLnh12i0JRJh/8oZBY2B6DhaXUKF8I/W1gnm0SmbpDirRKB0SpCEdyY6SSOGdFZt7MySZg6L319qoJD+gvQFry/B+nfjdB9q/tymWB2DiOExNwpETJCWPSgb+ASCo+wb5PjxSAAAAAElFTkSuQmCC);
+	
+}
+
+.info > .correct {
+	
+	color: #999;
+	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAACS0lEQVQoUxWRS0hUYRTHf9+9M/deTefhAyUTUVIok1EzcNEihDZFIYQYCJJYu3ZBSIsWgUgYJS2CVrqxqE2bCFpEUQQ9UEJ8FOqUD5ycYcZxnDvjvTN3vr42Z3PO//xfIiGlrCmWyPg0Xqan+Ky948POBk58jepwO5FwF6PlffRWXcUljWGHENKWcql8nQeLj1k6XCGa+kba2scLAUWwXJPDkMO4N86F9vN00KlAXlbe2XjIRP4uJMLgWhiRGO62BloJU+o4eQ/U6p5vilut1xFvYk/kUHyMPTMPuRL4LMjaICBQaCYT2gKzSFvKpGg3MxG5iRiMjcgX29P4fUqNupXhgBpKVyFPhefDy+ukzuaxKCBWDIZrLiK653rkfNkygViOY8E6lnMpDKuAsgKHCn9mn7RI0vjlHNmKTVq9k0rEPBJlOtW8Q4ZduhYvs5fdoqYCVk8VCB34qF4IUjBKHGhZmrwWRMtanbTXdDKuINe3ze8je/R8byPZ+RUcdbAqsPyKVLGi2But44jR6G35anMKO+DiFGrJdcYpU/4cbRdrvh4jb+EqFlPzqwYcBuqGEa8zs/JSdAhZrj6lQbcM7I4k1kIlRxMGOyoXDBdDpaknw0x330f8lBtyZvcpk9FnhIp/0EyLxH8pQZWg7sd0NKTfJpyqYrD1GpMNY6rcYk5+0hf5uPCeR8yQzK5AvQKlFEZXBZc0jEwlN9pGGGkY4ASnFSguZa62hCb3mRXPmfv1lh9alPXkX8LBJroqI/RX9nIl2I+nYjbjfv4Bqa75T4GtiLIAAAAASUVORK5CYII=);
+	
+}
+
+/* Group */
+
+.frmRNA > .iptUserIdentityArea,
+
+.frmRNA > .info.userIdentityError {
+
+	margin-top: 30px;
+
+}
+
+/* Submit */
+
+.frmRNA > button {
+
+	color: #FFF;
+
+	font-weight: bold;
+
+	width: 296px;
+
+	height: 37px;
+
+	margin-top: 50px;
+
+	margin-left: 133px;
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNDNlNDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #f43e44 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#f43e44)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#f43e44 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#f43e44',GradientType=0 ); /* IE6-8 */
+
+}
+
+.frmRNA > button:hover {
+	
+	background: #fc696e; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjNjk2ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjU2NWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fc696e 0%, #fb565c 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc696e), color-stop(100%,#fb565c)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fc696e 0%,#fb565c 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc696e', endColorstr='#fb565c',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.frmRNA > button:active {
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYzY4NmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #fc686e 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#fc686e)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#fc686e 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#fc686e',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie9 .frmRNA > button {filter: none;}
