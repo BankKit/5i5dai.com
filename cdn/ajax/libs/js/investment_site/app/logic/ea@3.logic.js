@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.19 17:51 ( Tony ).
  * 
- * Last Update: 2013.12.19 18:27 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.20 14:49 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -108,7 +108,7 @@
 							
 							if (i === 0) {
 								
-								document.location = o;
+								o.get(0).click();
 								
 							} else {
 								
@@ -124,7 +124,7 @@
 						
 					}
 					
-					excute(SJ('.autoJump').text());
+					excute(SJ('#autoJump'));
 					
 				}
 				
