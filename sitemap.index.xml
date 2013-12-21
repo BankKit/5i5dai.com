@@ -12,17 +12,9 @@
 	
 	<sitemap>
 		
-		<loc></loc> <!-- This location can be a Sitemap, an Atom file, RSS file or a simple text file. eg: http://www.example.com/sitemap1.xml -->
+		<loc>sitemap/sitemap.xml</loc> <!-- This location can be a Sitemap, an Atom file, RSS file or a simple text file. eg: http://www.example.com/sitemap1.xml -->
 		
-		<lastmod></lastmod> <!-- eg: 2004-10-01T18:23:17+00:00 -->
-		
-	</sitemap>
-	
-	<sitemap>
-		
-		<loc></loc> <!-- This location can be a Sitemap, an Atom file, RSS file or a simple text file. eg: http://www.example.com/sitemap2.xml -->
-		
-		<lastmod></lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime). eg: 2004-10-01T18:23:17+00:00 -->
+		<lastmod>2013-12-21T23:32:00+00:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
 		
 	</sitemap>
 	
