@@ -44,7 +44,7 @@
 		
 		<base target="_self"/>
 		
-		<meta http-equiv="X-UA-Compatible" content="ie = edge, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
+		<meta http-equiv="X-UA-Compatible" content="ie = EmulateIE7, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
 		
 		<meta name="viewport" content="width = 1200, minimal-ui"/> <!-- IOS Safari: Fixed in iOS 7.1 beta 2, A property, minimal-ui, has been added for the viewport meta tag key that allows minimizing the top and bottom bars on the iPhone as the page loads. While on a page using minimal-ui, tapping the top bar brings the bars back. Tapping back in the content dismisses them again. Reference, http://www.everythingicafe.com/forum/threads/lets-talk-ios-7-1-beta-2.104595/ -->
 		
@@ -248,10 +248,18 @@
 		
 		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/scaffolding/grid.css"/>
 
-		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.css"/>
+		<!-- Begin | Master Stylesheet -->
+			
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.css"/> -->
 
-		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.plus.css"/>
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.min.css"/>
 
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.plus.css"/>
+			
+		<!-- End | Master Stylesheet -->
+
+		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/framework/component/context.menu.min.css"/>
+		
 		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/media_query/print.css"/>
 		
 		<!--[if (gte IE 6)&(lte IE 9)]>
@@ -266,9 +274,135 @@
 		
 	</head>
 	
-	<body class="antialiased box_bgsize minHeight_2000 home"> <!-- Use " home ", " investProject ", " investProgress ", " aboutUs " four classes to switch the selected nvigation menu. -->
+	<body class="rela antialiased box_bgsize home"> <!-- Use " home ", " investProject ", " investProgress ", " aboutUs " four classes to switch the selected nvigation menu. -->
 		
 		
+		
+		<!-- Begin | Header -->
+			
+			<header class="structureHeader rela" itemscope itemtype="http://schema.org/WPHeader"> <!-- Blog, http://html5doctor.com/the-header-element/ | Browser Compatibility, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header#Browser_compatibility -->
+				
+				<!-- Begin | Top Bar -->
+					
+					<div class="topBarArea"> <!-- Top Bar Area, width: 100% -->
+						
+						<div class="topBar row clearfix "> <!-- Main area of the header part, width: 1200px;  -->
+							
+							<ul class="grid clearfix"> <!-- " 登录  |  免费注册  |  我的账户  |  充值  |  帮助中心 " area  -->
+								
+								<!-- Begin | Server Communication -->
+									
+									<!-- <s:IfLoggedIn negate="true"> | Simulation: Not signed in. -->
+										
+										<li class="left">
+											
+											<a class="noBoard" href="#" hreflang="zh">登录</a>
+											
+										</li>
+										
+										<li class="left">
+											
+											<a href="#" hreflang="zh">免费注册</a>
+											
+										</li>
+										
+									<!-- </s:IfLoggedIn> -->
+									
+									<!-- <s:IfLoggedIn> | Simulation: Signed in. -->
+										
+										<li class="left hide">
+											
+											<a class="noBoard" href="#" hreflang="zh">Tony</a>
+											
+										</li>
+										
+									<!-- </s:IfLoggedIn> -->
+									
+								<!-- End | Server Communication -->
+								
+								<li class="left">
+									
+									<a href="#" hreflang="zh">我的账户</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a href="#" hreflang="zh">充值</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a href="#" hreflang="zh">帮助中心</a>
+									
+								</li>
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+				<!-- End | Top Bar -->
+				
+				<!-- Begin | Logo Area and Navigation -->
+					
+					<div class="logoNavArea row clearfix"> <!-- Main area of the logo area and navigation, width: 1200px -->
+						
+						<a class="grid" href="#" title="汇通金融旗下的线上金融信息服务平台">
+							
+							<div></div>
+							
+						</a>
+						
+						<nav class="grid" itemscope itemtype="http://schema.org/SiteNavigationElement"> <!-- Browser Compatibility, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav#Browser_compatibility -->
+							
+							<ul class="textCenter clearfix">
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">首&nbsp;&nbsp;页</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">投资项目</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">投资流程</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">关于我们</a>
+									
+								</li>
+								
+							</ul>
+							
+							<div class="">
+								
+								<div class="drogue brightRedBg"></div>
+								
+							</div>
+							
+						</nav>
+						
+					</div>
+					
+				<!-- End | Logo Area and Navigation -->
+				
+			</header>
+			
+		<!-- Begin | Header -->
+
+
 		
 		<!--
 			
@@ -282,11 +416,13 @@
 			
 			<!-- <t:body/> -->
 			
-			<div class="advancedHide rela row contentPlaceSample"> <!-- advancedHide  -->
+			<div class="rela row contentPlaceSample"> <!-- advancedHide  -->
 				
 				<div class="grid grid_12 minHeight_500"></div>
 				
 			</div>
+
+
 			
 		<!-- End | Body Content Placeholder -->
 		
@@ -381,5 +517,5 @@
 
 * Creation Date: ~2013.12.11 14:03 ( Tony ).
 
-* Last Update: 2013.12.16 12:58 ( Tony ).
+* Last Update: 2013.12.21 22:17 ( Tony ).
 -->

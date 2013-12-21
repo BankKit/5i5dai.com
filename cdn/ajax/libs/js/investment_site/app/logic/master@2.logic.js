@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 22:33 ( Tony ).
  * 
- * Last Update: 2013.12.09 22:34 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.21 21:41 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -40,13 +40,19 @@
 	
 	var fn, _AMD;
 	
-	fn= function () {
+	fn= function (require) {
+
+		var SJ = require('jquery'),
+
+			easing = require('easing');
 		
 		var tlns, extend, _mod,
 			
-			mute = false; //TODO: Have to cancel "console" function before release.
+			mute = true; //TODO: Have to cancel "console" function before release.
 		
 		tlns = tlns || {}; //top-level namespace
+
+		
 		
 		extend = function (ns, nsString) { // Usage, eg: var tlns = extend(tlns, "tlns.ns1.ns2.ns3");
 			
@@ -73,6 +79,112 @@
 			return parent;
 			
 		};
+		
+		
+		
+		/**
+		 * Module: Navigation Animation.
+		 */
+		
+		_mod = (function () {
+			
+			var nav = SJ('nav'),
+				
+				drogue = SJ('.drogue'),
+				
+				initPos = drogue.css('margin-left'),
+				
+				mainNavLabel = ['home', 'investProject', 'investProgress', 'aboutUs'];
+			
+			return {
+				
+				config: {
+					
+					speed: 600,
+					
+					easing: 'easeOutBounce'
+					
+				},
+				
+				animationPrototype: function (targetPos) {
+					
+					var _this = this;
+					
+					drogue.stop().animate({
+						
+						marginLeft: targetPos
+						
+					}, {
+						
+						duration: _this.config.speed,
+						
+						easing: _this.config.easing,
+						
+						queue: false
+						
+					});
+					
+				},
+				
+				onMouseEnter: function (ele) {
+					
+					var _this = this;
+					
+					ele.on('mouseenter', 'li', function (e) {
+						
+						var that = SJ(this),
+							
+							idx = that.index(),
+							
+							distance = idx * 140;
+						
+						_this.animationPrototype(distance);
+						
+					});
+					
+				},
+				
+				onMouseLeave: function (ele) {
+					
+					var _this = this;
+					
+					ele.on('mouseleave', function () {
+						
+						_this.animationPrototype(initPos);
+						
+					});
+					
+				},
+				
+				onClick: function (ele) {
+					
+					ele.on('click', 'a', function (e) {
+						
+						if (SJ('body').hasClass(mainNavLabel[SJ(this).parent().index()])) {
+							
+							e.preventDefault();
+							
+						}
+						
+					});
+					
+				},
+				
+				init: function () {
+					
+					this.onMouseEnter(nav);
+					
+					this.onMouseLeave(nav);
+					
+					this.onClick(nav);
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
 		
 		_mod = (function (hawaii) {
 			
