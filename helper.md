@@ -12,14 +12,17 @@ http://localhost:9022/DROPBOX/Browser%20Side%20Workspace/Investment-Site/
 
 ####SASS Instructions####
 
-+ ```bash
+```bash
 sass --watch sass/global:sass-built/global --scss
-
 ```
 
-+ sass --watch sass/master:sass-built/master --scss
+```bash
+sass --watch sass/master:sass-built/master --scss
+```
 
-+ sass --watch sass/:sass-built/ --scss
+```bash
+sass --watch sass/:sass-built/ --scss
+```
 
 ####Commit Task####
 
