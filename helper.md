@@ -19,15 +19,19 @@ http://localhost:9022/DROPBOX/Browser%20Side%20Workspace/Investment-Site/
 ####SASS指令集，SASS Instructions####
 
 ```bash
-sass --watch sass/global:sass-built/global --scss
+sass --watch sass/global:sass-built/global --style compressed --scss
 ```
 
 ```bash
-sass --watch sass/master:sass-built/master --scss
+sass --watch sass/master:sass-built/master --style compressed --scss
 ```
 
 ```bash
-sass --watch sass/:sass-built/ --scss
+sass --watch sass/:sass-built/ --style compressed --scss
+```
+
+```bash
+sass --watch sass/global/sublevel.global.sass:sass-built/global/sublevel.global.css --style compressed --scss
 ```
 
 ####任务提交用语，Commit Task Language####
