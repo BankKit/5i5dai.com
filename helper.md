@@ -4,7 +4,7 @@ D:\Regular\Development\Apache Software Foundation\Tomcat 7\webapps\DROPBOX\Brows
 
 ####Command Line####
 
-D:/Regular/Development/Apache Software Foundation/Tomcat 7/webapps/DROPBOX/Browser Side Workspace/Investment-Site/sass/global/
+D:/Regular/Development/Apache Software Foundation/Tomcat 7/webapps/DROPBOX/Browser Side Workspace/Investment-Site/
 
 ####Localhost####
 
