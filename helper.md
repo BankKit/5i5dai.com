@@ -1,14 +1,20 @@
 ####System Path####
 
+```bash
 D:\Regular\Development\Apache Software Foundation\Tomcat 7\webapps\DROPBOX\Browser Side Workspace\Investment-Site\sass\global\
+```
 
 ####Command Line####
 
+```bash
 D:/Regular/Development/Apache Software Foundation/Tomcat 7/webapps/DROPBOX/Browser Side Workspace/Investment-Site/
+```
 
 ####Localhost####
 
+```bash
 http://localhost:9022/DROPBOX/Browser%20Side%20Workspace/Investment-Site/
+```
 
 ####SASS Instructions####
 
