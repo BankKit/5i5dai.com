@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* Make sure the charset is set appropriately */
+
+/*
+:::     :::     :::     :::::::::  :::::::::::     :::     :::::::::  :::        :::::::::: ::::::::
+:+:     :+:   :+: :+:   :+:    :+:     :+:       :+: :+:   :+:    :+: :+:        :+:       :+:    :+:
++:+     +:+  +:+   +:+  +:+    +:+     +:+      +:+   +:+  +:+    +:+ +:+        +:+       +:+
++#+     +:+ +#++:++#++: +#++:++#:      +#+     +#++:++#++: +#++:++#+  +#+        +#++:++#  +#++:++#++
+ +#+   +#+  +#+     +#+ +#+    +#+     +#+     +#+     +#+ +#+    +#+ +#+        +#+              +#+
+  #+#+#+#   #+#     #+# #+#    #+#     #+#     #+#     #+# #+#    #+# #+#        #+#       #+#    #+#
+    ###     ###     ### ###    ### ########### ###     ### #########  ########## ########## ########
+*/
+
+$primary-color: #000;
+
+$font-stack: normal normal 14px/normal "新宋体";
+
+html, body {
+	
+	z-index: 0;
+	
+	color: $primary-color;
+	
+	font: $font-stack;
+	
+	overflow: hidden;
+	
+}
+
+
+
+/*
+We now have a Webapp that runs full screen and is always shown at the correct 
+scale. Most tutorials stop here, but during the development of my own Webapp I 
+ran into a couple more issues. The first is the fact that every time the user 
+touches and holds a link or image a callout sheet will appear giving some 
+options such as save the image, copy the link or opening the link in a new 
+window. This is something we want to prevent, because while we may use links, 
+those are only for internal navigation inside our Webapp and not links in the 
+traditional sense.
+
+Disabling the callout sheet is quite simple and can be achieved by adding the 
+-webkit-touch-callout CSS property and setting it to none. Now you can hold any 
+link or image for as long as you want without getting the default Safari 
+behaviour.
+*/
+
+* {
+	
+	-webkit-touch-callout: none;
+	
+}
+
+
+
+/*
+REMOVING THE HIGHLIGHT COLOUR FROM LINKS
+
+One of the little things that bothered me quite a bit was the fact that Safari 
+will add a transparent highlight colour to a link after it has been clicked. 
+For a webpage that might be useful, but when I create a button I want to define 
+the active state myself and I definitely don’t want some transparent colour to 
+cover up my carefully created buttons.
+
+Once again this can be achieved by a little CSS code. The highlight colour can 
+be customized using the -webkit-tap-hightlight-color property, which supports 
+all of the regular colour values. One colour value is particularly interesting 
+to us: rgba, which allow us to specify the transparency of the colour. We don’t 
+want it at all, so we can make it completely transparent.
+*/
+
+* {
+	
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	
+}
+
+
+
+/*
+		 (__)
+		 (oo)
+  /-------\/
+ / |     ||----> Draw any selected text yellow on red background.
+*  ||----||
+  ___/  ___/
+*/
+
+::-moz-selection {
+	
+	color: #FFF;
+	
+	background-color: #328efd; /* Safari */
+	
+}
+
+::selection {
+	
+	color: #FFF;
+	
+	background-color: #328efd; /* Firefox */
+	
+}
+
+
+
+/*
+		 (__)
+		 (oo)
+  /-------\/
+ / |     ||----> Draw selected text in a paragraph white on black.
+*  ||----||
+  ___/  ___/
+*/
+
+p::-moz-selection {
+	
+	color: #FFF;
+	
+	background-color: #328efd; /* Safari */
+	
+}
+
+p::selection {
+	
+	color: #FFF;
+	
+	background-color: #328efd; /* Firefox */
+	
+}
