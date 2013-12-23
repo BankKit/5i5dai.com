@@ -32,4 +32,4 @@ sass --watch sass/:sass-built/ --scss
 
 ####任务提交用语，Commit Task Language####
 
-账户首页已经完成，需要将cdn目录覆盖更新。页面文件：https://github.com/Hengyuan-Finance/Investment-Site/blob/master/www/account%401.html，这次共提交资源: https://github.com/Hengyuan-Finance/Investment-Site/commit/954f14553763201dc0bbdc132eaebe65b64f7b68, 前端项目主要镜像文件更新记录: https://github.com/Hengyuan-Finance/Investment-Site/commits/master。
+`某个任务`已经完成，`更新解决方案`。页面文件：`页面在Github上的路径`，这次共提交资源: `当前资源提交记录在Github上的展示路径`, 前端项目主要镜像文件更新记录: `https://github.com/Hengyuan-Finance/Investment-Site/commits/master`。
