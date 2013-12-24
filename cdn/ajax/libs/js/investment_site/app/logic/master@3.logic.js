@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 22:35 ( Tony ).
  * 
- * Last Update: 2013.12.09 22:36 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.24 16:14 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -40,11 +40,15 @@
 	
 	var fn, _AMD;
 	
-	fn= function () {
-		
-		var tlns, extend, _mod,
+	fn= function (require) {
+
+		var SJ, easing, mute, tlns, extend, _mod;
+
+		SJ = require('jquery');
+
+		easing = require('easing');
 			
-			mute = false; //TODO: Have to cancel "console" function before release.
+		mute = true; //TODO: Have to cancel "console" function before release.
 		
 		tlns = tlns || {}; //top-level namespace
 		
@@ -73,6 +77,144 @@
 			return parent;
 			
 		};
+		
+		
+		
+		/**
+		 * Module: Navigation Animation.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					SJ('.logoNavArea').children('a').on('click', function (e) {
+						
+						if (SJ('body').hasClass('home')) {
+							
+							e.preventDefault();
+							
+						}
+						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
+		 * Module: Navigation Animation.
+		 */
+		
+		_mod = (function () {
+			
+			var nav = SJ('nav'),
+				
+				drogue = SJ('.drogue'),
+				
+				initPos = drogue.css('margin-left'),
+				
+				mainNavLabel = ['home', 'investProject', 'investProgress', 'aboutUs'];
+			
+			return {
+				
+				config: {
+					
+					speed: 600,
+					
+					easing: 'easeOutBounce'
+					
+				},
+				
+				animationPrototype: function (targetPos) {
+					
+					var _this = this;
+					
+					drogue.stop().animate({
+						
+						marginLeft: targetPos
+						
+					}, {
+						
+						duration: _this.config.speed,
+						
+						easing: _this.config.easing,
+						
+						queue: false
+						
+					});
+					
+				},
+				
+				onMouseEnter: function (ele) {
+					
+					var _this = this;
+					
+					ele.on('mouseenter', 'li', function (e) {
+						
+						var that = SJ(this),
+							
+							idx = that.index(),
+							
+							distance = idx * 140;
+						
+						_this.animationPrototype(distance);
+						
+					});
+					
+				},
+				
+				onMouseLeave: function (ele) {
+					
+					var _this = this;
+					
+					ele.on('mouseleave', function () {
+						
+						_this.animationPrototype(initPos);
+						
+					});
+					
+				},
+				
+				onClick: function (ele) {
+					
+					ele.on('click', 'a', function (e) {
+						
+						if (SJ('body').hasClass(mainNavLabel[SJ(this).parent().index()])) {
+							
+							e.preventDefault();
+							
+						}
+						
+					});
+					
+				},
+				
+				init: function () {
+					
+					this.onMouseEnter(nav);
+					
+					this.onMouseLeave(nav);
+					
+					this.onClick(nav);
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
+		 * Module: Simple Module Demo.
+		 */
 		
 		_mod = (function (hawaii) {
 			

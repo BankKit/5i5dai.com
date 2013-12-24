@@ -6,7 +6,7 @@
 
 <!--[if IE 9]>          <html class="ie ie9 ie-lt10 no-js" lang="zh" itemscope itemtype="http://schema.org/Organization">    <![endif]-->
 
-<!--[if gt IE 9]><!-->  <html class="no-js" lang="zh" itemscope itemtype="http://schema.org/Organization"> <!--  manifest="manifest.appcache" -->
+<!--[if gt IE 9]><!-->  <html class="no-js" lang="zh" itemscope itemtype="http://schema.org/Organization"> <!--  manifest="../manifest.appcache" -->
 	
 	<head>
 		
@@ -44,7 +44,7 @@
 		
 		<base target="_self"/>
 		
-		<meta http-equiv="X-UA-Compatible" content="ie = edge, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
+		<meta http-equiv="X-UA-Compatible" content="ie = EmulateIE7, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
 		
 		<meta name="viewport" content="width = 1200, minimal-ui"/> <!-- IOS Safari: Fixed in iOS 7.1 beta 2, A property, minimal-ui, has been added for the viewport meta tag key that allows minimizing the top and bottom bars on the iPhone as the page loads. While on a page using minimal-ui, tapping the top bar brings the bars back. Tapping back in the content dismisses them again. Reference, http://www.everythingicafe.com/forum/threads/lets-talk-ios-7-1-beta-2.104595/ -->
 		
@@ -248,9 +248,17 @@
 		
 		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/scaffolding/grid.css"/>
 
-		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.css"/>
+		<!-- Begin | Master Stylesheet -->
+			
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.css"/>
+			
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.min.css"/>
+			
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.plus.css"/> -->
+			
+		<!-- End | Master Stylesheet -->
 
-		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.plus.css"/>
+		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/framework/component/context.menu.min.css"/>
 
 		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/media_query/print.css"/>
 		
@@ -266,7 +274,133 @@
 		
 	</head>
 	
-	<body class="antialiased box_bgsize minHeight_2000 home"> <!-- Use " home ", " investProject ", " investProgress ", " aboutUs " four classes to switch the selected nvigation menu. -->
+	<body class="antialiased box_bgsize home noComplete"> <!-- Use " home ", " investProject ", " investProgress ", " aboutUs " four classes to switch the selected nvigation menu. Use "noComplete", " completeOne ", " completeTwo ", " completeThree ", " completeFour " to control the progress. -->
+		
+		
+		
+		<!-- Begin | Header -->
+			
+			<header class="structureHeader rela" itemscope itemtype="http://schema.org/WPHeader"> <!-- Blog, http://html5doctor.com/the-header-element/ | Browser Compatibility, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header#Browser_compatibility -->
+				
+				<!-- Begin | Top Bar -->
+					
+					<div class="topBarArea"> <!-- Top Bar Area, width: 100% -->
+						
+						<div class="topBar row clearfix "> <!-- Main area of the header part, width: 1200px;  -->
+							
+							<ul class="grid clearfix"> <!-- " 登录  |  免费注册  |  我的账户  |  充值  |  帮助中心 " area  -->
+								
+								<!-- Begin | Server Communication -->
+									
+									<!-- <s:IfLoggedIn negate="true"> | Simulation: Not signed in. -->
+										
+										<li class="left">
+											
+											<a class="noBoard" href="#" hreflang="zh">登录</a>
+											
+										</li>
+										
+										<li class="left">
+											
+											<a href="#" hreflang="zh">免费注册</a>
+											
+										</li>
+										
+									<!-- </s:IfLoggedIn> -->
+									
+									<!-- <s:IfLoggedIn> | Simulation: Signed in. -->
+										
+										<li class="left hide">
+											
+											<a class="noBoard" href="#" hreflang="zh">Tony</a>
+											
+										</li>
+										
+									<!-- </s:IfLoggedIn> -->
+									
+								<!-- End | Server Communication -->
+								
+								<li class="left">
+									
+									<a href="#" hreflang="zh">我的账户</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a href="#" hreflang="zh">充值</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a href="#" hreflang="zh">帮助中心</a>
+									
+								</li>
+								
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+				<!-- End | Top Bar -->
+				
+				<!-- Begin | Logo Area and Navigation -->
+					
+					<div class="logoNavArea row clearfix"> <!-- Main area of the logo area and navigation, width: 1200px -->
+						
+						<a class="grid" href="#" title="汇通金融旗下的线上金融信息服务平台">
+							
+							<div></div>
+							
+						</a>
+						
+						<nav class="grid" itemscope itemtype="http://schema.org/SiteNavigationElement"> <!-- Browser Compatibility, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav#Browser_compatibility -->
+							
+							<ul class="textCenter clearfix">
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">首&nbsp;&nbsp;页</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">投资项目</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">投资流程</a>
+									
+								</li>
+								
+								<li class="left">
+									
+									<a class="cleanLink" href="#" hreflang="zh">关于我们</a>
+									
+								</li>
+								
+							</ul>
+							
+							<div class="">
+								
+								<div class="drogue brightRedBg"></div>
+								
+							</div>
+							
+						</nav>
+						
+					</div>
+					
+				<!-- End | Logo Area and Navigation -->
+				
+			</header>
+			
+		<!-- Begin | Header -->
 		
 		
 		
@@ -282,11 +416,103 @@
 			
 			<!-- <t:body/> -->
 			
-			<div class="advancedHide rela row contentPlaceSample"> <!-- advancedHide  -->
+			<div class="advancedHide rela row contentPlaceSample"> <!-- advancedHide -->
 				
 				<div class="grid grid_12 minHeight_500"></div>
 				
 			</div>
+
+			<!-- Begin | Progress Graphic -->
+
+				<div class="row progressGraphic">
+
+					<div class="grid grid_12">
+						
+						<!-- Begin | Progress Area -->
+							
+							<div class="rela graphic"> <!-- Test class: boxRadialGradient -->
+								
+								<div class="absol progressLine"></div>
+
+								<div class="absol milestone borderRaiuds_half milestone_1">
+									
+									<div class="left borderRaiuds_half">
+										
+										<div class="left"></div>
+
+									</div>
+
+								</div>
+
+								<div class="absol milestone borderRaiuds_half milestone_2">
+									
+									<div class="left borderRaiuds_half">
+										
+										<div class="left"></div>
+
+									</div>
+
+								</div>
+
+								<div class="absol milestone borderRaiuds_half milestone_3">
+									
+									<div class="left borderRaiuds_half">
+										
+										<div class="left"></div>
+
+									</div>
+
+								</div>
+
+								<div class="absol milestone borderRaiuds_half milestone_4">
+									
+									<div class="left borderRaiuds_half">
+										
+										<div class="left"></div>
+
+									</div>
+
+								</div>
+								
+							</div>
+
+							<div class="text"> <!-- Test class: boxRadialGradient -->
+								
+								
+								
+							</div>
+							
+						<!-- End | Progress Area -->
+						
+					</div>
+
+				</div>
+
+			<!-- End | Progress Graphic -->
+			
+			<!-- Begin | Main Content -->
+				
+				<div class="row mainContainer"> <!-- Test class: blueBoxGradient -->
+					
+					<div class="grid grid_12"> <!-- Test class: boxRadialGradient -->
+						
+						<i></i>
+						
+						<!-- Begin | Core Area | Switch Area -->
+							
+							<section class="coreArea minHeight_200"> <!-- Hidden Class: " hide "; Switch Class: " sec_1 " -->
+								
+								
+
+							</section>
+
+						<!-- End | Core Area | Switch Area -->
+						
+					</div>
+					
+				</div>
+				
+			<!-- End | Main Content -->
 			
 		<!-- End | Body Content Placeholder -->
 		
@@ -297,6 +523,104 @@
 			//TODO: ...
 			
 		-->
+		
+		
+		
+		<!-- Begin | Footer -->
+			
+			<footer class="rela structureFooter" itemscope itemtype="http://schema.org/WPFooter"> <!-- Browser Compatibility, https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer#Browser_compatibility -->
+				
+				<!-- Begin | Sitemap -->
+					
+					<div class="sitemap row clearfix">
+						
+						<div class="grid grid_3">
+							
+							<h4>关于我们</h4>
+							
+							<a href="#" hreflang="zh">关于亨元金融</a>
+							
+							<a href="#" hreflang="zh">关于我爱我贷网</a>
+							
+							<a href="#" hreflang="zh">公告与新闻</a>
+							
+							<a href="#" hreflang="zh">联系我们</a>
+							
+						</div>
+						
+						<div class="grid grid_3">
+							
+							<h4>新手指南</h4>
+							
+							<a href="#" hreflang="zh">操作流程</a>
+							
+							<a href="#" hreflang="zh">平台原理</a>
+							
+							<a href="#" hreflang="zh">投资流程</a>
+							
+							<a href="#" hreflang="zh">常见问题</a>
+							
+						</div>
+						
+						<div class="grid grid_3">
+							
+							<h4>法律声明</h4>
+							
+							<a href="#" hreflang="zh">网站声明</a>
+							
+							<a href="#" hreflang="zh">免责声明</a>
+							
+							<a href="#" hreflang="zh">隐私条款</a>
+							
+						</div>
+						
+						<div class="spColumn rela grid grid_3">
+							
+							<h4>全国客服热线</h4>
+							
+							<i class="absol left"></i>
+							
+							<a class="absol left cleanLink" href="tel:1-408-555-5555">400-808-5599</a>
+							
+							<span class="absol left">(09:00 - 21:00)</span>
+							
+						</div>
+						
+					</div>
+					
+				<!-- End | Sitemap -->
+				
+				<!-- Begin | Copyright -->
+					
+					<div class="rela copyright">
+						
+						<div class="row">
+							
+							<span class="grid">
+								
+								© 2013-2014 上海亨元金融信息服务有限公司 版权所有 赣ICP备13002945
+								
+							</span>
+							
+							<!-- Begin | CNZZ Tracker Script -->
+								
+								<div class="right">
+									
+									
+									
+								</div>
+								
+							<!-- End | CNZZ Tracker Script -->
+							
+						</div>
+						
+					</div>
+					
+				<!-- Begin | Copyright -->
+				
+			</footer>
+			
+		<!-- End | Footer -->
 		
 		
 		
@@ -369,7 +693,7 @@
 </html>
 
 <!--
- ___________  ______    _____  ___   ___  ___  
+ ___________  ______    _____  ___   ___  ___ 
 ("     _   ")/    " \  (\"   \|"  \ |"  \/"  |
  )__/  \\__/// ____  \ |.\\   \    | \   \  /
     \\_ /  /  /    ) :)|: \.   \\  |  \\  \/
@@ -381,5 +705,5 @@
 
 * Creation Date: ~2013.12.11 14:03 ( Tony ).
 
-* Last Update: 2013.12.16 12:58 ( Tony ).
+* Last Update: 2013.12.24 18:36 ( Tony ).
 -->
