@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.24 14:46 ( Tony ).
  * 
- * Last Update: 2013.12.24 18:36 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2013.12.30 18:14 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -29,28 +29,13 @@
 
 
 /*
-                                                 dddddddd
-BBBBBBBBBBBBBBBBB                                d::::::d
-B::::::::::::::::B                               d::::::d
-B::::::BBBBBB:::::B                              d::::::d
-BB:::::B     B:::::B                             d:::::d
-  B::::B     B:::::B   ooooooooooo       ddddddddd:::::dyyyyyyy           yyyyyyy
-  B::::B     B:::::B oo:::::::::::oo   dd::::::::::::::d y:::::y         y:::::y
-  B::::BBBBBB:::::B o:::::::::::::::o d::::::::::::::::d  y:::::y       y:::::y
-  B:::::::::::::BB  o:::::ooooo:::::od:::::::ddddd:::::d   y:::::y     y:::::y
-  B::::BBBBBB:::::B o::::o     o::::od::::::d    d:::::d    y:::::y   y:::::y
-  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d     y:::::y y:::::y
-  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d      y:::::y:::::y
-  B::::B     B:::::Bo::::o     o::::od:::::d     d:::::d       y:::::::::y
-BB:::::BBBBBB::::::Bo:::::ooooo:::::od::::::ddddd::::::dd       y:::::::y
-B:::::::::::::::::B o:::::::::::::::o d:::::::::::::::::d        y:::::y
-B::::::::::::::::B   oo:::::::::::oo   d:::::::::ddd::::d       y:::::y
-BBBBBBBBBBBBBBBBB      ooooooooooo      ddddddddd   ddddd      y:::::y
-                                                              y:::::y
-                                                             y:::::y
-                                                            y:::::y
-                                                           y:::::y
-                                                          yyyyyyy
+:::::::::   ::::::::  :::::::::  :::   ::: 
+:+:    :+: :+:    :+: :+:    :+: :+:   :+: 
++:+    +:+ +:+    +:+ +:+    +:+  +:+ +:+  
++#++:++#+  +#+    +:+ +#+    +:+   +#++:   
++#+    +#+ +#+    +#+ +#+    +#+    +#+    
+#+#    #+# #+#    #+# #+#    #+#    #+#    
+#########   ########  #########     ###    
 */
 
 body {
@@ -60,53 +45,44 @@ body {
 }
 
 .borderRaiuds_3 {
-  
-  -webkit-border-radius: 3px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
-  
-  -moz-border-radius: 3px;
-    
-    border-radius: 3px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
-  
-  -webkit-background-clip: padding-box;
-  
-  background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
-  
+	
+	-webkit-border-radius: 3px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 3px;
+	
+	border-radius: 3px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
+	
 }
 
+
 .borderRaiuds_half {
-  
-  -webkit-border-radius: 50%; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
-  
-  -moz-border-radius: 50%;
-    
-    border-radius: 50%; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
-  
-  -webkit-background-clip: padding-box;
-  
-  background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
-  
+	
+	-webkit-border-radius: 50%; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 50%;
+	
+	border-radius: 50%; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box; /* useful if you don't want a bg color from leaking outside the border: */
+	
 }
 
 
 
 /*
-																	  dddddddd
-HHHHHHHHH     HHHHHHHHH                                               d::::::d
-H:::::::H     H:::::::H                                               d::::::d
-H:::::::H     H:::::::H                                               d::::::d
-HH::::::H     H::::::HH                                               d:::::d
-  H:::::H     H:::::H      eeeeeeeeeeee    aaaaaaaaaaaaa      ddddddddd:::::d     eeeeeeeeeeee    rrrrr   rrrrrrrrr   
-  H:::::H     H:::::H    ee::::::::::::ee  a::::::::::::a   dd::::::::::::::d   ee::::::::::::ee  r::::rrr:::::::::r  
-  H::::::HHHHH::::::H   e::::::eeeee:::::eeaaaaaaaaa:::::a d::::::::::::::::d  e::::::eeeee:::::eer:::::::::::::::::r 
-  H:::::::::::::::::H  e::::::e     e:::::e         a::::ad:::::::ddddd:::::d e::::::e     e:::::err::::::rrrrr::::::r
-  H:::::::::::::::::H  e:::::::eeeee::::::e  aaaaaaa:::::ad::::::d    d:::::d e:::::::eeeee::::::e r:::::r     r:::::r
-  H::::::HHHHH::::::H  e:::::::::::::::::e aa::::::::::::ad:::::d     d:::::d e:::::::::::::::::e  r:::::r     rrrrrrr
-  H:::::H     H:::::H  e::::::eeeeeeeeeee a::::aaaa::::::ad:::::d     d:::::d e::::::eeeeeeeeeee   r:::::r
-  H:::::H     H:::::H  e:::::::e         a::::a    a:::::ad:::::d     d:::::d e:::::::e            r:::::r
-HH::::::H     H::::::HHe::::::::e        a::::a    a:::::ad::::::ddddd::::::dde::::::::e           r:::::r
-H:::::::H     H:::::::H e::::::::eeeeeeeea:::::aaaa::::::a d:::::::::::::::::d e::::::::eeeeeeee   r:::::r
-H:::::::H     H:::::::H  ee:::::::::::::e a::::::::::aa:::a d:::::::::ddd::::d  ee:::::::::::::e   r:::::r
-HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd    eeeeeeeeeeeeee   rrrrrrr
+:::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::  
+:+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+: 
++:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+ 
++#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:  
++#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+ 
+#+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+# 
+###    ### ########## ###     ### #########  ########## ###    ### 
 */
 
 .structureHeader {
@@ -131,28 +107,13 @@ HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd  
 
 
 /*
-TTTTTTTTTTTTTTTTTTTTTTT                                       BBBBBBBBBBBBBBBBB
-T:::::::::::::::::::::T                                       B::::::::::::::::B                                       
-T:::::::::::::::::::::T                                       B::::::BBBBBB:::::B                                      
-T:::::TT:::::::TT:::::T                                       BB:::::B     B:::::B                                     
-TTTTTT  T:::::T  TTTTTTooooooooooo   ppppp   ppppppppp          B::::B     B:::::B  aaaaaaaaaaaaa  rrrrr   rrrrrrrrr   
-		T:::::T      oo:::::::::::oo p::::ppp:::::::::p         B::::B     B:::::B  a::::::::::::a r::::rrr:::::::::r  
-		T:::::T     o:::::::::::::::op:::::::::::::::::p        B::::BBBBBB:::::B   aaaaaaaaa:::::ar:::::::::::::::::r 
-		T:::::T     o:::::ooooo:::::opp::::::ppppp::::::p       B:::::::::::::BB             a::::arr::::::rrrrr::::::r
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::BBBBBB:::::B     aaaaaaa:::::a r:::::r     r:::::r
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::B     B:::::B  aa::::::::::::a r:::::r     rrrrrrr
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::B     B:::::B a::::aaaa::::::a r:::::r            
-		T:::::T     o::::o     o::::o p:::::p    p::::::p       B::::B     B:::::Ba::::a    a:::::a r:::::r            
-	  TT:::::::TT   o:::::ooooo:::::o p:::::ppppp:::::::p     BB:::::BBBBBB::::::Ba::::a    a:::::a r:::::r            
-	  T:::::::::T   o:::::::::::::::o p::::::::::::::::p      B:::::::::::::::::B a:::::aaaa::::::a r:::::r            
-	  T:::::::::T    oo:::::::::::oo  p::::::::::::::pp       B::::::::::::::::B   a::::::::::aa:::ar:::::r            
-	  TTTTTTTTTTT      ooooooooooo    p::::::pppppppp         BBBBBBBBBBBBBBBBB     aaaaaaaaaa  aaaarrrrrrr            
-									  p:::::p
-									  p:::::p
-									 p:::::::p
-									 p:::::::p
-									 p:::::::p
-									 ppppppppp
+::::::::::: ::::::::  :::::::::        :::::::::      :::     :::::::::  
+    :+:    :+:    :+: :+:    :+:       :+:    :+:   :+: :+:   :+:    :+: 
+    +:+    +:+    +:+ +:+    +:+       +:+    +:+  +:+   +:+  +:+    +:+ 
+    +#+    +#+    +:+ +#++:++#+        +#++:++#+  +#++:++#++: +#++:++#:  
+    +#+    +#+    +#+ +#+              +#+    +#+ +#+     +#+ +#+    +#+ 
+    #+#    #+#    #+# #+#              #+#    #+# #+#     #+# #+#    #+# 
+    ###     ########  ###              #########  ###     ### ###    ### 
 */
 
 .topBarArea {
@@ -202,29 +163,13 @@ TTTTTT  T:::::T  TTTTTTooooooooooo   ppppp   ppppppppp          B::::B     B::::
 
 
 /*
-LLLLLLLLLLL
-L:::::::::L
-L:::::::::L
-LL:::::::LL
-  L:::::L                  ooooooooooo      ggggggggg   ggggg   ooooooooooo
-  L:::::L                oo:::::::::::oo   g:::::::::ggg::::g oo:::::::::::oo
-  L:::::L               o:::::::::::::::o g:::::::::::::::::go:::::::::::::::o
-  L:::::L               o:::::ooooo:::::og::::::ggggg::::::ggo:::::ooooo:::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L         LLLLLLo::::o     o::::og::::::g    g:::::g o::::o     o::::o
-LL:::::::LLLLLLLLL:::::Lo:::::ooooo:::::og:::::::ggggg:::::g o:::::ooooo:::::o
-L::::::::::::::::::::::Lo:::::::::::::::o g::::::::::::::::g o:::::::::::::::o
-L::::::::::::::::::::::L oo:::::::::::oo   gg::::::::::::::g  oo:::::::::::oo
-LLLLLLLLLLLLLLLLLLLLLLLL   ooooooooooo       gggggggg::::::g    ooooooooooo
-													 g:::::g
-										 gggggg      g:::::g
-										 g:::::gg   gg:::::g
-										  g::::::ggg:::::::g
-										   gg:::::::::::::g
-											 ggg::::::ggg
-												gggggg
+:::        ::::::::   ::::::::   ::::::::  
+:+:       :+:    :+: :+:    :+: :+:    :+: 
++:+       +:+    +:+ +:+        +:+    +:+ 
++#+       +#+    +:+ :#:        +#+    +:+ 
++#+       +#+    +#+ +#+   +#+# +#+    +#+ 
+#+#       #+#    #+# #+#    #+# #+#    #+# 
+########## ########   ########   ########  
 */
 
 .logoNavArea > a {
@@ -248,22 +193,13 @@ LLLLLLLLLLLLLLLLLLLLLLLL   ooooooooooo       gggggggg::::::g    ooooooooooo
 
 
 /*
-NNNNNNNN        NNNNNNNN
-N:::::::N       N::::::N
-N::::::::N      N::::::N
-N:::::::::N     N::::::N
-N::::::::::N    N::::::N  aaaaaaaaaaaaavvvvvvv           vvvvvvv
-N:::::::::::N   N::::::N  a::::::::::::av:::::v         v:::::v
-N:::::::N::::N  N::::::N  aaaaaaaaa:::::av:::::v       v:::::v
-N::::::N N::::N N::::::N           a::::a v:::::v     v:::::v
-N::::::N  N::::N:::::::N    aaaaaaa:::::a  v:::::v   v:::::v
-N::::::N   N:::::::::::N  aa::::::::::::a   v:::::v v:::::v
-N::::::N    N::::::::::N a::::aaaa::::::a    v:::::v:::::v
-N::::::N     N:::::::::Na::::a    a:::::a     v:::::::::v
-N::::::N      N::::::::Na::::a    a:::::a      v:::::::v
-N::::::N       N:::::::Na:::::aaaa::::::a       v:::::v
-N::::::N        N::::::N a::::::::::aa:::a       v:::v
-NNNNNNNN         NNNNNNN  aaaaaaaaaa  aaaa        vvv
+::::    :::     :::     :::     :::
+:+:+:   :+:   :+: :+:   :+:     :+:
+:+:+:+  +:+  +:+   +:+  +:+     +:+
++#+ +:+ +#+ +#++:++#++: +#+     +:+
++#+  +#+#+# +#+     +#+  +#+   +#+
+#+#   #+#+# #+#     #+#   #+#+#+#
+###    #### ###     ###     ###
 */
 
 nav {
@@ -297,19 +233,19 @@ nav > ul > li > a {
 	height: 73px;
 	
 	padding-top: 43px;
-
+	
 	border: 0;
-
+	
 	outline: 0;
 	
 }
 
 nav > ul > li > a:focus, nav > ul > li > a:active {
-
+	
 	border: 0;
-
+	
 	outline: 0;
-
+	
 }
 
 .ie7 nav > ul > li > a {
@@ -325,7 +261,7 @@ nav > div {
 }
 
 .drogue {
-
+	
 	display: none;
 	
 	width: 100px;
@@ -337,7 +273,7 @@ nav > div {
 /* Different drogue position for different navigation menu. */
 
 .home .drogue {
-
+	
 	display: block;
 	
 	margin-left: 0;
@@ -345,7 +281,7 @@ nav > div {
 }
 
 .investProject .drogue {
-
+	
 	display: block;
 	
 	margin-left: 140px;
@@ -353,7 +289,7 @@ nav > div {
 }
 
 .investProgress .drogue {
-
+	
 	display: block;
 	
 	margin-left: 280px;
@@ -361,7 +297,7 @@ nav > div {
 }
 
 .aboutUs .drogue {
-
+	
 	display: block;
 	
 	margin-left: 420px;
@@ -371,28 +307,453 @@ nav > div {
 
 
 /*
-BBBBBBBBBBBBBBBBB
-B::::::::::::::::B
-B::::::BBBBBB:::::B
-BB:::::B     B:::::B
-  B::::B     B:::::B   ooooooooooo xxxxxxx      xxxxxxx
-  B::::B     B:::::B oo:::::::::::oox:::::x    x:::::x
-  B::::BBBBBB:::::B o:::::::::::::::ox:::::x  x:::::x  
-  B:::::::::::::BB  o:::::ooooo:::::o x:::::xx:::::x
-  B::::BBBBBB:::::B o::::o     o::::o  x::::::::::x
-  B::::B     B:::::Bo::::o     o::::o   x::::::::x
-  B::::B     B:::::Bo::::o     o::::o   x::::::::x
-  B::::B     B:::::Bo::::o     o::::o  x::::::::::x
-BB:::::BBBBBB::::::Bo:::::ooooo:::::o x:::::xx:::::x
-B:::::::::::::::::B o:::::::::::::::ox:::::x  x:::::x
-B::::::::::::::::B   oo:::::::::::oox:::::x    x:::::x
-BBBBBBBBBBBBBBBBB      ooooooooooo xxxxxxx      xxxxxxx
+:::::::::  :::::::::   ::::::::   ::::::::  :::::::::  :::::::::: ::::::::   ::::::::
+:+:    :+: :+:    :+: :+:    :+: :+:    :+: :+:    :+: :+:       :+:    :+: :+:    :+:
++:+    +:+ +:+    +:+ +:+    +:+ +:+        +:+    +:+ +:+       +:+        +:+
++#++:++#+  +#++:++#:  +#+    +:+ :#:        +#++:++#:  +#++:++#  +#++:++#++ +#++:++#++
++#+        +#+    +#+ +#+    +#+ +#+   +#+# +#+    +#+ +#+              +#+        +#+
+#+#        #+#    #+# #+#    #+# #+#    #+# #+#    #+# #+#       #+#    #+# #+#    #+#
+###        ###    ###  ########   ########  ###    ### ########## ########   ########
+*/
+
+.progressGraphic > div > div {
+	
+	width: 700px;
+	
+	margin: 0 auto;
+	
+}
+
+/* Progress Graphic Area */
+
+.progressGraphic > div > div.graphic {
+	
+	z-index: 5;
+	
+	height: 100px;
+	
+	margin-top: 45px;
+	
+}
+
+/* Progress Line */
+
+.graphic > .progressLine {
+	
+	z-index: 6;
+	
+	height: 7px;
+	
+	width: 554px;
+	
+	top: 46px;
+	
+	left: 73px;
+	
+	background-color: #cacaca;
+	
+}
+
+/* Outside Circles */
+
+.graphic > .milestone {
+	
+	width: 38px;
+	
+	height: 38px;
+	
+	top: 31px;
+	
+	background-color: #ccc;
+	
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
+	
+}
+
+/* Inside Circles */
+
+.graphic > .milestone > div {
+	
+	width: 26px;
+	
+	height: 26px;
+	
+	margin: 6px 6px;
+	
+	background-color: #999;
+	
+}
+
+.graphic > .milestone > div > div {
+	
+	display: none;
+	
+	width: 32px;
+	
+	height: 32px;
+	
+	margin: 27px 27px;
+	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgsAAAAgCAYAAACcqzsSAAAVyElEQVR4Xu1dC4xVxRlmQQGFAgV2TaAPGpOKgkgBbQ02TUXtAzAuBYLPEkUsUl9VY6ttVyoYbRUqFrWUVqQViYDQIj5apSa1aVNleZRNsSkpmkJa2F2B8FSBft/JzM2/s+femXPuOefeObsnmcDec+b1z+P/5n9NTZeIz1lnnfXl3r17X4Fs45HOVNl34N/1H3744XNbt279a8QiO+Tn999/f9e1a9d+b8+ePbfV1NTUnjx5cm9dXd1jmzdvnpdHggwfPnxCjx49lqKfxz744IObtm3b9mIe+5lVnzh/Vq1a9fVu3brdgTS0sbFxcFZ1p10P5sglqGMK0leRPqXqew//voK0DOvlz2m3IQ/lc440NDTcgb58F2kgEmn48Jw5c57CuxN56KPsA+YNedJSpMNIN2OerM9bH7Psj5o/9ajzdqShNa6Vn4une/fuHIhRljyNYAbT/47HteyO9t2wYcP6v//++69iMo8x+z5w4MA1W7ZsmZQnmowYMeLmU089dZHs0/Hjx7+fV2CU5thx7oCWswgSUM8A1vXRRx9twJwZl2a9WZSNzZ57yxKkz1nq24T3M7B+GrNol491gJZ90G4yy4tC2r8cgOHaPAEG9Pdm9LPNHoO/G9DPuXnqZxZzEbSsQz3XImmQyWpfdQILxmZ/BBv9vBMnTrx+4MCBzSylT58+I7t27ToOG9h9+PM0/gYpw2xIGZ7IonM+1SGBAgblUP/+/acdPHjwtV69el2xb9++59iX2traXDBS9vWUU05ZgkR0GswJzJOPY57M1Uzu2LFjN2zfvn2nT2NYibYqsH4X6r7OrB80nOi7pMbY7I+gjw8hvY70tuovgTUBETewYI/BMxuAoXOPMSaEAgpv4GeCrmakK5H+hDQBaVWeaKcYG+fAN1S/uEZ6Ic1Rf7+Jf6/BPHm3EuvWpzoVWL8JbZ4Z0u4JVrBgAIWFLS0t9+zcufNoGBGGDBnSc8CAAQ/j3a187zNgoNi8tbV1BSYZJ16sB8RftHv37m/rzAZQ2AuQdYFklHg/jYCBKgnkI7rz5qHIauXKlf0ABgYDSA7r2bPnhXoesBOSoSmVxDrRuWVHjx59GXmbkHfXlClT9nWeBrp04XoiiAQt7watQiV6mCu7L7/88k/6TC/04U707xE1H+bj33ux7o6FTX582wO/P4j0HfXeW8CgxOYr0Q8NfuKs98U4Pc/S4x8CFMZIRon3ZKoEDM1Uf8apsFJ5lFi8N+ofhDQM6TIkydgmaNWD6Kdu7mL85/dITUi7QbODPq+ZpMZArSeCSB70i0n0mkGvM0qCBQCFL0Dk+Rc2DJv5lU1NTStcGkmmhw0uOCVDJTHCR5XEoEGDDmYJFDRdBw8efJL/B91PKwbKXMYgi28U03++1GYHEfkapBmYO62yTabUoUh7jwBkTPX91Bx1LISqoSCpYxmkpZbS6DJ9BuTsgzrNbFT9mY4194wLvZDvm/huqfp2tI8qCfSBuvVygMJ8bOJ3uwIF0kox3OOKbj2LgTKXMcjiG0dAtRptoY3CHtmmEKlDWJMpxZrS0ewbFG2+hb5LSR3p8yrSVwxC3QX6PFoSLJx33nkvqM1p4caNG2+LMjlGjx79GL6/lRucjzp4zbR37dpllb7Y6GKTKOj8vkkWMMZhm90OjPlWTK6NUFf9zgYUhw4dOgTA8mpM3tGYayNAC200q8lyBHPvdBuN8/BegfNZ6ItUNbSAjgtISwDIV0BXnqoKD0D8ABOI+UQLjDuNFrk5zUffKGFwfpD3UXxMCcNq5J3snLFKPkT7g4MB2l72HmOTKOgu+yZZKAKoaKj5FtJWpOdBvu2lhhRlDMX7qUjcX85H0kazhT0GZXSIPQa0GItO077jKkEzqqqo9qONC8GCSZ++oM+BkpMUzCCYzHE2JDIBiFD/zfzY7MteDFmv76TAgitQIKOAiieQ4kCV44W9h54faY1v2uVnPafC6hOqBtpxFIASjRYJEiZPnvwS1TsAVH9T7wnG3gWwuhh/Rwbx1dBn2QbNMPHbGebJ0NZW5P00vtnJ75JguLb6kn6fFFiIABSoytJSHC/UN0nRqNjYpV1+0nMmTnlK1TANeXngl6oGAoPHIZ16GV4z9JYhACNQIBj7BxJB/GKsLdoxdHECC3GZgc+bfRJgIQ5Q8MkbIu3xTbv8OAsvqTwKTNOj4UYkKYpeeOjQoQXaloVzSAIFqPXq4ZXEE5W3Kr4wsBCX2fu82SfR9phAYTUYxFQfdPZJ0KjUmk27/KT2izjlKDBN+0FKK+UeQ7ugX2iJjFJJSKBAkECwwOds/V0nWCgyCuWChZhAYcP+/fvHV7utgiZZ2sw87fLjLMBy8zBOCZj/LdL2AIt1N6QF8+Bd9Cs59iZQgITvAuU2OTdH7pJlieJ93uzLbXtcoIA5fHW12yrodVYujWzrNe3ybfWn8R59YpwS2iNoDxFWE8TYQPoNVQqCvnSxZZgDLVGgmoZ56U3yJr79ov62EyykABZcgQIZB9wmN7AJkChsqK+vv9QHtN8JFqItcaoa4PlyPRg99etS1bAGAODxd955549miRIoEEzA0PNceomsW7fuIL49LQ/ukuxzuZt1ufmjjWSyX5fT9ghAgTpqug/y8UaiIJhZWWDSNmLljIGt7Czfq/lwDeq8RzF+XT1VDY9AkrTB5C3GHCKYOB/fNUMlEewxSAXvEhbWCRYSBgsxgcIaAIXJPgEFki3tk3/a5ae9mIWqIXAlFk8bVYPZDgUU/oDfRxEoHD58eCzVEtrLiL/57i6ZFDPwebOP2/aOAhQ4R+LSyHVtp12+azvifidUDdqVWBdFVcPCYvElwoACbYbwe8G1lu6Skid1goUEwUJHAgqdYCF84sgwzMoIUX+4A26O801VgytQUPSmcdqoPEW/LHezLjd/3E06iXxx2h4TKHgbsTEOjaKMTdrlR2mL67fK/fVr+P4WJOnmSOnAD5EYHyg0TokCYFQ9vIGkg3YVYnGAHoyKyt8Dd0nZJiewACv9yD7/KkATfVg7hDdERwMKEizEmR+2haFO1y2+zB+tagBAuE+6N9J1GAvwxy53pqg1w3sPaLXeAkPHMdrQUUVwDAwb43gn2ehdqfd6s0b9kX3+kZcBmoIAcXENJCvVb7VpRxKxdzSgIGkUZ37YxlbRc78v80e1lwbRlFRK90bGmViANWC9M6XUHMI76S0TuEtGAQv0vxwQJ7CSdp2kyNTHS26iGDjGAQqgy6KZM2fe6pvqQU4eHWchDeblG1gALf4F2mh7hCAkOujyrGso61JAQQEzBiti/AXv3SXlHMI62Iu/6bZVsLq2bfL6PfLSf55W2+9hY6MbpVdPlFNtBKBA4zaqsPi0ie7oFXFUY9FvHcslsmutrb8om1Fy/+cRWGDIag0SdEj0Z4qpGsz+K3D9Gn7nfSHk7WZ0z2fxG+MvFNwlZRlOQZniRInT+lVfrbZdwYIrUGC0Q1weFYQ4zgNQYD9GjRq1i6foOGDStpD1SdoXsKmDkKl+tcAAcbpr5EkChb59+65Xaos2EgWWJ4FTGrS2jUWa7zG+OiiTc/RG3R7k1VEceSkbb6j06nEFCx0VKKi9UjPIxKN0+gY20V4dhIykIbPnmnG6WdMBKBSAE8oNBe62cM/BbYFxojBi8wxOQr7qV13BAsJC/wwDNpsnJPOuB71zmUBB3hfBYEwuIupq3AUR4fN1Mrg0LPP1/RE+gU11fTtj/evbIENDXcuxNIDCEagezjGlESNHjryPl2/5RAvX+Yp1o++FiByFEXl/jnp4N0AD1uCPXOuslu8igAV94mt3GhTAqahEAfWMdRFRVwtdZDvQdl6AxZNwG8v8JNqKsnml9YtIbVwEkyg7rTLQZo4zr1KgNI5PaKhrg4ZU12mJAiUSo8yolyiXtg7t3CVlOSXBgozCGEXULO0VfD0JuYAF9hNSl8AuA7dHht6BUQooaNfJJEJKpzU5S5WrT9NpAEJxgZlXYnfOiX79+t2pb9Yk/SiZmzRp0lOmyskEClgrnzfDY9OYCe6SjHk/IA1QVol5Y2xkhSiM+N1Z1Cz1zcgXWYVR6X6zfhewoE6E+uK+0H4KpsdizYulAtdJH206FI00IGxncFfuGAqgGip2L7f8tPKrOSEvU2NVs+G90G6PUd/+Fu9pCBkKFJTBJNUxBCBFQZk1DHOc+yH0SQgVNyL64+i0iJZmuS5gQTN7ShXCboksBRTYdpc60uxjuWVrhh5H8mSrW0um4qjAbGVn8V6pUZaiLn1bZCPAwHQNBlyAAtspLmVrmThxYp3PNi7F6C5UEc73Q4iT0CYwwtAbObMY53LqcAQLWmIQapdRCii4ApJy+pB2XvSP9xgsQoosebK1DWVriY0Xoa/N/ig1ynL8rkM4b8L/Z2A90KOBYJQShZJAQX1X1F1S1mkFC9IK2+VkI2+qRMChi8MCztgGsRreuzByoYJocxU1228DCnkAC2JutAAUarFYIsMHsBDbuDaRBiRUiHHFexdKYXAN+aOwUViuojgeCZMo6OpBh9y5S4ZsetIK2ypuxiYov78UmyNFrN49jmBB66nbASkDKLS5gVITw6WOaiacGOvEr9TmIQ99576VuD1EVjRVUgFGXCSg0k8D/sNojVagoMBCUXfJSGCBHwtJAUWqFxbTsUtggWxeiY/NwXUEC3uwUdX27t27AIq0Cx3cCYPBw4RsByR0XS51ZDXp4tSjROTBdbfQtX/G1fLfVpdUf+E03c3307QyUFyAfuvbJCkOZIS0kkAhr+6SYeMvJAV8fVExHbsBFLwSH5v9dmHk+EYb+BVook6MvBhoqSozFCio/SeSe6ZtbWb93rhSOzF1kzqVB/cfQHzv/R6D/tBAkXuMvk2ysMeo9RRIG0LmYEl3Sfm9VbKgP9Zi4VIiZ/kN7ji4ypc7DsKIaGPk3MhbW1sDv3foqGnQdhlOijc2NzfzNsDgKQUU+N5WR9YLM059aRiyCnC6DBILWrzn4hEqhaA/pYA332va4r9eA2+XwVNM4Ul8S4PFot4NQnRMwy5v7jgIo4ENLEiGhvx9keqRJiLJmP8lVTe2OlzGptLfiDFPzJBVgNPlAKZXV7qPSdWPfmmVgi6ypNRE0NYKvK1gISRkbdEN3HAfKxnSNinipFWOjZGToe3du5fXCrd7MABv466HpyGBeaJU+2x1pNW3JMvVXgvocyIhiPNu0CfVdKUMQ/PsLmnOP3UqYkx7HbK26AaOb7XBG4spGdI2yXmeRlk2Ro732lMkrHrqp5eA0ZXcY2x1pNGvpMsU6pZmMwRxnLpcDfrilF0NeQzpW1GApdZdEGcCj1VqUxQsKJBAVwotOu1C1y3YLdxQTNzMDQ6n6yXyRj3kXwad7COmlTdPWbAY729jqJUivo2Rw17hLSzUMbp9BAh1dXVrowTisdVRqb5HqVcyd/T9yqamphVR8pvfdgSDPg2w2Pdi3kJ5dpcUa4ZBlXhNN6UJ+uHFN9cxTn3YPFIb3DK8k2FuaeT1QIg7GKVSvWwMtZz5Wk5eGyPHe+02qKvhhVB0m1sfIRCP12oIdtxg7pPRd0qVYj/i9J0I+IjdkBQzCoDFWkKlC0K64uQ62g4sULzetWvXOZLhU/Vw4sSJBpPhF+trWBnSql2eriBmtko3UqRp0aJtjJzGjbW1tWeD4KtxQlwBJtkatZ22OqKWV6nvtREfpQtQzZwZV/1Eew+4oO5goCdfvSBcx0CoGNp5DOVduqJOPveCVlKcTgbwoLbkttGxSBkFq3a8L9y2WK06aQewQOPGYQogvFwMQJWila0OG52r5T36ob0ieP/BZ0GLoncfWOhBD4H/INGw0UsvCNcxESqGTVgDY6TtVxzpSoFRk4FjAOYZl98sg+FaQ1zDNS2dQKMv4RW7ZKiSIaThn+9KSNt3WTDyLOqw9TOJ90mNqT5Nlws6kuhT2mVINYMJjPIqXVEM/AegrZQKLMbfjGu/PQ7NUaaWTjCC47mMZ4/fyBD+icTQuInpueO0r9KMPEdgIZExFafpskBH0nMhjfIMNUMbYBRHulJDht6jR49fGiAhUXsDohiNaoRdww54DAyPewpNg7iyzCwYeRZ1pE0nXb6KXriBf8dxmS03f1b9TLIe6VYpg57lzV0SGxMDL9HWQIKERO0N5B6D+rS7YVUzhCwYeRZ1JLkmLOBKRqmM7DLLQyvK1/dmRM6fVT+TrEdIZFhsIegZfndyl5RtqZEX4PCkj1POk3FE6rJQdWpqQFnPSTdLqX6wWYInSbA4ZWXByLOoI07f4+aRBq5RxtfV6C9uu6o1n1I3vIX20X0pMBzOo7skNiZ5AQ59wH9q3mgXdYzUqekBghCpulDqCcam4FPV/vNZMPIs6og6duV8L4BgpPE15kXVSpvKoU1YXqVueBvvGLgp8HgwaNHudslibSBYCAxgkvSTly5immmoENDbUBVv5qt6V7AsGHkWdSQ9+UqVx4m5Zs2aVdrexUXCII39aBtTX18/2fe4ClFoLsEB1wruYpmF/DQqzo3bqGZY6JPV4tqVdkKMyixBDAJD/eAcDdK1zqS/y4KRZ1FH0nSx7TENDQ0v4RstpXIJ4qXvgGDRq6G/n9qR9hgDHPCeDe4vNCq2ukvKsSiAhSQNDdWJ6WnVqMCfHEaT4xgv3xd9dBaMPIs6slzIrEuFMdbRCfnTQqib7jHVTVr6hPe8m53PMnx3U7WqpdKko1TNoZ7gmmtf71QJo1MaDEudmH6N+nQQGm6C45DowVXV6gdNozToYtI/izrSXBtF5hPtFxiqWRvIUqU1x5RWoe998PtPFGNkUfSauT6ucWTW/UyyPkM1p6+5jgTeUwEL7KQJGHTHo4inkyRW1LKyYORZ1BG130l9b4Q5PgIV1zy6leLk/LHu3bvPQD0aJAQhkDdv3jwvqbp9K0cBJ1poM6pj4KK8ZcsWMr5cPGkxrBDAoOlVNAJkNRE0LbrIPmZRR6Voir7JOBSMWPgQ0vOqPTfiXx23gz81QKIwtyNJFIx5QOD0X73H4F8nd0lZBsFCEIM/wQFvxAlxLE+IIYCh6tUPmg5wjTwIBNorQbqEFoUJfwiXUPVOu55KlF/Ew6bQFDJFuOTe7uqSW4k+ZFWnVN253MGSVbuSqAdzXMfgT6I4lsF4A5fwhBgCGKpe/aCJALocFpt3UrQJK+cIaHV6mhVUqmwlYn8M9VOyFPYwbse9ri65lepHFvWCVow7slTVZVXfmG2qUTpjorHgVJPQUwAFCjAsAGMYjhDQ430RM5MuiBmwIk3AQKCAuALTtm3bxjvVc/soA0bq4qcgcYN81jR+zW3nI3SMsRewTj4Bu41L83QCwjynznhlwntMQd8qQkWfgzrGl2s8GWHIyvo0JbqYbeKJewposr6sxlZ5ZtCScTWoi78W6RDSC0htjF+rvAuZNA90olfSOZCyfCnqHvN/id2WWs3H9q0AAAAASUVORK5CYII=);
+	
+	/* ../../../img/investment-site/Icons/icon.set.002.png */
+	
+	background-repeat: no-repeat;
+	
+}
+
+/* Default Icons */
+
+.graphic > .milestone_1 > div > div {
+	
+	background-position: 0 0;
+	
+}
+
+.graphic > .milestone_2 > div > div {
+	
+	background-position: -70px 0;
+	
+}
+
+.graphic > .milestone_3 > div > div {
+	
+	background-position: -139px 0;
+	
+}
+
+.graphic > .milestone_4 > div > div {
+	
+	background-position: -210px 0;
+	
+}
+
+/* Different Outside Circle Position */
+
+.graphic > .milestone_1 {
+	
+	z-index: 10;
+	
+	left: 54px;
+	
+}
+
+.graphic > .milestone_2 {
+	
+	z-index: 11;
+	
+	left: 231px;
+	
+}
+
+.graphic > .milestone_3 {
+	
+	z-index: 12;
+	
+	left: 434px;
+	
+}
+
+.graphic > .milestone_4 {
+	
+	z-index: 13;
+	
+	right: 54px;
+	
+}
+
+/* No Complete */
+
+.noComplete .graphic > .milestone_1 {
+	
+	width: 100px;
+	
+	height: 100px;
+	
+	top: 0;
+	
+	left: 0;
+	
+	background-color: #ccc;
+	
+}
+
+.noComplete .graphic > .milestone_1 > div {
+	
+	width: 86px;
+	
+	height: 86px;
+	
+	margin: 7px 7px;
+	
+	background-color: #ccc;
+	
+}
+
+.noComplete .graphic > .milestone_1 > div > div {
+	
+	display: block;
+	
+	background-position: 0 0;
+	
+}
+
+/* Complete Progress One */
+
+.completeOne .graphic > .milestone_1,
+
+.completeTwo .graphic > .milestone_1,
+
+.completeThree .graphic > .milestone_1,
+
+.completeFour .graphic > .milestone_1 {
+	
+	width: 100px;
+	
+	height: 100px;
+	
+	top: 0;
+	
+	left: 0;
+	
+}
+
+.completeOne .graphic > .milestone_1 > div,
+
+.completeTwo .graphic > .milestone_1 > div,
+
+.completeThree .graphic > .milestone_1 > div,
+
+.completeFour .graphic > .milestone_1 > div {
+	
+	width: 86px;
+	
+	height: 86px;
+	
+	margin: 7px 7px;
+	
+	background-color: #fb565c;
+	
+}
+
+.completeOne .graphic > .milestone_1 > div > div,
+
+.completeTwo .graphic > .milestone_1 > div > div,
+
+.completeThree .graphic > .milestone_1 > div > div,
+
+.completeFour .graphic > .milestone_1 > div > div {
+	
+	display: block;
+	
+	background-position: -281px 0;
+	
+}
+
+/* Complete Progress Two */
+
+.completeTwo .graphic > .milestone_2,
+
+.completeThree .graphic > .milestone_2,
+
+.completeFour .graphic > .milestone_2 {
+	
+	width: 100px;
+	
+	height: 100px;
+	
+	top: 0;
+	
+	left: 200px;
+	
+}
+
+.completeTwo .graphic > .milestone_2 > div,
+
+.completeThree .graphic > .milestone_2 > div,
+
+.completeFour .graphic > .milestone_2 > div {
+	
+	width: 86px;
+	
+	height: 86px;
+	
+	margin: 7px 7px;
+	
+	background-color: #fb565c;
+	
+}
+
+.completeTwo .graphic > .milestone_2 > div > div,
+
+.completeThree .graphic > .milestone_2 > div > div,
+
+.completeFour .graphic > .milestone_2 > div > div {
+	
+	display: block;
+	
+	background-position: -350px 0;
+	
+}
+
+/* Complete Progress Three */
+
+.completeThree .graphic > .milestone_3,
+
+.completeFour .graphic > .milestone_3 {
+	
+	width: 100px;
+	
+	height: 100px;
+	
+	top: 0;
+	
+	left: 403px;
+	
+}
+
+.completeThree .graphic > .milestone_3 > div,
+
+.completeFour .graphic > .milestone_3 > div {
+	
+	width: 86px;
+	
+	height: 86px;
+	
+	margin: 7px 7px;
+	
+	background-color: #fb565c;
+	
+}
+
+.completeThree .graphic > .milestone_3 > div > div,
+
+.completeFour .graphic > .milestone_3 > div > div {
+	
+	display: block;
+	
+	background-position: -421px 0;
+	
+}
+
+/* Complete Progress Four */
+
+.completeFour .graphic > .milestone_4 {
+	
+	width: 100px;
+	
+	height: 100px;
+	
+	top: 0;
+	
+	right: 0;
+	
+}
+
+.completeFour .graphic > .milestone_4 > div {
+	
+	width: 86px;
+	
+	height: 86px;
+	
+	margin: 7px 7px;
+	
+	background-color: #fb565c;
+	
+}
+
+.completeFour .graphic > .milestone_4 > div > div {
+	
+	display: block;
+	
+	background-position: -490px 0;
+	
+}
+
+/* Progress Text Area */
+
+.progressGraphic > div > div.text {
+	
+	color: #666;
+	
+	font-size: 16px;
+	
+	font-family: "微软雅黑";
+	
+	z-index: 10;
+	
+	height: 20px;
+	
+	margin-top: 15px;
+	
+}
+
+.progressGraphic > div > div.text > h1 {
+	
+	font-weight: normal;
+	
+}
+
+.progressGraphic > div > div.text > .h_1 {
+	
+	z-index: 20;
+	
+	left: 20px;
+	
+}
+
+.progressGraphic > div > div.text > .h_2 {
+	
+	z-index: 21;
+	
+	left: 217px;
+	
+}
+
+.progressGraphic > div > div.text > .h_3 {
+	
+	z-index: 22;
+	
+	left: 421px;
+	
+}
+
+.progressGraphic > div > div.text > .h_4 {
+	
+	z-index: 23;
+	
+	left: 635px;
+	
+}
+
+.noComplete .progressGraphic > div > div.text > .h_4,
+
+.completeOne .progressGraphic > div > div.text > .h_4,
+
+.completeTwo .progressGraphic > div > div.text > .h_4,
+
+.completeThree .progressGraphic > div > div.text > .h_4 {
+	
+	left: 612px;
+	
+}
+
+
+
+/*
+:::::::::   ::::::::  :::    ::: 
+:+:    :+: :+:    :+: :+:    :+: 
++:+    +:+ +:+    +:+  +:+  +:+  
++#++:++#+  +#+    +:+   +#++:+   
++#+    +#+ +#+    +#+  +#+  +#+  
+#+#    #+# #+#    #+# #+#    #+# 
+#########   ########  ###    ### 
 */
 
 .mainContainer {
-
+	
 	margin-top: 45px;
-
+	
 	margin-bottom: 90px;
 	
 }
@@ -408,393 +769,24 @@ BBBBBBBBBBBBBBBBB      ooooooooooo xxxxxxx      xxxxxxx
 }
 
 .mainContainer > div > .coreArea {
-
+	
 	background-color: #FFF;
-
-}
-
-/* Progress Graphic */
-
-.progressGraphic > div > div {
-
-	width: 700px;
-
-	margin: 0 auto;
-
-}
-
-/* Progress Graphic Area */
-
-.progressGraphic > div > div.graphic {
-
-	z-index: 5;
-
-	height: 100px;
-
-	margin-top: 45px;
-	
-}
-
-/* Progress Line */
-
-.graphic > .progressLine {
-
-	z-index: 6;
-
-	height: 7px;
-
-	width: 554px;
-
-	top: 46px;
-
-	left: 73px;
-
-	background-color: #cacaca;
-
-}
-
-/* Outside Circles */
-
-.graphic > .milestone {
-
-	width: 38px;
-
-	height: 38px;
-
-	top: 31px;
-
-	background-color: #ccc;
-
-	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.15);
-
-}
-
-/* Inside Circles */
-
-.graphic > .milestone > div {
-
-	width: 26px;
-
-	height: 26px;
-
-	margin: 6px 6px;
-
-	background-color: #999;
-
-}
-
-.graphic > .milestone > div > div {
-
-	display: none;
-
-	width: 32px;
-
-	height: 32px;
-
-	margin: 27px 27px;
-
-	background-image: url(../../../img/investment-site/Icons/icon.set.002.png);
-
-	background-repeat: no-repeat;
-
-}
-
-/* Different Outside Circle Position */
-
-.graphic > .milestone_1 {
-
-	z-index: 10;
-
-	left: 54px;
-
-}
-
-.graphic > .milestone_1 > div > div {
-
-	background-position: 0 0;
-
-}
-
-.graphic > .milestone_2 {
-
-	z-index: 11;
-
-	left: 231px;
-
-}
-
-.graphic > .milestone_2 > div > div {
-
-	background-position: -70px 0;
-
-}
-
-.graphic > .milestone_3 {
-
-	z-index: 12;
-
-	left: 434px;
-
-}
-
-.graphic > .milestone_3 > div > div {
-
-	background-position: -139px 0;
-
-}
-
-.graphic > .milestone_4 {
-
-	z-index: 13;
-
-	right: 54px;
-
-}
-
-.graphic > .milestone_4 > div > div {
-
-	background-position: -210px 0;
-
-}
-
-/* No Complete */
-
-.noComplete .graphic > .milestone_1 {
-
-	width: 100px;
-
-	height: 100px;
-
-	top: 0;
-
-	left: 0;
-
-	background-color: #ccc;
-
-}
-
-.noComplete .graphic > .milestone_1 > div {
-
-	width: 86px;
-
-	height: 86px;
-
-	margin: 7px 7px;
-
-	background-color: #ccc;
-
-}
-
-.noComplete .graphic > .milestone_1 > div > div {
-
-	display: block;
-
-	background-position: 0 0;
-
-}
-
-/* Complete Progress One */
-
-.completeOne .graphic > .milestone_1,
-
-.completeTwo .graphic > .milestone_1,
-
-.completeThree .graphic > .milestone_1,
-
-.completeFour .graphic > .milestone_1 {
-
-	width: 100px;
-
-	height: 100px;
-
-	top: 0;
-
-	left: 0;
-
-}
-
-.completeOne .graphic > .milestone_1 > div,
-
-.completeTwo .graphic > .milestone_1 > div,
-
-.completeThree .graphic > .milestone_1 > div,
-
-.completeFour .graphic > .milestone_1 > div {
-
-	width: 86px;
-
-	height: 86px;
-
-	margin: 7px 7px;
-
-	background-color: #fb565c;
-
-}
-
-.completeOne .graphic > .milestone_1 > div > div,
-
-.completeTwo .graphic > .milestone_1 > div > div,
-
-.completeThree .graphic > .milestone_1 > div > div,
-
-.completeFour .graphic > .milestone_1 > div > div {
-
-	display: block;
-
-	background-position: -281px 0;
-	
-}	
-
-/* Complete Progress Two */
-
-.completeTwo .graphic > .milestone_2,
-
-.completeThree .graphic > .milestone_2,
-
-.completeFour .graphic > .milestone_2 {
-
-	width: 100px;
-
-	height: 100px;
-
-	top: 0;
-
-	left: 200px;
-	
-}
-
-.completeTwo .graphic > .milestone_2 > div,
-
-.completeThree .graphic > .milestone_2 > div,
-
-.completeFour .graphic > .milestone_2 > div {
-
-	width: 86px;
-
-	height: 86px;
-
-	margin: 7px 7px;
-
-	background-color: #fb565c;
-	
-}
-
-.completeTwo .graphic > .milestone_2 > div > div,
-
-.completeThree .graphic > .milestone_2 > div > div,
-
-.completeFour .graphic > .milestone_2 > div > div {
-
-	display: block;
-
-	background-position: -350px 0;
-	
-}
-
-/* Complete Progress Three */
-
-.completeThree .graphic > .milestone_3,
-
-.completeFour .graphic > .milestone_3 {
-
-	width: 100px;
-
-	height: 100px;
-
-	top: 0;
-
-	left: 403px;
-	
-}
-
-.completeThree .graphic > .milestone_3 > div,
-
-.completeFour .graphic > .milestone_3 > div {
-
-	width: 86px;
-
-	height: 86px;
-
-	margin: 7px 7px;
-
-	background-color: #fb565c;
-	
-}
-
-.completeThree .graphic > .milestone_3 > div > div,
-
-.completeFour .graphic > .milestone_3 > div > div {
-
-	display: block;
-	
-	background-position: -421px 0;
-	
-}
-
-/* Complete Progress Four */
-
-.completeFour .graphic > .milestone_4 {
-
-	width: 100px;
-
-	height: 100px;
-
-	top: 0;
-
-	right: 0;
-	
-}
-
-.completeFour .graphic > .milestone_4 > div {
-
-	width: 86px;
-
-	height: 86px;
-
-	margin: 7px 7px;
-
-	background-color: #fb565c;
-	
-}
-
-.completeFour .graphic > .milestone_4 > div > div {
-
-	display: block;
-	
-	background-position: -490px 0;
-	
-}
-
-/* Progress Text Area */
-
-.progressGraphic > div > div.text {
-	
-	height: 30px;
 	
 }
 
 
 /*
-FFFFFFFFFFFFFFFFFFFFFF                                        tttt
-F::::::::::::::::::::F                                     ttt:::t
-F::::::::::::::::::::F                                     t:::::t
-FF::::::FFFFFFFFF::::F                                     t:::::t
-  F:::::F       FFFFFFooooooooooo      ooooooooooo   ttttttt:::::ttttttt        eeeeeeeeeeee    rrrrr   rrrrrrrrr
-  F:::::F           oo:::::::::::oo  oo:::::::::::oo t:::::::::::::::::t      ee::::::::::::ee  r::::rrr:::::::::r
-  F::::::FFFFFFFFFFo:::::::::::::::oo:::::::::::::::ot:::::::::::::::::t     e::::::eeeee:::::eer:::::::::::::::::r
-  F:::::::::::::::Fo:::::ooooo:::::oo:::::ooooo:::::otttttt:::::::tttttt    e::::::e     e:::::err::::::rrrrr::::::r
-  F:::::::::::::::Fo::::o     o::::oo::::o     o::::o      t:::::t          e:::::::eeeee::::::e r:::::r     r:::::r
-  F::::::FFFFFFFFFFo::::o     o::::oo::::o     o::::o      t:::::t          e:::::::::::::::::e  r:::::r     rrrrrrr
-  F:::::F          o::::o     o::::oo::::o     o::::o      t:::::t          e::::::eeeeeeeeeee   r:::::r
-  F:::::F          o::::o     o::::oo::::o     o::::o      t:::::t    tttttte:::::::e            r:::::r
-FF:::::::FF        o:::::ooooo:::::oo:::::ooooo:::::o      t::::::tttt:::::te::::::::e           r:::::r
-F::::::::FF        o:::::::::::::::oo:::::::::::::::o      tt::::::::::::::t e::::::::eeeeeeee   r:::::r
-F::::::::FF         oo:::::::::::oo  oo:::::::::::oo         tt:::::::::::tt  ee:::::::::::::e   r:::::r
-FFFFFFFFFFF           ooooooooooo      ooooooooooo             ttttttttttt      eeeeeeeeeeeeee   rrrrrrr
+:::::::::: ::::::::   :::::::: ::::::::::: :::::::::: :::::::::  
+:+:       :+:    :+: :+:    :+:    :+:     :+:        :+:    :+: 
++:+       +:+    +:+ +:+    +:+    +:+     +:+        +:+    +:+ 
+:#::+::#  +#+    +:+ +#+    +:+    +#+     +#++:++#   +#++:++#:  
++#+       +#+    +#+ +#+    +#+    +#+     +#+        +#+    +#+ 
+#+#       #+#    #+# #+#    #+#    #+#     #+#        #+#    #+# 
+###        ########   ########     ###     ########## ###    ### 
 */
 
 .structureFooter {
-
+	
 	z-index: 0;
 	
 	background-color: #f9f9f9;

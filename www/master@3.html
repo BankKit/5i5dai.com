@@ -44,7 +44,7 @@
 		
 		<base target="_self"/>
 		
-		<meta http-equiv="X-UA-Compatible" content="ie = EmulateIE7, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
+		<meta http-equiv="X-UA-Compatible" content="ie = edge, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
 		
 		<meta name="viewport" content="width = 1200, minimal-ui"/> <!-- IOS Safari: Fixed in iOS 7.1 beta 2, A property, minimal-ui, has been added for the viewport meta tag key that allows minimizing the top and bottom bars on the iPhone as the page loads. While on a page using minimal-ui, tapping the top bar brings the bars back. Tapping back in the content dismisses them again. Reference, http://www.everythingicafe.com/forum/threads/lets-talk-ios-7-1-beta-2.104595/ -->
 		
@@ -247,20 +247,20 @@
 		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/scaffolding/util.css"/>
 		
 		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/scaffolding/grid.css"/>
-
+		
 		<!-- Begin | Master Stylesheet -->
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.css"/>
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.css"/> -->
 			
-			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.min.css"/>
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.min.css"/>
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.plus.css"/> -->
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@3.plus.css"/> -->
 			
 		<!-- End | Master Stylesheet -->
-
+		
 		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/framework/component/context.menu.min.css"/>
-
-		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/media_query/print.css"/>
+		
+		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/media_query/print.min.css"/>
 		
 		<!--[if (gte IE 6)&(lte IE 9)]>
 			
@@ -274,7 +274,7 @@
 		
 	</head>
 	
-	<body class="antialiased box_bgsize home noComplete"> <!-- Use " home ", " investProject ", " investProgress ", " aboutUs " four classes to switch the selected nvigation menu. Use "noComplete", " completeOne ", " completeTwo ", " completeThree ", " completeFour " to control the progress. -->
+	<body class="antialiased box_bgsize completeTwo"> <!-- Use " home ", " investProject ", " investProgress ", " aboutUs " four classes to switch the selected nvigation menu. Use "noComplete", " completeOne ", " completeTwo ", " completeThree ", " completeFour " to control the progress. -->
 		
 		
 		
@@ -416,16 +416,10 @@
 			
 			<!-- <t:body/> -->
 			
-			<div class="advancedHide rela row contentPlaceSample"> <!-- advancedHide -->
-				
-				<div class="grid grid_12 minHeight_500"></div>
-				
-			</div>
-
 			<!-- Begin | Progress Graphic -->
-
+				
 				<div class="row progressGraphic">
-
+					
 					<div class="grid grid_12">
 						
 						<!-- Begin | Progress Area -->
@@ -433,61 +427,67 @@
 							<div class="rela graphic"> <!-- Test class: boxRadialGradient -->
 								
 								<div class="absol progressLine"></div>
-
-								<div class="absol milestone borderRaiuds_half milestone_1">
+								
+								<div class="absol milestone borderRaiuds_half milestone_1" title="我爱我贷网投资流程：确认信息">
 									
 									<div class="left borderRaiuds_half">
 										
 										<div class="left"></div>
-
+										
 									</div>
-
+									
 								</div>
-
-								<div class="absol milestone borderRaiuds_half milestone_2">
+								
+								<div class="absol milestone borderRaiuds_half milestone_2" title="我爱我贷网投资流程：确认合同">
 									
 									<div class="left borderRaiuds_half">
 										
 										<div class="left"></div>
-
+										
 									</div>
-
+									
 								</div>
-
-								<div class="absol milestone borderRaiuds_half milestone_3">
+								
+								<div class="absol milestone borderRaiuds_half milestone_3" title="我爱我贷网投资流程：安全验证">
 									
 									<div class="left borderRaiuds_half">
 										
 										<div class="left"></div>
-
+										
 									</div>
-
+									
 								</div>
-
-								<div class="absol milestone borderRaiuds_half milestone_4">
+								
+								<div class="absol milestone borderRaiuds_half milestone_4" title="我爱我贷网投资流程：投资成功">
 									
 									<div class="left borderRaiuds_half">
 										
 										<div class="left"></div>
-
+										
 									</div>
-
+									
 								</div>
 								
 							</div>
-
-							<div class="text"> <!-- Test class: boxRadialGradient -->
+							
+							<div class="rela text"> <!-- Test class: boxRadialGradient -->
 								
+								<h1 class="absol h_1">确认信息</h1>
 								
+								<h1 class="absol h_2">确认合同</h1>
+								
+								<h1 class="absol h_3">安全验证</h1>
+								
+								<h1 class="absol h_4">完成</h1>
 								
 							</div>
 							
 						<!-- End | Progress Area -->
 						
 					</div>
-
+					
 				</div>
-
+				
 			<!-- End | Progress Graphic -->
 			
 			<!-- Begin | Main Content -->
@@ -498,15 +498,45 @@
 						
 						<i></i>
 						
-						<!-- Begin | Core Area | Switch Area -->
+						<!-- Begin | Core Area | Switch Area | Registration Progress 1st -->
 							
-							<section class="coreArea minHeight_200"> <!-- Hidden Class: " hide "; Switch Class: " sec_1 " -->
+							<section class="coreArea minHeight_200 sec_1"> <!-- Hidden Class: " hide "; Switch Class: " sec_1 ", " sec_2 ", " sec_3 ", " sec_4 " -->
 								
 								
-
+								
 							</section>
-
-						<!-- End | Core Area | Switch Area -->
+							
+						<!-- End | Core Area | Switch Area | Registration Progress 1st -->
+						
+						<!-- Begin | Core Area | Switch Area | Registration Progress 2nd -->
+							
+							<section class="hide coreArea minHeight_200 sec_2"> <!-- Hidden Class: " hide "; Switch Class: " sec_1 ", " sec_2 ", " sec_3 ", " sec_4 " -->
+								
+								
+								
+							</section>
+							
+						<!-- End | Core Area | Switch Area | Registration Progress 2nd -->
+						
+						<!-- Begin | Core Area | Switch Area | Registration Progress 3rd -->
+							
+							<section class="hide coreArea minHeight_200 sec_3"> <!-- Hidden Class: " hide "; Switch Class: " sec_1 ", " sec_2 ", " sec_3 ", " sec_4 " -->
+								
+								
+								
+							</section>
+							
+						<!-- End | Core Area | Switch Area | Registration Progress 3rd -->
+						
+						<!-- Begin | Core Area | Switch Area | Registration Progress 4th -->
+							
+							<section class="hide coreArea minHeight_200 sec_4"> <!-- Hidden Class: " hide "; Switch Class: " sec_1 ", " sec_2 ", " sec_3 ", " sec_4 " -->
+								
+								
+								
+							</section>
+							
+						<!-- End | Core Area | Switch Area | Registration Progress 4th -->
 						
 					</div>
 					
@@ -705,5 +735,5 @@
 
 * Creation Date: ~2013.12.11 14:03 ( Tony ).
 
-* Last Update: 2013.12.24 18:36 ( Tony ).
+* Last Update: 2013.12.30 18:12 ( Tony ).
 -->
