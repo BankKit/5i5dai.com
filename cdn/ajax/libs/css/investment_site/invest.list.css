@@ -1,0 +1,780 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for the investment list page (../../../../../../www/invest.list.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ *     
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2014.01.02 14:17 ( Tony ).
+ * 
+ * Last Update: 2014.01.03 16:51 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+
+
+/*
+:::::::::   ::::::::  :::::::::  :::   :::
+:+:    :+: :+:    :+: :+:    :+: :+:   :+:
++:+    +:+ +:+    +:+ +:+    +:+  +:+ +:+
++#++:++#+  +#+    +:+ +#+    +:+   +#++:
++#+    +#+ +#+    +#+ +#+    +#+    +#+
+#+#    #+# #+#    #+# #+#    #+#    #+#
+#########   ########  #########     ###
+*/
+
+body {
+	
+	background-color: #f1f1f1;
+	
+}
+
+
+
+/*
+:::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+:+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
++:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
++#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
++#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+#+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+###    ### ########## ###     ### #########  ########## ###    ###
+*/
+
+.structureHeader {
+	
+	z-index: 0;
+	
+	background-color: #FFF;
+	
+}
+
+
+
+/*
+:::::::::      :::     ::::    ::: ::::    ::: :::::::::: :::::::::
+:+:    :+:   :+: :+:   :+:+:   :+: :+:+:   :+: :+:        :+:    :+:
++:+    +:+  +:+   +:+  :+:+:+  +:+ :+:+:+  +:+ +:+        +:+    +:+
++#++:++#+  +#++:++#++: +#+ +:+ +#+ +#+ +:+ +#+ +#++:++#   +#++:++#:
++#+    +#+ +#+     +#+ +#+  +#+#+# +#+  +#+#+# +#+        +#+    +#+
+#+#    #+# #+#     #+# #+#   #+#+# #+#   #+#+# #+#        #+#    #+#
+#########  ###     ### ###    #### ###    #### ########## ###    ###
+*/
+
+.investBanner {
+	
+	width: 100%;
+	
+	height: 120px;
+	
+	background: url(../../img/investment-site/invest.list.banner.jpg) center center no-repeat;
+	
+}
+
+
+
+/*
+ ::::::::   ::::::::  ::::    ::: ::::::::::: :::     ::::::::::: ::::    ::: :::::::::: :::::::::
+:+:    :+: :+:    :+: :+:+:   :+:     :+:   :+: :+:       :+:     :+:+:   :+: :+:        :+:    :+:
++:+        +:+    +:+ :+:+:+  +:+     +:+  +:+   +:+      +:+     :+:+:+  +:+ +:+        +:+    +:+
++#+        +#+    +:+ +#+ +:+ +#+     +#+ +#++:++#++:     +#+     +#+ +:+ +#+ +#++:++#   +#++:++#:
++#+        +#+    +#+ +#+  +#+#+#     +#+ +#+     +#+     +#+     +#+  +#+#+# +#+        +#+    +#+
+#+#    #+# #+#    #+# #+#   #+#+#     #+# #+#     #+#     #+#     #+#   #+#+# #+#        #+#    #+#
+ ########   ########  ###    ####     ### ###     ### ########### ###    #### ########## ###    ###
+*/
+
+.mainContainer {
+	
+	margin-top: 33px;
+	
+}
+
+
+
+/*
+::::::::::: :::     :::::::::  :::        ::::::::::       ::::::::::: ::::::::::: ::::::::::: :::        ::::::::::
+    :+:   :+: :+:   :+:    :+: :+:        :+:                  :+:         :+:         :+:     :+:        :+:
+    +:+  +:+   +:+  +:+    +:+ +:+        +:+                  +:+         +:+         +:+     +:+        +:+
+    +#+ +#++:++#++: +#++:++#+  +#+        +#++:++#             +#+         +#+         +#+     +#+        +#++:++#
+    +#+ +#+     +#+ +#+    +#+ +#+        +#+                  +#+         +#+         +#+     +#+        +#+
+    #+# #+#     #+# #+#    #+# #+#        #+#                  #+#         #+#         #+#     #+#        #+#
+    ### ###     ### #########  ########## ##########           ###     ###########     ###     ########## ##########
+*/
+
+.tableTitle {
+
+	z-index: 0;
+	
+	width: 1170px;
+	
+	height: 60px;
+	
+	border-bottom: 3px solid rgb(218, 68, 83);
+	
+	-webkit-border-radius: 5px 5px 0 0;
+	
+	-moz-border-radius: 5px 5px 0 0;
+	
+	border-radius: 5px 5px 0 0;
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box;
+	
+	background: rgb(251, 86, 92);
+	
+}
+
+.ie-lt9 .tableTitle {
+	
+	border: 0;
+	
+	background: url(../../img/investment-site/invest.list.table.title.png) center center no-repeat;
+	
+}
+
+.tableTitle > h1 {
+	
+	color: #FFF;
+
+	font-weight: normal;
+
+	font-size: 16px;
+
+	font-family: "微软雅黑";
+
+	line-height: 55px;
+
+	margin-left: 30px;
+
+}
+
+.tableTitle > .iptTitle {
+
+	color: #333;
+	
+	font-size: 12px;
+	
+	top: 22px;
+	
+}
+
+.ie7 .tableTitle > .iptTitle {
+
+	top: 24px;
+
+}
+
+.ie8 .tableTitle > .iptTitle,
+
+.ie9 .tableTitle > .iptTitle,
+
+.ie10 .tableTitle > .iptTitle {
+
+	top: 23px;
+
+}
+
+.tableTitle > .it_1 {
+	
+	z-index: 100;
+	
+	left: 580px;
+	
+}
+
+.tableTitle > .it_2 {
+	
+	z-index: 200;
+	
+	left: 778px;
+	
+}
+
+.tableTitle > .it_3 {
+	
+	z-index: 300;
+	
+	left: 975px;
+	
+}
+
+/*
+ ::::::::  :::::::::: :::        :::::::::: :::::::: ::::::::::: ::::::::  :::::::::  
+:+:    :+: :+:        :+:        :+:       :+:    :+:    :+:    :+:    :+: :+:    :+: 
++:+        +:+        +:+        +:+       +:+           +:+    +:+    +:+ +:+    +:+ 
++#++:++#++ +#++:++#   +#+        +#++:++#  +#+           +#+    +#+    +:+ +#++:++#:  
+       +#+ +#+        +#+        +#+       +#+           +#+    +#+    +#+ +#+    +#+ 
+#+#    #+# #+#        #+#        #+#       #+#    #+#    #+#    #+#    #+# #+#    #+# 
+ ########  ########## ########## ########## ########     ###     ########  ###    ### 
+*/
+
+.tableTitle > .slt {
+
+	width: 186px;
+
+	height: 26px;
+
+	margin-top: 16px;
+
+	margin-left: 12px;
+
+}
+
+.tableTitle > .slt > select {
+	
+	position: absolute;
+	
+	*left: -999999px;
+
+	width: 186px;
+
+}
+
+.tableTitle > .span_1 {
+
+	color: #FFF;
+
+	font-size: 12px;
+
+	margin-top: 22px;
+
+	margin-left: 420px;
+
+}
+
+.ie7 .tableTitle > .span_1 {
+
+	margin-top: 25px;
+
+}
+
+
+
+/*
+::::::::::: :::     :::::::::  :::        ::::::::::       :::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+    :+:   :+: :+:   :+:    :+: :+:        :+:              :+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
+    +:+  +:+   +:+  +:+    +:+ +:+        +:+              +:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
+    +#+ +#++:++#++: +#++:++#+  +#+        +#++:++#         +#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
+    +#+ +#+     +#+ +#+    +#+ +#+        +#+              +#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+    #+# #+#     #+# #+#    #+# #+#        #+#              #+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+    ### ###     ### #########  ########## ##########       ###    ### ########## ###     ### #########  ########## ###    ###
+*/
+
+.tableHeader {
+	
+	height: 35px;
+	
+	background: #a4aeb9;
+	
+	border-bottom: 2px solid #93999e;
+	
+}
+
+.ie7 .tableHeader {
+	
+	height: 32px;
+	
+}
+
+.ie-lt9 .tableHeader {
+
+	margin-top: -1px;
+	
+}
+
+.tableHeader > span {
+	
+	color: #fff;
+	
+	margin-top: 9px;
+	
+}
+
+.tableHeader > .h_1 {
+	
+	margin-left: 30px;
+	
+}
+
+.tableHeader > .h_2 {
+	
+	margin-left: 173px;
+	
+}
+
+.tableHeader > .h_3 {
+	
+	margin-left: 153px;
+	
+}
+
+.tableHeader > .h_4 {
+	
+	margin-left: 139px;
+	
+}
+
+.tableHeader > .h_5 {
+	
+	margin-left: 140px;
+	
+}
+
+.tableHeader > .h_6 {
+	
+	margin-left: 157px;
+	
+}
+
+
+
+/*
+::::::::::: :::     :::::::::  :::        ::::::::::       :::::::::   ::::::::  :::       ::: 
+    :+:   :+: :+:   :+:    :+: :+:        :+:              :+:    :+: :+:    :+: :+:       :+: 
+    +:+  +:+   +:+  +:+    +:+ +:+        +:+              +:+    +:+ +:+    +:+ +:+       +:+ 
+    +#+ +#++:++#++: +#++:++#+  +#+        +#++:++#         +#++:++#:  +#+    +:+ +#+  +:+  +#+ 
+    +#+ +#+     +#+ +#+    +#+ +#+        +#+              +#+    +#+ +#+    +#+ +#+ +#+#+ +#+ 
+    #+# #+#     #+# #+#    #+# #+#        #+#              #+#    #+# #+#    #+#  #+#+# #+#+#  
+    ### ###     ### #########  ########## ##########       ###    ###  ########    ###   ###   
+*/
+
+.tableRowSet {
+	
+	background-color: #e3e4e8;
+	
+	padding-bottom: 3px;
+
+	-webkit-border-radius: 0 0 4px 4px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 0 0 4px 4px;
+	
+	border-radius: 0 0 4px 4px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+}
+
+.tableRow {
+	
+	background-color: #FFF;
+	
+}
+
+.tableRow > div {
+	
+	color: #333;
+	
+	height: 50px;
+	
+	padding-top: 16px;
+	
+}
+
+.tableRow.lastRow {
+
+	-webkit-border-radius: 0 0 4px 4px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 0 0 4px 4px;
+	
+	border-radius: 0 0 4px 4px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+}
+
+.tableRow.oddRow {
+	
+	background-color: #f6f8fa;
+	
+}
+
+.tableRow.hovers {
+	
+	background-color: #e3e4e8;
+	
+}
+
+.ie7 .tableRow > div {
+	
+	height: 34px;
+	
+}
+
+.tableRow > .trow1 {
+	
+	width: 25px;
+	
+}
+
+.tableRow > .trow2 {
+	
+	width: 190px;
+	
+}
+
+.tableRow > .trow3 {
+	
+	color: #F00;
+	
+	width: 145px;
+	
+}
+
+.tableRow > .trow4 {
+	
+	width: 270px;
+	
+}
+
+.tableRow > .trow5 {
+	
+	color: #F00;
+	
+	width: 150px;
+	
+}
+
+.tableRow > .trow6 {
+	
+	width: 270px;
+	
+}
+
+.tableRow > .trow7 {
+	
+	color: #7d7d7d;
+	
+	font-size: 12px;
+	
+	width: 110px;
+
+	margin-left: 10px;
+	
+	padding-top: 17px;
+	
+}
+
+.tableRow > .trow7 > a {
+	
+	display: block;
+	
+	color: #FFF;
+	
+	font-size: 12px;
+	
+	line-height: 23px;
+	
+	text-decoration: none;
+	
+	width: 70px;
+	
+	height: 23px;
+	
+	margin-top: -5px;
+	
+	margin-left: 20px;
+	
+	border-radius: 3px;
+
+	outline: 0;
+	
+	background: #fb6268; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNjI2OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNDNlNDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb6268 0%, #f43e45 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb6268), color-stop(100%,#f43e45)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb6268 0%,#f43e45 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb6268 0%,#f43e45 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb6268 0%,#f43e45 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb6268 0%,#f43e45 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb6268', endColorstr='#f43e45',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.tableRow > .trow7 > a:hover {
+	
+	background: #fc696e; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjNjk2ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjU2NWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fc696e 0%, #fb565c 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc696e), color-stop(100%,#fb565c)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fc696e 0%,#fb565c 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc696e', endColorstr='#fb565c',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.tableRow > .trow7 > a:active {
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYzY4NmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #fc686e 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#fc686e)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#fc686e 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#fc686e',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie9 .tableRow > .trow7 > a {
+	
+	filter: none;
+	
+}
+
+.ie7 .tableRow > .trow7 > a {
+
+	margin-left: 3px;
+
+}
+
+
+
+/*
+:::::::::     :::      :::::::: ::::::::::: ::::    :::     ::: ::::::::::: ::::::::::: ::::::::  ::::    ::: 
+:+:    :+:  :+: :+:   :+:    :+:    :+:     :+:+:   :+:   :+: :+:   :+:         :+:    :+:    :+: :+:+:   :+: 
++:+    +:+ +:+   +:+  +:+           +:+     :+:+:+  +:+  +:+   +:+  +:+         +:+    +:+    +:+ :+:+:+  +:+ 
++#++:++#+ +#++:++#++: :#:           +#+     +#+ +:+ +#+ +#++:++#++: +#+         +#+    +#+    +:+ +#+ +:+ +#+ 
++#+       +#+     +#+ +#+   +#+#    +#+     +#+  +#+#+# +#+     +#+ +#+         +#+    +#+    +#+ +#+  +#+#+# 
+#+#       #+#     #+# #+#    #+#    #+#     #+#   #+#+# #+#     #+# #+#         #+#    #+#    #+# #+#   #+#+# 
+###       ###     ###  ######## ########### ###    #### ###     ### ###     ########### ########  ###    #### 
+*/
+
+.paginationContainer {
+
+	margin-top: 50px;
+
+	margin-bottom: 110px;
+
+}
+
+.pagination {
+
+	display: inline-block;
+
+	min-width: 300px;
+
+	height: 32px;
+
+	margin: 0 auto;
+
+}
+
+.pagination > li {
+
+	color: #999;
+
+	margin-left: 15px;
+
+}
+
+.pagination > li.pgEllipsis {
+
+	padding-top: 13px;
+
+}
+
+.pagination > li.pg_1 {
+
+	margin-left: 0;
+
+}
+
+.pagination > li > a {
+
+	display: block;
+
+	color: #999;
+
+	font-size: 12px;
+
+	line-height: 32px;
+
+	text-decoration: none;
+
+	width: 32px;
+
+	height: 32px;
+
+	border: 1px solid #e9e9e9;
+
+	outline: 0;
+
+	background-color: #FFF;
+
+}
+
+.ie7 .pagination > li > a {
+
+	width: 30px;
+
+	height: 30px;
+
+}
+
+.pagination > li > a:hover {
+
+	border: 1px solid #fb565c;
+
+	background-color: #fee;s
+
+}
+
+.pagination > li > a:active {
+
+	color: #030000;
+
+	border: 1px solid #fb565c;
+
+	background-color: #fedcdd;
+
+}
+
+.pagination > li.current > a {
+
+	color: #FFF;
+
+	border: 1px solid #fb565c;
+
+	background-color: #fb565c;
+
+}
+
+.pagination > .pgPrev > a,
+
+.pagination > .pgNext > a {
+
+	width: 70px;
+
+}
+
+.ie7 .pagination > .pgPrev > a,
+
+.ie7 .pagination > .pgNext > a {
+
+	width: 70px;
+
+}
+
+.pagination > .pgTool {
+
+	line-height: 32px;
+
+	font-size: 12px;
+
+}
+
+.pagination > .pgTool > form {
+
+	display: inline-block;
+
+	margin: 0;
+
+	padding: 0;
+
+}
+
+.pagination > .pgTool > form > input {
+
+	display: inline-block;
+
+	width: 39px;
+
+	height: 22px;
+
+	line-height: 20px;
+
+	border: 1px solid #e9e9e9;
+
+}
+
+.ie7 .pagination > .pgTool > form > input  {
+
+	line-height: 17px;
+
+	height: 18px;
+
+}
+
+.ie8 .pagination > .pgTool > form > input {
+
+	line-height: 17px;
+
+	height: 20px;
+
+}
+
+.pagination > .pgTool > form > button {
+
+	display: inline-block;
+
+	color: #FFF;
+
+	font-size: 12px;
+
+	line-height: 20px;
+
+	width: 40px;
+
+	height: 20px;
+
+	padding: 0;
+
+	background-color: #999999;
+
+}
+
+.ie8 .pagination > .pgTool > form > button,
+
+.ie9 .pagination > .pgTool > form > button,
+
+.ie10 .pagination > .pgTool > form > button,
+
+.ie11 .pagination > .pgTool > form > button {
+
+	position: relative;
+
+	top: -1px !important;
+
+}
