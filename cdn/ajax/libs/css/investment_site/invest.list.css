@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.01.02 14:17 ( Tony ).
  * 
- * Last Update: 2014.01.03 16:51 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.07 15:03 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -697,25 +697,25 @@ body {
 
 }
 
-.pagination > .pgTool {
+.pgTool {
 
-	line-height: 32px;
+	display: inline-block;
 
 	font-size: 12px;
 
-}
+	height: 32px;
 
-.pagination > .pgTool > form {
-
-	display: inline-block;
+	line-height: 32px;
 
 	margin: 0;
 
 	padding: 0;
 
+	margin-left: 15px;
+
 }
 
-.pagination > .pgTool > form > input {
+.pgTool > input {
 
 	display: inline-block;
 
@@ -729,7 +729,7 @@ body {
 
 }
 
-.ie7 .pagination > .pgTool > form > input  {
+.ie7 .pgTool > input  {
 
 	line-height: 17px;
 
@@ -737,7 +737,7 @@ body {
 
 }
 
-.ie8 .pagination > .pgTool > form > input {
+.ie8 .pgTool > input {
 
 	line-height: 17px;
 
@@ -745,7 +745,7 @@ body {
 
 }
 
-.pagination > .pgTool > form > button {
+.pgTool > .btnCommmit {
 
 	display: inline-block;
 
@@ -765,13 +765,13 @@ body {
 
 }
 
-.ie8 .pagination > .pgTool > form > button,
+.ie8 .pgTool > .btnCommmit,
 
-.ie9 .pagination > .pgTool > form > button,
+.ie9 .pgTool > .btnCommmit,
 
-.ie10 .pagination > .pgTool > form > button,
+.ie10 .pgTool > .btnCommmit,
 
-.ie11 .pagination > .pgTool > form > button {
+.ie11 .pgTool > .btnCommmit {
 
 	position: relative;
 
