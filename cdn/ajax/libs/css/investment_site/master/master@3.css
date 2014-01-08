@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.24 14:46 ( Tony ).
  * 
- * Last Update: 2013.12.30 18:14 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.08 17:28 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -144,6 +144,14 @@ body {
 	
 	border-left: 1px solid #ccc;
 	
+}
+
+.topBar .aMsg > span {
+	
+	color: #fb565c !important;
+
+	font-family: "黑体";
+
 }
 
 .topBar a.noBoard {
