@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.24 13:54 ( Tony ).
  * 
- * Last Update: 2013.12.24 14:00 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.09 14:19 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -29,363 +29,353 @@
 
 
 /*
-                                                                    dddddddd
-               AAA                                iiii              d::::::d
-              A:::A                              i::::i             d::::::d
-             A:::::A                              iiii              d::::::d
-            A:::::::A                                               d:::::d
-           A:::::::::A             ssssssssss   iiiiiii     ddddddddd:::::d     eeeeeeeeeeee
-          A:::::A:::::A          ss::::::::::s  i:::::i   dd::::::::::::::d   ee::::::::::::ee
-         A:::::A A:::::A       ss:::::::::::::s  i::::i  d::::::::::::::::d  e::::::eeeee:::::ee
-        A:::::A   A:::::A      s::::::ssss:::::s i::::i d:::::::ddddd:::::d e::::::e     e:::::e
-       A:::::A     A:::::A      s:::::s  ssssss  i::::i d::::::d    d:::::d e:::::::eeeee::::::e
-      A:::::AAAAAAAAA:::::A       s::::::s       i::::i d:::::d     d:::::d e:::::::::::::::::e
-     A:::::::::::::::::::::A         s::::::s    i::::i d:::::d     d:::::d e::::::eeeeeeeeeee
-    A:::::AAAAAAAAAAAAA:::::A  ssssss   s:::::s  i::::i d:::::d     d:::::d e:::::::e
-   A:::::A             A:::::A s:::::ssss::::::si::::::id::::::ddddd::::::dde::::::::e
-  A:::::A               A:::::As::::::::::::::s i::::::i d:::::::::::::::::d e::::::::eeeeeeee
- A:::::A                 A:::::As:::::::::::ss  i::::::i  d:::::::::ddd::::d  ee:::::::::::::e
-AAAAAAA                   AAAAAAAsssssssssss    iiiiiiii   ddddddddd   ddddd    eeeeeeeeeeeeee
+    :::      :::::::: ::::::::::: :::::::::  ::::::::::
+  :+: :+:   :+:    :+:    :+:     :+:    :+: :+:
+ +:+   +:+  +:+           +:+     +:+    +:+ +:+
++#++:++#++: +#++:++#++    +#+     +#+    +:+ +#++:++#
++#+     +#+        +#+    +#+     +#+    +#+ +#+
+#+#     #+# #+#    #+#    #+#     #+#    #+# #+#
+###     ###  ######## ########### #########  ##########
 */
 
 .leftSide {
-
-  z-index: 5;
-
-  background-color: #3b4458;
-
+	
+	z-index: 5;
+	
+	background-color: #3b4458;
+	
 }
 
 /* Basic Info */
 
 .leftSide > .ul_1 {
-
-  color: #FFF;
-
-  margin: 45px 25px 0 25px;
-
+	
+	color: #FFF;
+	
+	margin: 45px 25px 0 25px;
+	
 }
 
 .leftSide > .ul_1 > li {
-
-  font-size: 12px;
-
-  width: 100%;
-
-  *width: 100%;
-
-  margin-top: 22px;
-
-  overflow: hidden;
-
+	
+	font-size: 12px;
+	
+	width: 100%;
+	
+	*width: 100%;
+	
+	margin-top: 22px;
+	
+	overflow: hidden;
+	
 }
 
 .leftSide > .ul_1 > li.li1_2 > span {
-
-  margin: 0 3px;
-
+	
+	margin: 0 3px;
+	
 }
 
 .leftSide > .ul_1 > li.rna {
-
-  width: 50%;
-
-  *width: 50%;
-
+	
+	width: 50%;
+	
+	*width: 50%;
+	
 }
 
 .leftSide > .ul_1 > li.ea {
-
-  width: 50%;
-
-  *width: 50%;
-
+	
+	width: 50%;
+	
+	*width: 50%;
+	
 }
 
 .leftSide > .ul_1 > li.withIcon_1 > i {
-
-  display: block;
-
-  width: 25px;
-
-  height: 15px;
-
-  background-image: url(../../img/investment-site/icons/icon.set.001.png);
-
-  background-repeat: no-repeat;
-
+	
+	display: block;
+	
+	width: 25px;
+	
+	height: 15px;
+	
+	background-image: url(../../../img/investment-site/Icons/icon.set.001.png);
+	
+	background-repeat: no-repeat;
+	
 }
 
 .leftSide > .ul_1 > li.unRead > i {
-
-  background-position: 0 1px;
-
+	
+	background-position: 0 1px;
+	
 }
 
 .leftSide > .ul_1 > li.unpass > i {
-
-  background-position: 0 -30px;
-
+	
+	background-position: 0 -30px;
+	
 }
 
 .leftSide > .ul_1 > li.pass > i {
-
-  background-position: -45px -30px;
-
+	
+	background-position: -45px -30px;
+	
 }
 
 .leftSide > .ul_1 > li:first-child {
-
-  margin-top: 0;
-
+	
+	margin-top: 0;
+	
 }
 
 .leftSide .greeting {
-
-  color: #eee;
-
-  font: 18px/normal "微软雅黑";
-
+	
+	color: #eee;
+	
+	font: 18px/normal"微软雅黑";
+	
 }
 
 .leftSide > .ul_1 .safeGrade {
-
-  top: 2px;
-
-  right: 30px;
-
-  width: 100px;
-
-  height: 10px;
-
-  overflow: hidden;
-
-  background-color: #FFF;
-
+	
+	top: 2px;
+	
+	right: 30px;
+	
+	width: 100px;
+	
+	height: 10px;
+	
+	overflow: hidden;
+	
+	background-color: #FFF;
+	
 }
 
 .ie7 .leftSide > .ul_1 .safeGrade,
 
 .ie8 .leftSide > .ul_1 .safeGrade {
-
-  top: 1px;
-
+	
+	top: 1px;
+	
 }
 
 .leftSide > .ul_1 .safeGrade > div {
-
-  height: 10px;
-
+	
+	height: 10px;
+	
 }
 
 .leftSide > .ul_1 > .li1_3.lowSafe > .safeGrade > div {
-
-  width: 35px;
-
-  background-color: #fb565c;
-
+	
+	width: 35px;
+	
+	background-color: #fb565c;
+	
 }
 
 .leftSide > .ul_1 > .li1_3.lowSafe > .span_2 {
-
-  color: #fb565c;
-
+	
+	color: #fb565c;
+	
 }
 
 .leftSide > .ul_1 > .li1_3.commonSafe > .safeGrade > div {
-
-  width: 70px;
-
-  background-color: #ffba00;
-
+	
+	width: 70px;
+	
+	background-color: #ffba00;
+	
 }
 
 .leftSide > .ul_1 > .li1_3.commonSafe > .span_2 {
-
-  color: #ffba00;
-
+	
+	color: #ffba00;
+	
 }
 
 .leftSide > .ul_1 > .li1_3.highSafe > .safeGrade > div {
-
-  width: 100px;
-
-  background-color: #33cc00;
-
+	
+	width: 100px;
+	
+	background-color: #33cc00;
+	
 }
 
 .leftSide > .ul_1 > .li1_3.highSafe > .span_2 {
-
-  color: #33cc00;
-
+	
+	color: #33cc00;
+	
 }
 
 .leftSide > .ul_1 > .li1_3 {
-
-  height: 15px;
-
+	
+	height: 15px;
+	
 }
 
 .leftSide > .ul_1 > .li1_3 > span.span_1 {
-
-  top: 0;
-
-  left: 0;
-
+	
+	top: 0;
+	
+	left: 0;
+	
 }
 
 .leftSide > .ul_1 > .li1_3 > span.span_2 {
-
-  top: 0;
-
-  right: 10px;
-
+	
+	top: 0;
+	
+	right: 10px;
+	
 }
 
 /* Tab Navigation */
 
 .leftSide > .ul_2 {
-
-  color: #FFF;
-
-  margin: 45px 13px 0 13px;
-
+	
+	color: #FFF;
+	
+	margin: 45px 13px 0 13px;
+	
 }
 
 .leftSide > .ul_2 > li {
-
-  color: #eee;
-
-  font-weight: bold;
-
-  width: 100%;
-
-  *width: 100%;
-
-  border-bottom: 1px solid #646974;
-
+	
+	color: #eee;
+	
+	font-weight: bold;
+	
+	width: 100%;
+	
+	*width: 100%;
+	
+	border-bottom: 1px solid #646974;
+	
 }
 
 .leftSide > .ul_2 > li > a {
-
-  display: block;
-
-  color: #eee;
-
-  text-decoration: none;
-
-  height: 50px;
-
+	
+	display: block;
+	
+	color: #eee;
+	
+	text-decoration: none;
+	
+	height: 50px;
+	
 }
 
 .leftSide > .ul_2 > li > a > i.i_1 {
-
-  display: block;
-
-  width: 23px;
-
-  height: 23px;
-
-  margin-top: 13px;
-
-  margin-left: 12px;
-
-  background-image: url(../../img/investment-site/icons/icon.set.001.png);
-
-  background-repeat: no-repeat;
-
+	
+	display: block;
+	
+	width: 23px;
+	
+	height: 23px;
+	
+	margin-top: 13px;
+	
+	margin-left: 12px;
+	
+	background-image: url(../../../img/investment-site/Icons/icon.set.001.png);
+	
+	background-repeat: no-repeat;
+	
 }
 
 .leftSide > .ul_2 > li.li2_1 > a > i.i_1 {
-
-  background-position: 0 -92px;
-
+	
+	background-position: 0 -92px;
+	
 }
 
 .leftSide > .ul_2 > li.li2_2 > a > i.i_1 {
-
-  background-position: 0 -120px;
-
+	
+	background-position: 0 -120px;
+	
 }
 
 .leftSide > .ul_2 > li.li2_3 > a > i.i_1 {
-
-  background-position: 0 -149px;
-
+	
+	background-position: 0 -149px;
+	
 }
 
 .leftSide > .ul_2 > li.li2_4 > a > i.i_1 {
-
-  background-position: 0 -149px;
-
+	
+	background-position: 0 -149px;
+	
 }
 
 .leftSide > .ul_2 > li > a > span {
-
-  margin-top: 15px;
-
-  margin-left: 7px;
-
+	
+	margin-top: 15px;
+	
+	margin-left: 7px;
+	
 }
 
 .leftSide > .ul_2 > li > a > i.i_2 {
-
-  width: 9px;
-
-  height: 14px;
-
-  margin-top: 19px;
-
-  margin-right: 30px;
-
-  background-image: url(../../img/investment-site/icons/icon.set.001.png);
-
-  background-position: 0 -60px;
-
-  background-repeat: no-repeat;
-
+	
+	width: 9px;
+	
+	height: 14px;
+	
+	margin-top: 19px;
+	
+	margin-right: 30px;
+	
+	background-image: url(../../../img/investment-site/Icons/icon.set.001.png);
+	
+	background-position: 0 -60px;
+	
+	background-repeat: no-repeat;
+	
 }
 
 /* Current Tab Nacigation */
 
 .leftSide > .ul_2 > li.current > a {
-
-  background-color: #fb565c;
-
+	
+	background-color: #fb565c;
+	
 }
 
 .leftSide > .ul_2 > li.current > a > i.i_1 {
-
-  margin-left: 28px;
-
+	
+	margin-left: 28px;
+	
 }
 
 .leftSide > .ul_2 > li.current > a > i.i_2 {
-
-  background-position: -45px -60px;
-
+	
+	background-position: -45px -60px;
+	
 }
 
 .leftSide > .ul_2 > li.li2_1.current > a > i.i_1 {
-
-  background-position: -45px -92px;
-
+	
+	background-position: -45px -92px;
+	
 }
 
 .leftSide > .ul_2 > li.li2_2.current > a > i.i_1 {
-
-  background-position: -45px -120px;
-
+	
+	background-position: -45px -120px;
+	
 }
 
 .leftSide > .ul_2 > li.li2_3.current > a > i.i_1 {
-
-  background-position: -45px -149px;
-
+	
+	background-position: -45px -149px;
+	
 }
 
 .leftSide > .ul_2 > li.li2_4.current > a > i.i_1 {
-
-  background-position: -45px -181px;
-
+	
+	background-position: -45px -181px;
+	
 }

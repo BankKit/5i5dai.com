@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.21 21:24 ( Tony ).
  * 
- * Last Update: 2014.01.08 17:28 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.09 14:49 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -29,23 +29,13 @@
 
 
 /*
-																	  dddddddd
-HHHHHHHHH     HHHHHHHHH                                               d::::::d
-H:::::::H     H:::::::H                                               d::::::d
-H:::::::H     H:::::::H                                               d::::::d
-HH::::::H     H::::::HH                                               d:::::d
-  H:::::H     H:::::H      eeeeeeeeeeee    aaaaaaaaaaaaa      ddddddddd:::::d     eeeeeeeeeeee    rrrrr   rrrrrrrrr   
-  H:::::H     H:::::H    ee::::::::::::ee  a::::::::::::a   dd::::::::::::::d   ee::::::::::::ee  r::::rrr:::::::::r  
-  H::::::HHHHH::::::H   e::::::eeeee:::::eeaaaaaaaaa:::::a d::::::::::::::::d  e::::::eeeee:::::eer:::::::::::::::::r 
-  H:::::::::::::::::H  e::::::e     e:::::e         a::::ad:::::::ddddd:::::d e::::::e     e:::::err::::::rrrrr::::::r
-  H:::::::::::::::::H  e:::::::eeeee::::::e  aaaaaaa:::::ad::::::d    d:::::d e:::::::eeeee::::::e r:::::r     r:::::r
-  H::::::HHHHH::::::H  e:::::::::::::::::e aa::::::::::::ad:::::d     d:::::d e:::::::::::::::::e  r:::::r     rrrrrrr
-  H:::::H     H:::::H  e::::::eeeeeeeeeee a::::aaaa::::::ad:::::d     d:::::d e::::::eeeeeeeeeee   r:::::r
-  H:::::H     H:::::H  e:::::::e         a::::a    a:::::ad:::::d     d:::::d e:::::::e            r:::::r
-HH::::::H     H::::::HHe::::::::e        a::::a    a:::::ad::::::ddddd::::::dde::::::::e           r:::::r
-H:::::::H     H:::::::H e::::::::eeeeeeeea:::::aaaa::::::a d:::::::::::::::::d e::::::::eeeeeeee   r:::::r
-H:::::::H     H:::::::H  ee:::::::::::::e a::::::::::aa:::a d:::::::::ddd::::d  ee:::::::::::::e   r:::::r
-HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd    eeeeeeeeeeeeee   rrrrrrr
+:::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+:+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
++:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
++#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
++#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+#+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+###    ### ########## ###     ### #########  ########## ###    ###
 */
 
 .structureHeader {
@@ -56,28 +46,13 @@ HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd  
 
 
 /*
-TTTTTTTTTTTTTTTTTTTTTTT                                       BBBBBBBBBBBBBBBBB
-T:::::::::::::::::::::T                                       B::::::::::::::::B                                       
-T:::::::::::::::::::::T                                       B::::::BBBBBB:::::B                                      
-T:::::TT:::::::TT:::::T                                       BB:::::B     B:::::B                                     
-TTTTTT  T:::::T  TTTTTTooooooooooo   ppppp   ppppppppp          B::::B     B:::::B  aaaaaaaaaaaaa  rrrrr   rrrrrrrrr   
-		T:::::T      oo:::::::::::oo p::::ppp:::::::::p         B::::B     B:::::B  a::::::::::::a r::::rrr:::::::::r  
-		T:::::T     o:::::::::::::::op:::::::::::::::::p        B::::BBBBBB:::::B   aaaaaaaaa:::::ar:::::::::::::::::r 
-		T:::::T     o:::::ooooo:::::opp::::::ppppp::::::p       B:::::::::::::BB             a::::arr::::::rrrrr::::::r
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::BBBBBB:::::B     aaaaaaa:::::a r:::::r     r:::::r
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::B     B:::::B  aa::::::::::::a r:::::r     rrrrrrr
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::B     B:::::B a::::aaaa::::::a r:::::r            
-		T:::::T     o::::o     o::::o p:::::p    p::::::p       B::::B     B:::::Ba::::a    a:::::a r:::::r            
-	  TT:::::::TT   o:::::ooooo:::::o p:::::ppppp:::::::p     BB:::::BBBBBB::::::Ba::::a    a:::::a r:::::r            
-	  T:::::::::T   o:::::::::::::::o p::::::::::::::::p      B:::::::::::::::::B a:::::aaaa::::::a r:::::r            
-	  T:::::::::T    oo:::::::::::oo  p::::::::::::::pp       B::::::::::::::::B   a::::::::::aa:::ar:::::r            
-	  TTTTTTTTTTT      ooooooooooo    p::::::pppppppp         BBBBBBBBBBBBBBBBB     aaaaaaaaaa  aaaarrrrrrr            
-									  p:::::p
-									  p:::::p
-									 p:::::::p
-									 p:::::::p
-									 p:::::::p
-									 ppppppppp
+::::::::::: ::::::::  :::::::::        :::::::::      :::     :::::::::
+    :+:    :+:    :+: :+:    :+:       :+:    :+:   :+: :+:   :+:    :+:
+    +:+    +:+    +:+ +:+    +:+       +:+    +:+  +:+   +:+  +:+    +:+
+    +#+    +#+    +:+ +#++:++#+        +#++:++#+  +#++:++#++: +#++:++#:
+    +#+    +#+    +#+ +#+              +#+    +#+ +#+     +#+ +#+    +#+
+    #+#    #+#    #+# #+#              #+#    #+# #+#     #+# #+#    #+#
+    ###     ########  ###              #########  ###     ### ###    ###
 */
 
 .topBarArea {
@@ -113,9 +88,9 @@ TTTTTT  T:::::T  TTTTTTooooooooooo   ppppp   ppppppppp          B::::B     B::::
 .topBar .aMsg > span {
 	
 	color: #fb565c !important;
-
+	
 	font-family: "黑体";
-
+	
 }
 
 .topBar a.noBoard {
@@ -135,29 +110,13 @@ TTTTTT  T:::::T  TTTTTTooooooooooo   ppppp   ppppppppp          B::::B     B::::
 
 
 /*
-LLLLLLLLLLL
-L:::::::::L
-L:::::::::L
-LL:::::::LL
-  L:::::L                  ooooooooooo      ggggggggg   ggggg   ooooooooooo
-  L:::::L                oo:::::::::::oo   g:::::::::ggg::::g oo:::::::::::oo
-  L:::::L               o:::::::::::::::o g:::::::::::::::::go:::::::::::::::o
-  L:::::L               o:::::ooooo:::::og::::::ggggg::::::ggo:::::ooooo:::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L         LLLLLLo::::o     o::::og::::::g    g:::::g o::::o     o::::o
-LL:::::::LLLLLLLLL:::::Lo:::::ooooo:::::og:::::::ggggg:::::g o:::::ooooo:::::o
-L::::::::::::::::::::::Lo:::::::::::::::o g::::::::::::::::g o:::::::::::::::o
-L::::::::::::::::::::::L oo:::::::::::oo   gg::::::::::::::g  oo:::::::::::oo
-LLLLLLLLLLLLLLLLLLLLLLLL   ooooooooooo       gggggggg::::::g    ooooooooooo
-													 g:::::g
-										 gggggg      g:::::g
-										 g:::::gg   gg:::::g
-										  g::::::ggg:::::::g
-										   gg:::::::::::::g
-											 ggg::::::ggg
-												gggggg
+:::        ::::::::   ::::::::   ::::::::
+:+:       :+:    :+: :+:    :+: :+:    :+:
++:+       +:+    +:+ +:+        +:+    +:+
++#+       +#+    +:+ :#:        +#+    +:+
++#+       +#+    +#+ +#+   +#+# +#+    +#+
+#+#       #+#    #+# #+#    #+# #+#    #+#
+########## ########   ########   ########
 */
 
 .logoNavArea > a {
@@ -181,22 +140,13 @@ LLLLLLLLLLLLLLLLLLLLLLLL   ooooooooooo       gggggggg::::::g    ooooooooooo
 
 
 /*
-NNNNNNNN        NNNNNNNN
-N:::::::N       N::::::N
-N::::::::N      N::::::N
-N:::::::::N     N::::::N
-N::::::::::N    N::::::N  aaaaaaaaaaaaavvvvvvv           vvvvvvv
-N:::::::::::N   N::::::N  a::::::::::::av:::::v         v:::::v
-N:::::::N::::N  N::::::N  aaaaaaaaa:::::av:::::v       v:::::v
-N::::::N N::::N N::::::N           a::::a v:::::v     v:::::v
-N::::::N  N::::N:::::::N    aaaaaaa:::::a  v:::::v   v:::::v
-N::::::N   N:::::::::::N  aa::::::::::::a   v:::::v v:::::v
-N::::::N    N::::::::::N a::::aaaa::::::a    v:::::v:::::v
-N::::::N     N:::::::::Na::::a    a:::::a     v:::::::::v
-N::::::N      N::::::::Na::::a    a:::::a      v:::::::v
-N::::::N       N:::::::Na:::::aaaa::::::a       v:::::v
-N::::::N        N::::::N a::::::::::aa:::a       v:::v
-NNNNNNNN         NNNNNNN  aaaaaaaaaa  aaaa        vvv
+::::    :::     :::     :::     :::
+:+:+:   :+:   :+: :+:   :+:     :+:
+:+:+:+  +:+  +:+   +:+  +:+     +:+
++#+ +:+ +#+ +#++:++#++: +#+     +:+
++#+  +#+#+# +#+     +#+  +#+   +#+
+#+#   #+#+# #+#     #+#   #+#+#+#
+###    #### ###     ###     ###
 */
 
 nav {
@@ -230,19 +180,19 @@ nav > ul > li > a {
 	height: 73px;
 	
 	padding-top: 43px;
-
+	
 	border: 0;
-
+	
 	outline: 0;
 	
 }
 
 nav > ul > li > a:focus, nav > ul > li > a:active {
-
+	
 	border: 0;
-
+	
 	outline: 0;
-
+	
 }
 
 .ie7 nav > ul > li > a {
@@ -258,7 +208,7 @@ nav > div {
 }
 
 .drogue {
-
+	
 	display: none;
 	
 	width: 100px;
@@ -270,7 +220,7 @@ nav > div {
 /* Different drogue position for different navigation menu. */
 
 .home .drogue {
-
+	
 	display: block;
 	
 	margin-left: 0;
@@ -278,7 +228,7 @@ nav > div {
 }
 
 .investProject .drogue {
-
+	
 	display: block;
 	
 	margin-left: 140px;
@@ -286,7 +236,7 @@ nav > div {
 }
 
 .investProgress .drogue {
-
+	
 	display: block;
 	
 	margin-left: 280px;
@@ -294,7 +244,7 @@ nav > div {
 }
 
 .aboutUs .drogue {
-
+	
 	display: block;
 	
 	margin-left: 420px;
