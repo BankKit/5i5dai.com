@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2014.01.02 14:10 ( Tony ).
  * 
- * Last Update: 2014.01.03 16:41 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.09 11:51 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -45,20 +45,24 @@
 		var SJ, slt, easing, modernizr, mute, tlns, extend, _mod, evtName;
 		
 		SJ = require('jquery');
-
+		
 		slt = require('slt');
 		
 		easing = require('easing');
-
+		
 		modernizr = require('modernizr');
 			
 		mute = true; //TODO: Have to cancel "console" function before release.
 		
 		tlns = tlns || {}; //top-level namespace
-
+		
 		modernizr.touch ? evtName = 'touchstart' : evtName = 'click';
 		
 		
+		
+		/**
+		 * Module: Automating nested namespacing function.
+		 */
 		
 		extend = function (ns, nsString) { // Usage, eg: var tlns = extend(tlns, "tlns.ns1.ns2.ns3");
 			
@@ -97,17 +101,17 @@
 			tlns.init = function () {
 				
 				SJ("select").selecter({
-
+					
 					callback: function (value) {
-
+						
 						if (!mute) {
 							
 							console.log('Value: ' + value + '.');
 							
 						}
-
+						
 					}
-
+					
 				});
 				
 			};
@@ -133,19 +137,19 @@
 		_mod = (function (hawaii) {
 			
 			tlns.init = function () {
-
+				
 				for (var i = 1; i <= 14; i++) {
-
+					
 					if (i%2 == 1) {
-
+						
 						SJ('<div class="minHeight_50 tableRow clearfix"><div class="left trow1"></div><div class="left trow2">汇通-安心贷 2000001111</div><div class="left trow3 textCenter">&yen;25,000.00</div><div class="left trow4 textCenter">36个月</div><div class="left trow5 textCenter">10.00%</div><div class="left trow6 textCenter">2013-03-12</div><div class="left trow7 textCenter">交易成功</div></div>').appendTo(SJ('.tableRowSet'));
-
+						
 					} else {
-
+						
 						SJ('.tableRowSet').children(".tableRow").filter(':first').clone(true).appendTo(SJ('.tableRowSet'));
-
+						
 					}
-
+					
 				}
 				
 			};
