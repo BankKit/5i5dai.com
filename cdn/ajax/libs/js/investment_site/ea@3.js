@@ -19,7 +19,7 @@
  * 
  * Creation Date: 2013.12.19 17:45 ( Tony ).
  * 
- * Last Update: 2013.12.19 17:45 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.12 22:26 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -30,7 +30,7 @@
 
 define(function () {
 
-	require(['common'], function (common) {
+	require(['common.min'], function (common) {
 		
 		require(['investment_site/app/ea@3.main']);
 		
