@@ -1,4 +1,5 @@
 ###" 充值明细 " 页面已经完成（PM 2014.01.15.14）###
+------------------------------------------------
 
 [里程碑 " 0.1.0-alpha " 镜像文件更新/提交记录](http://goo.gl/cSYhBQ)。
 
@@ -18,10 +19,10 @@
 
 + （小牛）将 Github 项目中 [account@4.main.js](http://goo.gl/qoD8PR) 文件复制添加至 Eclipse 项目中相关目录下
 
-+ （小牛）将 Github 项目中 [account@4.logic.js](http://goo.gl/lFW8zA), [account@4.logic.min.js](http://goo.gl/fmLGj3), [account@4.logic.plus.js](http://goo.gl/MDeC6L) 3个文件复制添加至 Eclipse 项目中相关目录下
++ （小牛）将 Github 项目中 [account@4.logic.js](http://goo.gl/lFW8zA), [account@4.logic.min.js](http://goo.gl/fmLGj3), [account@4.logic.plus.js](http://goo.gl/MDeC6L) **3**个文件复制添加至 Eclipse 项目中相关目录下
 
-+ （小牛）覆盖更新 Eclipse 项目中 [aside.css](http://goo.gl/IKfUpg), [aside.min.css](http://goo.gl/swCNfT), [aside.plus.css](http://goo.gl/aqzpxJ) 3个文件
++ （小牛）覆盖更新 Eclipse 项目中 [aside.css](http://goo.gl/IKfUpg), [aside.min.css](http://goo.gl/swCNfT), [aside.plus.css](http://goo.gl/aqzpxJ) **3**个文件
 
-+ （小牛）将 Github 项目中 [account@4.css](http://goo.gl/rCfVPM), [account@4.min.css](http://goo.gl/r9R1Ue), [account@4.plus.css](http://goo.gl/v4ZCKG) 3个文件复制添加至 Eclipse 项目中相关目录下
++ （小牛）将 Github 项目中 [account@4.css](http://goo.gl/rCfVPM), [account@4.min.css](http://goo.gl/r9R1Ue), [account@4.plus.css](http://goo.gl/v4ZCKG) **3**个文件复制添加至 Eclipse 项目中相关目录下
 
 + （相关负责人）依据 Github 项目中[充值明细页面文件](http://goo.gl/YQCg6v)在 Eclipse 项目中创建相关视图文件
