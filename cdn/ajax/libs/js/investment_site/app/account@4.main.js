@@ -23,7 +23,7 @@
  * 
  * Creation Date: 2014.01.09 17:02 ( Tony ).
  * 
- * Last Update: 2014.01.11 12:42 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.12 18:43 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -44,7 +44,7 @@
 		
 		SJ = require('jquery');
 		
-		basicLogic = require('logic/account@4.logic');
+		basicLogic = require('logic/account@4.logic.min');
 		
 		// plusLogic = require('logic/account@4.logic.plus');
 		
