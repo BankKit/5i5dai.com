@@ -41,6 +41,7 @@
 body {
 	
 	background-color: #f1f1f1;
+	
 }
 
 .borderRaiuds_3 {
@@ -54,6 +55,7 @@ body {
 	-webkit-background-clip: padding-box;
 	
 	background-clip: padding-box;
+	
 }
 
 
@@ -69,6 +71,8 @@ body {
 */
 
 .structureHeader {
+	
+	z-index: 1;
 	
 	-webkit-box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
 	
@@ -94,35 +98,33 @@ body {
 ###    ### ########### ########  ###    ###     ###
 */
 
-.rightSide {} .rightSide > .ftr {
+.rightSide {
 	
-	color: #666;
+	float: left;
 	
-	line-height: 50px;
+	width: 900px;
 	
-	text-align: right;
-	
-	right: 0;
-	
-	bottom: 0;
-	
-	height: 50px;
-	
-	width: 870px;
-	
-	border-top: 1px solid #ccc;
-	
+	background-color: #f1f1f1;
+
 }
 
-/* Breadcrumbs */
+
+
+/*
+:::::::::  :::::::::  ::::::::::     :::     :::::::::   ::::::::  :::::::::  :::    ::: ::::    ::::  :::::::::   ::::::::
+:+:    :+: :+:    :+: :+:          :+: :+:   :+:    :+: :+:    :+: :+:    :+: :+:    :+: +:+:+: :+:+:+ :+:    :+: :+:    :+:
++:+    +:+ +:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+ +:+    +:+ +:+ +:+:+ +:+ +:+    +:+ +:+
++#++:++#+  +#++:++#:  +#++:++#   +#++:++#++: +#+    +:+ +#+        +#++:++#:  +#+    +:+ +#+  +:+  +#+ +#++:++#+  +#++:++#++
++#+    +#+ +#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+ +#+    +#+ +#+       +#+ +#+    +#+        +#+
+#+#    #+# #+#    #+# #+#        #+#     #+# #+#    #+# #+#    #+# #+#    #+# #+#    #+# #+#       #+# #+#    #+# #+#    #+#
+#########  ###    ### ########## ###     ### #########   ########  ###    ###  ########  ###       ### #########   ########
+*/
 
 .breadcrumbs {
 	
 	width: 870px;
 	
-	margin-top: 30px;
-	
-	margin-bottom: 30px;
+	margin: 30px 0 30px 30px;
 	
 }
 
@@ -215,6 +217,8 @@ body {
 	width: 870px;
 	
 	margin-top: 20px;
+
+	margin-left: 30px;
 	
 }
 
@@ -561,5 +565,37 @@ body {
 .ie7 .column_3 > .coreArea > .investment {
 	
 	width: 820px;
+	
+}
+
+
+
+/*
+:::::::::: ::::::::   :::::::: ::::::::::: :::::::::: :::::::::
+:+:       :+:    :+: :+:    :+:    :+:     :+:        :+:    :+:
++:+       +:+    +:+ +:+    +:+    +:+     +:+        +:+    +:+
+:#::+::#  +#+    +:+ +#+    +:+    +#+     +#++:++#   +#++:++#:
++#+       +#+    +#+ +#+    +#+    +#+     +#+        +#+    +#+
+#+#       #+#    #+# #+#    #+#    #+#     #+#        #+#    #+#
+###        ########   ########     ###     ########## ###    ###
+*/
+
+.rightSide > .ftr {
+	
+	color: #666;
+	
+	line-height: 50px;
+	
+	text-align: right;
+	
+	right: 0;
+	
+	bottom: 0;
+	
+	height: 50px;
+	
+	width: 870px;
+	
+	border-top: 1px solid #ccc;
 	
 }

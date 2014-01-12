@@ -44,7 +44,7 @@
 		
 		<base target="_self"/>
 		
-		<meta http-equiv="X-UA-Compatible" content="ie = EmulateIE7, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
+		<meta http-equiv="X-UA-Compatible" content="ie = edge, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
 		
 		<meta name="viewport" content="width = 1200, minimal-ui"/> <!-- IOS Safari: Fixed in iOS 7.1 beta 2, A property, minimal-ui, has been added for the viewport meta tag key that allows minimizing the top and bottom bars on the iPhone as the page loads. While on a page using minimal-ui, tapping the top bar brings the bars back. Tapping back in the content dismisses them again. Reference, http://www.everythingicafe.com/forum/threads/lets-talk-ios-7-1-beta-2.104595/ -->
 		
@@ -252,15 +252,15 @@
 		
 		<!-- Begin | Master Stylesheet -->
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@1.css"/>
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@1.css"/> -->
 			
-			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.min.css"/> -->
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.min.css"/>
 			
 			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/master@2.plus.css"/> -->
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/aside.css"/>
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/aside.css"/> -->
 			
-			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/aside.min.css"/> -->
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/aside.min.css"/>
 			
 			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/master/aside.plus.css"/> -->
 			
@@ -268,9 +268,9 @@
 		
 		<!-- Begin | Account Stylesheet -->
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@1.css"/>
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@1.css"/> -->
 			
-			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@1.min.css"/> -->
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@1.min.css"/>
 			
 			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@1.plus.css"/> -->
 			
@@ -278,7 +278,7 @@
 		
 		<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/framework/component/context.menu.min.css"/>
 		
-		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/media_query/print.css"/>
+		<link rel="stylesheet" type="text/css" href="http://resource.fenqimall.com/ajax/libs/css/framework/media_query/print.min.css"/>
 		
 		<!--[if (gte IE 6)&(lte IE 9)]>
 			
@@ -440,387 +440,419 @@
 			
 			<!-- <t:body/> -->
 			
-			<div class="row"> <!-- Test class: blueBoxGradient -->
+			<div class="row mainContainer"> <!-- Test class: blueBoxGradient -->
 				
-				<!-- Begin | Left Side -->
+				<div class="grid grid_12"> <!-- Test class: boxRadialGradient -->
 					
-					<aside class="rela grid grid_3 minHeight_1000 leftSide"> <!-- Test class: boxRadialGradient -->
+					<!-- Begin | Left Side -->
 						
-						<!-- Begin | Basic Info -->
+						<aside id="leftSide" class="rela minHeight_1000 leftSide" itemscope itemtype="http://www.schema.org/WPSideBar"> <!-- Test class: boxRadialGradient -->
 							
-							<ul class="clearfix ul_1">
+							<!-- Begin | Basic Info -->
 								
-								<li class="left li1_1">
+								<ul class="clearfix ul_1">
 									
-									<h1 class="greeting">您好，撸胖子</h1>
-									
-								</li>
-								
-								<li class="withIcon_1 left unRead li1_2">
-									
-									<i class="left"></i>
-									
-									有<span>1</span>条未读信息
-									
-								</li>
-								
-								<li class="rela left li1_3 highSafe"> <!-- Use " lowSafe ", " commonSafe ", " highSafe " class to change the safe grade progress. -->
-									
-									<span class="absol span_1">账户安全等级：</span>
-									
-									<div class="absol safeGrade borderRaiuds_3">
+									<li class="left li1_1">
 										
-										<div></div>
-
-									</div>
-									
-									<span class="absol span_2">高</span>
-									
-								</li>
-								
-								<li class="withIcon_1 rna left unpass li1_4">
-									
-									<i class="left"></i>
-									
-									未实名认证
-									
-								</li>
-								
-								<li class="withIcon_1 ea pass left li1_5">
-									
-									<i class="left"></i>
-									
-									已邮箱认证
-									
-								</li>
-								
-							</ul>
-							
-						<!-- End | Basic Info -->
-						
-						<!-- Begin | Tab Navigation -->
-							
-							<ul class="ul_2">
-								
-								<li class="left li2_1 current"> <!-- Use " current " class to switch the selected nvigation menu. -->
-									
-									<a href="#"> <!-- Test class: boxRadialGradient -->
+										<h1 class="greeting">您好，撸胖子</h1>
 										
-										<i class="left i_1"></i>
-										
-										<span class="left">账户纵览</span>
-										
-										<i class="right i_2"></i>
-										
-									</a>
+									</li>
 									
-								</li>
-								
-								<li class="left li2_2"> <!-- Use " current " class to switch the selected nvigation menu. -->
+									<li class="withIcon_1 left unRead li1_2">
+										
+										<i class="left"></i>
+										
+										有<span>1</span>条未读信息
+										
+									</li>
 									
-									<a href="#"> <!-- Test class: boxRadialGradient -->
+									<li class="rela left li1_3 highSafe"> <!-- Use " lowSafe ", " commonSafe ", " highSafe " class to change the safe grade progress. -->
 										
-										<i class="left i_1"></i>
+										<span class="absol span_1">账户安全等级：</span>
 										
-										<span class="left">查看资金交易明细</span>
+										<div class="absol safeGrade borderRaiuds_3">
+											
+											<div></div>
+											
+										</div>
 										
-										<i class="right i_2"></i>
+										<span class="absol span_2">高</span>
 										
-									</a>
+									</li>
 									
-								</li>
-								
-								<li class="left li2_3"> <!-- Use " current " class to switch the selected nvigation menu. -->
+									<li class="withIcon_1 rna left unpass li1_4">
+										
+										<i class="left"></i>
+										
+										未实名认证
+										
+									</li>
 									
-									<a href="#"> <!-- Test class: boxRadialGradient -->
+									<li class="withIcon_1 ea pass left li1_5">
 										
-										<i class="left i_1"></i>
+										<i class="left"></i>
 										
-										<span class="left">充值明细</span>
+										已邮箱认证
 										
-										<i class="right i_2"></i>
-										
-									</a>
-									
-								</li>
-								
-								<li class="left li2_4"> <!-- Use " current " class to switch the selected nvigation menu. -->
-									
-									<a href="#"> <!-- Test class: boxRadialGradient -->
-										
-										<i class="left i_1"></i>
-										
-										<span class="left">提现明细</span>
-										
-										<i class="right i_2"></i>
-										
-									</a>
-									
-								</li>
-								
-							</ul>
-							
-						<!-- End | Tab Navigation -->
-						
-					</aside>
-					
-				<!-- End | Left Side -->
-				
-				<!-- Begin | Right Side -->
-					
-					<div class="rela grid grid_9 minHeight_1000 rightSide"> <!-- Test class: boxRadialGradient -->
-						
-						<!-- Begin | Breadcrumbs -->
-							
-							<section class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-								
-								<ul class="clearfix">
-									
-									<li class="left"><a href="#">首页</a></li>
-									
-									<li class="left crumbarrow"></li>
-									
-									<li class="left secondCrumb">账户总览</li>
+									</li>
 									
 								</ul>
 								
-							</section>
+							<!-- End | Basic Info -->
 							
-						<!-- End | Breadcrumbs -->
-
-						<!-- Begin | Column 1 -->
-
-							<section class="column column_1"> <!-- Test class: boxRadialGradient -->
+							<!-- Begin | Tab Navigation -->
 								
-								<i></i>
-								
-								<!-- Begin | Core Area -->
+								<ul class="ul_2">
 									
-									<div class="coreArea">
+									<li class="left li2_1 current"> <!-- Use " current " class to switch the selected nvigation menu. -->
 										
-										<div class="coreTitle">
+										<a href="account@1.html"> <!-- Test class: boxRadialGradient -->
 											
-											账户纵览
-
-										</div>
-
-										<div class="rela balance">
+											<i class="left i_1"></i>
 											
-											可用余额：<span class="redHightlightTest ">1000000000000000.00</span>元
-
-											<a class="absol borderRaiuds_3 a_2" href="#">充值</a>
-
-											<a class="absol borderRaiuds_3 a_1" href="#">提现</a>
-
-										</div>
-
-										<div class="dataDetails">
+											<span class="left">账户纵览</span>
 											
-											<ul class="clearfix minHeight_30">
-
-												<li class="left liS_1">
-													
-													账户总额：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_2">
-													
-													账户总额：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_3">
-													
-													账户总额：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_4">
-													
-													待收本金：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_5">
-													
-													&nbsp;
-
-												</li>
-
-												<li class="left liS_6">
-													
-													待收利息：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_7">
-													
-													待收逾期罚息：10000000000000000000.00元
-
-												</li>
-
-											</ul>
-
-										</div>
-
-									</div>
-									
-								<!-- End | Core Area -->
-								
-							</section>
-							
-						<!-- End | Column 1 -->
-
-						<!-- Begin | Column 2 -->
-
-							<section class="column column_2"> <!-- Test class: boxRadialGradient -->
-								
-								<i></i>
-								
-								<!-- Begin | Core Area -->
-									
-									<div class="coreArea">
+											<i class="right i_2"></i>
+											
+										</a>
 										
-										<div class="coreTitle">
-											
-											投资项目
-
-											<a class="right borderRaiuds_3" href="#">我要投资</a>
-
-										</div>
-
-										<div class="dataDetails">
-											
-											<ul class="clearfix minHeight_30">
-
-												<li class="left liS_1">
-													
-													正在收款：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_2">
-													
-													其中可转让：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_3">
-													
-													转让中：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_4">
-													
-													逾期：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_6">
-													
-													完成收款：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_7">
-													
-													提前还款：10000000000000000000.00元
-
-												</li>
-
-											</ul>
-
-										</div>
-
-									</div>
+									</li>
 									
-								<!-- End | Core Area -->
-								
-							</section>
-							
-						<!-- End | Column 2 -->
-
-						<!-- Begin | Column 3 -->
-
-							<section class="column column_3"> <!-- Test class: boxRadialGradient -->
-								
-								<i></i>
-								
-								<!-- Begin | Core Area -->
-									
-									<div class="coreArea">
+									<li class="left li2_2"> <!-- Use " current " class to switch the selected nvigation menu. -->
 										
-										<div class="coreTitle">
+										<a href="account@2.html"> <!-- Test class: boxRadialGradient -->
 											
-											投资统计
-
-										</div>
-
-										<div class="investment">
+											<i class="left i_1"></i>
 											
-											已投资项目总额：<span class="redHightlightTest ">1000000000000000.00</span>元
-
-										</div>
-
-										<div class="dataDetails">
+											<span class="left">我的投资列表</span>
 											
-											<ul class="clearfix minHeight_30">
-
-												<li class="left liS_1">
-													
-													累计收益：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_2">
-													
-													其中利息：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_3">
-													
-													逾期罚息：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_4">
-													
-													提前还款违约金：100000000000000000.00元
-
-												</li>
-
-												<li class="left liS_6">
-													
-													代收本金：10000000000000000000.00元
-
-												</li>
-
-												<li class="left liS_7">
-													
-													逾期代收本金：10000000000000000000.00元
-
-												</li>
-
-											</ul>
-
-										</div>
-
-									</div>
+											<i class="right i_2"></i>
+											
+										</a>
+										
+									</li>
 									
-								<!-- End | Core Area -->
+									<li class="left li2_3"> <!-- Use " current " class to switch the selected nvigation menu. -->
+										
+										<a href="account@3.html"> <!-- Test class: boxRadialGradient -->
+											
+											<i class="left i_1"></i>
+											
+											<span class="left">查看资金交易明细</span>
+											
+											<i class="right i_2"></i>
+											
+										</a>
+										
+									</li>
+									
+									<li class="left li2_4"> <!-- Use " current " class to switch the selected nvigation menu. -->
+										
+										<a href="account@4.html"> <!-- Test class: boxRadialGradient -->
+											
+											<i class="left i_1"></i>
+											
+											<span class="left">充值明细</span>
+											
+											<i class="right i_2"></i>
+											
+										</a>
+										
+									</li>
+									
+									<li class="left li2_5"> <!-- Use " current " class to switch the selected nvigation menu. -->
+										
+										<a href="account@5.html"> <!-- Test class: boxRadialGradient -->
+											
+											<i class="left i_1"></i>
+											
+											<span class="left">提现明细</span>
+											
+											<i class="right i_2"></i>
+											
+										</a>
+										
+									</li>
+									
+									<li class="left li2_6"> <!-- Use " current " class to switch the selected nvigation menu. -->
+										
+										<a href="account@6.html"> <!-- Test class: boxRadialGradient -->
+											
+											<i class="left i_1"></i>
+											
+											<span class="left">账户安全</span>
+											
+											<i class="right i_2"></i>
+											
+										</a>
+										
+									</li>
+									
+								</ul>
 								
-							</section>
+							<!-- End | Tab Navigation -->
 							
-						<!-- End | Column 3 -->
-
-						<div class="ftr absol">© 2013-2014 上海亨元金融信息服务有限公司 版权所有   赣ICP备13002945</div>
+						</aside>
 						
-					</div>
+					<!-- End | Left Side -->
 					
-				<!-- End | Right Side -->
+					<!-- Begin | Right Side -->
+						
+						<div class="rela minHeight_1000 rightSide"> <!-- Test class: boxRadialGradient -->
+							
+							<!-- Begin | Breadcrumbs -->
+								
+								<section class="breadcrumbs" itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+									
+									<ul class="clearfix">
+										
+										<li class="left"><a href="index.html">首页</a></li>
+										
+										<li class="left crumbarrow"></li>
+										
+										<li class="left lastCrumb">账户总览</li>
+										
+									</ul>
+									
+								</section>
+								
+							<!-- End | Breadcrumbs -->
+							
+							<!-- Begin | Column 1 -->
+								
+								<section class="column column_1"> <!-- Test class: boxRadialGradient -->
+									
+									<i></i>
+									
+									<!-- Begin | Core Area -->
+										
+										<div class="coreArea">
+											
+											<div class="coreTitle">
+												
+												账户纵览
+												
+											</div>
+											
+											<div class="rela balance">
+												
+												可用余额：<span class="redHightlightTest ">1000000000000000.00</span>元
+												
+												<a class="absol borderRaiuds_3 a_2" href="recharge.html">充值</a>
+												
+												<a class="absol borderRaiuds_3 a_1" href="#">提现</a>
+												
+											</div>
+											
+											<div class="dataDetails">
+												
+												<ul class="clearfix minHeight_30">
+													
+													<li class="left liS_1">
+														
+														账户总额：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_2">
+														
+														账户总额：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_3">
+														
+														账户总额：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_4">
+														
+														待收本金：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_5">
+														
+														&nbsp;
+														
+													</li>
+													
+													<li class="left liS_6">
+														
+														待收利息：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_7">
+														
+														待收逾期罚息：10000000000000000000.00元
+														
+													</li>
+													
+												</ul>
+												
+											</div>
+											
+										</div>
+										
+									<!-- End | Core Area -->
+									
+								</section>
+								
+							<!-- End | Column 1 -->
+							
+							<!-- Begin | Column 2 -->
+								
+								<section class="column column_2"> <!-- Test class: boxRadialGradient -->
+									
+									<i></i>
+									
+									<!-- Begin | Core Area -->
+										
+										<div class="coreArea">
+											
+											<div class="coreTitle">
+												
+												投资项目
+												
+												<a class="right borderRaiuds_3" href="invest.list.html">我要投资</a>
+												
+											</div>
+											
+											<div class="dataDetails">
+												
+												<ul class="clearfix minHeight_30">
+													
+													<li class="left liS_1">
+														
+														正在收款：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_2">
+														
+														其中可转让：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_3">
+														
+														转让中：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_4">
+														
+														逾期：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_6">
+														
+														完成收款：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_7">
+														
+														提前还款：10000000000000000000.00元
+														
+													</li>
+													
+												</ul>
+												
+											</div>
+											
+										</div>
+										
+									<!-- End | Core Area -->
+									
+								</section>
+								
+							<!-- End | Column 2 -->
+							
+							<!-- Begin | Column 3 -->
+								
+								<section class="column column_3"> <!-- Test class: boxRadialGradient -->
+									
+									<i></i>
+									
+									<!-- Begin | Core Area -->
+										
+										<div class="coreArea">
+											
+											<div class="coreTitle">
+												
+												投资统计
+												
+											</div>
+											
+											<div class="investment">
+												
+												已投资项目总额：<span class="redHightlightTest ">1000000000000000.00</span>元
+												
+											</div>
+											
+											<div class="dataDetails">
+												
+												<ul class="clearfix minHeight_30">
+													
+													<li class="left liS_1">
+														
+														累计收益：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_2">
+														
+														其中利息：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_3">
+														
+														逾期罚息：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_4">
+														
+														提前还款违约金：100000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_6">
+														
+														代收本金：10000000000000000000.00元
+														
+													</li>
+													
+													<li class="left liS_7">
+														
+														逾期代收本金：10000000000000000000.00元
+														
+													</li>
+													
+												</ul>
+												
+											</div>
+											
+										</div>
+										
+									<!-- End | Core Area -->
+									
+								</section>
+								
+							<!-- End | Column 3 -->
+							
+							<div class="ftr absol">© 2013-2014 上海亨元金融信息服务有限公司 版权所有   赣ICP备13002945</div>
+							
+						</div>
+						
+					<!-- End | Right Side -->
+						
+				</div>
 				
 			</div>
 			
@@ -909,5 +941,5 @@
 
 * Creation Date: ~2013.12.20 12:53 ( Tony ).
 
-* Last Update: 2014.01.07 22:34 ( Tony ).
+* Last Update: 2014.01.12 17:01 ( Tony ).
 -->

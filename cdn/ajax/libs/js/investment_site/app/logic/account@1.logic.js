@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.20 13:02 ( Tony ).
  * 
- * Last Update: 2013.12.20 13:03 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.12 16:58 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -46,7 +46,9 @@
 
 			easing = require('easing'),
 
-			modernizr = require('modernizr');
+			modernizr = require('modernizr'),
+
+			sticky = require('sticky');
 		
 		var tlns, extend, _mod,
 			
@@ -59,6 +61,10 @@
 		modernizr.touch ? evtName = 'touchstart' : evtName = 'click';
 		
 		
+		
+		/**
+		 * Module: Automating nested namespacing function.
+		 */
 		
 		extend = function (ns, nsString) { // Usage, eg: var tlns = extend(tlns, "tlns.ns1.ns2.ns3");
 			
@@ -85,6 +91,32 @@
 			return parent;
 			
 		};
+		
+		
+		
+		/**
+		 * Module: Sticky Side Bar.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					SJ("aside").sticky({
+						
+						topSpacing: 0,
+						
+						getWidthFrom: 'aside'
+						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
 		
 		
 		
