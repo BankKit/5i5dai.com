@@ -1,0 +1,220 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for the withdraw page (../../../../../../www/account@5.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ * 
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2014.01.10 11:39 ( Tony ).
+ * 
+ * Last Update: 2014.01.12 18:20 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+
+
+/*
+:::::::::   ::::::::  :::::::::  :::   :::
+:+:    :+: :+:    :+: :+:    :+: :+:   :+:
++:+    +:+ +:+    +:+ +:+    +:+  +:+ +:+
++#++:++#+  +#+    +:+ +#+    +:+   +#++:
++#+    +#+ +#+    +#+ +#+    +#+    +#+
+#+#    #+# #+#    #+# #+#    #+#    #+#
+#########   ########  #########     ###
+*/
+
+body {
+	
+	background-color: #f1f1f1;
+
+}
+
+.borderRaiuds_3 {
+	
+	-webkit-border-radius: 3px;
+	
+	-moz-border-radius: 3px;
+	
+	border-radius: 3px;
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box;
+}
+
+
+
+/*
+:::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+:+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
++:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
++#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
++#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+#+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+###    ### ########## ###     ### #########  ########## ###    ###
+*/
+
+.structureHeader {
+
+	z-index: 1;
+	
+	-webkit-box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+	-o-box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Opera */
+	
+	-moz-box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Firefox 3.5 */
+	
+	box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+
+
+/*
+:::::::::  ::::::::::: ::::::::  :::    ::: :::::::::::        :::::::: ::::::::::: :::::::::  ::::::::::
+:+:    :+:     :+:    :+:    :+: :+:    :+:     :+:           :+:    :+:    :+:     :+:    :+: :+:
++:+    +:+     +:+    +:+        +:+    +:+     +:+           +:+           +:+     +:+    +:+ +:+
++#++:++#:      +#+    :#:        +#++:++#++     +#+           +#++:++#++    +#+     +#+    +:+ +#++:++#
++#+    +#+     +#+    +#+   +#+# +#+    +#+     +#+                  +#+    +#+     +#+    +#+ +#+
+#+#    #+#     #+#    #+#    #+# #+#    #+#     #+#           #+#    #+#    #+#     #+#    #+# #+#
+###    ### ########### ########  ###    ###     ###            ######## ########### #########  ##########
+*/
+
+.rightSide {
+	
+	float: left;
+	
+	width: 900px;
+	
+	background-color: #f1f1f1;
+	
+}
+
+
+
+/*
+:::::::::  :::::::::  ::::::::::     :::     :::::::::   ::::::::  :::::::::  :::    ::: ::::    ::::  :::::::::   ::::::::
+:+:    :+: :+:    :+: :+:          :+: :+:   :+:    :+: :+:    :+: :+:    :+: :+:    :+: +:+:+: :+:+:+ :+:    :+: :+:    :+:
++:+    +:+ +:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+ +:+    +:+ +:+ +:+:+ +:+ +:+    +:+ +:+
++#++:++#+  +#++:++#:  +#++:++#   +#++:++#++: +#+    +:+ +#+        +#++:++#:  +#+    +:+ +#+  +:+  +#+ +#++:++#+  +#++:++#++
++#+    +#+ +#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+ +#+    +#+ +#+       +#+ +#+    +#+        +#+
+#+#    #+# #+#    #+# #+#        #+#     #+# #+#    #+# #+#    #+# #+#    #+# #+#    #+# #+#       #+# #+#    #+# #+#    #+#
+#########  ###    ### ########## ###     ### #########   ########  ###    ###  ########  ###       ### #########   ########
+*/
+
+.breadcrumbs {
+	
+	width: 870px;
+	
+	margin: 30px 0 30px 30px;
+	
+}
+
+.breadcrumbs > ul > li {
+	
+	font-size: 12px;
+	
+}
+
+/* " X:nth-child(even) ", Compatibility: IE9+, Firefox 23.0+, Chrome 28.0+, Safari 5.1+, Opera 17.0+; https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child#Browser_compatibility */
+
+.breadcrumbs > ul > li:nth-child(even) {
+	
+	width: 5px;
+	
+	height: 9px;
+	
+	margin: 3px 8px 0 8px;
+	
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAjUlEQVQIWzWOMQ6FIBBEZxONJWchtvRKOK60SmPrTYQYCRWJ+13Mn243M2+GtNa8bRuICMyMrutA13XxNE1Y1xWlFCilQPd9sxzzPOM4DsQYQe/jTTGe54ExBvu+g87z5GEYGk9krf2Yfd8j59wQIQRQSoml2TkH731b0YrEsSwLBFNrBY3jyDJHHH/9AIm2UD7RmdDgAAAAAElFTkSuQmCC) center center no-repeat;
+	
+}
+
+.ie-lt9 .breadcrumbs > ul > li.crumbarrow {
+	
+	width: 5px;
+	
+	height: 9px;
+	
+	margin: 2px 8px 0 8px;
+	
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAJCAYAAAD6reaeAAAAjUlEQVQIWzWOMQ6FIBBEZxONJWchtvRKOK60SmPrTYQYCRWJ+13Mn243M2+GtNa8bRuICMyMrutA13XxNE1Y1xWlFCilQPd9sxzzPOM4DsQYQe/jTTGe54ExBvu+g87z5GEYGk9krf2Yfd8j59wQIQRQSoml2TkH731b0YrEsSwLBFNrBY3jyDJHHH/9AIm2UD7RmdDgAAAAAElFTkSuQmCC) center center no-repeat;
+	
+}
+
+.breadcrumbs > ul > li:first-child > a,
+
+.breadcrumbs > ul > li.secondCrumb > a {
+	
+	color: #333;
+	
+	text-decoration: none;
+	
+}
+
+.breadcrumbs > ul > li:last-child {
+	
+	color: #999;
+	
+}
+
+.ie7 .breadcrumbs > ul > li.lastCrumb {
+	
+	color: #999;
+	
+}
+
+.breadcrumbs > ul > li > a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+
+
+/*
+:::::::::: ::::::::   :::::::: ::::::::::: :::::::::: :::::::::
+:+:       :+:    :+: :+:    :+:    :+:     :+:        :+:    :+:
++:+       +:+    +:+ +:+    +:+    +:+     +:+        +:+    +:+
+:#::+::#  +#+    +:+ +#+    +:+    +#+     +#++:++#   +#++:++#:
++#+       +#+    +#+ +#+    +#+    +#+     +#+        +#+    +#+
+#+#       #+#    #+# #+#    #+#    #+#     #+#        #+#    #+#
+###        ########   ########     ###     ########## ###    ###
+*/
+
+.rightSide > .ftr {
+	
+	color: #666;
+	
+	line-height: 50px;
+	
+	text-align: right;
+	
+	right: 0;
+	
+	bottom: 0;
+	
+	height: 50px;
+	
+	width: 870px;
+	
+	border-top: 1px solid #ccc;
+	
+}
