@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 09:16 ( Tony ).
  * 
- * Last Update: 2014.01.03 16:43 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.12 11:42 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -121,16 +121,22 @@
 					logic: 'investment_site/app/logic',
 					
 					deepLink: 'jquery_deeplink/0.1.0/jquery.deep.link',
-
+					
 					txtOver: 'jquery_text_overflow/0.1.0/jquery.text.overflow.min',
-
+					
 					validator: 'jquery_validator/0.1.0/jquery.validator.min',
-
+					
 					scheck: 'jquery_check/0.1.0/jquery.check.min',
-
+					
 					cont: 'jquery_context/0.1.0/jquery.context.min',
-
-					slt: 'jquery_selector/0.1.0/jquery.selector.min'
+					
+					slt: 'jquery_selector/0.1.0/jquery.selector.min',
+					
+					uiCore: 'jquery_ui/1.10.3/minified/jquery.ui.core.min',
+					
+					uiDatePicker: 'jquery_ui/1.10.3/minified/jquery.ui.datepicker.min',
+					
+					sticky: 'jquery_sticky/0.1.0/jquery.sticky.min'
 					
 				},
 				

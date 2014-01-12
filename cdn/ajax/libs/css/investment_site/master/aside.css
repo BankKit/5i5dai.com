@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.24 13:54 ( Tony ).
  * 
- * Last Update: 2014.01.09 14:19 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.10 09:31 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -25,6 +25,44 @@
  * 
  * Copyright: ...//TODO: Give a copyright.
  */
+
+
+
+/*
+ :::::::: ::::::::::: ::::::::::: ::::::::  :::    ::: :::   :::
+:+:    :+:    :+:         :+:    :+:    :+: :+:   :+:  :+:   :+:
++:+           +:+         +:+    +:+        +:+  +:+    +:+ +:+
++#++:++#++    +#+         +#+    +#+        +#++:++      +#++:
+       +#+    +#+         +#+    +#+        +#+  +#+      +#+
+#+#    #+#    #+#         #+#    #+#    #+# #+#   #+#     #+#
+ ########     ###     ########### ########  ###    ###    ###
+*/
+
+.sticky-wrapper {
+
+	float: left;
+
+	width: 270px;
+
+}
+
+
+
+/*
+ ::::::::   ::::::::  ::::    ::: ::::::::::: :::     ::::::::::: ::::    ::: :::::::::: :::::::::
+:+:    :+: :+:    :+: :+:+:   :+:     :+:   :+: :+:       :+:     :+:+:   :+: :+:        :+:    :+:
++:+        +:+    +:+ :+:+:+  +:+     +:+  +:+   +:+      +:+     :+:+:+  +:+ +:+        +:+    +:+
++#+        +#+    +:+ +#+ +:+ +#+     +#+ +#++:++#++:     +#+     +#+ +:+ +#+ +#++:++#   +#++:++#:
++#+        +#+    +#+ +#+  +#+#+#     +#+ +#+     +#+     +#+     +#+  +#+#+# +#+        +#+    +#+
+#+#    #+# #+#    #+# #+#   #+#+#     #+# #+#     #+#     #+#     #+#   #+#+# #+#        #+#    #+#
+ ########   ########  ###    ####     ### ###     ### ########### ###    #### ########## ###    ###
+*/
+
+.mainContainer > div {
+
+	background-color: #3b4458;
+
+}
 
 
 
@@ -40,8 +78,14 @@
 
 .leftSide {
 	
-	z-index: 5;
-	
+	z-index: 2;
+
+	float: left;
+
+	width: 270px;
+
+	margin-right: 0;
+
 	background-color: #3b4458;
 	
 }
@@ -294,19 +338,31 @@
 
 .leftSide > .ul_2 > li.li2_2 > a > i.i_1 {
 	
-	background-position: 0 -120px;
+	background-position: 0 -210px;
 	
 }
 
 .leftSide > .ul_2 > li.li2_3 > a > i.i_1 {
 	
-	background-position: 0 -149px;
+	background-position: 0 -120px;
 	
 }
 
 .leftSide > .ul_2 > li.li2_4 > a > i.i_1 {
 	
 	background-position: 0 -149px;
+	
+}
+
+.leftSide > .ul_2 > li.li2_5 > a > i.i_1 {
+	
+	background-position: 0 -181px;
+	
+}
+
+.leftSide > .ul_2 > li.li2_6 > a > i.i_1 {
+	
+	background-position: 0 -240px;
 	
 }
 
@@ -356,6 +412,8 @@
 	
 }
 
+
+
 .leftSide > .ul_2 > li.li2_1.current > a > i.i_1 {
 	
 	background-position: -45px -92px;
@@ -364,18 +422,30 @@
 
 .leftSide > .ul_2 > li.li2_2.current > a > i.i_1 {
 	
-	background-position: -45px -120px;
+	background-position: -45px -210px;
 	
 }
 
 .leftSide > .ul_2 > li.li2_3.current > a > i.i_1 {
 	
-	background-position: -45px -149px;
+	background-position: -45px -120px;
 	
 }
 
 .leftSide > .ul_2 > li.li2_4.current > a > i.i_1 {
 	
+	background-position: -45px -149px;
+	
+}
+
+.leftSide > .ul_2 > li.li2_5.current > a > i.i_1 {
+	
 	background-position: -45px -181px;
+	
+}
+
+.leftSide > .ul_2 > li.li2_6.current > a > i.i_1 {
+	
+	background-position: -45px -240px;
 	
 }
