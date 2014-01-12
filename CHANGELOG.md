@@ -5,7 +5,7 @@
 
 此次提交共涉及**7**个文件，查看此次具体[提交记录](http://goo.gl/p8CMrJ), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
 
-解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/K36TCR)
+解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/F13KhB)
 
 + （小牛）覆盖更新 Eclipse 项目中 [account@1.css](http://goo.gl/jlhmOz), [account@1.min.css](http://goo.gl/1KAFmA) **2**个样式表文件
 
@@ -22,7 +22,7 @@
 
 此次提交共涉及**283**个文件，查看此次具体[提交记录](http://goo.gl/3RfdiF), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
 
-解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/95eMVE)
+解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/Duldri)
 
 + （小牛）覆盖更新 Eclipse 项目中整个 [" img " 目录](http://goo.gl/kty4UF)
 
