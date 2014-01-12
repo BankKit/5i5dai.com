@@ -23,7 +23,7 @@
  * 
  * Creation Date: 2014.01.05 19:53 ( Tony ).
  * 
- * Last Update: 2014.01.06 17:49 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.12 22:03 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -59,8 +59,8 @@
 		SJ(function ($) {
 			
 			// TODO: Import basic business logic script here.
-
-			$('html').studioScroll();
+			
+			$('html').studioScroll({zindex: 50, cursorborder: 0, cursorborderradius: 0});
 			
 			modifyTitle();
 			

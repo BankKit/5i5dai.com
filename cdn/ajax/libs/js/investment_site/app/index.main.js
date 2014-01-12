@@ -23,7 +23,7 @@
  * 
  * Creation Date: 2013.12.09 09:21 ( Tony ).
  * 
- * Last Update: 2013.12.20 01:22 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.12 22:02 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -38,7 +38,7 @@
 	
 	fn = function (require) {
 		
-		var modernizr, SJ, txtOver, indexBasicLogic, plusLogic, modifyTitle, cont;
+		var modernizr, SJ, txtOver, basicLogic/*, plusLogic*/, modifyTitle, srl, cont;
 		
 		modernizr = require('modernizr');
 		
@@ -46,13 +46,13 @@
 
 		txtOver = require('txtOver');
 		
-		indexBasicLogic = require('logic/index.logic.min');
+		basicLogic = require('logic/index.logic.min');
 		
-		plusLogic = require('logic/index.logic.plus');
+		// plusLogic = require('logic/index.logic.plus');
 		
 		modifyTitle = require('titleModify');
 		
-		deepLink = require('deepLink');
+		// deepLink = require('deepLink');
 		
 		srl = require('srl');
 
@@ -61,10 +61,10 @@
 		SJ(function ($) {
 			
 			// TODO: Import basic business logic script here.
-			
-			$('html').studioScroll();
 
 			$('.newsList').children('a').txtOver({size: 16});
+			
+			$('html').studioScroll({zindex: 50, cursorborder: 0, cursorborderradius: 0});
 			
 			modifyTitle();
 			
