@@ -104,7 +104,7 @@
 					
 					callback: function (value) {
 						
-						if (!mute) {
+						if (mute) {
 							
 							console.log('Value: ' + value + '.');
 							
@@ -140,15 +140,7 @@
 				
 				for (var i = 1; i <= 14; i++) {
 					
-					if (i%2 == 1) {
-						
-						SJ('<div class="minHeight_50 tableRow clearfix"><div class="left trow1"></div><div class="left trow2">汇通-安心贷 2000001111</div><div class="left trow3 textCenter">&yen;25,000.00</div><div class="left trow4 textCenter">36个月</div><div class="left trow5 textCenter">10.00%</div><div class="left trow6 textCenter">2013-03-12</div><div class="left trow7 textCenter">交易成功</div></div>').appendTo(SJ('.tableRowSet'));
-						
-					} else {
-						
-						SJ('.tableRowSet').children(".tableRow").filter(':first').clone(true).appendTo(SJ('.tableRowSet'));
-						
-					}
+					SJ('<div class="minHeight_50 tableRow clearfix"><div class="left trow1"></div><div class="left trow2">汇通-安心贷 2000001111</div><div class="left trow3 textCenter">&yen;25,000.00</div><div class="left trow4 textCenter">36个月</div><div class="left trow5 textCenter">10.00%</div><div class="left trow6 textCenter">2013-03-12</div><div class="left trow7 textCenter">交易成功</div></div>').appendTo(SJ('.tableRowSet'));
 					
 				}
 				

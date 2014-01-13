@@ -44,7 +44,7 @@
 		
 		<base target="_self"/>
 		
-		<meta http-equiv="X-UA-Compatible" content="ie = EmulateIE7, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
+		<meta http-equiv="X-UA-Compatible" content="ie = edge, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
 		
 		<meta name="viewport" content="width = 1200, minimal-ui"/> <!-- IOS Safari: Fixed in iOS 7.1 beta 2, A property, minimal-ui, has been added for the viewport meta tag key that allows minimizing the top and bottom bars on the iPhone as the page loads. While on a page using minimal-ui, tapping the top bar brings the bars back. Tapping back in the content dismisses them again. Reference, http://www.everythingicafe.com/forum/threads/lets-talk-ios-7-1-beta-2.104595/ -->
 		
@@ -272,9 +272,9 @@
 		
 		<!-- Begin | Private Stylesheet -->
 			
-			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@2.css"/> -->
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@2.css"/>
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@2.min.css"/>
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@2.min.css"/> -->
 			
 			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@2.plus.css"/> -->
 			
@@ -628,6 +628,110 @@
 								
 							<!-- End | Breadcrumbs -->
 							
+							<!-- Begin | Table -->
+								
+								<div class="table" itemscope itemtype="http://schema.org/Table">
+									
+									<meta itemprop="mainContentOfPage" content="true"/>
+									
+									<!-- Begin | Tabel Title -->
+										
+										<div class="rela tableTitle">
+											
+											<h1 class="left" itemprop="about">我的投资列表</h1>
+											
+											<span class="left span_1">状态</span>
+											
+											<!-- Begin | Selector 1st -->
+												
+												<form id="frmFilter" class="left slt slt_1" name="frmFilter" action="#" method="post">
+													
+													<select name="slt_1" id="slt_1" class="opacityFull">
+														
+														<option value="全部">全部</option>
+														
+														<option value="选项二">选项二</option>
+														
+														<option value="选项三">选项三</option>
+														
+														<option value="选项四">选项四</option>
+														
+														<option value="选项五">选项五</option>
+														
+														<option value="选项六">选项六</option>
+														
+													</select>
+													
+												</form>
+												
+											<!-- End | Selector 1st -->
+											
+										</div>
+										
+									<!-- End | Tabel Title -->
+									
+									<!-- Begin | Table Header -->
+										
+										<div class="tableHeader">
+											
+											<span class="left h_1">项目名称/编号</span> <!-- Test class: blackBg -->
+											
+											<span class="left h_2">申请时间</span> <!-- Test class: lightGreyBg -->
+											
+											<span class="left h_3">到期时间</span> <!-- Test class: facebookBlueBg -->
+											
+											<span class="left h_4">投资总额（元）</span> <!-- Test class: brightRedBg -->
+											
+											<span class="left h_5">期限</span> <!-- Test class: blackBg -->
+											
+											<span class="left h_6">状态</span> <!-- Test class: lightGreyBg -->
+											
+											<span class="left h_7">操作</span> <!-- Test class: facebookBlueBg -->
+											
+										</div>
+										
+									<!-- End | Table Header -->
+									
+									<!-- Begin | Table Row -->
+										
+										<div class="tableRowSet">
+											
+											<!-- Begin | <t:loop> -->
+												
+												<div class="minHeight_50 tableRow clearfix">
+													
+													<div class="left trow1"></div> <!-- Test class: blackBg -->
+													
+													<div class="left trow2" itemprop="name">CZ20131021015389</div> <!-- Test class: lightGreyBg -->
+													
+													<div class="left trow3 textCenter" itemprop="text">2013-03-18</div> <!-- Test class: facebookBlueBg -->
+													
+													<div class="left trow4 textCenter" itemprop="text">2013-03-18</div> <!-- Test class: brightRedBg -->
+													
+													<div class="left trow5 textCenter" itemprop="text">10,00.00</div> <!-- Test class: blackBg -->
+													
+													<div class="left trow6 textCenter" itemprop="text">36个月</div> <!-- Test class: lightGreyBg -->
+													
+													<div class="left trow7 textCenter" itemprop="text">正在收款</div> <!-- Test class: facebookBlueBg -->
+													
+													<div class="left trow8 textCenter" itemprop="text"> <!-- Test class: blackBg -->
+														
+														<a href="#">查看详情</a>
+														
+													</div>
+													
+												</div>
+												
+											<!-- End | <t:loop> -->
+											
+										</div>
+										
+									<!-- End | Table Row -->
+									
+								</div>
+								
+							<!-- End | Table -->
+							
 							<div class="ftr absol">© 2013-2014 上海亨元金融信息服务有限公司 版权所有   赣ICP备13002945</div>
 							
 						</div>
@@ -731,5 +835,5 @@
 
 * Creation Date: 2014.01.09 17:37 ( Tony ).
 
-* Last Update: 2014.01.12 23:09 ( Tony ).
+* Last Update: 2014.01.13 12:47 ( Tony ).
 -->

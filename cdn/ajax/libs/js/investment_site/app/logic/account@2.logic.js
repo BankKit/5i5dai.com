@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2014.01.09 17:51 ( Tony ).
  * 
- * Last Update: 2014.01.12 17:44 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.13 12:46 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -42,21 +42,23 @@
 	
 	fn= function (require) {
 		
-		var SJ = require('jquery'),
-			
-			easing = require('easing'),
-			
-			modernizr = require('modernizr'),
-
-			sticky = require('sticky');
+		var SJ, slt, easing, modernizr, sticky, tlns, extend, _mod, mute, evtName;
 		
-		var tlns, extend, _mod,
-			
-			mute = false; //TODO: Have to cancel "console" function before release.
+		
+		
+		SJ = require('jquery');
+		
+		slt = require('slt');
+		
+		easing = require('easing');
+		
+		modernizr = require('modernizr');
+		
+		sticky = require('sticky');
+		
+		mute = true; //TODO: Have to cancel "console" function before release.
 		
 		tlns = tlns || {}; //top-level namespace
-		
-		var evtName;
 		
 		modernizr.touch ? evtName = 'touchstart' : evtName = 'click';
 		
@@ -95,6 +97,44 @@
 		
 		
 		/**
+		 * Module: Selector.
+		 */
+		
+		_mod = (function (hawaii) {
+			
+			tlns.init = function () {
+				
+				SJ("select").selecter({
+					
+					callback: function (value) {
+						
+						if (!mute) {
+							
+							console.log('Value: ' + value + '.');
+							
+						}
+						
+					}
+					
+				});
+				
+			};
+			
+			// Add method(logic) here ...
+			
+			hawaii.init = function () {
+				
+				this.init();
+				
+			}.call(tlns);
+			
+			return hawaii;
+			
+		} (_mod || {})).init;
+		
+		
+		
+		/**
 		 * Module: Sticky Side Bar.
 		 */
 		
@@ -109,6 +149,76 @@
 						topSpacing: 0,
 						
 						getWidthFrom: 'aside'
+						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
+		 * Module: Table Row.
+		 */
+		
+		_mod = (function (hawaii) {
+			
+			tlns.init = function () {
+				
+				for (var i = 1; i <= 29; i++) {
+					
+					SJ('<div class="minHeight_50 tableRow clearfix"><div class="left trow1"></div><div class="left trow2" itemprop="name">CZ20131021015389</div><div class="left trow3 textCenter" itemprop="text">2013-03-18</div><div class="left trow4 textCenter" itemprop="text">2013-03-18</div><div class="left trow5 textCenter" itemprop="text">10,00.00</div><div class="left trow6 textCenter" itemprop="text">36个月</div><div class="left trow7 textCenter" itemprop="text">正在收款</div><div class="left trow8 textCenter" itemprop="text"><a href="#">查看详情</a></div></div>').appendTo(SJ('.tableRowSet'));
+					
+				}
+				
+			};
+			
+			// Add method(logic) here ...
+			
+			hawaii.init = function () {
+				
+				this.init();
+				
+			}.call(tlns);
+			
+			return hawaii;
+			
+		} (_mod || {})).init;
+		
+		
+		
+		/**
+		 * Module: Even/Odd Row Style Control.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					var tableRow = SJ('.tableRow');
+					
+					tableRow.filter(':last').addClass('lastRow');
+					
+					tableRow.filter(':odd').addClass('oddRow');
+					
+					tableRow.on('mouseover', function () {
+						
+						var that = SJ(this);
+						
+						that.addClass('hovers');
+						
+					});
+					
+					tableRow.on('mouseout', function () {
+						
+						var that = SJ(this);
+						
+						that.removeClass('hovers');
 						
 					});
 					

@@ -42,7 +42,7 @@
 		
 		SJ = require('jquery');
 		
-		basicLogic = require('logic/account@2.logic.min');
+		basicLogic = require('logic/account@2.logic');
 		
 		// plusLogic = require('logic/account@2.logic.plus');
 		
