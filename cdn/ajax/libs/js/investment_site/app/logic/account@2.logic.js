@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2014.01.09 17:51 ( Tony ).
  * 
- * Last Update: 2014.01.13 12:46 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.13 16:44 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -170,7 +170,7 @@
 				
 				for (var i = 1; i <= 29; i++) {
 					
-					SJ('<div class="minHeight_50 tableRow clearfix"><div class="left trow1"></div><div class="left trow2" itemprop="name">CZ20131021015389</div><div class="left trow3 textCenter" itemprop="text">2013-03-18</div><div class="left trow4 textCenter" itemprop="text">2013-03-18</div><div class="left trow5 textCenter" itemprop="text">10,00.00</div><div class="left trow6 textCenter" itemprop="text">36个月</div><div class="left trow7 textCenter" itemprop="text">正在收款</div><div class="left trow8 textCenter" itemprop="text"><a href="#">查看详情</a></div></div>').appendTo(SJ('.tableRowSet'));
+					SJ('<div class="minHeight_50 tableRow clearfix"><div class="left trow1"></div><div class="left trow2" itemprop="name">CZ20131021015389</div><div class="left trow3 textCenter" itemprop="text">2013-03-18</div><div class="left trow4 textCenter" itemprop="text">2013-03-18</div><div class="left trow5 textCenter" itemprop="text">10,00.00</div><div class="left trow6 textCenter" itemprop="text">36个月</div><div class="left trow7 textCenter" itemprop="text">正在收款</div><div class="left trow8 textCenter" itemprop="text"><a href="account%407.min.html">查看详情</a></div></div>').appendTo(SJ('.tableRowSet'));
 					
 				}
 				
