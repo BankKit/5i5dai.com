@@ -1,3 +1,20 @@
+###" 我的投资项目详情 " 页面已经完成（PM 2014.01.13.16.28）###
+-----------------------------------------------------
+
+[里程碑 " 0.1.0-alpha " 镜像文件更新/提交记录](http://goo.gl/cSYhBQ)。
+
+此次提交共涉及**11**个文件，查看此次具体[提交记录](http://goo.gl/2AuWx6), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
+
+解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/2XFtUA)
+
++ （小牛）将 Github 项目中[account@7.css](http://goo.gl/MXz85T), [account@7.min.css](http://goo.gl/K3dw2l), [account@7.plus.css](http://goo.gl/Te7TXa) **3**个样式表文件复制添加至 Eclipse 项目中相关目录下；
+
++ （小牛）将 Github 项目中[account@7.js](http://goo.gl/7R2z3T), [account@7.min.js](http://goo.gl/4BBN2z), [account@7.main.js](http://goo.gl/QRVuad), [account@7.logic.js](http://goo.gl/5Sh4MQ), [account@7.logic.min.js](http://goo.gl/rw3N47), [account@7.logic.plus.js](http://goo.gl/RpaHqn) **6**个JS脚本文件复制添加至 Eclipse 项目中相关目录下；
+
++ （相关负责人）依据 Github 项目中[ " 我的投资项目详情 " 页面文件](http://goo.gl/AyI1gc)在 Eclipse 项目中创建相关视图文件。
+
+
+
 ###" 我的投资列表 " 页面已经完成（PM 2014.01.13.12.56）###
 -----------------------------------------------------
 
@@ -11,7 +28,7 @@
 
 + （小牛）覆盖更新 Eclipse 项目中 [account@2.main.js](http://goo.gl/AMEUFM), [account@2.logic.js](http://goo.gl/sLvhxI), [account@2.logic.min.js](http://goo.gl/sFmRdL), [jquery.selector.min.js](http://goo.gl/5VCmJl) **4**个JS脚本文件；
 
-+ （相关负责人）依据 Github 项目中[我的投资列表页面文件](http://goo.gl/VHnzOT)在 Eclipse 项目中创建相关视图文件。
++ （相关负责人）依据 Github 项目中[ " 我的投资列表 " 页面文件](http://goo.gl/VHnzOT)在 Eclipse 项目中创建相关视图文件。
 
 
 
@@ -28,7 +45,7 @@
 
 + （小牛）覆盖更新 Eclipse 项目中 [account@1.main.js](http://goo.gl/k92X58), [account@1.logic.js](http://goo.gl/9ufcBv), [account@1.logic.min.js](http://goo.gl/oTbGwe) **3**个JS脚本文件；
 
-+ （相关负责人）依据 Github 项目中[账户总览页面文件第443行开始](http://goo.gl/QWilca)在 Eclipse 项目中相关视图文件的相关位置进行修改。
++ （相关负责人）依据 Github 项目中[ " 账户总览 " 页面文件第 " 443 " 行开始](http://goo.gl/QWilca)在 Eclipse 项目中相关视图文件的相关位置进行修改。
 
 
 
@@ -59,4 +76,4 @@
 
 + （小牛）将 Github 项目中 [account@4.css](http://goo.gl/rCfVPM), [account@4.min.css](http://goo.gl/r9R1Ue), [account@4.plus.css](http://goo.gl/v4ZCKG) **3**个文件复制添加至 Eclipse 项目中相关目录下；
 
-+ （相关负责人）依据 Github 项目中[充值明细页面文件](http://goo.gl/YQCg6v)在 Eclipse 项目中创建相关视图文件。
++ （相关负责人）依据 Github 项目中[ " 充值明细 " 页面文件](http://goo.gl/YQCg6v)在 Eclipse 项目中创建相关视图文件。
