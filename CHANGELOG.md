@@ -1,3 +1,22 @@
+###" 重置密码 " 页面已经完成（PM 2014.01.14.16.29）###
+-----------------------------------------------------
+
+[里程碑 " 0.1.0-alpha " 镜像文件更新/提交记录](http://goo.gl/cSYhBQ)。
+
+此次提交共涉及**12**个文件，查看此次具体[提交记录](http://goo.gl/wNB5Eg), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
+
+解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/WMwwdW)
+
++ （小牛）覆盖更新 Eclipse 项目中整个 [" img " 目录](http://goo.gl/kty4UF)；
+
++ （小牛）将 Github 项目中[reset.password.css](http://goo.gl/nOz50I), [reset.password.min.css](http://goo.gl/yT623z), [reset.password.plus.css](http://goo.gl/byfUvK) **3**个样式表文件复制添加至 Eclipse 项目中相关目录下；
+
++ （小牛）将 Github 项目中[reset.password.logic.js](http://goo.gl/laFmyY), [reset.password.logic.min.js](http://goo.gl/3ZxAQ6), [reset.password.logic.plus.js](http://goo.gl/qVBhGs), [reset.password.main.js](http://goo.gl/DvwR7B), [reset.password.js](http://goo.gl/Rm7zFk), [reset.password.min.js](http://goo.gl/ugZHKI) **6**个JS脚本文件复制添加至 Eclipse 项目中相关目录下；
+
++ （相关负责人）依据 Github 项目中[ " 重置密码 " 页面文件](http://goo.gl/EZWLcq)在 Eclipse 项目中创建相关视图文件。
+
+
+
 ###" 我的投资项目详情 " 页面已经完成（PM 2014.01.13.16.28）###
 -----------------------------------------------------
 
