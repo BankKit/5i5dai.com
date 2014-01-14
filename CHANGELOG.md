@@ -1,3 +1,20 @@
+###" 找回密码 " 页面已经完成（PM 2014.01.14.17.02）###
+-----------------------------------------------------
+
+[里程碑 " 0.1.0-alpha " 镜像文件更新/提交记录](http://goo.gl/cSYhBQ)。
+
+此次提交共涉及**11**个文件，查看此次具体[提交记录](http://goo.gl/J4FvB1), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
+
+解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/NdZLpv)
+
++ （小牛）将 Github 项目中[find.password.css](), [find.password.min.css](), [find.password.plus.css]() **3**个样式表文件复制添加至 Eclipse 项目中相关目录下；
+
++ （小牛）将 Github 项目中[find.password.main.js](http://goo.gl/NlFGwc), [find.password.logic.js](http://goo.gl/hZiBhr), [find.password.logic.min.js](http://goo.gl/3iOlrs), [find.password.logic.plus.js](http://goo.gl/s82IHY), [find.password.js](http://goo.gl/VFxmg0), [find.password.min.js](http://goo.gl/mfwyeQ) **6**个JS脚本文件复制添加至 Eclipse 项目中相关目录下；
+
++ （相关负责人）依据 Github 项目中[ " 找回密码 " 页面文件](http://goo.gl/mC4Ky8)在 Eclipse 项目中创建相关视图文件。
+
+
+
 ###" 重置密码结果 " 页面已经完成（PM 2014.01.14.17.02）###
 -----------------------------------------------------
 
