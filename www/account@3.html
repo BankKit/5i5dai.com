@@ -44,7 +44,7 @@
 		
 		<base target="_self"/>
 		
-		<meta http-equiv="X-UA-Compatible" content="ie = EmulateIE7, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
+		<meta http-equiv="X-UA-Compatible" content="ie = edge, chrome = 1"/> <!-- Offical: IE = EmulateIE7, IE = 10, IE = edge, chrome = 1 -->
 		
 		<meta name="viewport" content="width = 1200, minimal-ui"/> <!-- IOS Safari: Fixed in iOS 7.1 beta 2, A property, minimal-ui, has been added for the viewport meta tag key that allows minimizing the top and bottom bars on the iPhone as the page loads. While on a page using minimal-ui, tapping the top bar brings the bars back. Tapping back in the content dismisses them again. Reference, http://www.everythingicafe.com/forum/threads/lets-talk-ios-7-1-beta-2.104595/ -->
 		
@@ -277,6 +277,12 @@
 			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@3.min.css"/>
 			
 			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/account@3.plus.css"/> -->
+			
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/jquery_ui/jquery.ui.theme.min.css"/>
+			
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/jquery_ui/jquery.ui.core.min.css"/>
+			
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/jquery_ui/jquery.ui.datepicker.min.css"/>
 			
 			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/framework/component/selector.min.css"/>
 			
@@ -628,6 +634,148 @@
 								
 							<!-- End | Breadcrumbs -->
 							
+							<!-- Begin | Overview -->
+								
+								<div class="overview clearfix">
+									
+									<span class="left span_1">账户余额：<span>22,765.34</span> 元</span>
+
+									<span class="left span_2">冻结资金：0.00 元</span>
+
+									<a class="left borderRaiuds_3 a_1" href="#">充值</a>
+
+									<a class="left borderRaiuds_3 a_2" href="#">提现</a>
+									
+								</div>
+								
+							<!-- End | Overview -->
+							
+							<!-- Begin | Table -->
+								
+								<div class="table" itemscope itemtype="http://schema.org/Table">
+									
+									<meta itemprop="mainContentOfPage" content="true"/>
+									
+									<!-- Begin | Tabel Title -->
+										
+										<form id="frmFilter" class="rela tableTitle frmFilter" name="frmFilter" action="#" method="post">
+											
+											<h1 class="left" itemprop="about">充值明细</h1>
+											
+											<span class="left span_1">时间</span>
+											
+											<!-- Begin | Datepicker 1st -->
+												
+												<div class="left dateIpt di_1">
+													
+													<input id="iptStartDate" class="left iptStartDate" name="iptStartDate" type="text"/>
+													
+													<i class="rela right"></i>
+													
+												</div>
+												
+											<!-- End | Datepicker 1st -->
+											
+											<span class="left span_2">至</span>
+											
+											<!-- Begin | Datepicker 2nd -->
+												
+												<div class="left dateIpt di_2">
+													
+													<input id="iptEndDate" class="left iptEndDate" name="iptEndDate" type="text"/>
+													
+													<i class="rela right"></i>
+													
+												</div>
+												
+											<!-- End | Datepicker 2nd -->
+											
+											<span class="left span_3">类型</span>
+											
+											<!-- Begin | Selector -->
+												
+												<div class="left slt slt_1">
+													
+													<select name="slt_1" id="slt_1" class="opacityFull">
+														
+														<option value=""></option>
+														
+														<option value="全部" selected="true">全部</option>
+														
+														<option value="选项二">选项二</option>
+														
+														<option value="选项三">选项三</option>
+														
+														<option value="选项四">选项四</option>
+														
+														<option value="选项五">选项五</option>
+														
+														<option value="选项六">选项六</option>
+														
+													</select>
+													
+												</div>
+												
+											<!-- End | Selector -->
+											
+										</form>
+										
+									<!-- End | Tabel Title -->
+									
+									<!-- Begin | Table Header -->
+										
+										<div class="tableHeader">
+											
+											<span class="left h_1">时间</span>
+											
+											<span class="left h_2">类型</span>
+											
+											<span class="left h_3">收入（元）</span>
+											
+											<span class="left h_4">支出（元）</span>
+											
+											<span class="left h_5">账户余额（元）</span>
+											
+											<span class="left h_6">备注</span>
+											
+										</div>
+										
+									<!-- End | Table Header -->
+									
+									<!-- Begin | Table Row -->
+										
+										<div class="tableRowSet">
+											
+											<!-- Begin | <t:loop> -->
+												
+												<div class="minHeight_50 tableRow clearfix">
+													
+													<div class="left trow1"></div> <!-- Test class: blackBg -->
+													
+													<div class="left trow2" itemprop="name">2013-03-12 21:22</div> <!-- Test class: lightGreyBg -->
+													
+													<div class="left trow3 textCenter" itemprop="text">收款</div> <!-- Test class: facebookBlueBg -->
+													
+													<div class="left trow4 textCenter" itemprop="text">10,000.00</div> <!-- Test class: brightRedBg -->
+													
+													<div class="left trow5 textCenter" itemprop="text"></div> <!-- Test class: blackBg -->
+													
+													<div class="left trow6 textCenter" itemprop="text">56，200.00</div> <!-- Test class: lightGreyBg -->
+													
+													<div class="left trow7 textCenter textOverflow" title="收回本金丨投资：汇通安汇通安汇通安汇通安汇通安汇通安汇通安" itemprop="text">收回本金丨投资：汇通安汇通安汇通安汇通安汇通安汇通安汇通安</div> <!-- Test class: facebookBlueBg -->
+													
+												</div>
+												
+											<!-- End | <t:loop> -->
+											
+										</div>
+										
+									<!-- End | Table Row -->
+									
+								</div>
+								
+							<!-- End | Table -->
+							
 							<div class="ftr absol">© 2013-2014 上海亨元金融信息服务有限公司 版权所有   赣ICP备13002945</div>
 							
 						</div>
@@ -731,5 +879,5 @@
 
 * Creation Date: 2014.01.09 17:37 ( Tony ).
 
-* Last Update: 2014.01.12 23:09 ( Tony ).
+* Last Update: 2014.01.15 14:05 ( Tony ).
 -->

@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2014.01.09 17:43 ( Tony ).
  * 
- * Last Update: 2014.01.12 18:07 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.15 13:19 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -42,21 +42,25 @@
 	
 	fn= function (require) {
 		
-		var SJ = require('jquery'),
-			
-			easing = require('easing'),
-			
-			modernizr = require('modernizr'),
-
-			sticky = require('sticky');
+		var SJ, uiDatePicker, slt, easing, modernizr, sticky, tlns, extend, _mod, mute, evtName;
 		
-		var tlns, extend, _mod,
-			
-			mute = false; //TODO: Have to cancel "console" function before release.
+		
+		
+		SJ = require('jquery');
+
+		uiDatePicker = require('uiDatePicker');
+		
+		slt = require('slt');
+		
+		easing = require('easing');
+		
+		modernizr = require('modernizr');
+		
+		sticky = require('sticky');
+		
+		mute = true; //TODO: Have to cancel "console" function before release.
 		
 		tlns = tlns || {}; //top-level namespace
-		
-		var evtName;
 		
 		modernizr.touch ? evtName = 'touchstart' : evtName = 'click';
 		
@@ -95,6 +99,118 @@
 		
 		
 		/**
+		 * Module: Datepicker.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					SJ(function($){
+						
+						$.datepicker.regional['zh-CN'] = {
+							
+							closeText: '关闭',
+							
+							prevText: '&#x3C;上月',
+							
+							nextText: '下月&#x3E;',
+							
+							currentText: '今天',
+							
+							monthNames: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
+							
+							monthNamesShort: ['一月','二月','三月','四月','五月','六月','七月','八月','九月','十月','十一月','十二月'],
+							
+							dayNames: ['星期日','星期一','星期二','星期三','星期四','星期五','星期六'],
+							
+							dayNamesShort: ['周日','周一','周二','周三','周四','周五','周六'],
+							
+							dayNamesMin: ['日','一','二','三','四','五','六'],
+							
+							weekHeader: '周',
+							
+							dateFormat: 'yy-mm-dd',
+							
+							firstDay: 1,
+							
+							isRTL: false,
+							
+							showMonthAfterYear: true,
+							
+							yearSuffix: '年'
+							
+						};
+						
+						$.datepicker.setDefaults($.datepicker.regional['zh-CN']);
+						
+					});
+					
+					SJ('#iptStartDate').datepicker({
+						
+						showAnim: 'fadeIn',
+						
+						showOtherMonths: true
+						
+					});
+					
+					SJ('#iptEndDate').datepicker({
+						
+						showAnim: 'fadeIn',
+						
+						showOtherMonths: true
+						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
+		 * Module: Selector.
+		 */
+		
+		_mod = (function (hawaii) {
+			
+			tlns.init = function () {
+				
+				SJ("select").selecter({
+					
+					callback: function (value) {
+						
+						if (!mute) {
+							
+							console.log('Value: ' + value + '.');
+							
+						}
+						
+					}
+					
+				});
+				
+			};
+			
+			// Add method(logic) here ...
+			
+			hawaii.init = function () {
+				
+				this.init();
+				
+			}.call(tlns);
+			
+			return hawaii;
+			
+		} (_mod || {})).init;
+		
+		
+		
+		/**
 		 * Module: Sticky Side Bar.
 		 */
 		
@@ -109,6 +225,76 @@
 						topSpacing: 0,
 						
 						getWidthFrom: 'aside'
+						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
+		 * Module: Table Row.
+		 */
+		
+		_mod = (function (hawaii) {
+			
+			tlns.init = function () {
+				
+				for (var i = 1; i <= 29; i++) {
+					
+					SJ('<div class="minHeight_50 tableRow clearfix"><div class="left trow1"></div><div class="left trow2" itemprop="name">2013-03-12 21:22</div><div class="left trow3 textCenter" itemprop="text">收款</div><div class="left trow4 textCenter" itemprop="text">10,000.00</div><div class="left trow5 textCenter" itemprop="text"></div><div class="left trow6 textCenter" itemprop="text">56，200.00</div><div class="left trow7 textCenter textOverflow" title="收回本金丨投资：汇通安汇通安汇通安汇通安汇通安汇通安汇通安" itemprop="text">收回本金丨投资：汇通安汇通安汇通安汇通安汇通安汇通安汇通安</div></div>').appendTo(SJ('.tableRowSet'));
+					
+				}
+				
+			};
+			
+			// Add method(logic) here ...
+			
+			hawaii.init = function () {
+				
+				this.init();
+				
+			}.call(tlns);
+			
+			return hawaii;
+			
+		} (_mod || {})).init;
+		
+		
+		
+		/**
+		 * Module: Even/Odd Row Style Control.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					var tableRow = SJ('.tableRow');
+					
+					tableRow.filter(':last').addClass('lastRow');
+					
+					tableRow.filter(':odd').addClass('oddRow');
+					
+					tableRow.on('mouseover', function () {
+						
+						var that = SJ(this);
+						
+						that.addClass('hovers');
+						
+					});
+					
+					tableRow.on('mouseout', function () {
+						
+						var that = SJ(this);
+						
+						that.removeClass('hovers');
 						
 					});
 					
