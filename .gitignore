@@ -32,3 +32,6 @@ $RECYCLE.BIN/
 shorttime.md
 HELPER.md
 .sass-cache
+*.rar
+cdn-update
+sass-built

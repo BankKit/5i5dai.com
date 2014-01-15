@@ -63,6 +63,8 @@
 
 - [账户：我的投资列表 - 单例详情](http://goo.gl/wqvKaf)
 
+- [账户：资金交易明细](http://goo.gl/MU5d4n)
+
 - [账户：充值明细](http://goo.gl/80i5RC)
 
 - [找回密码](http://goo.gl/42k83N)
