@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.01.10 11:51 ( Tony ).
  * 
- * Last Update: 2014.01.12 18:32 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.16 12:33 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -187,6 +187,356 @@ body {
 	
 }
 
+
+
+/*
+ ::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::  ::::::::
+:+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+: :+:    :+:
++:+        +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+ +:+
++#++:++#++ +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+ +#++:++#++
+       +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#        +#+
+#+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+# #+#    #+#
+ ########  ########## ########     ###     ########### ########  ###    ####  ########
+*/
+
+.secn {
+	
+	width: 870px;
+
+	margin-bottom: 32px;
+
+	margin-left: 30px;
+
+	background-color: #FFF;
+	
+}
+
+.secn > i {
+
+	display: block;
+
+	height: 4px;
+	
+	width: 870px;
+
+	background-color: #fb565c;
+
+}
+
+/* Header */
+
+.secn > .secnHeader {
+
+	height: 50px;
+
+	border-bottom: 1px solid #eaeaea;
+
+}
+
+.ie7 .secn > .secnHeader {
+
+	height: 49px;
+
+}
+
+.secn > .secnHeader > h2 {
+	
+	color: #333;
+
+	font-weight: bold;
+
+	font-size: 16px;
+
+	margin-top: 16px;
+
+	margin-left: 25px;
+
+}
+
+.ie7 .secn > .secnHeader > h2 {
+
+	margin-top: 17px;
+
+}
+
+/* Content */
+
+.secn > .secnContent {
+
+	padding-bottom: 15px;
+
+}
+
+/* Section 1st, Content */
+
+.secn_1 > .secnContent > .span_1,
+
+.secn_1 > .secnContent > .span_2,
+
+.secn_1 > .secnContent > .span_5 {
+
+	margin-left: 25px;
+
+}
+
+.secn_1 > .secnContent > .span_1 {
+
+	display: block;
+
+	width: 845px;
+
+	margin-top: 15px;
+
+}
+
+.secn_1 > .secnContent > .span_2 {
+
+	margin-top: 15px;
+
+}
+
+.secn_1 > .secnContent > a {
+
+	color: #fda1a4;
+
+	text-decoration: none;
+
+	left: 340px;
+
+}
+
+.secn_1 > .secnContent > a:hover {
+
+	text-decoration: underline;
+
+}
+
+.secn_1 > .secnContent > a.a_1 {
+
+	top: 15px;
+
+}
+
+.secn_1 > .secnContent > a.a_2 {
+
+	top: 77px;
+
+}
+
+.ie-lt9 .secn_1 > .secnContent > a.a_2 {
+
+	top: 73px;
+
+}
+
+.secn_1 > .secnContent > .infoCompletion {
+	
+	width: 100px;
+	
+	height: 10px;
+
+	margin-top: 19px;
+	
+	overflow: hidden;
+	
+	background-color: #000;
+
+
+}
+
+.secn_1 > .secnContent > .span_3 {
+
+	margin-top: 15px;
+
+	margin-right: 590px;
+
+	margin-left: 5px;
+
+}
+
+.secn_1 > .secnContent > .span_5 {
+
+	margin-top: 15px;
+
+}
+
+.secn_1 > .secnContent > .span_6 {
+
+	margin-top: 15px;
+
+}
+
+.secn_1 > .secnContent > .infoCompletion > div {
+	
+	height: 10px;
+	
+}
+
+.secn_1 > .secnContent.lowSafe > .infoCompletion > div {
+	
+	width: 35px;
+	
+	background-color: #fb565c;
+	
+}
+
+.secn_1 > .secnContent.lowSafe > .span_3 {
+	
+	color: #fb565c;
+	
+}
+
+.secn_1 > .secnContent.commonSafe > .infoCompletion > div {
+	
+	width: 70px;
+	
+	background-color: #ffba00;
+	
+}
+
+.secn_1 > .secnContent.commonSafe > .span_3 {
+	
+	color: #ffba00;
+	
+}
+
+.secn_1 > .secnContent.highSafe > .infoCompletion > div {
+	
+	width: 100px;
+	
+	background-color: #33cc00;
+	
+}
+
+.secn_1 > .secnContent.highSafe > .span_3 {
+	
+	color: #33cc00;
+	
+}
+
+/* Section 2nd, Content */
+
+.secn_2 {
+
+	
+
+}
+
+.secn_2 > .secnContent > i {
+	
+	display: block;
+
+	width: 13px;
+
+	height: 13px;
+
+	margin-top: 19px;
+
+	margin-left: 25px;
+
+	background: url(../../img/investment-site/Icons/wrong.jpg) center center no-repeat;
+
+}
+
+.secn_2 > .secnContent.rna > i {
+
+	background: url(../../img/investment-site/Icons/right.jpg) center center no-repeat;
+
+}
+
+.secn_2 > .secnContent > span {
+
+	margin-top: 17px;
+
+	margin-left: 10px;
+
+}
+
+.secn_2 > .secnContent > a {
+
+	color: #fda1a4;
+
+	text-decoration: none;
+
+	top: 17px;
+
+	left: 340px;
+
+}
+
+.secn_2 > .secnContent.rna > a {
+
+	color: #d2d2d2;
+
+}
+
+.secn_2 > .secnContent > a:hover {
+
+	text-decoration: underline;
+
+}
+
+.ie7 .secn_2 > .secnContent {
+
+	padding-bottom: 0;
+
+}
+
+/* Section 3rd, Content */
+
+.secn_3 > .secnContent > i {
+
+	display: block;
+
+	width: 16px;
+
+	height: 16px;
+
+	margin-top: 18px;
+
+	margin-left: 25px;
+
+	background: url(../../img/investment-site/Icons/icon.009.jpg) center center no-repeat;
+
+}
+
+.secn_3 > .secnContent > span {
+
+	margin-top: 18px;
+
+	margin-left: 10px;
+
+}
+
+.secn_3 > .secnContent > a {
+
+	color: #fda1a4;
+
+	text-decoration: none;
+
+	top: 17px;
+
+	left: 340px;
+
+}
+
+.secn_3 > .secnContent.ea > a {
+
+	color: #d2d2d2;
+
+}
+
+.secn_3 > .secnContent > a:hover {
+
+	text-decoration: underline;
+
+}
+
+.ie7 .secn_3 > .secnContent {
+
+	padding-bottom: 0;
+
+}
 
 
 /*

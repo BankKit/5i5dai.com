@@ -42,21 +42,21 @@
 	
 	fn= function (require) {
 
-		var SJ = require('jquery'),
+		var SJ, easing, modernizr, sticky, tlns, extend, _mod, mute, evtName;
 
-			easing = require('easing'),
 
-			modernizr = require('modernizr'),
 
-			sticky = require('sticky');
+		SJ = require('jquery'),
+
+		easing = require('easing'),
+
+		modernizr = require('modernizr'),
+
+		sticky = require('sticky');
 		
-		var tlns, extend, _mod,
-			
-			mute = false; //TODO: Have to cancel "console" function before release.
+		mute = false; //TODO: Have to cancel "console" function before release.
 		
 		tlns = tlns || {}; //top-level namespace
-
-		var evtName;
 
 		modernizr.touch ? evtName = 'touchstart' : evtName = 'click';
 		
@@ -110,6 +110,32 @@
 						
 						getWidthFrom: 'aside'
 						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
+		 * Module: Real Name Authentication.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					SJ('.secn_2 > .secnContent.rna > a, .secn_3 > .secnContent.ea > a').on('click', function (e) {
+
+						e.stopPropagation();
+
+						e.preventDefault();
+
 					});
 					
 				}

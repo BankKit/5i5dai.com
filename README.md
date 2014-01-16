@@ -67,6 +67,8 @@
 
 - [账户：充值明细](http://goo.gl/80i5RC)
 
+- [账户：账户安全](http://goo.gl/x3Wt5i)
+
 - [找回密码](http://goo.gl/42k83N)
 
 - [重置密码](http://goo.gl/FSFhB5)
