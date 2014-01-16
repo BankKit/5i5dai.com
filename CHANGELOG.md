@@ -3,7 +3,7 @@
 
 [里程碑 " 0.1.0-alpha " 镜像文件更新/提交记录](http://goo.gl/cSYhBQ)。
 
-此次提交共涉及****个文件，查看此次具体[提交记录](http://goo.gl/sk2Hlb), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
+此次提交共涉及**7**个文件，查看此次具体[提交记录](http://goo.gl/sk2Hlb), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
 
 解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/x3Wt5i)
 
