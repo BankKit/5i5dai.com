@@ -3,13 +3,15 @@
 
 [里程碑 " 0.1.0-alpha " 镜像文件更新/提交记录](http://goo.gl/cSYhBQ)。
 
-此次提交共涉及**15**个文件，查看此次具体[提交记录](), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
+此次提交共涉及**21**个文件，查看此次具体[提交记录](http://goo.gl/gMovra), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
 
 解决方案：
 
++ 由于这几张页面在页面结构上相似度、关联度较大，所以做在了一张页面上，故：没有实时的预览地址。可以查看[关于亨元金融页面](http://goo.gl/jPQJSJ)、[网站声明页面](http://goo.gl/ZX6hi0)、[联系我们页面](http://goo.gl/ZUgVxs)设计稿。
+
 + （小牛）点击下载[更新补丁](http://goo.gl/rnbDbR), 覆盖更新 " cdn " 目录；
 
-+ （相关负责人）依据 Github 项目中[ " 关于我爱我贷 " 页面文件](http://goo.gl/5vcX9g)在 Eclipse 项目中创建相关视图文件。
++ （相关负责人）依据 Github 项目中[ " 关于亨元金融 " 标记片段](http://goo.gl/Y0YTu2)、[ " 网站声明 " 标记片段](http://goo.gl/tmHysO)、[ " 联系我们 " 标记片段](http://goo.gl/dmNfxP)在 Eclipse 项目中相关视图文件的相关位置进行修改。
 
 
 
