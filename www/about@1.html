@@ -268,9 +268,9 @@
 		
 		<!-- Begin | Private Stylesheet -->
 			
-			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/about@1.css"/> -->
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/about@1.css"/>
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/about@1.min.css"/>
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/about@1.min.css"/> -->
 			
 			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/about@1.plus.css"/> -->
 			
@@ -476,13 +476,13 @@
 						
 						<ul class=""> <!-- Test class: blueBoxGradient -->
 							
-							<li class="minHeight_50 li_1"> <!-- Test class: boxRadialGradient --> <!-- Use " current " class to switch the selected nvigation menu. -->
+							<li class="minHeight_50 li_1 current"> <!-- Test class: boxRadialGradient --> <!-- Use " current " class to switch the selected nvigation menu. -->
 								
 								<a class="left" href="about%401.min.html">关于我爱我贷网</a>
 								
 							</li>
 							
-							<li class="minHeight_50 li_2 current"> <!-- Use " current " class to switch the selected nvigation menu. -->
+							<li class="minHeight_50 li_2"> <!-- Use " current " class to switch the selected nvigation menu. -->
 								
 								<a class="left" href="about%401.min.html">关于亨元金融</a>
 								
@@ -516,7 +516,7 @@
 					
 					<!-- Begin | About " 5i5dai " -->
 						
-						<section class="grid grid_9 rightSide minHeight_1000 sec_1" style="display: none;"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
+						<section class="grid grid_9 rightSide minHeight_1000 sec_1"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
 							
 							<i></i>
 							
@@ -558,7 +558,7 @@
 					
 					<!-- Begin | About " Hengyuan Finance " -->
 						
-						<section class="grid grid_9 rightSide minHeight_1000 sec_2"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
+						<section class="grid grid_9 rightSide minHeight_1000 sec_2" style="display: none;"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
 							
 							<i></i>
 							
@@ -636,25 +636,193 @@
 						
 					<!-- End | Site Announcement -->
 					
-					<!-- Begin | News & Announcement -->
+					<!-- Begin | News & Announcement Directory List -->
 						
-						<section class="grid grid_9 rightSide minHeight_300 sec_4" style="display: none;"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
+						<section class="grid grid_9 rightSide minHeight_300 sec_4" itemscope itemtype="http://schema.org/Table"  style="display: none;"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
+							
+							<meta itemprop="mainContentOfPage" content="true"/>
+							
+							<!-- Begin | Tabel Title -->
+								
+								<div class="tableTitle">
+									
+									<h1 class="left" itemprop="about">公告与新闻</h1>
+									
+								</div>
+								
+							<!-- End | Tabel Title -->
+							
+							<!-- Begin | Table Header -->
+								
+								<div class="tableHeader">
+									
+									<span class="left h_1">标题</span> <!-- Test class: blackBg -->
+									
+									<span class="left h_2">发布时间</span> <!-- Test class: lightGreyBg -->
+									
+									<span class="left h_3">操作</span> <!-- Test class: facebookBlueBg -->
+									
+								</div>
+								
+							<!-- End | Table Header -->
+							
+							<!-- Begin | <t:zone> | For List and Pagination Freshing -->
+								
+								<div>
+									
+									<!-- Begin | Table Row -->
+										
+										<div class="tableRowSet">
+											
+											<!-- Begin | <t:loop> -->
+												
+												<div class="minHeight_50 tableRow clearfix">
+													
+													<div class="left trow1"></div> <!-- Test class: blackBg -->
+													
+													<div class="left trow2 textLeft" itemprop="name">[公告] 汇通-安心贷项目发布时间公告进行调整</div> <!-- Test class: lightGreyBg -->
+													
+													<div class="left trow3 textCenter" itemprop="text">2013-03-12 15:30:24</div> <!-- Test class: facebookBlueBg -->
+													
+													<div class="left trow4">
+														
+														<a class="left textCenter cleanLink borderRaiuds_3" href="#">了解详情</a>
+														
+													</div> <!-- Test class: brightRedBg -->
+													
+												</div>
+												
+											<!-- End | <t:loop> -->
+											
+										</div>
+										
+									<!-- End | Table Row -->
+									
+									<!-- Begin | Pagination -->
+										
+										<div class="paginationContainer clearfix">
+											
+											<div class="rela right pg_9 pgTool">
+												
+												共 100 页 &nbsp;&nbsp; 去第 <input class="textCenter" name="iptForward" type="text"/><button class="btnCommmit" type="submit">确认</button> 页
+												
+											</div>
+											
+											<ul class="right pagination"> <!-- Test class: flatYellowBoxGradient -->
+												
+												<li class="left pg_1 pgPrev">
+													
+													<a class="textCenter" href="#">上一页</a>
+													
+												</li>
+												
+												<li class="left pg_2 pageNum current">
+													
+													<a class="textCenter" href="#">1</a>
+													
+												</li>
+												
+												<li class="left pg_3 pageNum">
+													
+													<a class="textCenter" href="#">2</a>
+													
+												</li>
+												
+												<li class="left pg_4 pageNum">
+													
+													<a class="textCenter" href="#">3</a>
+													
+												</li>
+												
+												<li class="left pg_5 pageNum">
+													
+													<a class="textCenter" href="#">4</a>
+													
+												</li>
+												
+												<li class="left pg_6 pageNum">
+													
+													<a class="textCenter" href="#">5</a>
+													
+												</li>
+												
+												<li class="left pg_7 pgEllipsis">
+													
+													...
+													
+												</li>
+												
+												<li class="left pg_8 pgNext">
+													
+													<a class="textCenter" href="#">下一页</a>
+													
+												</li>
+												
+											</ul>
+											
+										</div>
+										
+									<!-- Begin | Pagination -->
+									
+								</div>
+								
+							<!-- End | <t:zone> | For List and Pagination Freshing -->
+							
+						</section>
+						
+					<!-- End | News & Announcement Directory List -->
+					
+					<!-- Begin | News & Announcement Content -->
+						
+						<section class="grid grid_9 rightSide minHeight_300 sec_5" style="display: none;"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
 							
 							<i></i>
 							
 							<article>
 								
+								<div class="announcementHeader">
+									
+									<h2>主题：我爱我贷网商城消费金融第一品牌</h2>
+									
+									<h2>来自：我爱我贷网</h2>
+									
+									<h2>日期：2013-12-13 10:30:00</h2>
+									
+								</div>
 								
+								<p>汇通分期商城( www.fenqimall.com )作为汇通金融旗下的专业消费分期服务平台，立足于消费金融领域，致力于成为中国消费金融的第一品牌。汇通分期商城是一个开放、安全、高效的互联网平台，为消费者、商户和出借人搭建了桥梁。汇通分期商城为消费者提供了便捷贴心的消费分期服务，助力消费者实现梦想；汇通分期商城为商户拓展了目标消费人群，提升了销售量和销售利润，增强了核心竞争力；与此同时，汇通分期商城为出借人提供了小额资金有效保值增值的流通平台。</p>
+								
+								<p>汇通分期商城拥有消费金融领域最专业健全的管理服务和风控体系，提供全面的信用管理、商户管理和财务管理等服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。</p>
+								
+								<p>汇通分期商城( www.fenqimall.com )作为汇通金融旗下的专业消费分期服务平台，立足于消费金融领域，致力于成为中国消费金融的第一品牌。汇通分期商城是一个开放、安全、高效的互联网平台，为消费者、商户和出借人搭建了桥梁。汇通分期商城为消费者提供了便捷贴心的消费分期服务，助力消费者实现梦想；汇通分期商城为商户拓展了目标消费人群，提升了销售量和销售利润，增强了核心竞争力；与此同时，汇通分期商城为出借人提供了小额资金有效保值增值的流通平台。</p>
+								
+								<p>汇通分期商城拥有消费金融领域最专业健全的管理服务和风控体系，提供全面的信用管理、商户管理和财务管理等服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。</p>
+								
+								<p>汇通分期商城( www.fenqimall.com )作为汇通金融旗下的专业消费分期服务平台，立足于消费金融领域，致力于成为中国消费金融的第一品牌。汇通分期商城是一个开放、安全、高效的互联网平台，为消费者、商户和出借人搭建了桥梁。汇通分期商城为消费者提供了便捷贴心的消费分期服务，助力消费者实现梦想；汇通分期商城为商户拓展了目标消费人群，提升了销售量和销售利润，增强了核心竞争力；与此同时，汇通分期商城为出借人提供了小额资金有效保值增值的流通平台。</p>
+								
+								<p>汇通分期商城拥有消费金融领域最专业健全的管理服务和风控体系，提供全面的信用管理、商户管理和财务管理等服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。</p>
+								
+								<p>汇通分期商城( www.fenqimall.com )作为汇通金融旗下的专业消费分期服务平台，立足于消费金融领域，致力于成为中国消费金融的第一品牌。汇通分期商城是一个开放、安全、高效的互联网平台，为消费者、商户和出借人搭建了桥梁。汇通分期商城为消费者提供了便捷贴心的消费分期服务，助力消费者实现梦想；汇通分期商城为商户拓展了目标消费人群，提升了销售量和销售利润，增强了核心竞争力；与此同时，汇通分期商城为出借人提供了小额资金有效保值增值的流通平台。</p>
+								
+								<p>汇通分期商城拥有消费金融领域最专业健全的管理服务和风控体系，提供全面的信用管理、商户管理和财务管理等服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。</p>
+								
+								<p>汇通分期商城( www.fenqimall.com )作为汇通金融旗下的专业消费分期服务平台，立足于消费金融领域，致力于成为中国消费金融的第一品牌。汇通分期商城是一个开放、安全、高效的互联网平台，为消费者、商户和出借人搭建了桥梁。汇通分期商城为消费者提供了便捷贴心的消费分期服务，助力消费者实现梦想；汇通分期商城为商户拓展了目标消费人群，提升了销售量和销售利润，增强了核心竞争力；与此同时，汇通分期商城为出借人提供了小额资金有效保值增值的流通平台。</p>
+								
+								<p>汇通分期商城拥有消费金融领域最专业健全的管理服务和风控体系，提供全面的信用管理、商户管理和财务管理等服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。</p>
+								
+								<p>汇通分期商城( www.fenqimall.com )作为汇通金融旗下的专业消费分期服务平台，立足于消费金融领域，致力于成为中国消费金融的第一品牌。汇通分期商城是一个开放、安全、高效的互联网平台，为消费者、商户和出借人搭建了桥梁。汇通分期商城为消费者提供了便捷贴心的消费分期服务，助力消费者实现梦想；汇通分期商城为商户拓展了目标消费人群，提升了销售量和销售利润，增强了核心竞争力；与此同时，汇通分期商城为出借人提供了小额资金有效保值增值的流通平台。</p>
+								
+								<p>汇通分期商城拥有消费金融领域最专业健全的管理服务和风控体系，提供全面的信用管理、商户管理和财务管理等服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。服务，从而为消费者、商户和出借人提供了专业可靠的互信平台。</p>
 								
 							</article>
 							
 						</section>
 						
-					<!-- End | News & Announcement -->
+					<!-- End | News & Announcement Content -->
 					
 					<!-- Begin | Contact Us -->
 						
-						<section class="grid grid_9 rightSide sec_5" style="display: none;"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
+						<section class="grid grid_9 rightSide sec_6" style="display: none;"> <!-- Use ' style="display: none;" ' to switch the selected nvigation menu. -->
 							
 							<i></i>
 							
@@ -873,5 +1041,5 @@
 
 * Creation Date: 2014.11.20 11:21 ( Tony ).
 
-* Last Update: 2014.11.21 16:11 ( Tony ).
+* Last Update: 2014.11.22 12:55 ( Tony ).
 -->

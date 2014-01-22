@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.11.20 11:37 ( Tony ).
  * 
- * Last Update: 2014.11.20 15:10 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.11.22 12:52 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -312,6 +312,24 @@ body {
 	
 }
 
+.rightSide > article > .announcementHeader {
+	
+	margin-top: 25px;
+	
+}
+
+.rightSide > article > .announcementHeader > h2 {
+
+	color: #333;
+
+	font-weight: bold;
+	
+	font-size: 16px;
+
+	line-height: 25px;
+	
+}
+
 
 
 /*
@@ -382,7 +400,492 @@ body {
 
 .sec_4 {
 	
+	padding-bottom: 0;
+
+	background: none;
 	
+}
+
+/* Table Title */
+
+.tableTitle {
+	
+	height: 60px;
+	
+	-webkit-border-radius: 5px 5px 0 0;
+	
+	-moz-border-radius: 5px 5px 0 0;
+	
+	border-radius: 5px 5px 0 0;
+	
+	border-bottom: 3px solid rgb(218, 68, 83);
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box;
+	
+	background: rgb(251, 86, 92);
+	
+}
+
+.ie-lt9 .tableTitle {
+	
+	border: 0;
+	
+	background: url(../../img/investment-site/recharge.list.table.title.png) center center no-repeat;
+	
+}
+
+.tableTitle > h1 {
+	
+	color: #FFF;
+	
+	font-weight: normal;
+	
+	font-size: 16px;
+	
+	font-family: "微软雅黑";
+	
+	line-height: 55px;
+	
+	margin-left: 30px;
+	
+}
+
+/* Table Header */
+
+.tableHeader {
+	
+	height: 35px;
+	
+	border-bottom: 2px solid #93999e;
+	
+	background: #a4aeb9;
+	
+}
+
+.ie7 .tableHeader {
+	
+	height: 32px;
+	
+}
+
+.ie-lt9 .tableHeader {
+	
+	margin-top: -1px;
+	
+}
+
+.tableHeader > span {
+	
+	color: #fff;
+	
+	margin-top: 9px;
+	
+}
+
+.tableHeader > .h_1 {
+	
+	margin-left: 30px;
+	
+}
+
+.tableHeader > .h_2 {
+	
+	margin-left: 565px;
+	
+}
+
+.tableHeader > .h_3 {
+	
+	margin-left: 125px;
+	
+}
+
+/* Table Row */
+
+.tableRowSet {
+	
+	padding-bottom: 3px;
+	
+	-webkit-border-radius: 0 0 4px 4px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 0 0 4px 4px;
+	
+	border-radius: 0 0 4px 4px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+	background-color: #e3e4e8;
+	
+}
+
+.tableRow {
+	
+	background-color: #FFF;
+	
+}
+
+.tableRow:hover {
+	
+	background-color: #e3e4e8;
+	
+}
+
+.tableRow > div {
+	
+	color: #333;
+	
+	font-size: 14px;
+	
+	height: 50px;
+	
+	padding-top: 16px;
+	
+}
+
+.tableRow.lastRow {
+	
+	-webkit-border-radius: 0 0 4px 4px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 0 0 4px 4px;
+	
+	border-radius: 0 0 4px 4px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+}
+
+.tableRow.oddRow {
+	
+	background-color: #f6f8fa;
+	
+}
+
+.tableRow.hovers {
+	
+	background-color: #e3e4e8;
+	
+}
+
+.ie7 .tableRow > div {
+	
+	height: 34px;
+	
+}
+
+.tableRow > .trow1 {
+	
+	width: 30px;
+	
+}
+
+.tableRow > .trow2 {
+	
+	width: 550px;
+	
+}
+
+.tableRow > .trow3 {
+	
+	width: 145px;
+	
+}
+
+.tableRow > .trow4 {
+	
+	width: 100px;
+	
+	margin-left: 45px;
+	
+}
+
+.tableRow > .trow4 > a {
+	
+	display: block;
+	
+	color: #FFF;
+	
+	font-size: 12px;
+	
+	line-height: 23px;
+	
+	width: 70px;
+	
+	height: 23px;
+	
+	margin-top: -2px;
+	
+	margin-left: 15px;
+	
+	outline: 0;
+	
+	background: #fb6268; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNjI2OCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNDNlNDUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb6268 0%, #f43e45 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb6268), color-stop(100%,#f43e45)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb6268 0%,#f43e45 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb6268 0%,#f43e45 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb6268 0%,#f43e45 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb6268 0%,#f43e45 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb6268', endColorstr='#f43e45',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.tableRow > .trow4 > a:hover {
+	
+	background: #fc696e; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjNjk2ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjU2NWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fc696e 0%, #fb565c 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc696e), color-stop(100%,#fb565c)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fc696e 0%,#fb565c 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc696e', endColorstr='#fb565c',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.tableRow > .trow4 > a:active {
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYzY4NmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #fc686e 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#fc686e)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#fc686e 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#fc686e',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie9 .tableRow > .trow4 > a {
+	
+	filter: none;
+	
+}
+
+/* Pagination */
+
+.paginationContainer {
+	
+	margin-top: 75px;
+	
+	padding-bottom: 75px;
+	
+}
+
+.pagination {
+	
+	display: inline-block;
+	
+	min-width: 300px;
+	
+	height: 32px;
+	
+	margin: 0 auto;
+	
+}
+
+.pagination > li {
+	
+	color: #999;
+	
+	margin-left: 15px;
+	
+}
+
+.pagination > li.pgEllipsis {
+	
+	padding-top: 13px;
+	
+}
+
+.pagination > li.pg_1 {
+	
+	margin-left: 0;
+	
+}
+
+.pagination > li > a {
+	
+	display: block;
+	
+	color: #999;
+	
+	font-size: 12px;
+	
+	line-height: 32px;
+	
+	text-decoration: none;
+	
+	width: 32px;
+	
+	height: 32px;
+	
+	border: 1px solid #e9e9e9;
+	
+	outline: 0;
+	
+	background-color: #FFF;
+	
+}
+
+.ie7 .pagination > li > a {
+	
+	width: 30px;
+	
+	height: 30px;
+	
+}
+
+.pagination > li > a:hover {
+	
+	border: 1px solid #fb565c;
+	
+	background-color: #fee;s
+	
+}
+
+.pagination > li > a:active {
+	
+	color: #030000;
+	
+	border: 1px solid #fb565c;
+	
+	background-color: #fedcdd;
+	
+}
+
+.pagination > li.current > a {
+	
+	color: #FFF;
+	
+	border: 1px solid #fb565c;
+	
+	background-color: #fb565c;
+	
+}
+
+.pagination > .pgPrev > a,
+
+.pagination > .pgNext > a {
+	
+	width: 70px;
+	
+}
+
+.ie7 .pagination > .pgPrev > a,
+
+.ie7 .pagination > .pgNext > a {
+	
+	width: 70px;
+	
+}
+
+.pgTool {
+	
+	display: inline-block;
+	
+	font-size: 12px;
+	
+	height: 32px;
+	
+	line-height: 32px;
+	
+	margin: 0;
+	
+	padding: 0;
+	
+	margin-left: 15px;
+	
+}
+
+.pgTool > input {
+	
+	display: inline-block;
+	
+	width: 39px;
+	
+	height: 22px;
+	
+	line-height: 20px;
+	
+	border: 1px solid #e9e9e9;
+	
+}
+
+.ie7 .pgTool > input  {
+	
+	line-height: 17px;
+	
+	height: 18px;
+	
+}
+
+.ie8 .pgTool > input {
+	
+	line-height: 17px;
+	
+	height: 20px;
+	
+}
+
+.pgTool > .btnCommmit {
+	
+	display: inline-block;
+	
+	color: #FFF;
+	
+	font-size: 12px;
+	
+	line-height: 20px;
+	
+	width: 40px;
+	
+	height: 20px;
+	
+	padding: 0;
+	
+	background-color: #999999;
+	
+}
+
+.ie8 .pgTool > .btnCommmit,
+
+.ie9 .pgTool > .btnCommmit,
+
+.ie10 .pgTool > .btnCommmit,
+
+.ie11 .pgTool > .btnCommmit {
+	
+	position: relative;
+	
+	top: -1px !important;
 	
 }
 
@@ -398,7 +901,7 @@ body {
  ########  ########## ########     ###     ########### ########  ###    #### ########## ########
 */
 
-.sec_5 {
+.sec_6 {
 	
 	height: 370px;
 	
@@ -406,19 +909,19 @@ body {
 	
 }
 
-.ie7 .sec_5 {
+.ie7 .sec_6 {
 	
 	height: 300px;
 	
 }
 
-.sec_5 > article > p {
+.sec_6 > article > p {
 	
 	text-indent: 0;
 	
 }
 
-.sec_5 > article > div {
+.sec_6 > article > div {
 	
 	top: 174px;
 	

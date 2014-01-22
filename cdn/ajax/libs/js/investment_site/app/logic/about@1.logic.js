@@ -93,6 +93,76 @@
 		
 		
 		/**
+		 * Module: Table Row.
+		 */
+		
+		_mod = (function (hawaii) {
+			
+			tlns.init = function () {
+				
+				for (var i = 1; i <= 29; i++) {
+					
+					SJ('.tableRowSet').children(".tableRow").filter(':first').clone(true).appendTo(SJ('.tableRowSet'));
+					
+				}
+				
+			};
+			
+			// Add method(logic) here ...
+			
+			hawaii.init = function () {
+				
+				this.init();
+				
+			}.call(tlns);
+			
+			return hawaii;
+			
+		} (_mod || {})).init;
+		
+		
+		
+		/**
+		 * Module: Even/Odd Row Style Control.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					var tableRow = SJ('.tableRow');
+					
+					tableRow.filter(':last').addClass('lastRow');
+					
+					tableRow.filter(':odd').addClass('oddRow');
+					
+					tableRow.on('mouseover', function () {
+						
+						var that = SJ(this);
+						
+						that.addClass('hovers');
+						
+					});
+					
+					tableRow.on('mouseout', function () {
+						
+						var that = SJ(this);
+						
+						that.removeClass('hovers');
+						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
 		 * Module: Navigation Animation.
 		 */
 		
