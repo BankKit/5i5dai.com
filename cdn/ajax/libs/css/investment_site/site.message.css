@@ -1,0 +1,975 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for the site message page (../../../../../../www/site.message.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ * 
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2014.11.23 17:41 ( Tony ).
+ * 
+ * Last Update: 2014.11.23 19:19 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+
+
+/*
+:::::::::   ::::::::  :::::::::  :::   :::
+:+:    :+: :+:    :+: :+:    :+: :+:   :+:
++:+    +:+ +:+    +:+ +:+    +:+  +:+ +:+
++#++:++#+  +#+    +:+ +#+    +:+   +#++:
++#+    +#+ +#+    +#+ +#+    +#+    +#+
+#+#    #+# #+#    #+# #+#    #+#    #+#
+#########   ########  #########     ###
+*/
+
+body {
+	
+	background-color: #f1f1f1;
+	
+}
+
+.borderRaiuds_3 {
+	
+	-webkit-border-radius: 3px;
+	
+	-moz-border-radius: 3px;
+	
+	border-radius: 3px;
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box;
+	
+}
+
+
+
+/*
+:::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+:+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
++:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
++#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
++#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+#+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+###    ### ########## ###     ### #########  ########## ###    ###
+*/
+
+.structureHeader {
+	
+	-webkit-box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+	-o-box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Opera */
+	
+	-moz-box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Firefox 3.5 */
+	
+	box-shadow: 0 0 1px #CCC, 0 3px 3px #CCC; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+
+
+/*
+:::::::::      :::     ::::    ::: ::::    ::: :::::::::: :::::::::
+:+:    :+:   :+: :+:   :+:+:   :+: :+:+:   :+: :+:        :+:    :+:
++:+    +:+  +:+   +:+  :+:+:+  +:+ :+:+:+  +:+ +:+        +:+    +:+
++#++:++#+  +#++:++#++: +#+ +:+ +#+ +#+ +:+ +#+ +#++:++#   +#++:++#:
++#+    +#+ +#+     +#+ +#+  +#+#+# +#+  +#+#+# +#+        +#+    +#+
+#+#    #+# #+#     #+# #+#   #+#+# #+#   #+#+# #+#        #+#    #+#
+#########  ###     ### ###    #### ###    #### ########## ###    ###
+*/
+
+.investBanner {
+	
+	width: 100%;
+	
+	height: 120px;
+	
+	background: url(../../img/investment-site/invest.list.banner.jpg) center center no-repeat;
+	
+}
+
+
+
+/*
+ ::::::::   ::::::::  ::::    ::: ::::::::::: :::     ::::::::::: ::::    ::: :::::::::: :::::::::
+:+:    :+: :+:    :+: :+:+:   :+:     :+:   :+: :+:       :+:     :+:+:   :+: :+:        :+:    :+:
++:+        +:+    +:+ :+:+:+  +:+     +:+  +:+   +:+      +:+     :+:+:+  +:+ +:+        +:+    +:+
++#+        +#+    +:+ +#+ +:+ +#+     +#+ +#++:++#++:     +#+     +#+ +:+ +#+ +#++:++#   +#++:++#:
++#+        +#+    +#+ +#+  +#+#+#     +#+ +#+     +#+     +#+     +#+  +#+#+# +#+        +#+    +#+
+#+#    #+# #+#    #+# #+#   #+#+#     #+# #+#     #+#     #+#     #+#   #+#+# #+#        #+#    #+#
+ ########   ########  ###    ####     ### ###     ### ########### ###    #### ########## ###    ###
+*/
+
+.tableScaffolding {
+	
+	margin-top: 33px;
+	
+}
+
+
+
+/*
+::::::::::: :::     :::::::::  :::        ::::::::::       ::::::::::: ::::::::::: ::::::::::: :::        ::::::::::
+    :+:   :+: :+:   :+:    :+: :+:        :+:                  :+:         :+:         :+:     :+:        :+:
+    +:+  +:+   +:+  +:+    +:+ +:+        +:+                  +:+         +:+         +:+     +:+        +:+
+    +#+ +#++:++#++: +#++:++#+  +#+        +#++:++#             +#+         +#+         +#+     +#+        +#++:++#
+    +#+ +#+     +#+ +#+    +#+ +#+        +#+                  +#+         +#+         +#+     +#+        +#+
+    #+# #+#     #+# #+#    #+# #+#        #+#                  #+#         #+#         #+#     #+#        #+#
+    ### ###     ### #########  ########## ##########           ###     ###########     ###     ########## ##########
+*/
+
+.tableTitle {
+	
+	z-index: 0;
+	
+	width: 1170px;
+	
+	height: 60px;
+	
+	border-bottom: 3px solid rgb(218, 68, 83);
+	
+	-webkit-border-radius: 5px 5px 0 0;
+	
+	-moz-border-radius: 5px 5px 0 0;
+	
+	border-radius: 5px 5px 0 0;
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box;
+	
+	background: rgb(251, 86, 92);
+	
+}
+
+.ie-lt9 .tableTitle {
+	
+	border: 0;
+	
+	background: url(../../img/investment-site/invest.list.table.title.png) center center no-repeat;
+	
+}
+
+.tableTitle > h1 {
+	
+	color: #FFF;
+	
+	font-weight: normal;
+	
+	font-size: 16px;
+	
+	font-family: "微软雅黑";
+	
+	line-height: 55px;
+	
+	margin-left: 30px;
+	
+}
+
+.tableTitle > .iptTitle {
+	
+	color: #333;
+	
+	font-size: 12px;
+	
+	top: 22px;
+	
+}
+
+.ie7 .tableTitle > .iptTitle {
+	
+	top: 24px;
+	
+}
+
+.ie8 .tableTitle > .iptTitle,
+
+.ie9 .tableTitle > .iptTitle,
+
+.ie10 .tableTitle > .iptTitle {
+	
+	top: 23px;
+	
+}
+
+.tableTitle > .it_1 {
+	
+	z-index: 100;
+	
+	left: 580px;
+	
+}
+
+.tableTitle > .it_2 {
+	
+	z-index: 200;
+	
+	left: 778px;
+	
+}
+
+.tableTitle > .it_3 {
+	
+	z-index: 300;
+	
+	left: 975px;
+	
+}
+
+
+
+/*
+::::::::::: :::     :::::::::  :::        ::::::::::       :::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+    :+:   :+: :+:   :+:    :+: :+:        :+:              :+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
+    +:+  +:+   +:+  +:+    +:+ +:+        +:+              +:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
+    +#+ +#++:++#++: +#++:++#+  +#+        +#++:++#         +#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
+    +#+ +#+     +#+ +#+    +#+ +#+        +#+              +#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+    #+# #+#     #+# #+#    #+# #+#        #+#              #+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+    ### ###     ### #########  ########## ##########       ###    ### ########## ###     ### #########  ########## ###    ###
+*/
+
+.tableHeader {
+	
+	height: 35px;
+	
+	background: #a4aeb9;
+	
+	border-bottom: 2px solid #93999e;
+	
+}
+
+.ie7 .tableHeader {
+	
+	height: 32px;
+	
+}
+
+.ie-lt9 .tableHeader {
+	
+	margin-top: -1px;
+	
+}
+
+.tableHeader > span {
+	
+	color: #fff;
+	
+	margin-top: 9px;
+	
+}
+
+.tableHeader > .h_1 {
+	
+	margin-left: 30px;
+	
+}
+
+.tableHeader > .h_2 {
+	
+	margin-left: 143px;
+	
+}
+
+.tableHeader > .h_3 {
+	
+	margin-left: 450px;
+	
+}
+
+.tableHeader > .h_4 {
+	
+	margin-left: 180px;
+	
+}
+
+.tableHeader > .h_5 {
+	
+	margin-left: 180px;
+	
+}
+
+.lpContainer {
+	
+	padding-bottom: 110px;
+	
+}
+
+
+
+/*
+::::::::::: :::     :::::::::  :::        ::::::::::       :::::::::   ::::::::  :::       ::: 
+    :+:   :+: :+:   :+:    :+: :+:        :+:              :+:    :+: :+:    :+: :+:       :+: 
+    +:+  +:+   +:+  +:+    +:+ +:+        +:+              +:+    +:+ +:+    +:+ +:+       +:+ 
+    +#+ +#++:++#++: +#++:++#+  +#+        +#++:++#         +#++:++#:  +#+    +:+ +#+  +:+  +#+ 
+    +#+ +#+     +#+ +#+    +#+ +#+        +#+              +#+    +#+ +#+    +#+ +#+ +#+#+ +#+ 
+    #+# #+#     #+# #+#    #+# #+#        #+#              #+#    #+# #+#    #+#  #+#+# #+#+#  
+    ### ###     ### #########  ########## ##########       ###    ###  ########    ###   ###   
+*/
+
+.tableRowSet {
+	
+	background-color: #e3e4e8;
+	
+	padding-bottom: 3px;
+	
+	-webkit-border-radius: 0 0 4px 4px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 0 0 4px 4px;
+	
+	border-radius: 0 0 4px 4px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+}
+
+.tableRow {
+	
+	background-color: #FFF;
+	
+}
+
+.tableRow:hover {
+
+	cursor: pointer;
+	
+	background-color: #e3e4e8;
+	
+}
+
+.tableRow > div {
+	
+	color: #333;
+	
+	height: 50px;
+	
+	padding-top: 16px;
+	
+}
+
+.tableRow.lastRow {
+	
+	-webkit-border-radius: 0 0 4px 4px; /* Android ≤ 1.6, iOS 1-3.2, Safari 3-4 */
+	
+	-moz-border-radius: 0 0 4px 4px;
+	
+	border-radius: 0 0 4px 4px; /* Android 2.1+, Chrome, Firefox 4+, IE 9+, iOS 4+, Opera 10.50+, Safari 5+ */
+	
+}
+
+.tableRow.oddRow {
+	
+	background-color: #f6f8fa;
+	
+}
+
+.tableRow.hovers {
+	
+	background-color: #e3e4e8;
+	
+}
+
+.ie7 .tableRow > div {
+	
+	height: 34px;
+	
+}
+
+.tableRow > .trow1 {
+	
+	width: 30px;
+	
+}
+
+.tableRow > .trow2 {
+	
+	width: 185px;
+	
+}
+
+.tableRow > .trow3 {
+	
+	width: 385px;
+	
+}
+
+.tableRow > .trow4 {
+	
+	width: 175px;
+
+	margin-left: 20px;
+	
+}
+
+.tableRow > .trow5 {
+	
+	width: 150px;
+
+	margin-left: 46px;
+	
+}
+
+.tableRow > .trow6 {
+	
+	width: 90px;
+
+	margin-left: 85px;
+	
+}
+
+.tableRow > .trow6 > a {
+
+	color: #999;
+
+	text-decoration: none;
+
+}
+
+.tableRow > .trow6 > a:hover {
+
+	color: #333;
+
+	text-decoration: underline;
+
+}
+
+.tableRow.read > div {
+
+	color: #999;
+
+}
+
+
+
+/*
+:::::::::     :::      :::::::: ::::::::::: ::::    :::     ::: ::::::::::: ::::::::::: ::::::::  ::::    ::: 
+:+:    :+:  :+: :+:   :+:    :+:    :+:     :+:+:   :+:   :+: :+:   :+:         :+:    :+:    :+: :+:+:   :+: 
++:+    +:+ +:+   +:+  +:+           +:+     :+:+:+  +:+  +:+   +:+  +:+         +:+    +:+    +:+ :+:+:+  +:+ 
++#++:++#+ +#++:++#++: :#:           +#+     +#+ +:+ +#+ +#++:++#++: +#+         +#+    +#+    +:+ +#+ +:+ +#+ 
++#+       +#+     +#+ +#+   +#+#    +#+     +#+  +#+#+# +#+     +#+ +#+         +#+    +#+    +#+ +#+  +#+#+# 
+#+#       #+#     #+# #+#    #+#    #+#     #+#   #+#+# #+#     #+# #+#         #+#    #+#    #+# #+#   #+#+# 
+###       ###     ###  ######## ########### ###    #### ###     ### ###     ########### ########  ###    #### 
+*/
+
+.paginationContainer {
+	
+	margin-top: 50px;
+	
+}
+
+.pagination {
+	
+	display: inline-block;
+	
+	min-width: 300px;
+	
+	height: 32px;
+	
+	margin: 0 auto;
+	
+}
+
+.pagination > li {
+	
+	color: #999;
+	
+	margin-left: 15px;
+	
+}
+
+.pagination > li.pgEllipsis {
+	
+	padding-top: 13px;
+	
+}
+
+.pagination > li.pg_1 {
+	
+	margin-left: 0;
+	
+}
+
+.pagination > li > a {
+	
+	display: block;
+	
+	color: #999;
+	
+	font-size: 12px;
+	
+	line-height: 32px;
+	
+	text-decoration: none;
+	
+	width: 32px;
+	
+	height: 32px;
+	
+	border: 1px solid #e9e9e9;
+	
+	outline: 0;
+	
+	background-color: #FFF;
+	
+}
+
+.ie7 .pagination > li > a {
+	
+	width: 30px;
+	
+	height: 30px;
+	
+}
+
+.pagination > li > a:hover {
+	
+	border: 1px solid #fb565c;
+	
+	background-color: #fee;s
+	
+}
+
+.pagination > li > a:active {
+	
+	color: #030000;
+	
+	border: 1px solid #fb565c;
+	
+	background-color: #fedcdd;
+	
+}
+
+.pagination > li.current > a {
+	
+	color: #FFF;
+	
+	border: 1px solid #fb565c;
+	
+	background-color: #fb565c;
+	
+}
+
+.pagination > .pgPrev > a,
+
+.pagination > .pgNext > a {
+	
+	width: 70px;
+	
+}
+
+.ie7 .pagination > .pgPrev > a,
+
+.ie7 .pagination > .pgNext > a {
+	
+	width: 70px;
+	
+}
+
+.pgTool {
+	
+	display: inline-block;
+	
+	font-size: 12px;
+	
+	height: 32px;
+	
+	line-height: 32px;
+	
+	margin: 0;
+	
+	padding: 0;
+	
+	margin-left: 15px;
+	
+}
+
+.pgTool > input {
+	
+	display: inline-block;
+	
+	width: 39px;
+	
+	height: 22px;
+	
+	line-height: 20px;
+	
+	border: 1px solid #e9e9e9;
+	
+}
+
+.ie7 .pgTool > input  {
+	
+	line-height: 17px;
+	
+	height: 18px;
+	
+}
+
+.ie8 .pgTool > input {
+	
+	line-height: 17px;
+	
+	height: 20px;
+	
+}
+
+.pgTool > .btnCommmit {
+	
+	display: inline-block;
+	
+	color: #FFF;
+	
+	font-size: 12px;
+	
+	line-height: 20px;
+	
+	width: 40px;
+	
+	height: 20px;
+	
+	padding: 0;
+	
+	background-color: #999999;
+	
+}
+
+.ie8 .pgTool > .btnCommmit,
+
+.ie9 .pgTool > .btnCommmit,
+
+.ie10 .pgTool > .btnCommmit,
+
+.ie11 .pgTool > .btnCommmit {
+	
+	position: relative;
+	
+	top: -1px !important;
+	
+}
+
+
+
+/*
+ ::::::::  :::     ::: :::::::::: :::::::::  :::            :::   :::   :::
+:+:    :+: :+:     :+: :+:        :+:    :+: :+:          :+: :+: :+:   :+:
++:+    +:+ +:+     +:+ +:+        +:+    +:+ +:+         +:+   +:+ +:+ +:+
++#+    +:+ +#+     +:+ +#++:++#   +#++:++#:  +#+        +#++:++#++: +#++:
++#+    +#+  +#+   +#+  +#+        +#+    +#+ +#+        +#+     +#+  +#+
+#+#    #+#   #+#+#+#   #+#        #+#    #+# #+#        #+#     #+#  #+#
+ ########      ###     ########## ###    ### ########## ###     ###  ###
+*/
+
+.contentModule, .modalOverlay {
+	
+	width: 100%;
+	
+	height: 100%;
+	
+	top: 0;
+	
+	left: 0;
+	
+	background: none;
+	
+}
+
+.contentModule {
+	
+	z-index: 20000;
+	
+}
+
+.modalOverlay {
+	
+	z-index: 20002;
+	
+	opacity: 0.8; /* Android 2.1+, Chrome 4+, Firefox 2+, IE 9+, iOS 3.2+, Opera 9+, Safari 3.1+ */
+	
+	-moz-opacity: 0.8;    /* Old mozilla browser like netscape  */
+	
+	-khtml-opacity: 0.8;    /* Really really old safari */ 
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)"; /* IE8  */
+	
+	filter: alpha(opacity=80); /* IE5-7  */
+	
+	background-color: #FFF;
+	
+}
+
+/* Secondary */
+
+.contentModule > .agreementShow {
+	
+	z-index: 20003;
+	
+	top: 50%;
+	
+	left: 50%;
+	
+	margin-top: -335px;
+	
+	margin-left: -490px;
+	
+	width: 980px;
+	
+	height: 670px;
+	
+	-webkit-box-shadow: 0 0 3px #999; /* Android 2.3+, iOS 4.0.2-4.2, Safari 3-4 */
+	
+		 -o-box-shadow: 0 0 3px #999; /* Opera */
+	
+	   -moz-box-shadow: 0 0 3px #999; /* Firefox 3.5 */
+			
+			box-shadow: 0 0 3px #999; /* Chrome 6+, Firefox 4+, IE 9+, iOS 5+, Opera 10.50+ */
+	
+	background-color: #FFF;
+	
+}
+
+.ie7 .contentModule > .agreementShow,
+
+.ie8 .contentModule > .agreementShow {
+	
+	width: 964px;
+	
+	height: 654px;
+	
+	margin-top: -335px;
+	
+	margin-left: -490px;
+	
+	border: 8px solid #f4f4f4;
+	
+}
+
+.agreementShow > h4 {
+	
+	color: #333;
+	
+	font: 24px "微软雅黑";
+	
+	margin-top: 45px;
+	
+	margin-left: 0;
+	
+}
+
+.agreementShow > div {
+	
+	z-index: 0;
+	
+	width: 830px;
+	
+	height: 480px;
+	
+	top: 20px;
+	
+	left: 75px;
+	
+	overflow: hidden;
+	
+	background-color: #f1f1f1;
+	
+}
+
+.agreementShow > div > h5,
+
+.agreementShow > div > p {
+	
+	margin: 0 32px 30px 32px;
+	
+}
+
+.agreementShow > div > h5 {
+	
+	color: #555;
+	
+	font-weight: bold;
+	
+	font-size: 12px;
+	
+}
+
+.agreementShow > div > h5.h5_1 {
+	
+	margin-top: 32px;
+	
+}
+
+.agreementShow > div > p {
+	
+	color: #555;
+	
+	font-size: 12px;
+	
+	line-height: 21px;
+	
+	text-indent: 2em;
+	
+}
+
+.agreementShow > div > p > b {
+	
+	font-weight: bold;
+	
+}
+
+.agreementShow > div > p.p_1 {
+	
+	text-indent: 0;
+	
+}
+
+.agreementShow > .aBtn {
+	
+	color: #FFF;
+	
+	font: bold 16px/37px "新宋体";
+	
+	text-decoration: none;
+	
+	text-align: center;
+	
+	width: 148px;
+	
+	height: 37px;
+	
+	margin-top: 50px;
+	
+	margin-left: 410px;
+	
+	outline: 0;
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNDNlNDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #f43e44 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#f43e44)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#f43e44 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#f43e44',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.agreementShow > .aBtn:hover {
+
+	outline: 0;
+	
+	background: #fc696e; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjNjk2ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjU2NWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fc696e 0%, #fb565c 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc696e), color-stop(100%,#fb565c)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fc696e 0%,#fb565c 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc696e', endColorstr='#fb565c',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.agreementShow > .aBtn:active {
+
+	outline: 0;
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYzY4NmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #fc686e 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#fc686e)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#fc686e 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#fc686e',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie8 .contentModule > .agreementShow > .aBtn {
+	
+	margin-top: 33px;
+	
+}
+
+.agreementShow > .aClose {
+	
+	display: block;
+	
+	z-index: 5;
+	
+	width: 32px;
+	
+	height: 32px;
+	
+	top: -16px;
+	
+	right: -16px;
+	
+	outline: 0;
+	
+	background-image: url(../../img/investment-site/Icons/close.png);
+	
+	background-position: 0 0;
+	
+	background-repeat: no-repeat;
+	
+}
+
+.agreementShow > .aClose:hover {
+	
+	outline: 0;
+	
+	background-position: 0 -32px;
+	
+}
+
+.agreementShow > .aClose:active {
+	
+	outline: 0;
+	
+	background-position: 0 -64px;
+	
+}
