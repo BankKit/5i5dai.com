@@ -14,7 +14,11 @@
 			
 			"properties": {
 				
-				"prop_1st": "value_1st"
+				"marker-size": "medium",
+				
+				"marker-symbol": "bus",
+				
+				"marker-color": "#ace"
 				
 			}
 			
