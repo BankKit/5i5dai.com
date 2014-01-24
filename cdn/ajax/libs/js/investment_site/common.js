@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 09:16 ( Tony ).
  * 
- * Last Update: 2014.01.17 18:02 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.01.24 23:57 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -54,9 +54,9 @@
 			
 			cdnjsUrl = '//resource.fenqimall.com/ajax/libs/js';
 			
-			jq1x = cdnjsUrl + '/jquery/1.10.2/jquery.min';
+			jq1x = cdnjsUrl + '/jquery/1.11.0/jquery.min';
 			
-			jq2x = cdnjsUrl + '/jquery/2.0.3/jquery.min';
+			jq2x = cdnjsUrl + '/jquery/2.1.0/jquery.min';
 			
 		/* End | Options */
 		
