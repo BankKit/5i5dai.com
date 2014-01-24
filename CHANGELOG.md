@@ -5,7 +5,7 @@
 
 此次提交共涉及**11**个文件，查看此次具体[提交记录](http://goo.gl/Lhtsbk), 点击该页面下 " Show Diff Status " 可以快速查看此次提交涉及哪些个文件。
 
-解决方案：
+解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/XmalfV)
 
 + （小牛）点击下载[更新补丁](http://goo.gl/px5wlh), 覆盖更新 " cdn " 目录；
 
