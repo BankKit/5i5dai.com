@@ -22,7 +22,7 @@
 
 解决方案：[预览（ 使用 Googel Chrome 浏览器浏览最佳 ）](http://goo.gl/XmalfV)
 
-+ （小牛）点击下载[更新补丁](http://goo.gl/px5wlh), 覆盖更新 " cdn " 目录；
++ （小牛）点击下载[更新补丁](http://goo.gl/O7J8LE), 覆盖更新 " cdn " 目录；
 
 + （相关负责人）依据 Github 项目中[ " 站内信 " 页面文件](http://goo.gl/UjqtFn)在 Eclipse 项目中创建相关视图文件。
 
