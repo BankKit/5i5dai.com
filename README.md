@@ -88,3 +88,5 @@
 - [汇通安心贷服务介绍](http://goo.gl/0dpxWM)
 
 - [关于我爱我贷网](http://goo.gl/pMxIhx)
+
+- [站内信](http://goo.gl/XmalfV)
