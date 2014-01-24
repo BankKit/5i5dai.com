@@ -69,6 +69,8 @@
 
 - [账户：账户安全](http://goo.gl/x3Wt5i)
 
+- [更换绑定手机](http://goo.gl/GoWPSI)
+
 - [找回密码](http://goo.gl/42k83N)
 
 - [重置密码](http://goo.gl/FSFhB5)
