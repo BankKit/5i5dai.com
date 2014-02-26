@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.02.25 09:54 ( Tony ).
  * 
- * Last Update: 2014.02.26 11:48 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.02.26 16:57 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -845,6 +845,35 @@ nav > div {
 	
 }
 
+.ie9 .getDynamicCode {filter: none;}
+
+.frmWithdrawal > a.getDynamicCode.sent {
+	
+	color: #a6a5a5;
+
+	background: #eaeaea; /* Old browsers */
+
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlNmU2ZTYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+	background: -moz-linear-gradient(top,  #eaeaea 0%, #e6e6e6 100%); /* FF3.6+ */
+
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaeaea), color-stop(100%,#e6e6e6)); /* Chrome,Safari4+ */
+
+	background: -webkit-linear-gradient(top,  #eaeaea 0%,#e6e6e6 100%); /* Chrome10+,Safari5.1+ */
+
+	background: -o-linear-gradient(top,  #eaeaea 0%,#e6e6e6 100%); /* Opera 11.10+ */
+
+	background: -ms-linear-gradient(top,  #eaeaea 0%,#e6e6e6 100%); /* IE10+ */
+
+	background: linear-gradient(to bottom,  #eaeaea 0%,#e6e6e6 100%); /* W3C */
+
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaeaea', endColorstr='#e6e6e6',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie9 .frmWithdrawal > a.getDynamicCode.sent {filter: none;}
+
 /* Text Function */
 
 .frmWithdrawal > i {
@@ -1114,6 +1143,22 @@ nav > div {
 	
 }
 
+.frmWithdrawal.noRecord > .aBingOrChangeBank {
+
+	display: none;
+
+}
+
+.frmWithdrawal.noRecord > .info.accountError {
+	
+	width: 710px;
+	
+	margin-left: 0;
+	
+	margin-right: 50px;
+	
+}
+
 /* Has Record */
 
 .frmWithdrawal.hasRecord > .iptCardholderArea,
@@ -1178,27 +1223,29 @@ nav > div {
 	
 }
 
-.frmWithdrawal.binding > .iptCardholderArea,
-
-.frmWithdrawal.binding > .iptBankArea,
-
 .frmWithdrawal.binding > .iptOutletsArea,
 
 .frmWithdrawal.binding > .iptAccountArea,
+
+.frmWithdrawal.binding > .iptOutletsArea > input,
+
+.frmWithdrawal.binding > .iptAccountArea > input {
+	
+	background-color: #FFF;
+	
+}
+
+.frmWithdrawal.binding > .iptCardholderArea,
 
 .frmWithdrawal.binding > .iptPhoneArea,
 
 .frmWithdrawal.binding > .iptCardholderArea > input,
 
-.frmWithdrawal.binding > .iptBankArea > input,
-
-.frmWithdrawal.binding > .iptOutletsArea > input,
-
-.frmWithdrawal.binding > .iptAccountArea > input,
-
 .frmWithdrawal.binding > .iptPhoneArea > input {
 	
-	background-color: #FFF;
+	color: #a6a5a5;
+	
+	background-color: #f1f1f1;
 	
 }
 

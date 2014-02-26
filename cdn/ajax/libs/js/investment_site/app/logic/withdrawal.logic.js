@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2014.02.25 10:21 ( Tony ).
  * 
- * Last Update: 2014.02.26 12:09 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.02.26 17:03 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -154,7 +154,7 @@
 				
 				if (frmWithdrawal.hasClass('binding')) {
 					
-					SJ('#iptCardholder, #iptOutlets, #iptAccount, #iptPhone').prop('disabled', false);
+					/*SJ('#iptCardholder, #iptOutlets, #iptAccount, #iptPhone').prop('disabled', false);*/
 					
 				}
 				
@@ -200,15 +200,9 @@
 					
 					that.åüutils.pdControl(e);
 					
-					if (e.data.dt === '绑定银行卡') {
+					if (e.data.dt === '更换银行卡') {
 						
-						edit('noRecord', '#iptCardholder, #iptPhone');
-						
-						/* Test script: console.log(e.data.dt); */
-						
-					} else if (e.data.dt === '更换银行卡') {
-						
-						edit('hasRecord', '#iptCardholder, #iptOutlets, #iptAccount, #iptPhone');
+						edit('hasRecord', '#iptOutlets, #iptAccount');
 						
 						that.åüselect();
 						
@@ -305,6 +299,8 @@
 						e.stopPropagation();
 						
 						e.preventDefault();
+
+						SJ(this).addClass('sent');
 						
 						excute_1(SJ('.s3p_2').children('span').first());
 						
