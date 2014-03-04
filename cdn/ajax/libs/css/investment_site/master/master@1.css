@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.11 14:03 ( Tony ).
  * 
- * Last Update: 2014.01.08 17:22 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.04 15:41 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -29,23 +29,13 @@
 
 
 /*
-																	  dddddddd
-HHHHHHHHH     HHHHHHHHH                                               d::::::d
-H:::::::H     H:::::::H                                               d::::::d
-H:::::::H     H:::::::H                                               d::::::d
-HH::::::H     H::::::HH                                               d:::::d
-  H:::::H     H:::::H      eeeeeeeeeeee    aaaaaaaaaaaaa      ddddddddd:::::d     eeeeeeeeeeee    rrrrr   rrrrrrrrr   
-  H:::::H     H:::::H    ee::::::::::::ee  a::::::::::::a   dd::::::::::::::d   ee::::::::::::ee  r::::rrr:::::::::r  
-  H::::::HHHHH::::::H   e::::::eeeee:::::eeaaaaaaaaa:::::a d::::::::::::::::d  e::::::eeeee:::::eer:::::::::::::::::r 
-  H:::::::::::::::::H  e::::::e     e:::::e         a::::ad:::::::ddddd:::::d e::::::e     e:::::err::::::rrrrr::::::r
-  H:::::::::::::::::H  e:::::::eeeee::::::e  aaaaaaa:::::ad::::::d    d:::::d e:::::::eeeee::::::e r:::::r     r:::::r
-  H::::::HHHHH::::::H  e:::::::::::::::::e aa::::::::::::ad:::::d     d:::::d e:::::::::::::::::e  r:::::r     rrrrrrr
-  H:::::H     H:::::H  e::::::eeeeeeeeeee a::::aaaa::::::ad:::::d     d:::::d e::::::eeeeeeeeeee   r:::::r
-  H:::::H     H:::::H  e:::::::e         a::::a    a:::::ad:::::d     d:::::d e:::::::e            r:::::r
-HH::::::H     H::::::HHe::::::::e        a::::a    a:::::ad::::::ddddd::::::dde::::::::e           r:::::r
-H:::::::H     H:::::::H e::::::::eeeeeeeea:::::aaaa::::::a d:::::::::::::::::d e::::::::eeeeeeee   r:::::r
-H:::::::H     H:::::::H  ee:::::::::::::e a::::::::::aa:::a d:::::::::ddd::::d  ee:::::::::::::e   r:::::r
-HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd    eeeeeeeeeeeeee   rrrrrrr
+:::    ::: ::::::::::     :::     :::::::::  :::::::::: :::::::::
+:+:    :+: :+:          :+: :+:   :+:    :+: :+:        :+:    :+:
++:+    +:+ +:+         +:+   +:+  +:+    +:+ +:+        +:+    +:+
++#++:++#++ +#++:++#   +#++:++#++: +#+    +:+ +#++:++#   +#++:++#:
++#+    +#+ +#+        +#+     +#+ +#+    +#+ +#+        +#+    +#+
+#+#    #+# #+#        #+#     #+# #+#    #+# #+#        #+#    #+#
+###    ### ########## ###     ### #########  ########## ###    ###
 */
 
 .structureHeader {
@@ -55,29 +45,15 @@ HHHHHHHHH     HHHHHHHHH    eeeeeeeeeeeeee  aaaaaaaaaa  aaaa  ddddddddd   ddddd  
 }
 
 
+
 /*
-TTTTTTTTTTTTTTTTTTTTTTT                                       BBBBBBBBBBBBBBBBB
-T:::::::::::::::::::::T                                       B::::::::::::::::B                                       
-T:::::::::::::::::::::T                                       B::::::BBBBBB:::::B                                      
-T:::::TT:::::::TT:::::T                                       BB:::::B     B:::::B                                     
-TTTTTT  T:::::T  TTTTTTooooooooooo   ppppp   ppppppppp          B::::B     B:::::B  aaaaaaaaaaaaa  rrrrr   rrrrrrrrr   
-		T:::::T      oo:::::::::::oo p::::ppp:::::::::p         B::::B     B:::::B  a::::::::::::a r::::rrr:::::::::r  
-		T:::::T     o:::::::::::::::op:::::::::::::::::p        B::::BBBBBB:::::B   aaaaaaaaa:::::ar:::::::::::::::::r 
-		T:::::T     o:::::ooooo:::::opp::::::ppppp::::::p       B:::::::::::::BB             a::::arr::::::rrrrr::::::r
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::BBBBBB:::::B     aaaaaaa:::::a r:::::r     r:::::r
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::B     B:::::B  aa::::::::::::a r:::::r     rrrrrrr
-		T:::::T     o::::o     o::::o p:::::p     p:::::p       B::::B     B:::::B a::::aaaa::::::a r:::::r            
-		T:::::T     o::::o     o::::o p:::::p    p::::::p       B::::B     B:::::Ba::::a    a:::::a r:::::r            
-	  TT:::::::TT   o:::::ooooo:::::o p:::::ppppp:::::::p     BB:::::BBBBBB::::::Ba::::a    a:::::a r:::::r            
-	  T:::::::::T   o:::::::::::::::o p::::::::::::::::p      B:::::::::::::::::B a:::::aaaa::::::a r:::::r            
-	  T:::::::::T    oo:::::::::::oo  p::::::::::::::pp       B::::::::::::::::B   a::::::::::aa:::ar:::::r            
-	  TTTTTTTTTTT      ooooooooooo    p::::::pppppppp         BBBBBBBBBBBBBBBBB     aaaaaaaaaa  aaaarrrrrrr            
-									  p:::::p
-									  p:::::p
-									 p:::::::p
-									 p:::::::p
-									 p:::::::p
-									 ppppppppp
+::::::::::: ::::::::  :::::::::        :::::::::      :::     :::::::::  
+    :+:    :+:    :+: :+:    :+:       :+:    :+:   :+: :+:   :+:    :+: 
+    +:+    +:+    +:+ +:+    +:+       +:+    +:+  +:+   +:+  +:+    +:+ 
+    +#+    +#+    +:+ +#++:++#+        +#++:++#+  +#++:++#++: +#++:++#:  
+    +#+    +#+    +#+ +#+              +#+    +#+ +#+     +#+ +#+    +#+ 
+    #+#    #+#    #+# #+#              #+#    #+# #+#     #+# #+#    #+# 
+    ###     ########  ###              #########  ###     ### ###    ### 
 */
 
 .topBarArea {
@@ -135,29 +111,13 @@ TTTTTT  T:::::T  TTTTTTooooooooooo   ppppp   ppppppppp          B::::B     B::::
 
 
 /*
-LLLLLLLLLLL
-L:::::::::L
-L:::::::::L
-LL:::::::LL
-  L:::::L                  ooooooooooo      ggggggggg   ggggg   ooooooooooo
-  L:::::L                oo:::::::::::oo   g:::::::::ggg::::g oo:::::::::::oo
-  L:::::L               o:::::::::::::::o g:::::::::::::::::go:::::::::::::::o
-  L:::::L               o:::::ooooo:::::og::::::ggggg::::::ggo:::::ooooo:::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L               o::::o     o::::og:::::g     g:::::g o::::o     o::::o
-  L:::::L         LLLLLLo::::o     o::::og::::::g    g:::::g o::::o     o::::o
-LL:::::::LLLLLLLLL:::::Lo:::::ooooo:::::og:::::::ggggg:::::g o:::::ooooo:::::o
-L::::::::::::::::::::::Lo:::::::::::::::o g::::::::::::::::g o:::::::::::::::o
-L::::::::::::::::::::::L oo:::::::::::oo   gg::::::::::::::g  oo:::::::::::oo
-LLLLLLLLLLLLLLLLLLLLLLLL   ooooooooooo       gggggggg::::::g    ooooooooooo
-													 g:::::g
-										 gggggg      g:::::g
-										 g:::::gg   gg:::::g
-										  g::::::ggg:::::::g
-										   gg:::::::::::::g
-											 ggg::::::ggg
-												gggggg
+:::        ::::::::   ::::::::   ::::::::  
+:+:       :+:    :+: :+:    :+: :+:    :+: 
++:+       +:+    +:+ +:+        +:+    +:+ 
++#+       +#+    +:+ :#:        +#+    +:+ 
++#+       +#+    +#+ +#+   +#+# +#+    +#+ 
+#+#       #+#    #+# #+#    #+# #+#    #+# 
+########## ########   ########   ########  
 */
 
 .logoNavArea > a {
@@ -181,22 +141,13 @@ LLLLLLLLLLLLLLLLLLLLLLLL   ooooooooooo       gggggggg::::::g    ooooooooooo
 
 
 /*
-NNNNNNNN        NNNNNNNN
-N:::::::N       N::::::N
-N::::::::N      N::::::N
-N:::::::::N     N::::::N
-N::::::::::N    N::::::N  aaaaaaaaaaaaavvvvvvv           vvvvvvv
-N:::::::::::N   N::::::N  a::::::::::::av:::::v         v:::::v
-N:::::::N::::N  N::::::N  aaaaaaaaa:::::av:::::v       v:::::v
-N::::::N N::::N N::::::N           a::::a v:::::v     v:::::v
-N::::::N  N::::N:::::::N    aaaaaaa:::::a  v:::::v   v:::::v
-N::::::N   N:::::::::::N  aa::::::::::::a   v:::::v v:::::v
-N::::::N    N::::::::::N a::::aaaa::::::a    v:::::v:::::v
-N::::::N     N:::::::::Na::::a    a:::::a     v:::::::::v
-N::::::N      N::::::::Na::::a    a:::::a      v:::::::v
-N::::::N       N:::::::Na:::::aaaa::::::a       v:::::v
-N::::::N        N::::::N a::::::::::aa:::a       v:::v
-NNNNNNNN         NNNNNNN  aaaaaaaaaa  aaaa        vvv
+::::    :::     :::     :::     :::
+:+:+:   :+:   :+: :+:   :+:     :+:
+:+:+:+  +:+  +:+   +:+  +:+     +:+
++#+ +:+ +#+ +#++:++#++: +#+     +:+
++#+  +#+#+# +#+     +#+  +#+   +#+
+#+#   #+#+# #+#     #+#   #+#+#+#
+###    #### ###     ###     ###
 */
 
 nav {
@@ -304,22 +255,13 @@ nav > div {
 
 
 /*
-FFFFFFFFFFFFFFFFFFFFFF                                        tttt
-F::::::::::::::::::::F                                     ttt:::t
-F::::::::::::::::::::F                                     t:::::t
-FF::::::FFFFFFFFF::::F                                     t:::::t
-  F:::::F       FFFFFFooooooooooo      ooooooooooo   ttttttt:::::ttttttt        eeeeeeeeeeee    rrrrr   rrrrrrrrr
-  F:::::F           oo:::::::::::oo  oo:::::::::::oo t:::::::::::::::::t      ee::::::::::::ee  r::::rrr:::::::::r
-  F::::::FFFFFFFFFFo:::::::::::::::oo:::::::::::::::ot:::::::::::::::::t     e::::::eeeee:::::eer:::::::::::::::::r
-  F:::::::::::::::Fo:::::ooooo:::::oo:::::ooooo:::::otttttt:::::::tttttt    e::::::e     e:::::err::::::rrrrr::::::r
-  F:::::::::::::::Fo::::o     o::::oo::::o     o::::o      t:::::t          e:::::::eeeee::::::e r:::::r     r:::::r
-  F::::::FFFFFFFFFFo::::o     o::::oo::::o     o::::o      t:::::t          e:::::::::::::::::e  r:::::r     rrrrrrr
-  F:::::F          o::::o     o::::oo::::o     o::::o      t:::::t          e::::::eeeeeeeeeee   r:::::r
-  F:::::F          o::::o     o::::oo::::o     o::::o      t:::::t    tttttte:::::::e            r:::::r
-FF:::::::FF        o:::::ooooo:::::oo:::::ooooo:::::o      t::::::tttt:::::te::::::::e           r:::::r
-F::::::::FF        o:::::::::::::::oo:::::::::::::::o      tt::::::::::::::t e::::::::eeeeeeee   r:::::r
-F::::::::FF         oo:::::::::::oo  oo:::::::::::oo         tt:::::::::::tt  ee:::::::::::::e   r:::::r
-FFFFFFFFFFF           ooooooooooo      ooooooooooo             ttttttttttt      eeeeeeeeeeeeee   rrrrrrr
+:::::::::: ::::::::   :::::::: ::::::::::: :::::::::: :::::::::  
+:+:       :+:    :+: :+:    :+:    :+:     :+:        :+:    :+: 
++:+       +:+    +:+ +:+    +:+    +:+     +:+        +:+    +:+ 
+:#::+::#  +#+    +:+ +#+    +:+    +#+     +#++:++#   +#++:++#:  
++#+       +#+    +#+ +#+    +#+    +#+     +#+        +#+    +#+ 
+#+#       #+#    #+# #+#    #+#    #+#     #+#        #+#    #+# 
+###        ########   ########     ###     ########## ###    ### 
 */
 
 .structureFooter {
@@ -376,31 +318,13 @@ FFFFFFFFFFF           ooooooooooo      ooooooooooo             ttttttttttt      
 	
 }
 
-.spColumn > i {
-	
-	display: inline-block;
-	
-	*display: inline;
-	
-	*zoom: 1;
-	
-	width: 32px;
-	
-	height: 32px;
-	
-	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAFAklEQVRYR62XVW/tSBCEx2FGBRV+CSvw/98jBRRmBRVOFGby9VfZiuau9umcHenIx3ZPd3U1TDt5fX1NsxWSJAkFBQWB//xYPOP3/f0d3t/fw8vLS3h6egrPz8/h7e0tfH19/e4rLi4OFRUVoaqqKlRWVoaSkpJQWFiovehAp+V5/nufKU3ZzPr4+NAL7m2YZzc3N+Hy8lIA2FxUVCR5FPoe8MjyY39tbW2oqakRIMt/fn5KP/cGlRgALxBAIcowdnd3F46OjiSM0vLy8lBdXS2l/EcWEHgJIzDz+PiovTCGztbWVjHCD73IxuwmmWCKkhgZii4uLsL19XUoKyuTNw0NDTL6bypRas/4D9gsrGLt/v5ewAhNfX299OCIQSvEGWUpCpwDDw8P4fz8XF5AVW9vr5D75xyxJ7DgXOHq0BAKDJ2dnQkQck1NTXLEzCn3YMAboe/k5ETUg7ijo0NeYwxlLHvpGOphtgyMKzLOIxwBBGyWlpaGlpYW6XY4EqoAYQRPT09lnHgRu7q6OsUUJuLENBhAxHlggHE1UQ3oIKSEBIfQTR6JAZIQJVdXV+H4+Fjl09fXJwFywRns0rTHpt2lZRZ9tTyhwCHK9/DwUOFobm4OjY2NP2xmClIQHhwcKJm6u7tVPii2JzaayxXnSEQ8h+WNjQ2pwUmSUzkAPTDAg7a2NsWKuLuR5GLYe3DC/QI2HGbyAFtJRk26u7srofb2dpVKvNnZnisIV5crDRbMdn9/f0iyek03NzfVYKCFmGM0bhq5Gvc+mMR7l/LOzo6qQgAyStL9/X2VR2dn52/s2UQ3Y1M+y2VpJnGQUqc0FYK9vb2U+FPzNAoShkqAOqPOB4B7RJwLt7e3AkFiJmtraymlQfYTf4yC8v+qAhv2YUWCU3Wwri66uLiYQk9PT4/Kz8kCEBByzWe5UZlRKo12v729/QNgeXlZDGAY6t1SYYNmQUPKZ6Gbo5zDyRXh3FKoFxYWUuLuQyU+ZGCExMxnEWuMu31jhwWzAjA3N5cSc0LAA5/ttE3YGBoaysd+yHJM+7u6unS0u7rIAYV7ampKAEZHR/WSBdqVlRUJTExM5AVgfn5eST0yMvLLMnrRDwsKAZ4i4IOFDVluyPDg4GBeANz7cdAjHxWBfh1oMzMzAjA+Pv7XuARynk9OTuYFAD0YgknC61Myq74fAJmAAAwPD8uQqwCEIAV5Pgs96Iz1cL+6uvoTktnZWc3ghADqPZwiAAADyxXE0tKStlq/K8D6k+npaY1kY2Njf5UKFAEG6syKxzDufVT/16Di84N3hIB79HgYZS/AFAKSkBckW/x9sL6+LiMDAwO/znva8QMb12j1z4cNushyjNJ2KUPuOfn8QUIykpwa87KjUQMJPSBuFnQrRifqNx44MW4m4gPGXsfzA3LUO52QHmDAPGfco9Mm2aCYIsDMBlIWucAcx+lI70apJ2Peub/jQXx2AJr3nCEshg/ec/TS//nPe8AwfzACJNlDfRf4G86VgEcIQ5cHFBiCVjwAcPxZ5i8q9gOECRijbsO8xxkcAyA/6WIsd2xiijDikPAcMADFa84OPtl4jyH2c24w5yHLtANAhyr+aOW/5w2xBwCPSnEOmHaPaO7hbCZ+W1tbGrHxJN4HAPYihzEGHfQ7bDDkcU+sMxXHFCPgEnNi+aOVK0qhmPOcq1nBMECgmOQlxnHZesjxiGZW/wBFKmNcCYSKJAAAAABJRU5ErkJggg==) center center no-repeat;
-	
-}
-
 .spColumn > a {
 	
 	color: #666;
 	
 	font: 18px "微软雅黑";
 	
-	top: 65px;
-	
-	left: 50px;
+	top: 60px;
 	
 }
 
@@ -418,10 +342,24 @@ FFFFFFFFFFF           ooooooooooo      ooooooooooo             ttttttttttt      
 	
 	font: 12px "Arial";
 	
-	top: 87px;
+	top: 82px;
 	
-	left: 50px;
+}
+
+.spColumn > .spH4 {
 	
+	margin-top: 0;
+	
+	margin-bottom: 0;
+
+	top: 111px;
+
+}
+
+.spColumn > .spa_2 {
+
+	top: 137px;
+
 }
 
 .copyright {
@@ -475,22 +413,13 @@ FFFFFFFFFFF           ooooooooooo      ooooooooooo             ttttttttttt      
 
 
 /*
-        CCCCCCCCCCCCC                                            tttt                                                         tttt          
-     CCC::::::::::::C                                         ttt:::t                                                      ttt:::t          
-   CC:::::::::::::::C                                         t:::::t                                                      t:::::t          
-  C:::::CCCCCCCC::::C                                         t:::::t                                                      t:::::t          
- C:::::C       CCCCCC   ooooooooooo   nnnn  nnnnnnnn    ttttttt:::::ttttttt        eeeeeeeeeeee  xxxxxxx      xxxxxxxttttttt:::::ttttttt    
-C:::::C               oo:::::::::::oo n:::nn::::::::nn  t:::::::::::::::::t      ee::::::::::::ee x:::::x    x:::::x t:::::::::::::::::t    
-C:::::C              o:::::::::::::::on::::::::::::::nn t:::::::::::::::::t     e::::::eeeee:::::eex:::::x  x:::::x  t:::::::::::::::::t    
-C:::::C              o:::::ooooo:::::onn:::::::::::::::ntttttt:::::::tttttt    e::::::e     e:::::e x:::::xx:::::x   tttttt:::::::tttttt    
-C:::::C              o::::o     o::::o  n:::::nnnn:::::n      t:::::t          e:::::::eeeee::::::e  x::::::::::x          t:::::t          
-C:::::C              o::::o     o::::o  n::::n    n::::n      t:::::t          e:::::::::::::::::e    x::::::::x           t:::::t          
-C:::::C              o::::o     o::::o  n::::n    n::::n      t:::::t          e::::::eeeeeeeeeee     x::::::::x           t:::::t          
- C:::::C       CCCCCCo::::o     o::::o  n::::n    n::::n      t:::::t    tttttte:::::::e             x::::::::::x          t:::::t    tttttt
-  C:::::CCCCCCCC::::Co:::::ooooo:::::o  n::::n    n::::n      t::::::tttt:::::te::::::::e           x:::::xx:::::x         t::::::tttt:::::t
-   CC:::::::::::::::Co:::::::::::::::o  n::::n    n::::n      tt::::::::::::::t e::::::::eeeeeeee  x:::::x  x:::::x        tt::::::::::::::t
-     CCC::::::::::::C oo:::::::::::oo   n::::n    n::::n        tt:::::::::::tt  ee:::::::::::::e x:::::x    x:::::x         tt:::::::::::tt
-        CCCCCCCCCCCCC   ooooooooooo     nnnnnn    nnnnnn          ttttttttttt      eeeeeeeeeeeeeexxxxxxx      xxxxxxx          ttttttttttt  
+ ::::::::   ::::::::  ::::    ::: ::::::::::: :::::::::: :::    ::: :::::::::::
+:+:    :+: :+:    :+: :+:+:   :+:     :+:     :+:        :+:    :+:     :+:
++:+        +:+    +:+ :+:+:+  +:+     +:+     +:+         +:+  +:+      +:+
++#+        +#+    +:+ +#+ +:+ +#+     +#+     +#++:++#     +#++:+       +#+
++#+        +#+    +#+ +#+  +#+#+#     +#+     +#+         +#+  +#+      +#+
+#+#    #+# #+#    #+# #+#   #+#+#     #+#     #+#        #+#    #+#     #+#
+ ########   ########  ###    ####     ###     ########## ###    ###     ###
 */
 
 .nav-header {

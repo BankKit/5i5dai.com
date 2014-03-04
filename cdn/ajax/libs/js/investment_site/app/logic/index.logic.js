@@ -23,7 +23,7 @@
  * 
  * Creation Date: 2013.12.09 09:19 ( Tony ).
  * 
- * Last Update: 2013.12.13 12:30 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.04 16:46 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -99,6 +99,36 @@
 							e.preventDefault();
 							
 						}
+						
+					});
+					
+				}
+				
+			};
+			
+		} ()).init();
+		
+		
+		
+		/**
+		 * Module: Navigation Animation.
+		 */
+		
+		_mod = (function () {
+			
+			return {
+				
+				init: function () {
+					
+					var obj = SJ('.riskStatement').children('div');
+					
+					obj.on('mouseover', function () {
+						
+						SJ(this).children('div').addClass('yoHover');
+						
+					}).on('mouseleave', function () {
+						
+						SJ(this).children('div').removeClass('yoHover');
 						
 					});
 					
@@ -232,9 +262,9 @@
 							
 							effect: "slide",
 							
-							interval: 3000,
+							interval: 1000000,
 							
-							auto: true,
+							auto: false,
 							
 							swap: true,
 							
@@ -259,6 +289,20 @@
 						});
 						
 					});
+					
+					var hiddenInvestLink = SJ('#hiddenInvestLink').get(0);
+					
+					var _fns = function (e) {
+						
+						e.preventDefault();
+						
+						hiddenInvestLink.click();
+						
+					};
+					
+					SJ('.investNow').find('a').on('click', _fns);
+					
+					SJ('.tableTitle').children('a').on('click', _fns);
 					
 				}
 				

@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2013.12.21 22:11 ( Tony ).
  * 
- * Last Update: 2013.12.21 22:12 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.04 15:41 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -29,22 +29,13 @@
 
 
 /*
-        CCCCCCCCCCCCC                                            tttt                                                         tttt          
-     CCC::::::::::::C                                         ttt:::t                                                      ttt:::t          
-   CC:::::::::::::::C                                         t:::::t                                                      t:::::t          
-  C:::::CCCCCCCC::::C                                         t:::::t                                                      t:::::t          
- C:::::C       CCCCCC   ooooooooooo   nnnn  nnnnnnnn    ttttttt:::::ttttttt        eeeeeeeeeeee  xxxxxxx      xxxxxxxttttttt:::::ttttttt    
-C:::::C               oo:::::::::::oo n:::nn::::::::nn  t:::::::::::::::::t      ee::::::::::::ee x:::::x    x:::::x t:::::::::::::::::t    
-C:::::C              o:::::::::::::::on::::::::::::::nn t:::::::::::::::::t     e::::::eeeee:::::eex:::::x  x:::::x  t:::::::::::::::::t    
-C:::::C              o:::::ooooo:::::onn:::::::::::::::ntttttt:::::::tttttt    e::::::e     e:::::e x:::::xx:::::x   tttttt:::::::tttttt    
-C:::::C              o::::o     o::::o  n:::::nnnn:::::n      t:::::t          e:::::::eeeee::::::e  x::::::::::x          t:::::t          
-C:::::C              o::::o     o::::o  n::::n    n::::n      t:::::t          e:::::::::::::::::e    x::::::::x           t:::::t          
-C:::::C              o::::o     o::::o  n::::n    n::::n      t:::::t          e::::::eeeeeeeeeee     x::::::::x           t:::::t          
- C:::::C       CCCCCCo::::o     o::::o  n::::n    n::::n      t:::::t    tttttte:::::::e             x::::::::::x          t:::::t    tttttt
-  C:::::CCCCCCCC::::Co:::::ooooo:::::o  n::::n    n::::n      t::::::tttt:::::te::::::::e           x:::::xx:::::x         t::::::tttt:::::t
-   CC:::::::::::::::Co:::::::::::::::o  n::::n    n::::n      tt::::::::::::::t e::::::::eeeeeeee  x:::::x  x:::::x        tt::::::::::::::t
-     CCC::::::::::::C oo:::::::::::oo   n::::n    n::::n        tt:::::::::::tt  ee:::::::::::::e x:::::x    x:::::x         tt:::::::::::tt
-        CCCCCCCCCCCCC   ooooooooooo     nnnnnn    nnnnnn          ttttttttttt      eeeeeeeeeeeeeexxxxxxx      xxxxxxx          ttttttttttt  
+ ::::::::   ::::::::  ::::    ::: ::::::::::: :::::::::: :::    ::: :::::::::::
+:+:    :+: :+:    :+: :+:+:   :+:     :+:     :+:        :+:    :+:     :+:
++:+        +:+    +:+ :+:+:+  +:+     +:+     +:+         +:+  +:+      +:+
++#+        +#+    +:+ +#+ +:+ +#+     +#+     +#++:++#     +#++:+       +#+
++#+        +#+    +#+ +#+  +#+#+#     +#+     +#+         +#+  +#+      +#+
+#+#    #+# #+#    #+# #+#   #+#+#     #+#     #+#        #+#    #+#     #+#
+ ########   ########  ###    ####     ###     ########## ###    ###     ###
 */
 
 .nav-header {
