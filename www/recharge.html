@@ -284,9 +284,9 @@
 		
 		<!-- Begin | Private Stylesheet -->
 			
-			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/recharge.css"/>
+			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/recharge.css"/> -->
 			
-			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/recharge.min.css"/> -->
+			<link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/recharge.min.css"/>
 			
 			<!-- <link rel="stylesheet" type="text/css" href="../cdn/ajax/libs/css/investment_site/recharge.plus.css"/> -->
 			
@@ -504,7 +504,7 @@
 									
 								</div>
 								
-								<button class="left textCenter borderRaiuds_3" type="submit">充值</button>
+								<button id="btnFrmSubmit" class="left textCenter borderRaiuds_3" type="submit">充值</button>
 								
 								<span class="left sLast">本期应还总金额 <span>388.00</span> 元</span>
 								
@@ -716,6 +716,40 @@
 				
 			<!-- End | Bank Choose Modal -->
 			
+			<!-- Begin | Bank Choose Modal -->
+				
+				<div id="pnlRechargeConfirm" class="hide affix"> <!-- Use " hide " class to hide all the panel. -->
+					
+					<div class="absol _overlay"></div>
+					
+					<div class="absol _content">
+						
+						<div class="rela _mainArea">
+							
+							<h4 class="_hFirst">温馨提示</h4>
+
+							<div class="absol left _sn_1 textCenter">
+								
+								本次充值金额：<span></span> 元
+
+							</div>
+
+							<i class="absol"></i>
+							
+							<a class="absol _close" href="#"></a>
+							
+							<a class="absol cleanLink textCenter btns _confirm borderRaiuds_3" href="#">确认</a>
+							
+							<a class="absol cleanLink textCenter btns ccl borderRaiuds_3" href="#">取消</a>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			<!-- End | Bank Choose Modal -->
+			
 		<!-- End | Body Content Placeholder -->
 		
 		
@@ -908,6 +942,6 @@
 * Version: 0.1.0-alpha
 
 * Creation Date: 2014.01.07 10:28 ( Tony ).
-
-* Last Update: 2014.03.04 17:19 ( Tony ).
+ * 
+ * Last Update: 2014.03.04 16:22 ( Tony ).
 -->

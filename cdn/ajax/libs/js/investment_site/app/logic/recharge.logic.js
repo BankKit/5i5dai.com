@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2014.01.07 10:36 ( Tony ).
  * 
- * Last Update: 2014.01.08 15:07 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.04 16:18 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -57,6 +57,8 @@
 			åütrigger = SJ('.otherPaymentLink'),
 			
 			åüpanel = SJ('#pnlBankSelect'),
+
+			åübtnFrmSubmit = SJ('#btnFrmSubmit'),
 			
 			tlns,
 			
@@ -151,6 +153,8 @@
 			bankChoosingControl.åüinit = function () {
 				
 				this.åüdefault();
+
+				this.åüfrmSubmit();
 				
 				this.åüanimation();
 				
@@ -220,6 +224,84 @@
 					
 				});
 				
+			};
+
+			bankChoosingControl.åüfrmSubmit = function () {
+
+				var _this = this;
+
+				var åüpnl = SJ('#pnlRechargeConfirm');
+				
+				var fadeAnimation = function (obj, fadeType) {
+					
+					if (fadeType == 'fadeIn') {
+						
+						obj.fadeIn({
+							
+							duration: 100,
+							
+							easing: 'swing',
+							
+							queue: false,
+							
+							done: SJ.noop()
+							
+						});
+						
+					} else if (fadeType == 'fadeOut') {
+						
+						obj.fadeOut({
+							
+							duration: 100,
+							
+							easing: 'swing',
+							
+							queue: false,
+							
+							done: SJ.noop()
+							
+						});
+						
+					}
+					
+				};
+				
+				var _showModal = function (e) {
+					
+					_this.åüutils.pdControl(e);
+					
+					fadeAnimation(åüpnl, 'fadeIn');
+
+					SJ('._sn_1').children('span').html(SJ('#iptAmount').val());
+
+					return false;
+					
+				};
+				
+				var _btnClose = function (e) {
+					
+					_this.åüutils.pdControl(e);
+					
+					fadeAnimation(åüpnl, 'fadeOut');
+					
+				};
+				
+				var _confirm = function (e) {
+					
+					_this.åüutils.pdControl(e);
+					
+					fadeAnimation(åüpnl, 'fadeOut');
+					
+				};
+
+				åübtnFrmSubmit.on(evtName, _showModal);
+				
+				åüpnl.on(evtName, '._close', _btnClose);
+				
+				åüpnl.on(evtName, '.ccl', _btnClose);
+				
+				åüpnl.on(evtName, '._confirm', _confirm);
+
 			};
 			
 			bankChoosingControl.åüswitchData = function () {
