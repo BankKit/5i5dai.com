@@ -71,6 +71,8 @@
 
 - [更换绑定手机](http://goo.gl/GoWPSI)
 
+- [修改密码](http://goo.gl/EFIi2Q)
+
 - [找回密码](http://goo.gl/42k83N)
 
 - [重置密码](http://goo.gl/FSFhB5)
