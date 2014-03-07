@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.13 14:48 ( Tony ).
  * 
- * Last Update: 2013.12.18 16:45 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.07 10:38 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -134,6 +134,12 @@
 				
 				init: function () {
 
+					var changedCallBack = function () {
+
+						console.log('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>');
+
+					};
+
 					SJ('#chkAgreement').studioCheck({
 
 					    checkboxClass: 'studioCheckbox_square-red',
@@ -142,7 +148,7 @@
 
 					    increaseArea: '0'
 
-					});
+					}).on('ifChecked', changedCallBack);
 
 					SJ('.rdoAgreementArea').children('a').on(evtName, function (e) {
 
