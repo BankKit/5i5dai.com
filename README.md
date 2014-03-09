@@ -91,7 +91,17 @@
 
 - [汇通安心贷服务介绍](http://goo.gl/0dpxWM)
 
-- [关于我爱我贷网](http://goo.gl/pMxIhx)
+- [关于我们 - 关于我爱我贷网](http://goo.gl/pMxIhx)
+
+- [关于我们 - 关于亨元金融](http://goo.gl/uTJepC)
+
+- [关于我们 - 网站声明](http://goo.gl/AmXbNX)
+
+- [关于我们 - 收费标准](http://goo.gl/ddp6lh)
+
+- [关于我们 - 公告与新闻](http://goo.gl/qN6nKp)
+
+- [关于我们 - 联系我们](http://goo.gl/qlN2Gp)
 
 - [提现](http://goo.gl/p47t0n)
 
