@@ -6,15 +6,15 @@
 		
 		<tile>
 			
-			<square70x70logo src="cdn/ajax/libs/img/investment-site/Pinned Sites/smalltile.png"/>
+			<square70x70logo src="cdn/ajax/libs/img/investment-site/Icons/pinned_sites/smalltile.png"/>
 			
-			<square150x150logo src="cdn/ajax/libs/img/investment-site/Pinned Sites/mediumtile.png"/>
+			<square150x150logo src="cdn/ajax/libs/img/investment-site/Icons/pinned_sites/mediumtile.png"/>
 			
-			<wide310x150logo src="cdn/ajax/libs/img/investment-site/Pinned Sites/widetile.png"/>
+			<wide310x150logo src="cdn/ajax/libs/img/investment-site/Icons/pinned_sites/widetile.png"/>
 			
-			<square310x310logo src="cdn/ajax/libs/img/investment-site/Pinned Sites/largetile.png"/>
+			<square310x310logo src="cdn/ajax/libs/img/investment-site/Icons/pinned_sites/largetile.png"/>
 			
-			<TileImage src="cdn/ajax/libs/img/investment-site/Pinned Sites/mediumtile.png"></TileImage> <!-- Note that square150x150logo is preferred. -->
+			<TileImage src="cdn/ajax/libs/img/investment-site/Icons/pinned_sites/mediumtile.png"></TileImage> <!-- Note that square150x150logo is preferred. -->
 			
 			<TileColor>#009900</TileColor>
 			

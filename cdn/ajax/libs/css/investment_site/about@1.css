@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.11.20 11:37 ( Tony ).
  * 
- * Last Update: 2014.11.22 12:52 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.09 16:20 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -25,6 +25,14 @@
  * 
  * Copyright: ...//TODO: Give a copyright.
  */
+
+
+
+._hide {
+	
+	display: none !important;
+	
+}
 
 
 
@@ -399,6 +407,342 @@ body {
 */
 
 .sec_4 {
+	
+	
+	
+}
+
+.sec_4 > h1 {
+	
+	color: #333;
+	
+	font-weight: bold;
+	
+	font-size: 16px;
+
+	width: 80px;
+	
+	margin-top: 30px;
+
+	margin-right: 600px;
+
+	margin-left: 70px;
+
+}
+
+.sec_4 > .graphic {
+
+	width: 160px;
+
+	height: 497px;
+
+	margin-top: 60px;
+
+	margin-left: 30px;
+
+}
+
+/* Line */
+
+.sec_4 > .graphic > .line {
+
+	z-index: 0;
+
+	display: block;
+
+	height: 2px;
+
+	width: 80px;
+
+	background-color: #fe7878;
+
+}
+
+.sec_4 > .graphic > .line.i_1 {
+
+	top: 100px;
+
+	left: 30px;
+
+	-moz-transform: rotate(110deg);
+
+	-webkit-transform: rotate(110deg);
+
+	-o-transform: rotate(110deg);
+
+	-ms-transform: rotate(110deg);
+
+	transform: rotate(110deg);
+
+	transform-origin: center center;
+
+}
+
+.sec_4 > .graphic > .line.i_2 {
+
+	top: 245px;
+
+	left: 35px;
+
+	-moz-transform: rotate(65deg);
+
+	-webkit-transform: rotate(65deg);
+
+	-o-transform: rotate(65deg);
+
+	-ms-transform: rotate(65deg);
+
+	transform: rotate(65deg);
+
+	transform-origin: center center;
+
+}
+
+.sec_4 > .graphic > .line.i_3 {
+
+	top: 393px;
+
+	left: 50px;
+
+	-moz-transform: rotate(105deg);
+
+	-webkit-transform: rotate(105deg);
+
+	-o-transform: rotate(105deg);
+
+	-ms-transform: rotate(105deg);
+
+	transform: rotate(105deg);
+
+	transform-origin: center center;
+
+}
+
+/* Solid */
+
+.sec_4 > .graphic > div.solid {
+
+	color: #fa3636;
+
+	font-size: 26px;
+
+	line-height: 60px;
+
+	width: 60px;
+
+	height: 60px;
+
+	border: 1px solid #fa3636;
+	
+	-webkit-border-radius: 50%;
+	
+	-moz-border-radius: 50%;
+	
+	border-radius: 50%;
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box;
+
+	background-color: none;
+
+}
+
+.sec_4 > .graphic > div.solid.s_1 {
+
+	top: 17px;
+
+}
+
+.sec_4 > .graphic > div.solid.s_2 {
+
+	top: 154px;
+
+	right: 25px;
+
+}
+
+.sec_4 > .graphic > div.solid.s_3 {
+
+	top: 293px;
+
+	left: 15px;
+
+}
+
+.sec_4 > .graphic > div.solid.s_4 {
+
+	top: 435px;
+
+	right: 0;
+
+}
+
+/* Hollow */
+
+.sec_4 > .graphic > div.hollow {
+
+	color: #FFF;
+
+	font-size: 46px;
+
+	line-height: 76px;
+
+	width: 76px;
+
+	height: 76px;
+	
+	-webkit-border-radius: 50%;
+	
+	-moz-border-radius: 50%;
+	
+	border-radius: 50%;
+	
+	-webkit-background-clip: padding-box;
+	
+	background-clip: padding-box;	
+
+	background-color: #fa3636;
+
+}
+
+.sec_4 > .graphic > div.hollow.h_1 {
+
+	z-index: 500;
+
+	right: 36px;
+
+}
+
+.sec_4 > .graphic > div.hollow.h_2 {
+
+	top: 135px;
+
+	right: 73px;
+
+}
+
+.sec_4 > .graphic > div.hollow.h_3 {
+
+	top: 280px;
+
+	right: 19px;
+
+}
+
+.sec_4 > .graphic > div.hollow.h_4 {
+
+	top: 420px;
+
+	right: 50px;
+
+}
+
+.ie-lt9 .sec_4 > .graphic > * {
+
+	display: none;
+
+}
+
+.ie-lt9 .sec_4 > .graphic {
+
+	background: url(../../img/investment-site/charging.standard.jpg) center center no-repeat;
+
+}
+
+.sec_4 > .dTable {
+
+	width: 608px;
+
+	min-height: 560px;
+	
+	height: auto !important;
+	
+	height: 560px;
+
+	border: 1px solid #ccc;
+
+	border-right: 0;
+
+	border-bottom: 0;
+
+	margin-left: 15px;
+
+}
+
+.sec_4 > .dTable > div {
+
+	color: #333;
+
+	min-height: 140px;
+	
+	height: auto !important;
+	
+	height: 140px;
+
+	border-right: 1px solid #ccc;
+
+	border-bottom: 1px solid #ccc;
+
+}
+
+.sec_4 > .dTable > div.odd {
+
+	width: 338px;
+
+}
+
+.sec_4 > .dTable > div.odd > p {
+
+	color: #333;
+
+	word-break: break-all;
+
+	line-height: 20px;
+
+	width: 250px;
+
+	margin: 0 50px;
+
+	margin-top: 40px;
+
+}
+
+.sec_4 > .dTable > div.even {
+
+	width: 268px;
+
+}
+
+.sec_4 > .dTable > div.even > p {
+
+	color: #333;
+
+	word-break: break-all;
+
+	line-height: 20px;
+
+	width: 168px;
+
+	margin: 0 50px;
+
+	margin-top: 30px;
+
+}
+
+
+
+/*
+ ::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::           :::::::::: 
+:+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+:           :+:    :+: 
++:+        +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+           +:+        
++#++:++#++ +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+           +#++:++#+  
+       +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#                  +#+ 
+#+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+#           #+#    #+# 
+ ########  ########## ########     ###     ########### ########  ###    #### ########## ########  
+*/
+
+.sec_5 {
 	
 	padding-bottom: 0;
 

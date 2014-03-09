@@ -23,7 +23,7 @@
  * 
  * Creation Date: 2014.11.20 11:26 ( Tony ).
  * 
- * Last Update: 2014.11.22 12:53 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.09 10:13 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -32,13 +32,13 @@
  * Copyright: ...//TODO: Give a copyright.
  */
 
-(function (require, console) {
+(function (require) {
 	
 	var fn, _AMD;
 	
 	fn = function (require) {
 		
-		var SJ, basicLogic/*, plusLogic*/, modifyTitle/*, deepLink*/, srl, cont;
+		var SJ, basicLogic/*, plusLogic*/, modifyTitle/*, deepLink*/, urlParser, srl, cont;
 		
 		SJ = require('jquery');
 		
@@ -49,14 +49,52 @@
 		modifyTitle = require('titleModify');
 		
 		// deepLink = require('deepLink');
-
+		
+		urlParser = require('urlParser');
+		
 		srl = require('srl');
-
+		
 		cont = require('cont');
 		
 		SJ(function ($) {
 			
 			// TODO: Import basic business logic script here.
+			
+			var mod = (function () {
+				
+				return {
+					
+					init: function () {
+
+						var pageIdentity, _arry, arrSearch, sideMenu;
+						
+						pageIdentity = Arg.get("direct");
+						
+						_arry = ['sec_1', 'sec_2', 'sec_3', 'sec_4', 'sec_5', 'sec_6'];
+						
+						arrSearch = $.inArray(pageIdentity, _arry);
+
+						sideMenu = $('aside').find('li');
+						
+						if (arrSearch !== -1) {
+							
+							sideMenu.filter(':eq(' + arrSearch + ')').addClass('current').siblings('li').removeClass('current');
+							
+							$('.' + pageIdentity).removeClass('_hide');
+							
+						} else {
+							
+							sideMenu.filter(':eq(0)').addClass('current');
+							
+							$('.sec_1').removeClass('_hide');
+							
+						}
+						
+					}
+					
+				};
+				
+			} ()).init();
 			
 			$('html').studioScroll({zindex: 50, cursorborder: 0, cursorborderradius: 0});
 			
@@ -88,4 +126,4 @@
 		
 	}(_AMD || {}, fn)).init();
 	
-} (require, (typeof console !== 'undefined' ? console : undefined)));
+} (require));
