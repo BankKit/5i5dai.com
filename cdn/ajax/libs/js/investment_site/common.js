@@ -27,7 +27,7 @@
  * 
  * Creation Date: 2013.12.09 09:16 ( Tony ).
  * 
- * Last Update: 2014.03.09 10:15 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.10 22:00 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -132,9 +132,9 @@
 					
 					slt: 'jquery_selector/0.1.0/jquery.selector.min',
 					
-					uiCore: 'jquery_ui/1.10.3/minified/jquery.ui.core.min',
+					uiCore: cdnjsUrl + '/jquery_ui/1.10.3/minified/jquery.ui.core.min',
 					
-					uiDatePicker: 'jquery_ui/1.10.3/minified/jquery.ui.datepicker.min',
+					uiDatePicker: cdnjsUrl + '/jquery_ui/1.10.3/minified/jquery.ui.datepicker.min',
 					
 					sticky: 'jquery_sticky/0.1.0/jquery.sticky.min',
 
