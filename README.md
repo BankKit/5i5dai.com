@@ -57,6 +57,14 @@
 
 - [邮箱验证：验证成功](http://goo.gl/nQrvcx)
 
+- [投资列表](http://goo.gl/AjwZpO)
+
+- [投资流程(4)](http://goo.gl/3qvz1j)
+
+- [投资项目详细](http://goo.gl/WauGcB)
+
+- [投资收益计算器](http://goo.gl/1I4MNO)
+
 - [账户：账户总览](http://goo.gl/ha1MXw)
 
 - [账户：我的投资列表](http://goo.gl/xw0NHM)
@@ -79,17 +87,15 @@
 
 - [重置密码结果](http://goo.gl/Jc27oK)
 
-- [投资列表](http://goo.gl/AjwZpO)
-
-- [投资流程(4)](http://goo.gl/3qvz1j)
-
-- [投资项目详细](http://goo.gl/WauGcB)
-
 - [充值](http://goo.gl/bY26ZU)
 
 - [充值结果](http://goo.gl/p8HWrv)
 
 - [汇通安心贷服务介绍](http://goo.gl/0dpxWM)
+
+- [提现](http://goo.gl/p47t0n)
+
+- [站内信](http://goo.gl/XmalfV)
 
 - [关于我们 - 关于我爱我贷网](http://goo.gl/pMxIhx)
 
@@ -102,7 +108,3 @@
 - [关于我们 - 公告与新闻](http://goo.gl/qN6nKp)
 
 - [关于我们 - 联系我们](http://goo.gl/qlN2Gp)
-
-- [提现](http://goo.gl/p47t0n)
-
-- [站内信](http://goo.gl/XmalfV)
