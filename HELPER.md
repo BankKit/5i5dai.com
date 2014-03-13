@@ -1,13 +1,13 @@
 ####项目系统路径，System Path####
 
 ```bash
-D:\Regular\Development\Apache Software Foundation\Tomcat 7.0\webapps\DROPBOX\Browser Side Workspace\Investment-Site
+D:\Regular\Development\Apache Software Foundation\Tomcat\webapps\DROPBOX\Browser Side Workspace\Investment-Site
 ```
 
 ####命令行操作路径，Command Line####
 
 ```bash
-D:/Regular/Development/Apache Software Foundation/Tomcat 7.0/webapps/DROPBOX/Browser Side Workspace/Investment-Site
+D:/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site
 ```
 
 ####本地主机路径路径，Localhost####
