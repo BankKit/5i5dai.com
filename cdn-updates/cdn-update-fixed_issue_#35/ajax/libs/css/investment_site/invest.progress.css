@@ -1,0 +1,970 @@
+@charset "utf-8";
+
+/**
+ * Statement: ...//TODO: Write statement.
+ * 
+ * Describe: The basic stylesheet file for the investment progress page (../../../../../../www/invest.progress.html).    ...//TODO: Check description.
+ * 
+ * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
+ *     
+ * Docs: ...//TODO: Give a link about project documents.
+ * 
+ * Original Author: Shen Weizhong ( Tony Stark ).
+ * 
+ * Thanks: ...//TODO: If there are some contributors, just mark them.
+ * 
+ * Version: 0.1.0-alpha
+ * 
+ * Creation Date: 2013.12.30 19:33 ( Tony ).
+ * 
+ * Last Update: 2014.03.03 12:51 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * 
+ * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
+ * 
+ * License: ...//TODO: Give a license.
+ * 
+ * Copyright: ...//TODO: Give a copyright.
+ */
+
+.btnNext {
+	
+	display: block;
+	
+	color: #FFF;
+	
+	line-height: 37px;
+	
+	font-family: "微软雅黑";
+	
+	text-decoration: none;
+	
+	width: 150px;
+	
+	height: 37px;
+	
+	margin-right: 45px;
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNDNlNDQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #f43e44 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#f43e44)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#f43e44 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#f43e44 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#f43e44',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.btnNext:hover {
+	
+	background: #fc696e; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjNjk2ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjU2NWMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fc696e 0%, #fb565c 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fc696e), color-stop(100%,#fb565c)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fc696e 0%,#fb565c 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fc696e 0%,#fb565c 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fc696e', endColorstr='#fb565c',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.btnNext:active {
+	
+	background: #fb565c; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZiNTY1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYzY4NmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #fb565c 0%, #fc686e 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fb565c), color-stop(100%,#fc686e)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #fb565c 0%,#fc686e 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #fb565c 0%,#fc686e 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb565c', endColorstr='#fc686e',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie9 .btnNext {filter: none;}
+
+
+
+/*
+ ::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::              :::
+:+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+:            :+:+:
++:+        +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+              +:+
++#++:++#++ +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+              +#+
+       +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#              +#+
+#+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+#              #+#
+ ########  ########## ########     ###     ########### ########  ###    #### ########## #######
+*/
+
+/* Panel */
+
+.sec_1 {
+	
+	height: 310px;
+	
+}
+
+/* Row 1 */
+
+.sec_1 > h2,
+
+.sec_1 > h3 {
+	
+	color: #333;
+	
+	line-height: normal;
+	
+	font-family: "宋体";
+	
+}
+
+.sec_1 > h2 {
+	
+	color: #333;
+	
+	font-weight: bold;
+	
+	font-size: 15px;
+	
+	margin-left: 20px;
+	
+	margin-top: 22px;
+	
+}
+
+.sec_1 > h3 {
+	
+	font-weight: normal;
+	
+	font-size: 12px;
+	
+	margin-top: 25px;
+	
+	margin-right: 500px;
+	
+	margin-bottom: 1px;
+	
+	margin-left: 12px;
+	
+}
+
+/* Row 2 */
+
+.sec_1 > div {
+	
+	height: 167px;
+	
+	margin-top: 22px;
+	
+	border-top: 1px solid #eee;
+	
+	border-bottom: 1px solid #eee;
+	
+}
+
+.sec_1 > div > ul {
+	
+	color: #6a6a6a;
+	
+	width: 350px;
+	
+	margin-top: 12px;
+	
+	margin-left: 75px;
+	
+}
+
+.ie7 .sec_1 > div > ul,
+
+.ie8 .sec_1 > div > ul {
+	
+	margin-top: 18px;
+	
+}
+
+.sec_1 > div > ul > li {
+	
+	margin-top: 15px;
+	
+}
+
+.sec_1 > div > ul > li.oddUnit {
+	
+	width: 110px;
+	
+}
+
+.sec_1 > div > ul > li.evenUnit {
+	
+	width: 240px;
+	
+}
+
+.sec_1 > div.sl1_1 {
+	
+	width: 585px;
+	
+}
+
+.sec_1 > div.sl1_2 {
+	
+	width: 585px;
+	
+	border-left: 1px solid #eee;
+	
+}
+
+.ie7 .sec_1 > div.sl1_2 {
+	
+	width: 584px;
+	
+}
+
+.sec_1 > div.sl1_2 > ul {
+	
+	margin-left: 55px;
+	
+}
+
+.sec_1 > div.sl1_2 > ul > li.sll_8 > span {
+	
+	color: #fb565c;
+	
+}
+
+/* Row 3 */
+
+.sec_1 > i {
+	
+	display: block;
+	
+	width: 16px;
+	
+	height: 16px;
+	
+	margin: 20px 8px 0 53px;
+	
+	background: url(../../img/investment-site/Icons/icon.question.jpg) center center no-repeat;
+	
+}
+
+.sec_1 > h4 {
+	
+	color: #f66;
+	
+	font-weight: normal;
+	
+	margin-top: 22px;
+	
+	margin-right: 970px;
+	
+}
+
+.sec_1 > p {
+	
+	color: #666;
+	
+	margin-top: 10px;
+	
+	margin-left: 77px;
+	
+}
+
+.sec_1 > .btnNext {
+	
+	margin-top: -15px;
+
+}
+
+.ie7 .sec_1 > .btnNext {
+	
+	margin-top: -14px;
+	
+}
+
+
+
+/*
+ ::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::             ::::::::
+:+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+:            :+:    :+:
++:+        +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+                  +:+
++#++:++#++ +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+                +#+
+       +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#              +#+
+#+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+#             #+#
+ ########  ########## ########     ###     ########### ########  ###    #### ########## ##########
+*/
+
+.sec_2 {
+	
+	z-index: 50;
+	
+	height: 465px;
+	
+	background: url(../../img/investment-site/invest.progress.bg.1.jpg) 80px 55px no-repeat;
+	
+}
+
+.sec_2 > h2 {
+	
+	z-index: 1;
+	
+	color: #8c8c8c;
+	
+	font-weight: normal;
+	
+	margin-top: 22px;
+	
+	margin-right: 700px;
+	
+	margin-left: 20px;
+	
+}
+
+.sec_2 > h2 > span {
+	
+	color: #d5563f;
+	
+}
+
+.sec_2 > .contract {
+	
+	z-index: 2;
+	
+	width: 670px;
+	
+	height: 305px;
+	
+	overflow: hidden;
+	
+	margin-right: 45px;
+	
+	border: 1px solid #9c9c9c;
+	
+}
+
+.ie7 .sec_2 > .contract {
+	
+	width: 668px;
+	
+	height: 303px;
+	
+}
+
+.sec_2 > .contract > h1 {
+	
+	font-weight: bold;
+	
+	font-size: 16px;
+	
+	margin: 10px 0 10px 0;
+	
+}
+
+.sec_2 > .contract > h2 {
+	
+	margin: 10px 10px 50px 10px;
+	
+}
+
+.sec_2 > .contract > p {
+	
+	font-size: 12px;
+	
+	line-height: 25px;
+	
+	text-indent: 2em;
+	
+	margin-right: 15px;
+	
+	margin-left: 15px;
+	
+	margin-bottom: 25px;
+	
+}
+
+.sec_2 > .contract > p.ph_1 {
+	
+	text-indent: 0;
+	
+	margin-bottom: 0px !important;
+	
+}
+
+.sec_2 > .contract > p.ph_2 {
+	
+	text-indent: 0;
+	
+	margin-bottom: 50px;
+	
+}
+
+.sec_2 > .contract > p > b {
+	
+	font-weight: bold;
+	
+}
+
+.sec_2 > .contract > p.psg_1 {
+	
+	margin-left: 55px;
+	
+}
+
+.sec_2 > .contract > p.psg_2 {
+	
+	margin-left: 6.1em;
+	
+}
+
+.sec_2 > .contract > table {
+	
+	width: 640px;
+	
+	margin: 0 15px 25px 15px;
+
+}
+
+.ie7 .sec_2 > .contract > table {
+	
+	width: 635px;
+
+}
+
+.sec_2 > .contract > table.tbl_1 td {
+	
+	font-size: 12px;
+	
+	line-height: 50px;
+	
+	height: 50px;
+	
+	border: 1px solid #666;
+	
+}
+
+.sec_2 > .contract > table.tbl_2 td {
+	
+	font-size: 12px;
+	
+	line-height: 50px;
+	
+	height: 50px;
+	
+}
+
+.sec_2 > .contract > a {
+	
+	display: block;
+	
+	color: #000;
+	
+	font-weight: bold;
+	
+	text-decoration: none;
+	
+	margin-bottom: 50px;
+	
+	margin-left: 15px;
+	
+}
+
+.sec_2 > .contract > a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+.sec_2 > .spTool {
+	
+	height: 90px;
+	
+	width: 1170px;
+	
+	margin-top: 30px;
+	
+	border-top: 1px solid #eee;
+	
+}
+
+.ie7 .sec_2 > .spTool {
+	
+	height: 89px;
+	
+	margin-top: 35px;
+	
+}
+
+.ie8 .sec_2 > .spTool {
+	
+	margin-top: 35px;
+	
+}
+
+.sec_2 > .spTool > div {
+	
+	height: 90px;
+	
+	width: 800px;
+	
+	border-right: 1px solid #eee;
+	
+}
+
+.ie7 .sec_2 > .spTool > div {
+	
+	height: 89px;
+	
+}
+
+.sec_2 > .spTool > .btnNext {
+	
+	margin-top: 27px;
+	
+}
+
+.ie7 .sec_2 > .spTool > .btnNext,
+
+.ie8 .sec_2 > .spTool > .btnNext {
+	
+	margin-top: 25px;
+	
+}
+
+
+
+/*
+ ::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::            ::::::::
+:+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+:           :+:    :+:
++:+        +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+                  +:+
++#++:++#++ +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+               +#++:
+       +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#                  +#+
+#+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+#           #+#    #+#
+ ########  ########## ########     ###     ########### ########  ###    #### ########## ########
+*/
+
+.sec_3 {
+	
+	height: 425px;
+	
+	background: url(../../img/investment-site/invest.progress.bg.2.jpg) 732px 65px no-repeat;
+	
+}
+
+.sec_3 > i {
+	
+	display: block;
+	
+	width: 16px;
+	
+	height: 16px;
+	
+	margin-left: 75px;
+	
+}
+
+.sec_3 > i.s3i_1 {
+	
+	margin-top: 22px;
+	
+	background: url(../../img/investment-site/Icons/icon.009.jpg) center center no-repeat;
+	
+}
+
+.sec_3 > i.s3i_2 {
+	
+	margin-top: 29px;
+	
+	background: url(../../img/investment-site/Icons/icon.question.jpg) center center no-repeat;
+	
+}
+
+.sec_3 > .s3p_1 {
+	
+	color: #7d7d7d;
+	
+	margin-top: 22px;
+	
+	margin-right: 510px;
+	
+	margin-left: 5px;
+	
+}
+
+.sec_3 > ul {
+	
+	width: 425px;
+	
+	margin-top: 20px;
+	
+	margin-right: 720px;
+	
+	margin-left: 20px;
+	
+}
+
+.sec_3 > ul > li {
+	
+	height: 37px;
+	
+	margin-top: 20px;
+	
+}
+
+.sec_3 > ul > li.oddUnit {
+	
+	color: #7d7d7d;
+	
+	line-height: 37px;
+	
+	width: 65px;
+	
+}
+
+.sec_3 > ul > li.evenUnit {
+	
+	width: 355px;
+	
+	margin-left: 5px;
+	
+}
+
+.field {
+	
+	height: 37px;
+	
+	background: Yellow;
+	
+}
+
+.field > input {
+	
+	width: 345px;
+	
+	margin-top: 8px;
+	
+	margin-left: 5px;
+	
+}
+
+.s3l_2 > .field {
+	
+	border: 1px solid #c6c6c6;
+	
+	background-color: #ccc;
+	
+}
+
+.sec_3 > ul > li.s3l_2 > .field > input {
+	
+	background: #ccc;
+	
+}
+
+.s3l_4 > .field {
+	
+	border: 1px solid #ddd;
+	
+	background-color: #f2f2f2;
+	
+}
+
+.sec_3 > ul > li.s3l_4 > .field > input {
+	
+	background: #f2f2f2;
+	
+}
+
+.ie7 .s3l_4 > .field {
+	
+	height: 35px;
+	
+}
+
+.sec_3 > .s3p_2 {
+	
+	color: #8c8c8c;
+	
+	line-height: 25px;
+	
+	margin-top: 25px;
+	
+	margin-right: 600px;
+	
+	margin-left: 5px;
+	
+}
+
+.sec_3 > .s3p_2 > span {
+	
+	color: #fb565c;
+	
+}
+
+.sec_3 > a {
+	
+	color: #FFF;
+	
+	font-size: 12px;
+	
+	line-height: 22px;
+	
+	font-family: "微软雅黑";
+	
+	text-decoration: none;
+	
+	width: 77px;
+	
+	height: 22px;
+	
+	bottom: 180px;
+	
+	left: 380px;
+	
+	background: #5a6b7f; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVhNmI3ZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0ODU5NmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #5a6b7f 0%, #48596d 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5a6b7f), color-stop(100%,#48596d)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #5a6b7f 0%,#48596d 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #5a6b7f 0%,#48596d 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #5a6b7f 0%,#48596d 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #5a6b7f 0%,#48596d 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a6b7f', endColorstr='#48596d',GradientType=0 ); /* IE6-8 */
+
+}
+
+.sec_3 > a:hover {
+	
+	background: #707f90; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzcwN2Y5MCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0OTVhNmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #707f90 0%, #495a6e 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#707f90), color-stop(100%,#495a6e)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #707f90 0%,#495a6e 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #707f90 0%,#495a6e 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #707f90 0%,#495a6e 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #707f90 0%,#495a6e 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#707f90', endColorstr='#495a6e',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.sec_3 > a:active {
+	
+	background: #48596d; /* Old browsers */
+	
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ4NTk2ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM2ZjdlOGYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	
+	background: -moz-linear-gradient(top,  #48596d 0%, #6f7e8f 100%); /* FF3.6+ */
+	
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#48596d), color-stop(100%,#6f7e8f)); /* Chrome,Safari4+ */
+	
+	background: -webkit-linear-gradient(top,  #48596d 0%,#6f7e8f 100%); /* Chrome10+,Safari5.1+ */
+	
+	background: -o-linear-gradient(top,  #48596d 0%,#6f7e8f 100%); /* Opera 11.10+ */
+	
+	background: -ms-linear-gradient(top,  #48596d 0%,#6f7e8f 100%); /* IE10+ */
+	
+	background: linear-gradient(to bottom,  #48596d 0%,#6f7e8f 100%); /* W3C */
+	
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48596d', endColorstr='#6f7e8f',GradientType=0 ); /* IE6-8 */
+	
+}
+
+.ie9 .sec_3 > a {filter: none;}
+
+.sec_3 > .spTool {
+	
+	height: 90px;
+	
+	width: 1170px;
+	
+	margin-top: 65px;
+	
+	border-top: 1px solid #eee;
+	
+}
+
+.ie7 .sec_3 > .spTool {
+	
+	height: 89px;
+	
+}
+
+.sec_3 > .spTool > div {
+	
+	height: 90px;
+	
+	width: 800px;
+	
+	border-right: 1px solid #eee;
+	
+}
+
+.ie7 .sec_3 > .spTool > div {
+	
+	height: 89px;
+	
+}
+
+.sec_3 > .spTool > .btnNext {
+	
+	margin-top: 25px;
+	
+}
+
+.ie7 .sec_3 > .spTool > .btnNext,
+
+.ie8 .sec_3 > .spTool > .btnNext {
+	
+	margin-top: 25px;
+	
+}
+
+
+
+/*
+ ::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::               :::
+:+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+:              :+:
++:+        +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+             +:+ +:+
++#++:++#++ +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+            +#+  +:+
+       +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#           +#+#+#+#+#+
+#+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+#                 #+#
+ ########  ########## ########     ###     ########### ########  ###    #### ##########      ###
+*/
+
+.sec_4 {
+	
+	height: 425px;
+	
+	background: url(../../img/investment-site/invest.progress.bg.3.jpg) 645px 12px no-repeat;
+	
+}
+
+.sec_4 > i {
+	
+	display: block;
+	
+	width: 24px;
+	
+	height: 18px;
+	
+	margin-top: 125px;
+	
+	margin-left: 95px;
+	
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAE4klEQVQ4T31Va2iWZRi+nvf4HTdnm/MwxRxY+iMTUgsliJl0mJjZCluRBJVpSeUYlIcfzqishLIfJf5QyE6Ebk3rh0sR0SISRjAioUY6R3P7vn37ju/56Xre7W898H7b93zPc9/Xdd3Xfb9C+lJCLW36UV/CIIKBCBBAjf+ZenwiXjKcOcvfAJ/nTVihA+gGbqGKQwMv4vrEILo3ncDK5BqIIKxIXbPg+hFM0+SF6XyS0UUkIJnUDxxYhoTOZDIyVd54Hwgg/BKk2YAJXjv8fScuD38BU6vH/NRC7O48DiFlTlZdDbY9KyZRcyqwExavmnwAm49AhcEVdFIJ09NUeDgIPRi6h5zM4NCFp3Hujy9hWYxRBOq0JG5fvFQlqDJ3Eg5ZKlUSCRUxgC8MeDMJDEoB9S1QEJLxOeaH5LkCyni/7zVcyZ/Gdb+IDO/fplvwJjysWdbBBI6UCqmCaqi/LpFqRMq0AdEozQ1qIpRy6pkJ7gqf9Sng4KWduPjLt0TWBMyKUHAmUE8861u24tX2I7znSulaEXIYITaBBjQSLFGqxX0v0sA8M9WfRl4VLkai39F7/iQ+vfYB5tXNxuRYHtnUXEo2hRVz2rC/vR9zDdZo0vVl0bqGnq93YcmCVuxctx9pfwF0kqgGEzCtxphZzEARJPK/oyH0/noUpy4cg7UoifFSEQ3JBtRGJ/Hwnc/hzU3HkVF36C4x7I/IPcc7MVS7iAQ5PH5HF3ZtOKCAsqxFckoygYitqxsapjCJowOHcOrqR0Czj3CcEjYnkXNqaFv0CPatP4b5ehYhv4fJJogNfU1y6h8fnlsBUj64j47Vz6Nr9bvI+k2oGBHSIYvLOkzqJew99zIu3TgJkzrPdk3ksj70vIH25S9hW9vraLEW0WsExIJFyuxdZ56VP/3Vi2KiROcADSKNbDmDB1o3Y0d7D+rCxnh/SruJTwZ248c/e1EWHkzDRuRSgoqFh1Y9hY77dmCptRK2tKf7hB/K2GLMvyEPnt6OK6WzdDuIVqDeS0P3sli77jHsveswKnYJR67sww9Dn6FIO9uGiUi3UQnL2Lp4Jza3PYNWawVSlFPWJDSL0UnaYwYhI1+OiZs40L8LP49+B4c2TBqqZ5MouWV0392DEfkbzg71Ih/6SNspmJGHWi7Ahvu34JVV76HZaqHLiZzygh0PjfKQghRqGgShdCI2lplD11cdGCxdRpW+DFyWhE6yaylU3CrSs4E8KWbS9Efew8blHdi2vhsLzWWMxxHjELmym0aKWsAErISW4iiJpDRkhEp5HE6dj7dO7cDVQj8CArF8AwV6OUM5DIIIyNnm/tqWTnQ/+iHmRM3sC7apZGTVgOpDIwqh1LdZYrJifHY84WrU1PGRT4zgnW+2Y3D8PFwGN1MmipUAOhuhQU/gXjbRGxs/xlxtiZp1CGknjaZWfRKFSp4aNE2V2UQY0eAycqQf2DE9XTWTiDDqDaOnfzsuFwaQLSRQqXfgs2irGrfgINu/BfPieeVpPh2jTGmBBAliesooJhEngJpcHBUUg0WFFnPkbNYQsMtGMYS3T7yAi94g6lm9e2Y9iJ4n+pANknw/sAmoe7zisf3fS7isTkCtVGIllaWptw5HNTfGo1vYc6YNGWce9j35Oe07h+O4TF341hDsVh6NB+T/rH8Bcmsc0PNAxk8AAAAASUVORK5CYII=) center center no-repeat;
+	
+}
+
+.sec_4 > .p_1 {
+	
+	color: #666666;
+	
+	font: bold 14px/normal "新宋体";
+	
+	margin: 127px 550px 2px 15px;
+	
+}
+
+.sec_4 > .p_1 > .span_1 {
+	
+	color: #329900;
+	
+}
+
+.sec_4 > .p_1 > .span_2 {
+	
+	color: #7d7d7d;
+	
+	font-weight: normal;
+	
+}
+
+.sec_4 > .p_1 > .span_2 > a {
+	
+	color: #f66;
+	
+	text-decoration: none;
+	
+}
+
+.sec_4 > .p_1 > .span_2 > a:hover {
+	
+	text-decoration: underline;
+	
+}
+
+.sec_4 > .s4i_2 {
+	
+	width: 16px;
+	
+	height: 16px;
+	
+	margin-top: 30px;
+	
+	margin-left: 100px;
+	
+	background: url(../../img/investment-site/Icons/icon.009.jpg) center center no-repeat;
+	
+}
+
+.sec_4 > .p_2 {
+	
+	color: #8c8c8c;
+	
+	line-height: 25px;
+	
+	margin-top: 25px;
+	
+	margin-left: 19px;
+	
+}

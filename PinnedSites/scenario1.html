@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<!-- Copyright © Microsoft Corporation. All rights reserved. -->
+<html>
+<head>
+    <title>Internet Explorer Developer Sample</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="css/base-sdk.css" />
+    <script type="text/javascript" src="script/base-sdk.js"></script>
+    <!-- Pinned Site IE11 Code -->
+    <meta name="application-name" content=" Contoso" />
+    <meta name="msapplication-TileColor" content=" #009900" />
+    <meta name="msapplication-square70x70logo" content="images/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="images/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="images/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="images/largetile.png" />
+    <meta name="msapplication-notification" content="frequency=30; cycle=1; polling-uri=notifications/contoso1.xml; polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml" />
+    <!-- End of Pinned Site IE11 Code -->
+</head>
+<body role="application">
+    <div id="header" role="contentinfo"></div>
+
+    <!--Sample title-->
+    <h1 id="sampleTitle"> Live Tiles support in IE11</h1>
+
+    <h2>Scenario 1: Using HTML</h2>
+    <p>
+        <a href="default.html">Back to scenarios menu</a>
+    </p>
+
+    <div class="descRegion" role="region" aria-labelledby="descLabel" aria-live="assertive">
+      <h2 id="descLabel">Description</h2>
+      <div class="descContent">
+
+        <!--Description and code snippet-->
+        <p>The following HTML markup will set the name of your pinned site, the tile color, the various tile sizes and the tile notifications.</p>
+        <ul>
+          <li>The application-name tag sets the default name of your pinned site</li>
+          <li>The TileColor tag sets the colour for your pinned site. This colour is used as the solid background colour for your live tile and is
+              also used to calculate the text colour.
+          <li>The four square and wide image tags set the four tile sizes for this tile. Note that the image you set for the medium tile size will
+              also be used as the tile background when your site is a Favorite or Frequent site.</li>
+          <li>The notification tag sets the polling URIs to be polled, and the frequency with which they are pulled. The contents of the polling
+              xmls are linked below. This code sample does not demonstrate updated notifications, but in a typical live-tile implementation, a script
+              will regularly update the xml files with fresh notifications.</li>
+        </ul>
+        <p>To see this sample code in action, pin this page to the Windows 8.1 Start screen from IE11 (in the new Windows UI).</p>
+        <h2 class="codeLabel">Code</h2>
+<pre>
+  &lt;meta name="application-name" content=" Contoso" /&gt;
+  &lt;meta name="msapplication-TileColor" content=" #009900" /&gt;
+  &lt;meta name="msapplication-square70x70logo" content="images/smalltile.png" /&gt;
+  &lt;meta name="msapplication-square150x150logo" content="images/mediumtile.png" /&gt;
+  &lt;meta name="msapplication-wide310x150logo" content="images/widetile.png" /&gt;
+  &lt;meta name="msapplication-square310x310logo" content="images/largetile.png" /&gt;
+  &lt;meta name="msapplication-notification" content="frequency=30; polling-uri=notifications/contoso1.xml;
+    polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml" /&gt;
+</pre>
+        <h2 class="codeLabel">Polling XMLs</h2>
+        <a href="notifications/contoso1.xml"><h4>notifications/contoso1.xml</h4></a>
+        <a href="notifications/contoso2.xml"><h4>notifications/contoso2.xml</h4></a>
+        <a href="notifications/contoso3.xml"><h4>notifications/contoso3.xml</h4></a>
+      </div>
+    </div>
+    <div id="footer" role="contentinfo"></div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<!-- Copyright © Microsoft Corporation. All rights reserved. -->
+<html>
+<head>
+    <title>Internet Explorer Developer Sample</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="css/base-sdk.css" />
+    <script type="text/javascript" src="script/base-sdk.js"></script>
+    <!-- Pinned Site IE11 Code -->
+    <meta name="application-name" content="Contoso" />
+    <meta name="msapplication-config" content="IEconfig.xml" />
+    <!-- End of Pinned Site IE11 Code -->
+</head>
+<body role="application">
+    <div id="header" role="contentinfo"></div>
+    <!--Sample title-->
+    <h1 id="sampleTitle">Live Tiles support in IE11</h1>
+    <h2>Scenario 3: Using XML</h2>
+    <p>
+        <a href="default.html">Back to scenarios menu</a>
+    </p>
+    <div class="descRegion" role="region" aria-labelledby="descLabel" aria-live="assertive">
+      <h2 id="descLabel">Description</h2>
+      <div class="descContent">
+        <!--Description and code snippet-->
+        <p>The following meta tag points the page to an XML file which contains your pinned site markup. 
+          The XML file (IEconfig.xml) will set the color of your tile, the various tile sizes and the tile notifications. 
+        </p>
+        <p>To see this sample code in action, pin this page to the Windows 8.1 Start screen from IE11 (in the new Windows UI).</p>
+
+        <h2 class="codeLabel">In Page markup</h2>
+<pre>
+&lt;meta name="msapplication-config" content="IEconfig.xml" /&gt;
+</pre>
+
+        <h2 class="codeLabel">IEconfig.xml</h2>
+<pre>
+&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;browserconfig&gt;
+  &lt;msapplication&gt;
+    &lt;tile&gt;
+      &lt;square70x70logo src="images/smalltile.png"/&gt;
+      &lt;square150x150logo src="images/mediumtile.png"/&gt;
+      &lt;wide310x150logo src="images/widetile.png"/&gt;
+      &lt;square310x310logo src="images/largetile.png"/&gt;
+      &lt;TileColor&gt;#009900&lt;/TileColor&gt;
+    &lt;/tile&gt;
+    &lt;notification&gt;
+      &lt;polling-uri  src="notifications/contoso1.xml"/&gt;
+      &lt;polling-uri2 src="notifications/contoso2.xml"/&gt;
+      &lt;polling-uri3 src="notifications/contoso3.xml"/&gt;
+      &lt;frequency&gt;30&lt;/frequency&gt;
+      &lt;cycle&gt;1&lt;/cycle&gt;
+    &lt;/notification&gt;
+  &lt;/msapplication&gt;
+&lt;/browserconfig&gt;
+</pre>
+        <h2 class="codeLabel">Polling XMLs</h2>
+        <a href="notifications/contoso1.xml"><h4>notifications/contoso1.xml</h4></a>
+        <a href="notifications/contoso2.xml"><h4>notifications/contoso2.xml</h4></a>
+        <a href="notifications/contoso3.xml"><h4>notifications/contoso3.xml</h4></a>
+      </div>
+    </div>
+    <div id="footer" role="contentinfo"></div>
+</body>
+</html>

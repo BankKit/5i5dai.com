@@ -22,17 +22,3 @@ $RECYCLE.BIN/
 
 # Mac crap
 .DS_Store
-
-
-
-###########
-## Mixin ##
-###########
-
-shorttime.md
-HELPER.md
-.sass-cache
-*.rar
-cdn-updates
-cdn-update
-sass-built
