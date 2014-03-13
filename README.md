@@ -108,3 +108,9 @@
 - [关于我们 - 公告与新闻](http://goo.gl/qN6nKp)
 
 - [关于我们 - 联系我们](http://goo.gl/qlN2Gp)
+
+- [新手指南 - 投资流程](http://goo.gl/VmmlKl)
+
+- [新手指南 - 投资保障](http://goo.gl/UXYlvl)
+
+- [新手指南 - 常见问题](http://goo.gl/Q8751Q)
