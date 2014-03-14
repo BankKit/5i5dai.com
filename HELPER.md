@@ -32,9 +32,10 @@ sass --watch sass/:sass-built/ --style compressed --scss
 
 ```bash
 sass --watch sass/global/sublevel.global.sass:sass-built/global/sublevel.global.css --style compressed --scss
+```
 
 #####Sublime Theme - itg.flat####
-  
+
 To enable one of the theme colors add one of the following to your `Preferences.sublime-settings` file:
 	
 	"theme": "itg.flat.dark.sublime-theme"
