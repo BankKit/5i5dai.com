@@ -1,7 +1,7 @@
 /**
  * Statement: ...//TODO: Write statement.
  * 
- * Describe: The business logic bootstrap script file for the about page (../../../../../../www/about@1.html).    ...//TODO: Check description.
+ * Describe: The business logic bootstrap script file for the user guide page (../../../../../../www/user.guide.html).    ...//TODO: Check description.
  * 
  * Further Changes, Comments: ...//TODO: Give a further changes and comments link.
  * 
@@ -15,15 +15,15 @@
  *     
  * Docs: ...//TODO: Give a link about project documents.
  * 
- * Original Author: Shen Weizhong ( Tony Stark ).
+ * Original Author: 沈维忠 ( Shen Weizhong / Tony Stark ).
  * 
  * Thanks: ...//TODO: If there are some contributors, just mark them.
  * 
  * Version: 0.1.0-alpha
  * 
- * Creation Date: 2014.11.20 11:26 ( Tony ).
+ * Creation Date: 2014.03.13 11:05 ( Tony ).
  * 
- * Last Update: 2014.03.27 18:04 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.27 18:56 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -42,7 +42,7 @@
 		
 		SJ = require('jquery');
 		
-		basicLogic = require('logic/about@1.logic.min');
+		basicLogic = require('logic/user.guide.logic');
 		
 		/*plusLogic = require('logic/about@1.logic.plus');*/
 		
@@ -65,15 +65,15 @@
 				return {
 					
 					init: function () {
-						
+
 						var pageIdentity, _arry, arrSearch, sideMenu;
 						
 						pageIdentity = Arg.get("direct");
 						
-						_arry = ['sec_1', 'sec_2', 'sec_3', 'sec_4', 'sec_5', 'sec_6', 'sec_7', 'sec_8'];
+						_arry = ['sec_1', 'sec_2', 'sec_3', 'sec_4'];
 						
 						arrSearch = $.inArray(pageIdentity, _arry);
-						
+
 						sideMenu = $('aside').find('li');
 						
 						if (arrSearch !== -1) {
