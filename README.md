@@ -116,3 +116,5 @@
 - [新手指南 - 投资保障](http://goo.gl/UXYlvl)
 
 - [新手指南 - 常见问题](http://goo.gl/Q8751Q)
+
+- [新手指南 - 操作演示](http://goo.gl/KZNVx3)
