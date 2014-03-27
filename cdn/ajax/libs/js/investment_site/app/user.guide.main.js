@@ -23,7 +23,7 @@
  * 
  * Creation Date: 2014.03.13 11:05 ( Tony ).
  * 
- * Last Update: 2014.03.13 15:55 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.27 18:56 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -70,7 +70,7 @@
 						
 						pageIdentity = Arg.get("direct");
 						
-						_arry = ['sec_1', 'sec_2', 'sec_3'];
+						_arry = ['sec_1', 'sec_2', 'sec_3', 'sec_4'];
 						
 						arrSearch = $.inArray(pageIdentity, _arry);
 

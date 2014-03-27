@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.03.13 11:12 ( Tony ).
  * 
- * Last Update: 2014.03.13 15:54 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.27 19:13 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -490,4 +490,64 @@ body {
 	
 	background: url(data:image/png;base64,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) left 20px no-repeat;
 	
+}
+
+
+
+/*
+ ::::::::  :::::::::: :::::::: ::::::::::: ::::::::::: ::::::::  ::::    :::               :::
+:+:    :+: :+:       :+:    :+:    :+:         :+:    :+:    :+: :+:+:   :+:              :+:
++:+        +:+       +:+           +:+         +:+    +:+    +:+ :+:+:+  +:+             +:+ +:+
++#++:++#++ +#++:++#  +#+           +#+         +#+    +#+    +:+ +#+ +:+ +#+            +#+  +:+
+       +#+ +#+       +#+           +#+         +#+    +#+    +#+ +#+  +#+#+#           +#+#+#+#+#+
+#+#    #+# #+#       #+#    #+#    #+#         #+#    #+#    #+# #+#   #+#+#                 #+#
+ ########  ########## ########     ###     ########### ########  ###    #### ##########      ###
+*/
+
+.sec_4 {
+
+	height: 290px;
+
+	background: #FFF url(../../img/investment-site/demonstration.bg.jpg) 595px 15px no-repeat;
+
+}
+
+.ie7 .sec_4 {
+
+	height: 220px;
+
+}
+
+.sec_4 > h2 {
+	
+	color: #ff6666;
+	
+	font-weight: bold;
+	
+	font-size: 16px;
+	
+	top: 30px;
+
+	left: 70px;
+
+}
+
+.sec_4 > p {
+
+	color: #CCC;
+
+	font-weight: 900;
+
+	font-size: 28px;
+
+	top: 120px;
+
+	left: 70px;
+
+}
+
+.sec_4 > p > span {
+
+	color: #329900;
+
 }

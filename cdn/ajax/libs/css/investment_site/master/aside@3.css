@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.03.13 11:38 ( Tony ).
  * 
- * Last Update: 2014.03.13 13:46 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.27 18:53 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -134,6 +134,16 @@ aside > ul > li.li_3 > a {
 	
 }
 
+/* Common: Menu 4 */
+
+aside > ul > li.li_4 > a {
+	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAABEElEQVQ4T2P8////agYGhhAgJgR2MDIyeiIrAuplAvKNGIGMP0AGMyEToPI8QIO+gthAfWpAag4QW4IM+Q9k/ALiBQQMSgTKiwIxyJBiIK4HYk6QHpghH4E2COAzBGjXB6C8PxD3gbwAcgxUPSOphvACNYLCAWQgyGUg1/OTYsgboAZhIL4AxKFAl9+Buo4kQ3KAmhWAuAZowA+QV0g2BFt4kWwIUEMc0CB5IG4HugSULEh3CdCQ50B9EkB8AojDgQY9IscloBjhAyULSmIHZEg4EPcCsTY0jEBpBZ5OSEmx34EaK4G4CojZQIaRmne4gWHxDRqoINeA8o4JyJC1QEYQtihEE9sJNMADWQyai00BK8yhObXpW/0AAAAASUVORK5CYII=);
+	
+}
+
+
+
 /* Current */
 
 aside > ul > li.current > a {
@@ -191,5 +201,13 @@ aside > ul > li.li_3.current > a {
 .ie-lt9 aside > ul > li.li_3.current > a {
 	
 	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAFMandsAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAWlJREFUeNpiYIACH7cIAxDxHybABMQfYAIAAQRXwgTlPGCBSQEEEFwT2ARkk4C4nwEJAAQQCgIpYELinAdSF5iQOApAvBCmonHLrhWCQFqAEcVFDAyFAAEEEziAJPgBpAOI5wN1GYLlkXWB3Ae1A2wXzN3IrkkA2QVyBJAtADIFyA4AybHAFAEFF0CZguh+AwggRjyevg8ymQVq/wckuUAgBkkqArEDyJpCoBUHkHS+h0qCwHwmNGORJe+DAgvZN/uhkqAgBbEdUbwLsg+IE2ABBqT7UbwKBAuAEhOA9ARka5mQwiIRm3dBJuwH2o8zEQAEGCjyQMFqwIAfXADasAEaTyAPPIBGcD3IU7AU4IgcXlhCHlkzSC0ocQtAxVA8S0izIkwzUkoFGXiBhQTNCtB4gWvGCFUkA0DOPA9NEobQZAmK8fVQzaAU2A8Ua0AOeXQwH0ZD8+UBmGtweRvDEKDiQAYSARMDFQAAbfuXiY9ZrmoAAAAASUVORK5CYII=);
+	
+}
+
+/* Current: Menu 4 */
+
+aside > ul > li.li_4.current > a {
+	
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAYAAAACsSQRAAABaklEQVQ4T52TvUvDUBTF730tBfGjgojddHLpVqyYdrGmg06CUV4mobubkyI4Oulf0KGjUpxcVCpk0boEpLODOFi/0IpUozS53lcqSJE26Z0Cyflxb845mNLNIiIsQ7chOD4/219o+0ykZ40EprOyAYChbgz1/v3xZaBSOa2r52ldToYB8gigMcQkAvoGgkJnEOa+0B21G0/1lIitA9I2IvYpzS/k7aJ0MNwJksrKGrneIgqxx+IE8TQBalqb+IKwZJDXF0BU84ByLC8gYNQ/RDef2YARPv2KGt5K2Speq+0CQbQ5ucaQiTv3YevGshx1SmDIf/8rMETLylUgHC+79ztgWRyLHjZJ67LKVsQA6NIBT9ql4m3gTZSAszSkHO3dnWZOSAohdgEhrs5RWfmbE9+JdarwGR3DDRC4yfZGWon13x3ntd5v20cfSpjMGPFIKJznE6dUAQ85iUvdCsghO+FqzLe3eCZjJH8AKTzP53GtcHcAAAAASUVORK5CYII=);
 	
 }
