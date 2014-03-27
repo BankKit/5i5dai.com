@@ -109,6 +109,8 @@
 
 - [关于我们 - 联系我们](http://goo.gl/qlN2Gp)
 
+- [关于我们 - 合作伙伴](http://goo.gl/JqJkQo)
+
 - [新手指南 - 投资流程](http://goo.gl/VmmlKl)
 
 - [新手指南 - 投资保障](http://goo.gl/UXYlvl)
