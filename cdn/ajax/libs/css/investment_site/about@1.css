@@ -17,7 +17,7 @@
  * 
  * Creation Date: 2014.11.20 11:37 ( Tony ).
  * 
- * Last Update: 2014.03.27 18:04 ( Tony ).    ...//TODO: Update the 'Last Update'.
+ * Last Update: 2014.03.28 11:36 ( Tony ).    ...//TODO: Update the 'Last Update'.
  * 
  * Music ( Custom ): Countdown (feat. Makj).mp3    ...//TODO: If you are listenning some music, just write the name of songs.
  * 
@@ -1446,5 +1446,88 @@ body {
 .sec_8 {
 
 	
+
+}
+
+
+.sec_8 > article > h3 {
+
+	color: #fb575c;
+
+	font: bold 20px/normal "微软雅黑";
+
+	margin-top: 45px;
+
+}
+
+.sec_8 > article > h4 {
+
+	font-weight: bold;
+
+	margin-top: 30px;
+
+	margin-bottom: 5px;
+
+}
+
+.sec_8 > article > p.tip {
+	
+	color: #fb575c;
+
+	font-size: 12px;
+
+	text-indent: 0;
+	
+	line-height: normal;
+	
+	margin-top: 0;
+
+}
+
+.sec_8 > article > div {
+
+	counter-reset: section;
+
+}
+
+.sec_8 > article > div > p {
+
+	color: #333;
+
+	line-height: 30px;
+
+}
+
+.sec_8 > article > div.p_1_1 > p:before,
+
+.sec_8 > article > div.p_1_2 > p:before,
+
+.sec_8 > article > div.p_2_1 > p:before,
+
+.sec_8 > article > div.p_2_2 > p:before,
+
+.sec_8 > article > div.p_3_1 > p:before,
+
+.sec_8 > article > div.p_3_2 > p:before,
+
+.sec_8 > article > div.p_4_1 > p:before,
+
+.sec_8 > article > div.p_4_2 > p:before {
+	
+	counter-increment: section;
+	
+	content: counter(section) "，";
+	
+}
+
+.ie7 .sec_8 > article > div.notforIE7 {
+
+	display: none;
+
+}
+
+.ie7 .sec_8 > article > div.forIE7 {
+
+	display: block;
 
 }
