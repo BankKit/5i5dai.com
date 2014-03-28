@@ -111,6 +111,8 @@
 
 - [关于我们 - 合作伙伴](http://goo.gl/JqJkQo)
 
+- [关于我们 - 招贤纳士](http://goo.gl/1zwvR6)
+
 - [新手指南 - 投资流程](http://goo.gl/VmmlKl)
 
 - [新手指南 - 投资保障](http://goo.gl/UXYlvl)
