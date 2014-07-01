@@ -1,0 +1,431 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/view/jade/unit/index.jade",
+			"settings":
+			{
+				"buffer_size": 6332,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/js/fenqimall.com/app/index.logic.js",
+			"settings":
+			{
+				"buffer_size": 3888,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/css/fenqimall.com/scss/index.scss",
+			"settings":
+			{
+				"buffer_size": 320454,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 161.0,
+		"selected_items":
+		[
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"save",
+				"Project: Save As"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"save ",
+				"Project: Save As"
+			],
+			[
+				"find",
+				"Code Folding: Unfold All"
+			],
+			[
+				"ASP",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"ASP ",
+				"Set Syntax: HTML (ASP)"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			]
+		],
+		"width": 386.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/view/index.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/js/fenqimall.com/index.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Processing/fenqimall.com.waiting.for.merging/cdn/ajax/libs/js/instalment_mall/recharge.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/js/fenqimall.com/app/registration.protocol.logic.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/app/logic/register.success.logic.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/app/register.success.main.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/register.success.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/app/logic/about@1.logic.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/about@1.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/js/fenqimall.com/app/withdrawals.details.logic.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/view/jade/unit/index.jade",
+		"/C/NODE/nodetest/coffee/study.coffee",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/js/fenqimall.com/app/worker.withdrawals.details.logic.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/view/jade/unit/withdrawals.details.jade",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/view/jade/master/blank.jade",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/css/investment_site/register.css",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/common.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/app/logic/register.logic.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/www/register.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/view/redirector.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/js/fenqimall.com/common.js",
+		"/C/NODE/nodetest/node_modules/async/component.json",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/m.5i5dai.com/node_modules/grunt-coffeelint/node_modules/coffeelint/node_modules/optimist/example/line_count_options.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/CHANGELOG.md",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/m.5i5dai.com/node_modules/grunt-contrib-coffee/node_modules/coffee-script/register.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/m.5i5dai.com/node_modules/grunt-contrib-jshint/node_modules/jshint/node_modules/htmlparser2/test/Documents/RDF_Example.xml",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/README.md",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/www/register.success.min.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/www/register.success.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/www/register.min.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/www/reset.password.html",
+		"/C/NODE/nodetest/coffee/global.coffee",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/map.geojson",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/5i5dai.com.sublime-project",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/.gitattributes",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/logo.svg",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/css/jquery_ui/jquery.ui.progressbar.css",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/css/jquery_ui/jquery.ui.selectable.css",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/css/jquery_ui/jquery.ui.selectable.min.css",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/www/master@1.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/app/logic/helper@1.logic.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/js/investment_site/helper@1.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/img/investment-site/logo.new.md",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/www/account@1.html",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/css/investment_site/account@1.css",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/css/investment_site/account@2.css",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/cdn/ajax/libs/css/investment_site/account@1.plus.css",
+		"/C/Users/hppc/Desktop/ascx/ascx/header.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/header.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/header[bak].ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/header4.262.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left01.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left01.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/left02.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left02.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/left03.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left03.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/left04.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left04.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/left05.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left05.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/left06.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left06.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/left07.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/left07.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftAbout.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftAbout.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftCase.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftCase.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftMember.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftProduct.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftMember.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftProduct.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftSolution.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftSolution.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftTechnology.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/leftTechnology.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/proPop.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/proPop.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/footer.ascx",
+		"/C/Users/hppc/Desktop/ascx/ascx/footer.ascx.cs",
+		"/C/Users/hppc/Desktop/ascx/ascx/header4.2.ascx",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/CDN/ajax/libs/js/jquery_migrate/1.2.1/jquery.migrate.min.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/CDN/ajax/libs/js/jquery_migrate/1.1.1/jquery.migrate.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/CDN/ajax/libs/js/jquery_migrate/1.1.1/jquery.migrate.min.js",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Mall/development/master/index.html",
+		"/C/Users/hppc/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/hppc/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/Investment-Site/README.md"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"pdControl",
+			"地址",
+			"rdoAgreementArea",
+			"mstFtr2nd",
+			"rightH2nd"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/view/jade/unit/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3253,
+								3261
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 786.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/js/fenqimall.com/app/index.logic.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3888,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2271,
+								2284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1092.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Regular/Development/Apache Software Foundation/Tomcat/webapps/DROPBOX/Browser Side Workspace/fenqimall.com/public/ajax/libs/css/fenqimall.com/scss/index.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320454,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								315883,
+								316383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4680.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "5i5dai.com.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"register.success.logic",
+				"Investment-Site\\cdn\\ajax\\libs\\js\\investment_site\\app\\logic\\register.success.logic.js"
+			],
+			[
+				"register.success.main",
+				"Investment-Site\\cdn\\ajax\\libs\\js\\investment_site\\app\\register.success.main.js"
+			],
+			[
+				"common",
+				"Investment-Site\\cdn\\ajax\\libs\\js\\investment_site\\common.js"
+			],
+			[
+				"register.lo",
+				"Investment-Site\\cdn\\ajax\\libs\\js\\investment_site\\app\\logic\\register.logic.js"
+			],
+			[
+				"register.js",
+				"m.5i5dai.com\\node_modules\\grunt-contrib-coffee\\node_modules\\coffee-script\\register.js"
+			],
+			[
+				"register",
+				"Investment-Site\\cdn\\ajax\\libs\\css\\investment_site\\register.css"
+			],
+			[
+				"account.css",
+				"cdn\\ajax\\libs\\css\\investment_site\\account@1.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\Regular\\Development\\Apache Software Foundation\\Tomcat\\webapps\\DROPBOX\\Browser Side Workspace\\Investment-Site\\5i5dai.com.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 316.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
