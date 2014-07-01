@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-		
-		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" 
-		
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+		xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+
 		xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
+
 	<!-- You can provide multiple Sitemap files, but each Sitemap file that you provide must have no more than 50,000 URLs and must be no larger than 10MB (10,485,760 bytes). If you would like, you may compress your Sitemap files using gzip to reduce your bandwidth requirement; however the sitemap file once uncompressed must be no larger than 10MB. If you want to list more than 50,000 URLs, you must create multiple Sitemap files. -->
-	
+
 	<url>
-		
+
 		<loc>http://www.5i5dai.com/</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
-		
+
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
-		
+
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>1.0</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
-		
+
 	</url>
-	
+
 	<url>
 
   		<loc>http://www.5i5dai.com/index</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -27,23 +27,23 @@
   		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
   		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>1.0</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
-		
+
 		<loc>http://www.5i5dai.com/login/login</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
-		
+
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
-		
+
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.9</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
-		
+
 	</url>
-	
+
 	<url>
 
   		<loc>http://www.5i5dai.com/register/register</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -51,23 +51,22 @@
   		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
  		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.9</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
-	<url>
 
+	<url>
 		<loc>http://www.5i5dai.com/invest/mentlist/</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
 
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.8</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
 
 		<loc>http://www.5i5dai.com/about/about/</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -75,11 +74,11 @@
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.7</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
 
 		<loc>http://www.5i5dai.com/about/about/1</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -87,11 +86,11 @@
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.7</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
 
 		<loc>http://www.5i5dai.com/about/about/2</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -99,11 +98,11 @@
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.7</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
 
 		<loc>http://www.5i5dai.com/about/about/3</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -111,11 +110,11 @@
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.7</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
 
 		<loc>http://www.5i5dai.com/about/about/4</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -123,11 +122,11 @@
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.7</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
 
 		<loc>http://www.5i5dai.com/about/about/5</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -135,11 +134,11 @@
 		<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 		<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.7</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 	<url>
 
 	  	<loc>http://www.5i5dai.com/login/getpasswordback</loc> <!-- This URL must begin with the protocol (such as http) and end with a trailing slash, if your web server requires it. This value must be less than 2,048 characters. eg: http://www.5i5dai.com/ -->
@@ -147,9 +146,9 @@
 	  	<lastmod>2013-12-21T23:14:00+08:00</lastmod> <!-- [W3C Datetime format, eg: YYYY-MM-DD](http://www.w3.org/TR/NOTE-datetime). eg: 2013-12-12 -->
 
 	  	<changefreq>always</changefreq> <!-- [W3C Datetime format, eg: YYYY-MM-DDThh:mm:ss.sTZD](http://www.w3.org/TR/NOTE-datetime), 2004-10-01T18:23:17+00:00; Or, eg: 2004-10-01T18:23:17+00:00 -->
-		
+
 		<priority>0.6</priority> <!--  Valid values range from 0.0 to 1.0. eg: 0.8. It only lets the search engines know which pages you deem most important for the crawlers. -->
 
 	</url>
-	
+
 </urlset>
